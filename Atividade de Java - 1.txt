@@ -17,3 +17,6 @@ d = divisão
 20 a 30 = jovem
 31 a 60 = adulto
 >60 = idoso
+
+4. Faça uma classe que solicite uma senha, no caso senha java. Caso o user forneça a senha correta, apersentar a menssagem senha valida, caso contrario senha inválida.
+Se o user fornecer a senha incorreta 3 vezes seguidas o programa deve apresentar a mensagem cartao cancelado.
