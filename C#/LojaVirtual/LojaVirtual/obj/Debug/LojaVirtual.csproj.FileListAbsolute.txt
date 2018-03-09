@@ -1,0 +1,7 @@
+T:\Usuários\INFORMÁTICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\bin\Debug\LojaVirtual.exe.config
+T:\Usuários\INFORMÁTICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\bin\Debug\LojaVirtual.exe
+T:\Usuários\INFORMÁTICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\bin\Debug\LojaVirtual.pdb
+T:\Usuários\INFORMÁTICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.csprojResolveAssemblyReference.cache
+T:\Usuários\INFORMÁTICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.csproj.CoreCompileInputs.cache
+T:\Usuários\INFORMÁTICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.exe
+T:\Usuários\INFORMÁTICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.pdb
