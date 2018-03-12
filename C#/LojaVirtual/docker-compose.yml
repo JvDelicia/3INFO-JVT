@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  lojavirtual:
+    image: lojavirtual
+    build:
+      context: .\LojaVirtual
+      dockerfile: Dockerfile
