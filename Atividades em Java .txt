@@ -1,0 +1,28 @@
+1. Faça uma classe que receba o valor de um produto e um códgo de desconto. O desconto deverá ser calculado de acordo co a tabela:
+1 = 5%
+2 = 10%
+3 = 20%
+4 = 50%
+
+2. Elabore um programa em que um usuário fornece dois núemros e uma letra correspondente a operação desejada.
+a = soma
+b = subtração
+c = multiplicação
+d = divisão
+
+3. Faça uma classe que receba a idade de uma pessoa e retorne uma mensagem de acordo com a tabela
+0 a 2 = bebê
+3 a 11 = criança
+12 a 19 = adolescente
+20 a 30 = jovem
+31 a 60 = adulto
+>60 = idoso
+
+4. Faça uma classe que solicite uma senha, no caso senha java. Caso o user forneça a senha correta, apersentar a menssagem senha valida, caso contrario senha inválida.
+Se o user fornecer a senha incorreta 3 vezes seguidas o programa deve apresentar a mensagem cartao cancelado.
+
+5. Um ciclista criou um aparelho que marca quantaas voltas a roda da sua bicicleta dá em um determinado percurso. Com o uso desse aparelho é possível descobrir a distância percorrida
+desde que o raio do peneu da bicicleta seja conhecido. Faça uma classe que calcule a distancia percorrida, e que deve ser fornecida a qnd de voltas que a roda da bicicleta deu
+e o diametro da roda em metros. Para saber o comprimento da roda a partir do diametro fornecido use a formula: comp = (pi * d) / 2. Sabendo o comp., basta multiplica-lo pelo numero de voltas.
+
+6. Crie uma classe que receba 4 valores quaisquer e mostre a média entre eles, o somatório e um resto da divisão do somatório com cada um dos valores.
