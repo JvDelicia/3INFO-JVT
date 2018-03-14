@@ -11,7 +11,7 @@ c = multiplicação
 d = divisão
 
 3. Faça uma classe que receba a idade de uma pessoa e retorne uma mensagem de acordo com a tabela
-0 a 2 = bebe
+0 a 2 = bebê
 3 a 11 = criança
 12 a 19 = adolescente
 20 a 30 = jovem
