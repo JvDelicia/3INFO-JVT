@@ -19,8 +19,8 @@ namespace LojaVirtual {
             //}
 
             EntitiesContext context = new EntitiesContext();
-            User Astrogildo = new User() { Name = "Astrogildo", Pass = "123" };
-            context.Users.Add(Astrogildo);
+            User Astrogildo = new User() { name = "Xuxa", pass = "666" };
+            context.users.Add(Astrogildo);
             context.SaveChanges();
             context.Dispose(); //Libera do cache
 

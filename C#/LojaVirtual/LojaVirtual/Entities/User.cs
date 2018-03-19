@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace LojaVirtual.Entities {
     public class User {
 
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Pass { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public string pass { get; set; }
 
     }
 }
