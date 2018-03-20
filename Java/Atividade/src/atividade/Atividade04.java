@@ -1,12 +1,12 @@
 package atividade;
 
-import java.io.IOException;
+import java.awt.HeadlessException;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Atividade04 {
     public static void main(String[] args) {
-        String senha = "java", pass = "";
+        String senha = "java", pass;
         boolean aut = false;
         int atmp = 2;
         
@@ -20,7 +20,7 @@ public class Atividade04 {
                     JOptionPane.showMessageDialog(null, "Login realizado com sucesso.");
                     aut = true;
                     atmp = 0;
-                }else if (pass != senha && atmp <= 3) {
+                }else if (!pass.equals(senha) && atmp <= 3) {
                     JOptionPane.showMessageDialog(null, "Senha errada, tente novamente.");
                     atmp += 1;
                 }else {
@@ -29,7 +29,7 @@ public class Atividade04 {
                 }
             }
         }
-        catch (Exception erro) {
+        catch (HeadlessException erro) {
             System.out.println("Erro na entrada de dados.");
         }
         System.exit(0);
