@@ -22,7 +22,14 @@ d = divisão
 Se o user fornecer a senha incorreta 3 vezes seguidas o programa deve apresentar a mensagem cartao cancelado.
 
 5. Um ciclista criou um aparelho que marca quantaas voltas a roda da sua bicicleta dá em um determinado percurso. Com o uso desse aparelho é possível descobrir a distância percorrida
-desde que o raio do peneu da bicicleta seja conhecido. Faça uma classe que calcule a distancia percorrida, e que deve ser fornecida a qnd de voltas que a roda da bicicleta deu
-e o diametro da roda em metros. Para saber o comprimento da roda a partir do diametro fornecido use a formula: comp = (pi * d) / 2. Sabendo o comp., basta multiplica-lo pelo numero de voltas.
+desde que o raio do peneu da bicicleta seja conhecido. Faça uma classe que calcule a distancia percorrida, e que deve ser fornecida a qnd de voltas que a roda da bicicleta deu e o
+diametro da roda em metros. Para saber o comprimento da roda a partir do diametro fornecido use a formula: comp = (pi * d) / 2. Sabendo o comp., basta multiplica-lo pelo numero de voltas.
 
 6. Crie uma classe que receba 4 valores quaisquer e mostre a média entre eles, o somatório e um resto da divisão do somatório com cada um dos valores.
+
+7. [Método com retorno] Elaborar uma classe que calcule a área total de uma residencia, o programa devera solicitar o nome do comodo a largura e o comprimento. Em seguida, devera apresentar 
+a área do comodo e também uma mensagem solicitando o usuário a confirmação de continuar calculando novos comodos. Caso o usuário responda não, o programa devera apresentar o valor total 
+acumulado da área da casa.
+
+8. [Método sem Retorno] Uma classe que apresente a série fibonachi até o 12º termo, essa série é formada pela sequência 1,1,2,3,5,8 e etc. Essa série caracteriza-se pela soma do termo 
+posterior com seu anteriror subsquênte.
