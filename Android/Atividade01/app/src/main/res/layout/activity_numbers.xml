@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.aplicativo01.NumbersActivity">
+
+    <TextView
+        android:id="@+id/txV_resto4"
+        android:layout_width="149dp"
+        android:layout_height="25dp"
+        android:text="Quaro resto"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <EditText
+        android:id="@+id/edT_numero3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <EditText
+        android:id="@+id/edT_numero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <EditText
+        android:id="@+id/edT_numero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/edT_numero4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/txV_resto1"
+        android:layout_width="149dp"
+        android:layout_height="25dp"
+        android:text="Primerio resto"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/txV_media"
+        android:layout_width="149dp"
+        android:layout_height="25dp"
+        android:text="Média"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <TextView
+        android:id="@+id/txV_resto3"
+        android:layout_width="149dp"
+        android:layout_height="25dp"
+        android:text="Terceiro resto"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/txV_somatorio"
+        android:layout_width="149dp"
+        android:layout_height="25dp"
+        android:text="Somatório"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:id="@+id/txV_resto2"
+        android:layout_width="149dp"
+        android:layout_height="25dp"
+        android:text="Segundo resto"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="334dp" />
+</android.support.constraint.ConstraintLayout>

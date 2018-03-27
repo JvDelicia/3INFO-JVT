@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.aplicativo01.DiscountActivity">
+
+    <EditText
+        android:id="@+id/edT_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Valor do Produto"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <EditText
+        android:id="@+id/edT_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Código de Desconto"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/btn_descontar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="Descontar"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/txV_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="239dp"
+        tools:text="Valor Final" />
+
+</android.support.constraint.ConstraintLayout>
