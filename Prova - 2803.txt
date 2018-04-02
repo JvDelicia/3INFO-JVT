@@ -1,0 +1,4 @@
+Uma universidade deseja fazer um levantamento a respeito de seus cursos. Para cada curso é fornecido o seguinte conjunto de valores: cod do curso, número de vagas, número de cand do 
+sexo masculino e numero de cand do sexo feminino. Fazer um programa que calcule e apresente para cada curso o num de cand por vaga e a porcentagem de cad do sexo feminino e masculino.
+Determine um maior num de cand por vaga e escreva esse num juntamente com o código do curso correspondente (Não existe empate). Calcule e apresente tmb o total geral de cand.
+Obs.: Realizar essa classe utilizando DataInputStream e dps com classe Scanner.
