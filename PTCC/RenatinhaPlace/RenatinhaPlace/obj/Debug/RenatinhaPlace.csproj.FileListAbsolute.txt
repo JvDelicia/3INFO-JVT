@@ -1,0 +1,10 @@
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe.config
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.pdb
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojResolveAssemblyReference.cache
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.frmSplash.resources
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Properties.Resources.resources
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.GenerateResource.cache
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CoreCompileInputs.cache
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
+T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
