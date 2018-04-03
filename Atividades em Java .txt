@@ -33,3 +33,7 @@ acumulado da área da casa.
 
 8. [Método sem Retorno] Uma classe que apresente a série fibonachi até o 12º termo, essa série é formada pela sequência 1,1,2,3,5,8 e etc. Essa série caracteriza-se pela soma do termo 
 posterior com seu anteriror subsquênte.
+
+9. [Método com retorno + parametros] Em uma eleição 4 candidatos concorrem ao titulo de presidente. Durante a apuração foram computados votos nulos, em branco e  os votos válidos para
+cada candidato. Calcular e apresentar a quantidade de votos recebidos por cada candidato, a quantidade de votos válidos em relaçao ao número de eleitores a quantidade de votos nulos e 
+em branco. Apresentar a porcentagem de cada candidato e apontar o vencedor.
