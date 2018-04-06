@@ -18,13 +18,19 @@ namespace LojaVirtual {
             //    string Name = Convert.ToString(read["Name"]);
             //}
 
-            EntitiesContext context = new EntitiesContext();
-            User Astrogildo = new User() { name = "Professor", pass = "pistola" };
-            context.users.Add(Astrogildo);
-            context.SaveChanges();
-            context.Dispose(); //Libera do cache
+            UserManager context = new UserManager();
 
-            Console.WriteLine( "User saved." );
+            //User Client = new User() { name = "Malu", pass = "123" };
+            //context.Save(Client);
+            //Console.WriteLine( Properties.Resources.Saved );
+
+            //User Client = context.FindId(5);
+            //Console.WriteLine( Client.name );
+
+            User Client = context.FindId(2);
+            context.Remove(Client);
+            Console.WriteLine(Properties.Resources.Removed);
+
             Console.ReadLine();
         }
     }

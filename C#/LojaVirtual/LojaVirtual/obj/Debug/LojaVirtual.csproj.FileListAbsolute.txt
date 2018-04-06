@@ -108,3 +108,5 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\L
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.csproj.CopyComplete
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.exe
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.pdb
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.Properties.Resources.resources
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\C#\LojaVirtual\LojaVirtual\obj\Debug\LojaVirtual.csproj.GenerateResource.cache
