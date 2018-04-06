@@ -19,14 +19,13 @@ namespace LojaVirtual {
             //}
 
             EntitiesContext context = new EntitiesContext();
-            User Astrogildo = new User() { name = "Xuxa", pass = "666" };
+            User Astrogildo = new User() { name = "Professor", pass = "pistola" };
             context.users.Add(Astrogildo);
             context.SaveChanges();
             context.Dispose(); //Libera do cache
 
-            Console.WriteLine( "Usuário salvo." );
+            Console.WriteLine( "User saved." );
             Console.ReadLine();
-
         }
     }
 }
