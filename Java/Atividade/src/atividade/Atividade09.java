@@ -1,37 +1,44 @@
 // Eleições 2018
 package atividade;
 
+import java.io.IOException;
 import java.text.DecimalFormat;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Atividade09 {
-    public static void main(String[] args) {
-        byte num, eleito;
+    public static void main(String[] args) throws IOException {
+        byte num = 0, eleito;
         double bolsomito = 0, eymael = 0, lula = 0, manuela = 0;
         double nulo = 0, branco = 0;
         
         do {
-            num = votar();
-            switch(num) {
-                case 17 : bolsomito++; break;
-                case 27 : eymael++; break;
-                case 13 : lula++; break;
-                case 65 : manuela++; break;
-                case 0 : branco++; break;
-                default : System.out.println("Candidato inválido, voto nulo!"); nulo++; break;
-            }
+            try {
+                num = votar();
+                switch(num) {
+                    case 17 : bolsomito++; break;
+                    case 27 : eymael++; break;
+                    case 13 : lula++; break;
+                    case 65 : manuela++; break;
+                    case 0 : branco++; break;
+                    default : System.out.println("Candidato inválido, voto nulo!"); nulo++; break;
+                }
+            } catch(InputMismatchException e) { 
+                System.out.println("Esse candidato não existe!");
+                System.in.read();
+            } finally { System.out.println("\n\n\n\n\n\n"); }
         } while (num != 3);
+
         resultar(bolsomito, eymael, lula, manuela, nulo, branco);
         System.exit(0);
     }
     
     public static byte votar() {
         byte num;
-        
         System.out.println("+--------------------------+");
         System.out.println("| 17 - BOLSOMITO           |");
         System.out.println("| 27 - Ey Ey Eymael        |");
-        System.out.println("| 13 - Lulinha             |");
+        System.out.println("| 13 - Lulinha (não mais)  |");
         System.out.println("| 65 - Manuela D'Comunista |");
         System.out.println("+--------------------------+");
         System.out.println("| 0 - Branco               |");
@@ -41,6 +48,7 @@ public class Atividade09 {
         System.out.print("Digite seu voto: ");
         
         num = new Scanner(System.in).nextByte();
+        
         return num;
     }
     
