@@ -9,7 +9,9 @@ using System.Configuration;
 
 namespace LojaVirtual {
     public class EntitiesContext : DbContext {
-        public DbSet<User> users { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         //NuGet Console:
         //Install-Package EntityFramework.MicrosoftSqlserver -Version 7.0.0-rc1-final -Pre

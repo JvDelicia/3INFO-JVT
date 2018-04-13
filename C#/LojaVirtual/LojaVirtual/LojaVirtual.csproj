@@ -120,10 +120,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntitiesContext.cs" />
+    <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Migrations\20180319110707_CrtUser.cs" />
     <Compile Include="Migrations\20180319110707_CrtUser.designer.cs">
       <DependentUpon>20180319110707_CrtUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180413174458_crtProdCat.cs" />
+    <Compile Include="Migrations\20180413174458_crtProdCat.designer.cs">
+      <DependentUpon>20180413174458_crtProdCat.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\EntitiesContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />
@@ -138,7 +144,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="UserManager.cs" />
+    <Compile Include="UserDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".dockerignore">

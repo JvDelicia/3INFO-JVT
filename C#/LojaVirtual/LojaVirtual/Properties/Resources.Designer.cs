@@ -61,7 +61,16 @@ namespace LojaVirtual.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user was removed..
+        ///   Looks up a localized string similar to All registered..
+        /// </summary>
+        internal static string Register {
+            get {
+                return ResourceManager.GetString("Register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The user has been removed..
         /// </summary>
         internal static string Removed {
             get {
@@ -70,11 +79,20 @@ namespace LojaVirtual.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user was saved..
+        ///   Looks up a localized string similar to The user has been saved..
         /// </summary>
         internal static string Saved {
             get {
                 return ResourceManager.GetString("Saved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The user has been updated..
+        /// </summary>
+        internal static string Updated {
+            get {
+                return ResourceManager.GetString("Updated", resourceCulture);
             }
         }
     }

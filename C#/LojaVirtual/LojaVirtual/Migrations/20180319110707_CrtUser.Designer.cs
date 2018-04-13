@@ -19,14 +19,14 @@ namespace LojaVirtual.Migrations
 
             modelBuilder.Entity("LojaVirtual.Entities.User", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("name");
+                    b.Property<string>("Name");
 
-                    b.Property<string>("pass");
+                    b.Property<string>("Pass");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
                 });
         }
     }

@@ -117,10 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Register" xml:space="preserve">
+    <value>All registered.</value>
+  </data>
   <data name="Removed" xml:space="preserve">
-    <value>The user was removed.</value>
+    <value>The user has been removed.</value>
   </data>
   <data name="Saved" xml:space="preserve">
-    <value>The user was saved.</value>
+    <value>The user has been saved.</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>The user has been updated.</value>
   </data>
 </root>

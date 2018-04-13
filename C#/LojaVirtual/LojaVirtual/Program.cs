@@ -18,18 +18,38 @@ namespace LojaVirtual {
             //    string Name = Convert.ToString(read["Name"]);
             //}
 
-            UserManager context = new UserManager();
+            UserDAO dao = new UserDAO();
 
-            //User Client = new User() { name = "Malu", pass = "123" };
-            //context.Save(Client);
+            //ADD
+            //User Client = new User() { Name = "Malu", Pass = "123" };
+            //dao.Add(Client);
             //Console.WriteLine( Properties.Resources.Saved );
 
-            //User Client = context.FindId(5);
-            //Console.WriteLine( Client.name );
+            //FIND
+            //User Client = dao.FindId(5);
+            //Console.WriteLine( Client.Name );
 
-            User Client = context.FindId(2);
-            context.Remove(Client);
-            Console.WriteLine(Properties.Resources.Removed);
+            //REMOVE
+            //User Client = dao.FindId(2);
+            //dao.Remove(Client);
+            //Console.WriteLine( Properties.Resources.Removed );
+
+            //UPDATE
+            //User Client = dao.FindId(4);
+            //Client.Pass = "noob";
+            //dao.Update();
+            //Console.WriteLine(Properties.Resources.Updated);
+
+            //NEW CONTEXTS - Category and Product
+            EntitiesContext context = new EntitiesContext();
+            Category cat = new Category() { Name = "Informática" };
+            context.Categories.Add(cat);
+            context.SaveChanges();
+
+            Product prod = new Product() { Name = "Notebook Tijolo", Price = 20, Category = cat };
+            context.Products.Add(prod);
+            context.SaveChanges();
+            Console.WriteLine( Properties.Resources.Register );
 
             Console.ReadLine();
         }
