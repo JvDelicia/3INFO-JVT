@@ -6,13 +6,44 @@
     android:layout_height="match_parent"
     tools:context="android.aplicativo01.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btn_age"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="changeToAge"
+        android:text="Idade"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/btn_discont"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="changeToDiscount"
+        android:text="Desconto"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/btn_numbers"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="changeToNumbers"
+        android:text="Números"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/btn_password"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="changeToPassword"
+        android:text="Senha"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="266dp" />
 
 </android.support.constraint.ConstraintLayout>

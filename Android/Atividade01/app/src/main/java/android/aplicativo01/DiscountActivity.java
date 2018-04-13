@@ -1,5 +1,6 @@
 package android.aplicativo01;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,11 @@ public class DiscountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_discount);
 
+        Intent intent = getIntent();
+        String msg = intent.getStringExtra(main_activity.EXTRA_MESSAGE);
 
+        TextView txV_mesagem  = (TextView)findViewById(R.id.txV_mensagem2);
+        txV_mesagem.setText(msg);
     }
 
     private void calcular(View view) {

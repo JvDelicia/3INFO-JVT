@@ -19,7 +19,8 @@
         <activity android:name=".DiscountActivity" />
         <activity android:name=".AgeActivity" />
         <activity android:name=".PasswordActivity" />
-        <activity android:name=".NumbersActivity"></activity>
+        <activity android:name=".NumbersActivity" />
+        <activity android:name=".main_activity"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package android.aplicativo01;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,12 @@ public class NumbersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
+
+        Intent intent = getIntent();
+        String msg = intent.getStringExtra(main_activity.EXTRA_MESSAGE);
+
+        TextView txV_mesagem  = (TextView)findViewById(R.id.txV_mensagem3);
+        txV_mesagem.setText(msg);
     }
 
     private void calcular(View view) {
