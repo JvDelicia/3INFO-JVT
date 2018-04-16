@@ -89,14 +89,28 @@ namespace LojaVirtual {
             //prod = new Product() { Name = "Cola Bastão", Price = 14, Category = cat };
             //context.Products.Add(prod);
             //context.SaveChanges();
-            //prod = new Product() { Name = "Lapizeira 0.7mm", Price = 7, Category = cat };
+            //prod = new Product() { Name = "Lapiseira 0.7mm", Price = 7, Category = cat };
             //context.Products.Add(prod);
-            //context.SaveChanges();
+            //context.SavesChanges();
             //prod = new Product() { Name = "Papel Sulfite A4", Price = 23, Category = cat };
             //context.Products.Add(prod);
             //context.SaveChanges();
             //Console.WriteLine(Properties.Resources.Register);
 
+            //Using LINQ
+            //EntitiesContext context = new EntitiesContext();
+            //var search = from p in context.Products select p;
+            //foreach (var prod in search) {
+            //    Console.WriteLine(prod.Name);
+            //}
+
+            //The (funcking) samething
+            //EntitiesContext context = new EntitiesContext();
+            //var search = from p in context.Products select p;
+            //IList<Product> res = search.ToList();
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name);
+            //}
 
             Console.ReadLine();
         }
