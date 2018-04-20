@@ -104,13 +104,79 @@ namespace LojaVirtual {
             //    Console.WriteLine(prod.Name);
             //}
 
-            //The (funcking) samething
+            //The(funcking) same thing
             //EntitiesContext context = new EntitiesContext();
             //var search = from p in context.Products select p;
             //IList<Product> res = search.ToList();
             //foreach (var prod in res) {
             //    Console.WriteLine(prod.Name);
             //}
+
+            //EntitiesContext context = new EntitiesContext();
+            //var search = from p in context.Products orderby p.Name select p;
+            //IList<Product> res = search.ToList();
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name);
+            //}
+
+            //EntitiesContext context = new EntitiesContext();
+            //var search = from p in context.Products where (p.Price > 30) select p;
+            //IList<Product> res = search.ToList();
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name);
+            //}
+
+            //EntitiesContext context = new EntitiesContext();
+            //var search = from p in context.Products where (p.Price > 30) select p;
+            //IList<Product> res = search.ToList();
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name + "\t\t" + prod.Price);
+            //}
+
+            //EntitiesContext context = new EntitiesContext();
+            //decimal pMin = 20;
+            //var search = from p in context.Products where (p.Price > pMin) select p;
+            //IList<Product> res = search.ToList();
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name + "\t\tR$ " + prod.Price);
+            //}
+
+            //EntitiesContext context = new EntitiesContext();
+            //var search = from p in context.Products where (p.Category.Name == "Papelaria") select p;
+            //foreach (var prod in search) {
+            //    Console.WriteLine(prod.Name + "\t\tR$ " + prod.Price);
+            //}
+
+            //EntitiesContext context = new EntitiesContext();
+            //decimal pMin = 20;
+            //var search = from p in context.Products where ((p.Category.Name == "Papelaria") && (p.Price > pMin)) select p;
+            //foreach (var prod in search) {
+            //    Console.WriteLine(prod.Name + "\t\tR$ " + prod.Price);
+            //}
+
+            //Start the ProdDAO
+            EntitiesContext context = new EntitiesContext();
+            ProdDAO pdao = new ProdDAO(context);
+
+            //var res = pdao.SearchNPC(null, 0, null);
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name);
+            //}
+
+            //var res = pdao.SearchNPC("Cola Bastão", 0, null);
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name);
+            //}
+
+            //var res = pdao.SearchNPC(null, 24, null);
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name);
+            //}
+
+            var res = pdao.SearchNPC(null, 0, "Informática");
+            foreach (var prod in res) {
+                Console.WriteLine(prod.Name);
+            }
 
             Console.ReadLine();
         }
