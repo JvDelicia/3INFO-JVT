@@ -21,10 +21,11 @@ public class Atividade09 {
                     case 13 : lula++; break;
                     case 65 : manuela++; break;
                     case 0 : branco++; break;
-                    default : System.out.println("Candidato inválido, voto nulo!"); nulo++; break;
+                    case 3 : break;
+                    default : System.out.print("Candidato inválido, voto nulo!"); nulo++; break;
                 }
             } catch(InputMismatchException e) { 
-                System.out.println("Esse candidato não existe!");
+                System.out.print("Esse candidato não existe!");
                 System.in.read();
             } finally { System.out.println("\n\n\n\n\n\n"); }
         } while (num != 3);
@@ -67,11 +68,11 @@ public class Atividade09 {
         
         System.out.println("RESULTADOS");
         System.out.println("Bolsomito: \t\t" + bolsomito + " votos.\t\t" + mito_porc + "%.");
-        System.out.println("Eymael: \t\t" + eymael + " votos.\t\t" + ey_porc + "%.");
-        System.out.println("Lula: \t\t" + lula + " votos.\t\t" + lula_porc + "%.");
-        System.out.println("Manuela: \t\t" + manuela + " votos.\t\t" + manu_porc + "%.");
-        System.out.println("Nulos: \t\t" + nulo + " votos.\t\t" + nulo_porc + "%.");
-        System.out.println("Brancos: \t\t" + branco + " votos.\t\t" + bran_porc + "%.");
+        System.out.println("Eymael:    \t\t" + eymael + " votos.\t\t" + ey_porc + "%.");
+        System.out.println("Lula:      \t\t" + lula + " votos.\t\t" + lula_porc + "%.");
+        System.out.println("Manuela:   \t\t" + manuela + " votos.\t\t" + manu_porc + "%.");
+        System.out.println("Nulos:     \t\t" + nulo + " votos.\t\t" + nulo_porc + "%.");
+        System.out.println("Brancos:   \t\t" + branco + " votos.\t\t" + bran_porc + "%.");
         
         
     }
