@@ -12,13 +12,13 @@ namespace LojaVirtual {
         public IList<Product> SearchNPC(string name, decimal price, string cat) {
             var search = from p in context.Products select p;
             if (!String.IsNullOrEmpty(name)) {
-                search = from p in search where p.Name == name select p;
+                search = search.Where(p => p.Name == name);
             }
             if (price > 0.0m) {
-                search = from p in search where p.Price == price select p;
+                search = search.Where(p => p.Price == price);
             }
             if (!String.IsNullOrEmpty(cat)) {
-                search = from p in search where p.Category.Name == cat select p;
+                search = search.Where(p => p.Category.Name == cat);
             }
             return search.ToList();
         }

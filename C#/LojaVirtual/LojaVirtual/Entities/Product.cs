@@ -11,5 +11,7 @@ namespace LojaVirtual.Entities {
         public decimal Price { get; set; }
         public virtual Category Category { get; set; }
         public int CategoryId { get; set; }
+        //public virtual IList<Sale> Sales { get; set; }
+        public virtual IList<ProdSale> ProdSales { get; set; }
     }
 }

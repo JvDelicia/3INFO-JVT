@@ -121,7 +121,9 @@
   <ItemGroup>
     <Compile Include="EntitiesContext.cs" />
     <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\ProdSale.cs" />
     <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\Sale.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Migrations\20180319110707_CrtUser.cs" />
     <Compile Include="Migrations\20180319110707_CrtUser.designer.cs">

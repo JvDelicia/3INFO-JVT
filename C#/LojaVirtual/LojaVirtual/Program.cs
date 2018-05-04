@@ -173,7 +173,7 @@ namespace LojaVirtual {
             //    Console.WriteLine(prod.Name);
             //}
 
-            var res = pdao.SearchNPC(null, 0, "Informática");
+            var res = pdao.SearchNPC("Cola Bastão", 0, null);
             foreach (var prod in res) {
                 Console.WriteLine(prod.Name);
             }
