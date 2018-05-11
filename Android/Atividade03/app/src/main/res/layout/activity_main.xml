@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jvt.a3aetim.atividade03.MainActivity">
+
+    <Button
+        android:id="@+id/btnExe5"
+        android:layout_width="383dp"
+        android:layout_height="168dp"
+        android:onClick="exe5"
+        android:text="Exe 5"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnExe7"
+        android:layout_width="384dp"
+        android:layout_height="191dp"
+        android:onClick="exe7"
+        android:text="Exe 7"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <Button
+        android:id="@+id/btnExe8"
+        android:layout_width="389dp"
+        android:layout_height="146dp"
+        android:onClick="exe8"
+        android:text="Exe 8"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+</android.support.constraint.ConstraintLayout>

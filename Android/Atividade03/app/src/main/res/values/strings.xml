@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Atividade03</string>
+    <string name="pedNumCom">Insira o número do cômodo:</string>
+    <string name="compCom">Insira o comprimento do cômodo, em metros:</string>
+    <string name="largCom">Insira a largura do cômodo, em emtros:</string>
+
+</resources>
