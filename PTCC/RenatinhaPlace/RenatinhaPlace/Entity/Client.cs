@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace RenatinhaPlace.Entity {
-    class Client {
+    public class Client {
         public virtual People People { get; set; }
-        public int PeopleId { get; set; }
+        public int Id { get; set; }
     }
 }

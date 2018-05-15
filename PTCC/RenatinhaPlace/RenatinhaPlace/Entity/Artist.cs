@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace RenatinhaPlace.Entity {
-    class Artist {
+    public class Artist {
+        public virtual People People { get; set; }
+        public int Id { get; set; }
         public string Type { get; set; }
         public string Gen { get; set; }
         public decimal Pay { get; set; }
-        public virtual People People { get; set; }
-        public int PeopleId { get; set; }
     }
 }

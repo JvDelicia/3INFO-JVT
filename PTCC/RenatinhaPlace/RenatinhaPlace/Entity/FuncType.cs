@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace RenatinhaPlace.Entity {
-    class FuncType {
+    public class FuncType {
         public int Id { get; set; }
         public string Name { get; set; }
         public byte[] Access { get; set; }

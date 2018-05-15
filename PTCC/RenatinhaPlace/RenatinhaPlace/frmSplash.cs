@@ -15,6 +15,7 @@ namespace RenatinhaPlace {
         }
 
         private void frmSplash_Load(object sender, EventArgs e) {
+
             lblSplash.Text = Strings.Rights;
         }
     }
