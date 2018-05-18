@@ -4,6 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?android:attr/textColorHighlightInverse"
+    android:backgroundTint="@android:color/holo_blue_dark"
     tools:context="com.jvt.a3aetim.atividade03.Exe8Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="345dp"
+        android:layout_height="311dp"
+        android:background="?android:attr/fingerprintAuthDrawable"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="96dp" />
 
 </android.support.constraint.ConstraintLayout>

@@ -8,6 +8,7 @@
 
     <Button
         android:id="@+id/btnExe5"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="383dp"
         android:layout_height="168dp"
         android:onClick="exe5"
@@ -17,6 +18,7 @@
 
     <Button
         android:id="@+id/btnExe7"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="384dp"
         android:layout_height="191dp"
         android:onClick="exe7"
@@ -26,6 +28,7 @@
 
     <Button
         android:id="@+id/btnExe8"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="389dp"
         android:layout_height="146dp"
         android:onClick="exe8"

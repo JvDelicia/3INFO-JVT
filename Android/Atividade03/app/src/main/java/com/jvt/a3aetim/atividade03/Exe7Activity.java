@@ -20,18 +20,21 @@ public class Exe7Activity extends AppCompatActivity {
 		TextView txt  = (TextView)findViewById(R.id.textView);
 		EditText etxt  = (EditText) findViewById(R.id.editText);
 
+	}
+
+	public void cham(){
 		byte resp = 0;
 		boolean rep = true;
 		double total = 0;
 		while(rep) {
 			total += calculo();
-			System.out.print("Deseja inserir mais um cômodo? Sim = 1 ou Não = 0: ");
-			resp = reader.nextByte();
+			txt.setText("Deseja inserir mais um cômodo? Sim = 1 ou Não = 0: ");
+			resp = Byte.parseByte(etxt.getText().toString());
+			txt.setText("");
 			if(resp == 0)
 				rep = false;
 		}
-		System.out.print("A área total da moradia é: " + total + "m².");
-		System.exit(0);
+		txt.setText("A área total da moradia é: " + total + "m².");
 	}
 
 	public double calculo() {

@@ -4,28 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@android:color/holo_green_dark"
+    android:backgroundTintMode="multiply"
+    android:foregroundTint="@android:color/holo_green_dark"
+    android:foregroundTintMode="add"
     tools:context="com.jvt.a3aetim.atividade03.Exe7Activity">
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="447dp" />
+        android:layout_width="345dp"
+        android:layout_height="351dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="cham"
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="156dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="204dp"
+        android:layout_height="46dp"
+        android:background="@android:color/holo_orange_light"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:foregroundTint="@android:color/holo_orange_light"
         android:text="TextView"
-        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteX="90dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:backgroundTint="@android:color/holo_orange_dark"
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="85dp"

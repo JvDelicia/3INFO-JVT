@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">Atividade03</string>
+    <string name="app_name">Exercício 03</string>
     <string name="pedNumCom">Insira o número do cômodo:</string>
     <string name="compCom">Insira o comprimento do cômodo, em metros:</string>
     <string name="largCom">Insira a largura do cômodo, em emtros:</string>
+    <string name="InsMais">Deseja inserir mais um cômodo? Sim = 1 ou Não = 0</string>
+    <string name="numVolt">Insira o número de voltas dadas pela roda:</string>
+    <string name="diaM">Insira o diâmetro de sua roda em metros:</string>
 
 </resources>

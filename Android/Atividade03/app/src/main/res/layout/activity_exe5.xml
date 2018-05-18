@@ -4,6 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:drawable/ic_lock_lock"
     tools:context="com.jvt.a3aetim.atividade03.Exe5Activity">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="382dp"
+        android:layout_height="250dp"
+        android:background="@mipmap/ic_launcher"
+        android:onClick="calc"
+        android:shadowColor="@android:color/holo_blue_dark"
+        android:text="Calcular"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHighlight="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_blue_bright"
+        android:textColorLink="@android:color/holo_green_dark"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="112dp" />
 </android.support.constraint.ConstraintLayout>
