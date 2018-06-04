@@ -23,5 +23,10 @@ namespace LojaVirtual {
             optionsBuilder.UseSqlServer(stringConnection);
             base.OnConfiguring(optionsBuilder);
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder) {
+            modelBuilder.Entity<ProdSale>().HasKey(pv => new { pv.SaleId, pv.ProdID });
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

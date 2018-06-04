@@ -133,6 +133,10 @@
     <Compile Include="Migrations\20180413174458_crtProdCat.designer.cs">
       <DependentUpon>20180413174458_crtProdCat.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20180518174555_crtSale.cs" />
+    <Compile Include="Migrations\20180518174555_crtSale.designer.cs">
+      <DependentUpon>20180518174555_crtSale.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\EntitiesContextModelSnapshot.cs" />
     <Compile Include="ProdDAO.cs" />
     <Compile Include="Program.cs" />

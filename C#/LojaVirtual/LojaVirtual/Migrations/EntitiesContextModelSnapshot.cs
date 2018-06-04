@@ -26,6 +26,17 @@ namespace LojaVirtual.Migrations
                     b.HasKey("Id");
                 });
 
+            modelBuilder.Entity("LojaVirtual.Entities.ProdSale", b =>
+                {
+                    b.Property<int>("SaleId");
+
+                    b.Property<int>("ProdID");
+
+                    b.Property<int?>("ProductsId");
+
+                    b.HasKey("SaleId", "ProdID");
+                });
+
             modelBuilder.Entity("LojaVirtual.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -40,6 +51,16 @@ namespace LojaVirtual.Migrations
                     b.HasKey("Id");
                 });
 
+            modelBuilder.Entity("LojaVirtual.Entities.Sale", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("ClientID");
+
+                    b.HasKey("ID");
+                });
+
             modelBuilder.Entity("LojaVirtual.Entities.User", b =>
                 {
                     b.Property<int>("Id")
@@ -52,11 +73,29 @@ namespace LojaVirtual.Migrations
                     b.HasKey("Id");
                 });
 
+            modelBuilder.Entity("LojaVirtual.Entities.ProdSale", b =>
+                {
+                    b.HasOne("LojaVirtual.Entities.Product")
+                        .WithMany()
+                        .HasForeignKey("ProductsId");
+
+                    b.HasOne("LojaVirtual.Entities.Sale")
+                        .WithMany()
+                        .HasForeignKey("SaleId");
+                });
+
             modelBuilder.Entity("LojaVirtual.Entities.Product", b =>
                 {
                     b.HasOne("LojaVirtual.Entities.Category")
                         .WithMany()
                         .HasForeignKey("CategoryId");
+                });
+
+            modelBuilder.Entity("LojaVirtual.Entities.Sale", b =>
+                {
+                    b.HasOne("LojaVirtual.Entities.User")
+                        .WithMany()
+                        .HasForeignKey("ClientID");
                 });
         }
     }

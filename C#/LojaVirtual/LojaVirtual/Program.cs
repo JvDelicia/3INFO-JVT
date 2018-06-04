@@ -173,10 +173,40 @@ namespace LojaVirtual {
             //    Console.WriteLine(prod.Name);
             //}
 
-            var res = pdao.SearchNPC("Cola Bastão", 0, null);
-            foreach (var prod in res) {
-                Console.WriteLine(prod.Name);
-            }
+            //var res = pdao.SearchNPC("Cola Bastão", 0, null);
+            //foreach (var prod in res) {
+            //    Console.WriteLine(prod.Name);
+            //}
+
+            UserDAO udao = new UserDAO();
+            User users = udao.FindId(3);
+
+            Sale s = new Sale() {
+                Client = users
+            };
+
+            Product p1 = context.Products.FirstOrDefault(prod => prod.Id == 1);
+            Product p2 = context.Products.FirstOrDefault(prod => prod.Id == 2);
+
+            //ProdSale ps1 = new ProdSale() {
+            //    Sales = s,
+            //    ProdID = p1.Id,
+            //    Products = p1
+            //};
+
+            ProdSale ps2 = new ProdSale() {
+                Sales = s,
+                ProdID = p2.Id,
+                Products = p2
+            };
+
+            //context.Sales.Add(s);
+            //context.ProdSales.Add(ps1);
+            context.ProdSales.Add(ps2);
+
+            context.SaveChanges();
+
+            Console.WriteLine("Foi!");
 
             Console.ReadLine();
         }
