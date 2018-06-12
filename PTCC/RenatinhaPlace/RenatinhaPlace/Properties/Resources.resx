@@ -121,10 +121,16 @@
   <data name="Load" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Load.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dragon (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dragon (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RDourado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RDourado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dragon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dragon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aang Solutions - White Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aang Solutions - White Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

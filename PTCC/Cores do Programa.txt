@@ -1,0 +1,4 @@
+CORES
+* 49;48;69 --> Azul marinho acinzentado
+* 244;73;73 --> Salmão
+* 191;55;63 --> vermelho levemente escurecido
