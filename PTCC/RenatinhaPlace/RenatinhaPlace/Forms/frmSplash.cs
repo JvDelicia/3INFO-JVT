@@ -6,11 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RenatinhaPlace.Forms;
 using System.Windows.Forms;
+
 using MetroFramework.Controls;
 
 namespace RenatinhaPlace {
-    public partial class frmSplash : MetroFramework.Forms.MetroForm {
+    public partial class frmSplash : Form {
         public frmSplash() {
             InitializeComponent();
         }
@@ -18,6 +20,7 @@ namespace RenatinhaPlace {
         private void frmSplash_Load(object sender, EventArgs e) {
 
             lblSplash.Text = Strings.Rights;
+            lblTitleSplash.Text = Strings.Title;
         }
 
         private void lblSplash_Click(object sender, EventArgs e)
@@ -25,21 +28,28 @@ namespace RenatinhaPlace {
 
         }
 
+        private void StartTimer()
+        {
+            timer1.Interval = 10;
+
+            timer1.Tick += new EventHandler(timer1_Tick);
+
+            timer1.Start();
+        }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (pb1.Value < 100)
-            {
-                pb1.Value = pb1.Value + 15;
-            }
-            else
+            pb1.Increment(1);
+            pb2.Increment(1);
+
+            if (pb1.Value == pb1.Maximum)
             {
 
                 timer1.Stop();
                 timer1.Enabled = false;
-                this.Hide();
-                
-                
-
+                this.Close();
+                frmLogin log = new frmLogin();
+                log.Show();
+  
             }
         }
 
