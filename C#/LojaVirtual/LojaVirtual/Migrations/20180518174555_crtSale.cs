@@ -33,15 +33,14 @@ namespace LojaVirtual.Migrations
                 columns: table => new
                 {
                     SaleId = table.Column<int>(nullable: false),
-                    ProdID = table.Column<int>(nullable: false),
-                    ProductsId = table.Column<int>(nullable: true)
+                    ProdID = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ProdSale", x => new { x.SaleId, x.ProdID });
                     table.ForeignKey(
-                        name: "FK_ProdSale_Product_ProductsId",
-                        column: x => x.ProductsId,
+                        name: "FK_ProdSale_Product_ProdID",
+                        column: x => x.ProdID,
                         principalTable: "Product",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
