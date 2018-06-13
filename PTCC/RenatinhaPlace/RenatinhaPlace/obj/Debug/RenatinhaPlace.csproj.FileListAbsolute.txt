@@ -174,4 +174,4 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\Renatinha
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Design.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\MUU_Project.frmLogin.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmLogin.resources
