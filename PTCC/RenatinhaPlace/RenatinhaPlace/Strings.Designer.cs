@@ -61,6 +61,33 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Usuário ou senha incorretos!.
+        /// </summary>
+        internal static string Incorrect_PassUser {
+            get {
+                return ResourceManager.GetString("Incorrect_PassUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a ENTRAR.
+        /// </summary>
+        internal static string LoginButton {
+            get {
+                return ResourceManager.GetString("LoginButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
+        /// </summary>
+        internal static string LogoutButton {
+            get {
+                return ResourceManager.GetString("LogoutButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Aang Solutions© 2018 TODOS OS DIREITOS RESERVADOS.
         /// </summary>
         internal static string Rights {
@@ -72,9 +99,18 @@ namespace RenatinhaPlace {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Dragon Night.
         /// </summary>
-        internal static string Title {
+        internal static string TitleSplah {
             get {
-                return ResourceManager.GetString("Title", resourceCulture);
+                return ResourceManager.GetString("TitleSplah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Versão 1.0..
+        /// </summary>
+        internal static string Version {
+            get {
+                return ResourceManager.GetString("Version", resourceCulture);
             }
         }
     }
