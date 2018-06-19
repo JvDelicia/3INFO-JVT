@@ -13,3 +13,10 @@
 /Java/Forca/build/
 /Java/Forca/nbproject/private/
 *.cache
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/DesignTimeBuild/.dtbcache
+PTCC/RenatinhaPlace/RenatinhaPlace/obj/Debug/RenatinhaPlace.csprojAssemblyReference.cache
+PTCC/RenatinhaPlace/RenatinhaPlace/obj/Debug/RenatinhaPlace.csproj.CoreCompileInputs.cache
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/v15/Server/sqlite3/storage.ide-wal
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/v15/Server/sqlite3/storage.ide-shm
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/v15/Server/sqlite3/storage.ide
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/v15/.suo
