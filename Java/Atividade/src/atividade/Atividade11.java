@@ -17,6 +17,6 @@ public class Atividade11 {
         Calendar dataNsc = Calendar.getInstance();
         dataNsc.set(a, m, dd);
         long d = ( hoje.get(Calendar.YEAR) - dataNsc.get(Calendar.YEAR));
-        System.out.println((d * 365) * 86400000);
+        System.out.println((d * 365));
     }
 }
