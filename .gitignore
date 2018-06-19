@@ -13,3 +13,10 @@
 /Java/Forca/build/
 /Java/Forca/nbproject/private/
 *.cache
+*.dtbcache
+*.csprojAssemblyReference.cache
+*.csproj.CoreCompileInputs.cache
+*.ide-wal
+*.ide-shm
+*.ide
+*.suo
