@@ -20,3 +20,5 @@
 *.ide-shm
 *.ide
 *.suo
+ASPNET/LojaWeb/.vs/LojaWeb/v15/.suo
+ASPNET/LojaWeb/.vs/LojaWeb/v15/Server/sqlite3/storage.ide
