@@ -1,9 +1,10 @@
 ﻿using LojaWeb.Models;
 using Microsoft.Data.Entity.Infrastructure;
-using MySql.Data.Entity;
+using MySql.Data.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
@@ -11,13 +12,24 @@ using System.Web;
 
 namespace LojaWeb.DAO {
 
-    public class EntityContext: DbContext {
+	[DbConfigurationType( typeof( MySqlEFConfiguration ) )]
 
-        public DbSet<Product> Products { get; set; }
-        public DbSet<ProdCategory> Categories { get; set; }
-        public DbSet<User> Users { get; set; }
+	public class EntityContext : DbContext {
 
-        //https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework60.html
-        //https://dev.mysql.com/doc/connector-net/en/connector-net-entity-framework.html
-    }
+		//https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework60.html  ----> LEVE ISSO PARA VIDA!
+
+		public DbSet<Product> Products { get; set; }
+		public DbSet<ProdCategory> Categories { get; set; }
+		public DbSet<User> Users { get; set; }
+
+		public EntityContext() : base("DataBase") { }
+		public EntityContext( DbConnection existingConnection, bool contextOwnsConnection ) : base( existingConnection, contextOwnsConnection ) { }
+
+		protected override void OnModelCreating(DbModelBuilder modelBuilder) {
+			base.OnModelCreating(modelBuilder);
+			modelBuilder.Entity<Product>();
+			modelBuilder.Entity<ProdCategory>();
+			modelBuilder.Entity<User>();
+		}
+	}
 }
