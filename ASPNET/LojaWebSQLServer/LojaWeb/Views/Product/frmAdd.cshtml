@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form action="/Product/Adicionar" method="post">
+            <label for="Nome"> Nome: </label>
+            <input id="nome" name="p.Name" />
+            <br /><p />
+            <textarea rows="4" style="resize:none" cols="50" name="p.Description">Digite a descrição do produto aqui...</textarea>
+            <br /><p />
+            <label for="Preco"> Preço (com vírgula): </label>
+            <input type="number" step="any" min="0" max="any" value="0.00" placeholder="0.00" name="p.Price" />
+            <br /><p />
+            <label for="Quantidade"> Quantidade: </label>
+            <input type="number" name="p.Quantity" min="0" max="any" step="1" value="0">
+            <br /><p />
+            <label for="categoria">Categoria:</label>
+            <select id="categoria" name="p.CategoryId">
+                <option value=""></option>@*Deixa a primeira opção dacombobox em branco*@
+                @foreach (var categoria in ViewBag.Categories)
+                 {
+                    <option value="@categoria.Id">@categoria.Name</option>
+                 }
+            </select>
+            <br /><p />
+            <input type="submit" value="Cadastrar" />
+        </form>
+    </div>
+</body>
+</html>

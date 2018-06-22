@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Form</title>
+</head>
+<body>
+    <div> 
+        <form action="/User/Adicionar" method="post">
+            <label for="Nome"> Nome: </label>
+            <input id="nome" name="u.Name" />
+            <br /><p />
+            <label for="Senha"> Senha: </label>
+            <input id="password" size="8" maxlength="8" name="u.Pass" />
+            <br /><p />
+            <input type="submit" value="Cadastrar" />
+        </form>
+    </div>
+</body>
+</html>

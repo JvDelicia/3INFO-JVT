@@ -1,0 +1,73 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 25%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        thead {
+            background-color: #6bf442;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Lista de Produtos</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Id da Categoria</th>
+                    <th>Nome da Categoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var prod in ViewBag.Products)
+                {
+                    <tr>
+                        <td>@prod.Id</td>
+                        <td>@prod.Name</td>
+                        <td>@prod.Description</td>
+                        <td>@prod.Price</td>
+                        <td>@prod.Quantity</td>
+                        <td>@prod.CategoryId</td>
+                        @foreach (var cat in ViewBag.Categories)
+                        {
+                            if (@cat.Id == @prod.CategoryId)
+                            {
+                                <td>@cat.Name</td>
+                            }
+                        }
+                    </tr>
+                 }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

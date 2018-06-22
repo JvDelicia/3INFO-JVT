@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>frmAtt</title>
+</head>
+<body>
+    <div>
+        <h1>Alterar Usuário</h1>
+        <form action="/User/Alterar" method="post">
+            <label for="Id"> Id: </label>
+            <input id="id" name="id" />
+            <br /><p />
+            <label for="Nome"> Nome: </label>
+            <input id="nome" name="nome" />
+            <br /><p />
+            <label for="Senha"> Senha: </label>
+            <input id="pass" size="8" maxlength="8" name="pass" />
+            <br /><p />
+            <input type="submit" value="Atualizar" />
+        </form>
+        <p />
+        <hr>
+        <p />
+        <h1>Deletar Usuário</h1>
+        <form action="/User/Deletar" method="post">
+            <label for="Id"> Id: </label>
+            <input id="id" name="id" />
+            <br /><p />
+            <input type="submit" value="Deletar" />
+        </form>
+    </div>
+</body>
+</html>
