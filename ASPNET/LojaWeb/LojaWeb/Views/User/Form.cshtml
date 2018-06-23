@@ -9,14 +9,32 @@
 <head>
 	<meta name="viewport" content="width=device-width" />
 	<title>Form</title>
+	<link rel="stylesheet" href="~/Content/bootstrap.min.css">
 </head>
 <body>
+
+	<ul class="nav nav-tabs" id="navId">
+		<li class="nav-item">
+			<a href="/Home/Index" class="nav-link">Home</a>
+		</li>
+		<li class="nav-item">
+			<a href="/User/Form" class="nav-link active">Usuário</a>
+		</li>
+		@*<li class="nav-item">
+			<a href="/Produto/FormProd" class="nav-link">Produto</a>
+		</li>
+		<li class="nav-item">
+			<a href="/CategoriaProduto/FormCatProd" class="nav-link">Categoria de Produto</a>
+		</li>*@
+	</ul>
+	<br />
+	<br />
 	<div>
 		<form action="/User/Add">
 			<label for="Name"> Name: </label>
-			<input id="name" name="u.Name" />
+			<input id="name" name="u.Name" /> <br />
 			<label for="Pass"> Password: </label>
-			<input id="pass" size="8" maxlength="8" name="u.Pass" />
+			<input id="pass" size="8" maxlength="8" name="u.Pass" /> <br />
 			<input type="submit" value="Register" />
 		</form>
 	</div>
