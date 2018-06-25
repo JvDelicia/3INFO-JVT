@@ -233,6 +233,9 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Scripts\collapse.js" />
+    <Content Include="Scripts\docs.min.js" />
+    <Content Include="Scripts\dropdown.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
@@ -254,6 +257,7 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Scripts\util.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -315,7 +319,8 @@
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\User\Update.cshtml" />
     <Content Include="Views\User\Remove.cshtml" />
-    <Content Include="Views\User\frmAttDel.cshtml" />
+    <Content Include="Views\User\FormUp.cshtml" />
+    <Content Include="Views\User\FormDel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -7,9 +7,9 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>User - List</title>
-    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width" />
+	<title>User - Remove</title>
+	<link rel="stylesheet" href="~/Content/bootstrap.min.css">
 </head>
 <body>
 
@@ -20,11 +20,11 @@
 		<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="/User/Index" role="button" aria-haspopup="true" aria-expanded="false">USER</a>
 			<div class="dropdown-menu">
-				<a class="dropdown-item active" href="/User/Index">List</a>
+				<a class="dropdown-item" href="/User/Index">List</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/User/Form">Add</a>
 				<a class="dropdown-item" href="/User/FormUp">Update</a>
-				<a class="dropdown-item" href="/User/FormDel">Delete</a>
+				<a class="dropdown-item active" href="/User/FormDel">Delete</a>
 			</div>
 		</li>
 		<li class="nav-item">
@@ -36,21 +36,14 @@
 	</ul>
 	<br />
 	<br />
-	<table class="table table-hover table-dark table-responsive">
-		<thead class="thead-dark">
-			<tr>
-				<th>ID</th>
-				<th>Name</th>
-			</tr>
-		</thead>
-		<tbody>
-			@foreach ( var user in ViewBag.Users ) {
-				<tr>
-					<td>@user.Id</td>
-					<td>@user.Name</td>
-				</tr>
-			}
-		</tbody>
-	</table>
+	<div>
+		<h1>Remove User</h1>
+		<form action="/User/Remove" method="post">
+			<label for="Id"> Id: </label>
+			<input id="id" name="id" />
+			<br /><p />
+			<input type="submit" value="Remove" />
+		</form>
+	</div>
 </body>
 </html>

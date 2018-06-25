@@ -7,9 +7,9 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>User - List</title>
-    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width" />
+	<title>User - Update</title>
+	<link rel="stylesheet" href="~/Content/bootstrap.min.css">
 </head>
 <body>
 
@@ -20,10 +20,10 @@
 		<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="/User/Index" role="button" aria-haspopup="true" aria-expanded="false">USER</a>
 			<div class="dropdown-menu">
-				<a class="dropdown-item active" href="/User/Index">List</a>
+				<a class="dropdown-item" href="/User/Index">List</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/User/Form">Add</a>
-				<a class="dropdown-item" href="/User/FormUp">Update</a>
+				<a class="dropdown-item active" href="/User/FormUp">Update</a>
 				<a class="dropdown-item" href="/User/FormDel">Delete</a>
 			</div>
 		</li>
@@ -36,21 +36,20 @@
 	</ul>
 	<br />
 	<br />
-	<table class="table table-hover table-dark table-responsive">
-		<thead class="thead-dark">
-			<tr>
-				<th>ID</th>
-				<th>Name</th>
-			</tr>
-		</thead>
-		<tbody>
-			@foreach ( var user in ViewBag.Users ) {
-				<tr>
-					<td>@user.Id</td>
-					<td>@user.Name</td>
-				</tr>
-			}
-		</tbody>
-	</table>
+	<div>
+		<h1>Update User</h1>
+		<form action="/User/Update" method="post">
+			<label for="Id"> Id: </label>
+			<input id="id" name="id" />
+			<br /><p />
+			<label for="Nome"> Nome: </label>
+			<input id="nome" name="nome" />
+			<br /><p />
+			<label for="Senha"> Senha: </label>
+			<input id="pass" size="8" maxlength="8" name="pass" />
+			<br /><p />
+			<input type="submit" value="Update" />
+		</form>
+	</div>
 </body>
 </html>

@@ -1,37 +1,64 @@
 ﻿
 @{
-    Layout = null;
+	Layout = null;
 }
 
 <!DOCTYPE html>
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-	<link rel="stylesheet" href="~/Content/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link rel="stylesheet" href="~/Content/bootstrap.css" />
 </head>
 <body>
-
-	<ul class="nav nav-tabs" id="navId">
-		<li class="nav-item">
-			<a href="/Home/Index" class="nav-link active">Home</a>
-		</li>
-		<li class="nav-item">
-			<a href="/User/Form" class="nav-link">Usuário</a>
-		</li>
-		<li class="nav-item">
-			<a href="/Product/Form" class="nav-link">Produto</a>
-		</li>
-		<li class="nav-item">
-			<a href="/CatProd/Form" class="nav-link">Categoria de Produto</a>
-		</li>
-	</ul>
-
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand mb-0 h1" href="#">LojaWeb</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav nav-pills mr-auto">
+				<li class="nav-item active">
+					<a href="/Home/Index" class="nav-link">HOME</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USER</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="/User/Index">List</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/User/Form">Add</a>
+						<a class="dropdown-item" href="/User/FormUp">Update</a>
+						<a class="dropdown-item" href="/User/FormDel">Delete</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="/Product/Form" class="nav-link disabled">PRODUCT</a>
+				</li>
+				<li class="nav-item">
+					<a href="/CatProd/Form" class="nav-link disabled">CATEGORY</a>
+				</li>
+			</ul>
+			<span class="navbar-text">
+				Welcome to the future!
+			</span>
+		</div>
+	</nav>
+	<br />
+	<br />
 	<div>
 
 		<h3>Por agora essa página não serve para nada, só para você escolher uma de cima.</h3>
 
 	</div>
+
+	<script src="~/Scripts/bootstrap.min.js"></script>
+	<script src="~/Scripts/jquery-3.3.1.slim.js"></script>
+	<script src="~/Scripts/popper.min.js"></script>
+	<script src="~/Scripts/dropdown.js"></script>
+	<script src="~/Scripts/util.js"></script>
+	<script src="~/Scripts/collapse.js"></script>
+	<script src="~/Scripts/docs.min.js"></script>
+
 </body>
 </html>

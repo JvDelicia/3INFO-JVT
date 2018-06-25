@@ -29,11 +29,15 @@ namespace LojaWeb.Controllers {
 			return View();
 		}
 
-        public ActionResult frmAttDel() {
+        public ActionResult FormUp() {
             return View();
         }
 
-        [HttpPostAttribute]
+		public ActionResult FormDel() {
+			return View();
+		}
+
+		[HttpPostAttribute]
         public ActionResult Update(string nome, string pass, string id) {
             UserDAO udao = new UserDAO();
             User user = udao.FindById(Convert.ToInt32(id));

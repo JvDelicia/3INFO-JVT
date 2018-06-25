@@ -431,7 +431,6 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.Webpages.Razor.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.Helpers.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.Mvc.xml
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojResolveAssemblyReference.cache
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.CoreCompileInputs.cache
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.CopyComplete
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.dll
@@ -472,3 +471,4 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\Loja
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Properties.Resources.resources
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Str.resources
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.GenerateResource.cache
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojAssemblyReference.cache
