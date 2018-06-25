@@ -17,16 +17,13 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\Loja
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.AppContext.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Collections.Immutable.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Console.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Diagnostics.Process.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.IO.Compression.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.IO.FileSystem.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.IO.Pipes.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Reflection.Metadata.dll
@@ -38,7 +35,6 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\Loja
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Security.Principal.Windows.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Threading.Thread.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.ValueTuple.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.Xml.XmlDocument.dll
@@ -184,8 +180,6 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\Loja
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.OptionsModel.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Primitives.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.Entity.EF6.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySqlConnector.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Remotion.Linq.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\System.Buffers.dll
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\System.Collections.Immutable.dll
@@ -214,7 +208,6 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\Loja
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.OptionsModel.xml
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Primitives.xml
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.Entity.EF6.xml
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Remotion.Linq.xml
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\System.Buffers.xml
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\System.Collections.Immutable.xml
@@ -461,3 +454,21 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Str.resources
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.GenerateResource.cache
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Migrations.crtUser.resources
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Google.Protobuf.dll
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Options.dll
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.EntityFramework.dll
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySql.Web.dll
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.Data.dll
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.WebData.dll
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Google.Protobuf.xml
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Options.xml
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.EntityFramework.xml
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\MySql.Web.xml
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.Data.xml
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.WebData.xml
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Migrations.crtUser.resources
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Properties.Resources.resources
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Str.resources
+T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.GenerateResource.cache

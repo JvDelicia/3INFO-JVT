@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form action="/CatProd/Add" method="post">
+            <label for="Name"> Name: </label>
+            <input id="name" name="c.Name" />
+            <br /><p />
+            <textarea rows="4" style="resize:none" cols="50" name="c.Description">Type the category description here...</textarea>
+            <br /><p />
+            <input type="submit" value="Add" />
+        </form>
+    </div>
+</body>
+</html>
