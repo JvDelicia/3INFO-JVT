@@ -44,7 +44,7 @@ namespace LojaWeb.Controllers
             user.Name = nome;
             user.Pass = pass;
             udao.Update();
-            return View();
+            return RedirectToAction("Index");
         }
 
         [HttpPostAttribute]
@@ -53,7 +53,7 @@ namespace LojaWeb.Controllers
             UserDAO udao = new UserDAO();
             User u = udao.FindById(Convert.ToInt32(id));
             udao.Remove(u);
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }

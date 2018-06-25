@@ -236,15 +236,10 @@
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\User\frmAdd.cshtml" />
-    <Content Include="Views\User\Adicionar.cshtml" />
     <Content Include="Views\Product\frmAdd.cshtml" />
-    <Content Include="Views\Product\Adicionar.cshtml" />
-    <Content Include="Views\User\Alterar.cshtml" />
     <Content Include="Views\User\frmAttDel.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\Category\frmAdd.cshtml" />
-    <Content Include="Views\Category\Adicionar.cshtml" />
-    <Content Include="Views\User\Deletar.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Category\Index.cshtml" />
     <None Include="Web.Debug.config">
