@@ -121,31 +121,36 @@
             this.txtPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPass.Font = new System.Drawing.Font("Berlin Sans FB Demi", 13F);
-            this.txtPass.ForeColor = System.Drawing.Color.White;
+            this.txtPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.txtPass.Location = new System.Drawing.Point(54, 218);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(213, 20);
             this.txtPass.TabIndex = 2;
-            this.txtPass.UseSystemPasswordChar = true;
+            this.txtPass.Text = "Password";
+            this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
+            this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 
             // txtUser
             // 
             this.txtUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUser.Font = new System.Drawing.Font("Berlin Sans FB Demi", 13F);
-            this.txtUser.ForeColor = System.Drawing.Color.White;
+            this.txtUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.txtUser.Location = new System.Drawing.Point(55, 165);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(247, 20);
             this.txtUser.TabIndex = 1;
+            this.txtUser.Text = "Username";
+            this.txtUser.Enter += new System.EventHandler(this.txtUser_Enter);
+            this.txtUser.Leave += new System.EventHandler(this.txtUser_Leave);
             // 
             // btnLogIn
             // 
             this.btnLogIn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogIn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
+            this.btnLogIn.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.btnLogIn.FlatAppearance.BorderSize = 3;
-            this.btnLogIn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
-            this.btnLogIn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
+            this.btnLogIn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnLogIn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogIn.Font = new System.Drawing.Font("Berlin Sans FB Demi", 12F);
             this.btnLogIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
@@ -189,11 +194,11 @@
             // lblVersion
             // 
             this.lblVersion.AutoSize = true;
-            this.lblVersion.Font = new System.Drawing.Font("Berlin Sans FB Demi", 12F);
+            this.lblVersion.Font = new System.Drawing.Font("Berlin Sans FB", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVersion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
-            this.lblVersion.Location = new System.Drawing.Point(1, 1);
+            this.lblVersion.Location = new System.Drawing.Point(4, 350);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(0, 18);
+            this.lblVersion.Size = new System.Drawing.Size(0, 13);
             this.lblVersion.TabIndex = 99;
             // 
             // pictureBox1

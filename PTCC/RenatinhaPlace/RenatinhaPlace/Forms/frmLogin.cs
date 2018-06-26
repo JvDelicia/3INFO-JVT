@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MetroFramework;
 
 namespace RenatinhaPlace.Forms
 {
@@ -28,13 +29,14 @@ namespace RenatinhaPlace.Forms
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
-            //ARRUMAR
-            Application.Exit();
+            if (MetroMessageBox.Show(this, Strings.ConfLeave, Strings.QuestLeave, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes) {
+                Application.Exit();
+            } else {
+                txtUser.Focus();
+            }
         }
-        private void txtPass_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == 13)
-            {
+        private void txtPass_KeyPress(object sender, KeyPressEventArgs e) {
+            if (e.KeyChar == 13) {
                 btnLogIn_Click(sender, e);
             }
 
@@ -73,6 +75,36 @@ namespace RenatinhaPlace.Forms
             else
             {
                 txtPass.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void txtUser_Enter(object sender, EventArgs e) {
+            if(txtUser.Text == "Username") {
+                txtPass.ForeColor = Color.FromArgb(250, 250, 250);
+                txtUser.Clear();
+            }
+        }
+
+        private void txtUser_Leave(object sender, EventArgs e) {
+            if(txtUser.Text == "" || txtUser.Text == null) {
+                txtPass.ForeColor = Color.FromArgb(120, 120, 120);
+                txtUser.Text = "Username";
+            }
+        }
+
+        private void txtPass_Enter(object sender, EventArgs e) {
+            if (txtPass.Text == "Password") {
+                txtPass.ForeColor = Color.FromArgb(250, 250, 250);
+                txtPass.UseSystemPasswordChar = true;
+                txtPass.Clear();
+            }
+        }
+
+        private void txtPass_Leave(object sender, EventArgs e) {
+            if (txtPass.Text == "" || txtPass.Text == null) {
+                txtPass.UseSystemPasswordChar = false;
+                txtPass.ForeColor = Color.FromArgb(120, 120, 120);
+                txtPass.Text = "Password";
             }
         }
     }
