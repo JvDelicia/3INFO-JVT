@@ -36,21 +36,26 @@
 	</ul>
 	<br />
 	<br />
-	<table class="table table-hover table-dark table-responsive">
-		<thead class="thead-dark">
-			<tr>
-				<th>ID</th>
-				<th>Name</th>
-			</tr>
-		</thead>
-		<tbody>
-			@foreach ( var user in ViewBag.Users ) {
+	<div class="container m-md-3">
+
+		<h3><center>List the Users already exists in the system</center></h3>
+
+		<table class="table table-hover table-dark table-responsive">
+			<thead class="thead-dark">
 				<tr>
-					<td>@user.Id</td>
-					<td>@user.Name</td>
+					<th>ID</th>
+					<th>Name</th>
 				</tr>
-			}
-		</tbody>
-	</table>
+			</thead>
+			<tbody>
+				@foreach ( var user in ViewBag.Users ) {
+					<tr>
+						<td>@user.Id</td>
+						<td>@user.Name</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
 </body>
 </html>
