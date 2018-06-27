@@ -1,5 +1,4 @@
 ﻿using LojaWeb.Models;
-using Microsoft.Data.Entity.Infrastructure;
 using MySql.Data.EntityFramework;
 using System;
 using System.Collections.Generic;

@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="~/Content/bootstrap.css" />
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top col-sm-8 col-md-8 col-lg-8 col-xl-8 container">
 		<a class="navbar-brand mb-0 h1" href="#">LojaWeb</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -24,8 +24,8 @@
 					<a href="/Home/Index" class="nav-link">HOME</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USER</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="nav-link dropdown-toggle" href="#" id="dropUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USER</a>
+					<div class="dropdown-menu" aria-labelledby="dropUser">
 						<a class="dropdown-item" href="/User/Index">List</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="/User/Form">Add</a>
@@ -33,23 +33,39 @@
 						<a class="dropdown-item" href="/User/FormDel">Delete</a>
 					</div>
 				</li>
-				<li class="nav-item">
-					<a href="/Product/Form" class="nav-link disabled">PRODUCT</a>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropProd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUCT</a>
+					<div class="dropdown-menu" aria-labelledby="dropProd">
+						<a class="dropdown-item" href="/Prod/Index">List</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/Prod/Form">Add</a>
+						<a class="dropdown-item disabled" href="#">Update</a>
+						<a class="dropdown-item disabled" href="#">Delete</a>
+					</div>
 				</li>
-				<li class="nav-item">
-					<a href="/CatProd/Form" class="nav-link disabled">CATEGORY</a>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropCatProd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATEGORY</a>
+					<div class="dropdown-menu" aria-labelledby="dropCatProd">
+						<a class="dropdown-item" href="/CatProd/Index">List</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/CatProd/Form">Add</a>
+						<a class="dropdown-item disabled" href="#">Update</a>
+						<a class="dropdown-item disabled" href="#">Delete</a>
+					</div>
 				</li>
 			</ul>
 			<span class="navbar-text">
-				Welcome to the future!
+				--Welcome-to-the-future
 			</span>
 		</div>
 	</nav>
 	<br />
 	<br />
-	<div>
+	<div class="col-sm-7 col-md-7 col-lg-7 col-xl-7 container">
 
-		<h3>Por agora essa página não serve para nada, só para você escolher uma de cima.</h3>
+		<h3 class="text-uppercase text-info text-justify text-center">This page exists for nothing, but can you select another one on the menu above.</h3>
 
 	</div>
 

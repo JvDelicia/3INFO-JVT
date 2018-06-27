@@ -360,7 +360,6 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Xml.XmlSerializer.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Xml.XPath.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Xml.XPath.XDocument.dll
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Commands.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Core.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.MicrosoftSqlServer.dll
@@ -382,12 +381,8 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Micros
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Remotion.Linq.dll
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Buffers.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Collections.Immutable.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Interactive.Async.dll
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Memory.dll
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Numerics.Vectors.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.Helpers.dll
@@ -397,7 +392,6 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.Webpages.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.Webpages.Razor.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.xml
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Commands.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Core.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.MicrosoftSqlServer.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Relational.xml
@@ -417,12 +411,8 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Micros
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Primitives.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Remotion.Linq.xml
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Buffers.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Collections.Immutable.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Interactive.Async.xml
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Memory.xml
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Numerics.Vectors.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.Razor.xml
@@ -438,13 +428,11 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\roslyn\Microsoft.Managed.Core.targets
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Google.Protobuf.dll
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Options.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.EntityFramework.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\MySql.Web.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.Data.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.WebData.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Google.Protobuf.xml
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Options.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\MySql.Data.EntityFramework.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\MySql.Web.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.Data.xml
@@ -472,3 +460,13 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\Loja
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Str.resources
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.GenerateResource.cache
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojAssemblyReference.cache
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Commands.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Commands.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Options.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Buffers.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Memory.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Numerics.Vectors.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\Microsoft.Extensions.Options.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Buffers.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Memory.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Numerics.Vectors.xml
