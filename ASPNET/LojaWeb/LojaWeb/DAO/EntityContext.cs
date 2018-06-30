@@ -17,18 +17,16 @@ namespace LojaWeb.DAO {
 
 		//https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework60.html  ----> LEVE ISSO PARA VIDA!
 
-		public DbSet<Product> Products { get; set; }
-		public DbSet<ProdCategory> Categories { get; set; }
 		public DbSet<User> Users { get; set; }
+		public DbSet<ProdCategory> Categories { get; set; }
+		public DbSet<Product> Products { get; set; }
 
 		public EntityContext() : base("DataBase") { }
 		public EntityContext( DbConnection existingConnection, bool contextOwnsConnection ) : base( existingConnection, contextOwnsConnection ) { }
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder) {
+			modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 			base.OnModelCreating(modelBuilder);
-			modelBuilder.Entity<Product>();
-			modelBuilder.Entity<ProdCategory>();
-			modelBuilder.Entity<User>();
 		}
 	}
 }

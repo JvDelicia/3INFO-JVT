@@ -209,8 +209,34 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\mdb.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
+    <None Include="Resources\android-icon-144x144.png" />
+    <None Include="Resources\android-icon-192x192.png" />
+    <None Include="Resources\android-icon-36x36.png" />
+    <None Include="Resources\android-icon-48x48.png" />
+    <None Include="Resources\android-icon-72x72.png" />
+    <None Include="Resources\android-icon-96x96.png" />
+    <None Include="Resources\apple-icon-114x114.png" />
+    <None Include="Resources\apple-icon-120x120.png" />
+    <None Include="Resources\apple-icon-144x144.png" />
+    <None Include="Resources\apple-icon-152x152.png" />
+    <None Include="Resources\apple-icon-180x180.png" />
+    <None Include="Resources\apple-icon-57x57.png" />
+    <None Include="Resources\apple-icon-60x60.png" />
+    <None Include="Resources\apple-icon-72x72.png" />
+    <None Include="Resources\apple-icon-76x76.png" />
+    <None Include="Resources\apple-icon-precomposed.png" />
+    <None Include="Resources\apple-icon.png" />
+    <None Include="Resources\favicon-16x16.png" />
+    <None Include="Resources\favicon-32x32.png" />
+    <None Include="Resources\favicon-96x96.png" />
+    <None Include="Resources\favicon.ico" />
+    <None Include="Resources\ms-icon-144x144.png" />
+    <None Include="Resources\ms-icon-150x150.png" />
+    <None Include="Resources\ms-icon-310x310.png" />
+    <None Include="Resources\ms-icon-70x70.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -241,6 +267,7 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
+    <None Include="Resources\manifest.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -269,10 +296,6 @@
     <Compile Include="DAO\UserDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201806200303162_crtUser.cs" />
-    <Compile Include="Migrations\201806200303162_crtUser.Designer.cs">
-      <DependentUpon>201806200303162_crtUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ProdCategory.cs" />
@@ -318,6 +341,7 @@
     <Content Include="Views\User\Remove.cshtml" />
     <Content Include="Views\User\FormUp.cshtml" />
     <Content Include="Views\User\FormDel.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -329,9 +353,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201806200303162_crtUser.resx">
-      <DependentUpon>201806200303162_crtUser.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
