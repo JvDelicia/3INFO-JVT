@@ -15,14 +15,14 @@ namespace LojaWeb.Controllers {
             ViewBag.Products = prod;
             CatProdDAO cdao = new CatProdDAO();
             IList<ProdCategory> cat = cdao.CategoryList();
-            ViewBag.Categories = cat;
+            ViewBag.Categorys = cat;
             return View();
         }
 
         public ActionResult frmAdd() {
             CatProdDAO cdao = new CatProdDAO();
             IList<ProdCategory> cat = cdao.CategoryList();
-            ViewBag.Categories = cat;
+            ViewBag.Categorys = cat;
             return View();
         }
 

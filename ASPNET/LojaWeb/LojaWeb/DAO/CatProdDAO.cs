@@ -13,20 +13,20 @@ namespace LojaWeb.DAO {
         }
 
         public IList<ProdCategory> CategoryList() {
-            return context.Categories.ToList();
+            return context.Categorys.ToList();
         }
 
         public ProdCategory FindById(int id) {
-            return context.Categories.FirstOrDefault(u => u.Id == id);
+            return context.Categorys.FirstOrDefault(u => u.Id == id);
         }
 
         public void Insert(ProdCategory cat) {
-            context.Categories.Add(cat);
+            context.Categorys.Add(cat);
             context.SaveChanges();
         }
 
         public void Remove(ProdCategory cat) {
-            context.Categories.Remove(cat);
+            context.Categorys.Remove(cat);
             context.SaveChanges();
         }
 

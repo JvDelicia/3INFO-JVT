@@ -1,62 +1,23 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+	ViewBag.Title = "List User";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
+<center><h3>List the Users already exists in the system</h3></center>
 
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width" />
-	<title>User - List</title>
-	<link rel="stylesheet" href="~/Content/bootstrap.min.css">
-</head>
-<body>
-
-	<ul class="nav nav-pills">
-		<li class="nav-item">
-			<a href="/Home/Index" class="nav-link">HOME</a>
-		</li>
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="/User/Index" role="button" aria-haspopup="true" aria-expanded="false">USER</a>
-			<div class="dropdown-menu">
-				<a class="dropdown-item active" href="/User/Index">List</a>
-				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/User/Form">Add</a>
-				<a class="dropdown-item" href="/User/FormUp">Update</a>
-				<a class="dropdown-item" href="/User/FormDel">Delete</a>
-			</div>
-		</li>
-		<li class="nav-item">
-			<a href="/Product/Form" class="nav-link disabled">PRODUCT</a>
-		</li>
-		<li class="nav-item">
-			<a href="/CatProd/Form" class="nav-link disabled">CATEGORY</a>
-		</li>
-	</ul>
-	<br />
-	<br />
-	<div class="container m-md-3">
-
-		<center><h3>List the Users already exists in the system</h3></center>
-
-		<table class="table table-hover table-dark table-responsive">
-			<thead class="thead-dark">
-				<tr>
-					<th>ID</th>
-					<th>Name</th>
-				</tr>
-			</thead>
-			<tbody>
-				@foreach ( var user in ViewBag.Users ) {
-					<tr>
-						<td>@user.Id</td>
-						<td>@user.Name</td>
-					</tr>
-				}
-			</tbody>
-		</table>
-	</div>
-</body>
-</html>
+<table class="table table-hover table-dark table-responsive">
+	<thead class="thead-dark">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach ( var user in ViewBag.Users ) {
+			<tr>
+				<td>@user.Id</td>
+				<td>@user.Name</td>
+			</tr>
+		}
+	</tbody>
+</table>

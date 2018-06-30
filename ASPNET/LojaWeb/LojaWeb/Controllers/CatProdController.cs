@@ -14,7 +14,7 @@ namespace LojaWeb.Controllers
         public ActionResult Index() {
             CatProdDAO cdao = new CatProdDAO();
             IList<ProdCategory> cat = cdao.CategoryList();
-            ViewBag.Categories = cat;
+            ViewBag.Categorys = cat;
             return View();
         }
 
