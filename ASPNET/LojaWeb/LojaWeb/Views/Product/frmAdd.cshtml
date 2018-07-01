@@ -18,7 +18,7 @@
 	<label for="categoty">Category:</label>
 	<select id="category" name="p.CategoryId">
 		<option value=""></option>@*Deixa a primeira opção dacombobox em branco*@
-		@foreach ( var category in ViewBag.Categories ) {
+		@foreach ( var category in ViewBag.Categorys ) {
 			<option value="@category.Id">@category.Name</option>
 		}
 	</select>

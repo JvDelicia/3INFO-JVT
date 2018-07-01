@@ -38,10 +38,10 @@ namespace LojaWeb.Controllers {
 		}
 
 		[HttpPostAttribute]
-        public ActionResult Update(string nome, string pass, string id) {
+        public ActionResult Update(string name, string pass, string id) {
             UserDAO udao = new UserDAO();
             User user = udao.FindById(Convert.ToInt32(id));
-            user.Name = nome;
+            user.Name = name;
             user.Pass = pass;
             udao.Update();
             return View();
