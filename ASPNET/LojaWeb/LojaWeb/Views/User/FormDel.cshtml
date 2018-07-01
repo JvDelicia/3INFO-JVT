@@ -1,49 +1,12 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+	ViewBag.Title = "User Remove";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-	<meta name="viewport" content="width=device-width" />
-	<title>User - Remove</title>
-	<link rel="stylesheet" href="~/Content/bootstrap.min.css">
-</head>
-<body>
-
-	<ul class="nav nav-pills">
-		<li class="nav-item">
-			<a href="/Home/Index" class="nav-link">HOME</a>
-		</li>
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="/User/Index" role="button" aria-haspopup="true" aria-expanded="false">USER</a>
-			<div class="dropdown-menu">
-				<a class="dropdown-item" href="/User/Index">List</a>
-				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/User/Form">Add</a>
-				<a class="dropdown-item" href="/User/FormUp">Update</a>
-				<a class="dropdown-item active" href="/User/FormDel">Delete</a>
-			</div>
-		</li>
-		<li class="nav-item">
-			<a href="/Product/Form" class="nav-link disabled">PRODUCT</a>
-		</li>
-		<li class="nav-item">
-			<a href="/CatProd/Form" class="nav-link disabled">CATEGORY</a>
-		</li>
-	</ul>
-	<br />
-	<br />
-	<div>
-		<h1>Remove User</h1>
-		<form action="/User/Remove" method="post">
-			<label for="Id"> Id: </label>
-			<input id="id" name="id" />
-			<br /><p />
-			<input type="submit" value="Remove" />
-		</form>
-	</div>
-</body>
-</html>
+<h1>Remove User</h1>
+<form action="/User/Remove" method="post">
+	<label for="Id"> Id: </label>
+	<input id="id" name="id" />
+	<br /><p />
+	<input type="submit" value="Remove" />
+</form>

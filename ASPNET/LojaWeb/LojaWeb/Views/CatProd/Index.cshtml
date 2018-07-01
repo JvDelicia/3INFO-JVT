@@ -1,60 +1,24 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+	ViewBag.Title = "Category List";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-
-    <style>
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 25%;
-        }
-
-        td, th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-
-        thead {
-            background-color: #6bf442;
-        }
-    </style>
-
-</head>
-<body>
-    <div>
-        <h1>List of Categories</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>NAme</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var cat in ViewBag.Categories)
-                 {
-                <tr>
-                    <td>@cat.Id</td>
-                    <td>@cat.Name</td>
-                    <td>@cat.Description</td>
-                </tr>
-                 }
-            </tbody>
-        </table>
-    </div>
-</body>
-</html>
+<h1>List of Categories</h1>
+<table>
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach ( var cat in ViewBag.Categories ) {
+			<tr>
+				<td>@cat.Id</td>
+				<td>@cat.Name</td>
+				<td>@cat.Description</td>
+			</tr>
+		}
+	</tbody>
+</table>

@@ -1,39 +1,27 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+	ViewBag.Title = "Product Add";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Form</title>
-</head>
-<body>
-    <div>
-        <form action="/Product/Add" method="post">
-            <label for="Name"> Name: </label>
-            <input id="name" name="p.Name" />
-            <br /><p />
-            <textarea rows="4" style="resize:none" cols="50" name="p.Description">Type the product description here...</textarea>
-            <br /><p />
-            <label for="Price"> Price (with comma): </label>
-            <input type="number" step="any" min="0" max="any" value="0.00" placeholder="0.00" name="p.Price" />
-            <br /><p />
-            <label for="Qnt"> Quantity: </label>
-            <input type="number" name="p.Quantity" min="0" max="any" step="1" value="0">
-            <br /><p />
-            <label for="categoty">Category:</label>
-            <select id="category" name="p.CategoryId">
-                <option value=""></option>@*Deixa a primeira opção dacombobox em branco*@
-                @foreach (var category in ViewBag.Categories) {
-            <option value="@category.Id">@category.Name</option>
-}
-            </select>
-            <br /><p />
-            <input type="submit" value="Add" />
-        </form>
-    </div>
-</body>
-</html>
+<form action="/Product/Add" method="post">
+	<label for="Name"> Name: </label>
+	<input id="name" name="p.Name" />
+	<br /><p />
+	<textarea rows="4" style="resize:none" cols="50" name="p.Description">Type the product description here...</textarea>
+	<br /><p />
+	<label for="Price"> Price (with comma): </label>
+	<input type="number" step="any" min="0" max="any" value="0.00" placeholder="0.00" name="p.Price" />
+	<br /><p />
+	<label for="Qnt"> Quantity: </label>
+	<input type="number" name="p.Quantity" min="0" max="any" step="1" value="0">
+	<br /><p />
+	<label for="categoty">Category:</label>
+	<select id="category" name="p.CategoryId">
+		<option value=""></option>@*Deixa a primeira opção dacombobox em branco*@
+		@foreach ( var category in ViewBag.Categories ) {
+			<option value="@category.Id">@category.Name</option>
+		}
+	</select>
+	<br /><p />
+	<input type="submit" value="Add" />
+</form>

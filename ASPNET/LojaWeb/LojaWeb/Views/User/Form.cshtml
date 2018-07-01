@@ -1,56 +1,18 @@
-﻿
-@{
-	Layout = null;
+﻿@{
+	ViewBag.Title = "User Add";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
+<center><h3>Add an User to the system</h3></center>
 
-<html>
-<head>
-	<meta name="viewport" content="width=device-width" />
-	<title>User - Add</title>
-	<link rel="stylesheet" href="~/Content/bootstrap.min.css">
-</head>
-<body>
-
-	<ul class="nav nav-pills">
-		<li class="nav-item">
-			<a href="/Home/Index" class="nav-link">HOME</a>
-		</li>
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="/User/Index" role="button" aria-haspopup="true" aria-expanded="false">USER</a>
-			<div class="dropdown-menu">
-				<a class="dropdown-item" href="/User/Index">List</a>
-				<div class="dropdown-divider"></div>
-				<a class="dropdown-item active" href="/User/Form">Add</a>
-				<a class="dropdown-item" href="/User/FormUp">Update</a>
-				<a class="dropdown-item" href="/User/FormDel">Delete</a>
-			</div>
-		</li>
-		<li class="nav-item">
-			<a href="/Product/Form" class="nav-link disabled">PRODUCT</a>
-		</li>
-		<li class="nav-item">
-			<a href="/CatProd/Form" class="nav-link disabled">CATEGORY</a>
-		</li>
-	</ul>
-	<br />
-	<br />
-	<div class="container m-md-3">
-
-		<h3><center>Add an User to the system</center>></h3>
-
-		<form action="/User/Add">
-			<div class="form-group">
-			  	<label for="Name"> Name: </label>
-			  	<input type="text" class="form-control" name="u.Name" id="name" aria-describedby="helpId" placeholder="Type the Name">
-			</div>
-			<div class="form-group">
-		  		<label for="Pass"> Password: </label>
-		  		<input type="password" class="form-control" name="u.Pass" maxlength="8" id="pass" placeholder="Type a Password">
-			</div>
-			<button type="submit" value="Add" class="btn btn-success">Add User</button>
-		</form>
+<form action="/User/Add">
+	<div class="form-group">
+		<label for="Name"> Name: </label>
+		<input type="text" class="form-control" name="u.Name" id="name" aria-describedby="helpId" placeholder="Type the Name">
 	</div>
-</body>
-</html>
+	<div class="form-group">
+		<label for="Pass"> Password: </label>
+		<input type="password" class="form-control" name="u.Pass" maxlength="8" id="pass" placeholder="Type a Password">
+	</div>
+	<button type="submit" value="Add" class="btn btn-success">Add User</button>
+</form>

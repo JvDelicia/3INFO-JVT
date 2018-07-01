@@ -1,13 +1,9 @@
 ﻿using LojaWeb.Models;
 using MySql.Data.EntityFramework;
 using System;
-using System.Collections.Generic;
-using System.Configuration;
 using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Linq;
-using System.Web;
 
 namespace LojaWeb.DAO {
 
@@ -26,6 +22,9 @@ namespace LojaWeb.DAO {
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder) {
 			modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+			modelBuilder.Entity<User>();
+			modelBuilder.Entity<ProdCategory>();
+			modelBuilder.Entity<Product>();
 			base.OnModelCreating(modelBuilder);
 		}
 	}

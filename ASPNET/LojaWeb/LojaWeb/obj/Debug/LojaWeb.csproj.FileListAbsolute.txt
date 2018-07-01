@@ -235,6 +235,8 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\Loja
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Properties.Resources.resources
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Str.resources
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.GenerateResource.cache
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\LojaWeb.dll.config
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\LojaWeb.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\LojaWeb.pdb
@@ -382,7 +384,7 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Xml.XPath.XDocument.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Commands.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Core.dll
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.MicrosoftSqlServer.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Relational.Design.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Relational.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.SqlServer.dll
@@ -417,9 +419,9 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.WebPages.Razor.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.Data.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.WebData.dll
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Commands.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Core.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.MicrosoftSqlServer.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Relational.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.Relational.Design.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\EntityFramework.SqlServer.xml
@@ -453,7 +455,6 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.WebPages.Razor.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.Data.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\WebMatrix.WebData.xml
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojAssemblyReference.cache
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Properties.Resources.resources
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Str.resources
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.GenerateResource.cache
@@ -461,3 +462,5 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.CopyComplete
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.pdb
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojAssemblyReference.cache
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Migrations.crtUserProd.resources
