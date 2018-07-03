@@ -3,10 +3,14 @@
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Remove User</h1>
-<form action="/User/Remove" method="post">
-	<label for="Id"> Id: </label>
-	<input id="id" name="id" />
-	<br /><p />
-	<input type="submit" value="Remove" />
+<center><h3>Remove an User in the system</h3></center>
+
+<form action="/User/Remove" method="POST">
+  	<div class="form-row">
+    	<div class="col-md-4 mb-3">
+      		<label for="id">ID</label>
+      		<input type="number" class="form-control" name="id" id="id" placeholder="Type the ID" required oninvalid="this.setCustomValidity('You need to type an ID')" oninput="this.setCustomValidity('')">
+    	</div>
+  	</div>
+	<button class="btn btn-warning container" type="submit" value="Remove">Remove User</button>
 </form>
