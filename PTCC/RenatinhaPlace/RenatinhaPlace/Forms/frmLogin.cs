@@ -47,9 +47,9 @@ namespace RenatinhaPlace.Forms
             if (usuario == "adm" && senha == "123")
             {
                 this.Close();
-                //frmMenu Menu = new frmMenu();
-                //Menu.Show();
-                //Menu.lblConectUser.Text = "Conectado: " + txtUser.Text;
+                frmHome Menu = new frmHome();
+                Menu.Show();
+               // Menu.lblConectUser.Text = "Conectado: " + txtUser.Text;
 
             }
             else
