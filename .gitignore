@@ -12,6 +12,7 @@
 /Java/Forca/forca/nbproject/private/
 /Java/Forca/build/
 /Java/Forca/nbproject/private/
+<<<<<<< HEAD
 
 # Compiled class file
 *.class
@@ -435,3 +436,13 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+=======
+*.cache
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/DesignTimeBuild/.dtbcache
+PTCC/RenatinhaPlace/RenatinhaPlace/obj/Debug/RenatinhaPlace.csprojAssemblyReference.cache
+PTCC/RenatinhaPlace/RenatinhaPlace/obj/Debug/RenatinhaPlace.csproj.CoreCompileInputs.cache
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/v15/Server/sqlite3/storage.ide-wal
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/v15/Server/sqlite3/storage.ide-shm
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/v15/Server/sqlite3/storage.ide
+PTCC/RenatinhaPlace/.vs/RenatinhaPlace/v15/.suo
+>>>>>>> 8565b1754f62fb07f9390e3196afd3ec3aa439dc
