@@ -175,6 +175,7 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\Renatinha
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmLogin.resources
+<<<<<<< HEAD
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe.config
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.pdb
@@ -342,3 +343,6 @@ T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CopyComplete
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
 T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
+=======
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmHome.resources
+>>>>>>> 8565b1754f62fb07f9390e3196afd3ec3aa439dc
