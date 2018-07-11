@@ -51,7 +51,6 @@ namespace RenatinhaPlace.Forms
                 this.Close();
                 frmHome Menu = new frmHome();
                 Menu.Show();
-               // Menu.lblConectUser.Text = "Conectado: " + txtUser.Text;
 
             }
             else
@@ -59,44 +58,59 @@ namespace RenatinhaPlace.Forms
                 lblErro.Visible = true;
                 pbxBasePass.BackColor = Color.FromArgb(220, 0, 0);
                 pbxBaseUser.BackColor = Color.FromArgb(220, 0, 0);
-
-                txtUser.Focus();
                 txtPass.Clear();
+                txtPass.UseSystemPasswordChar = false;
+                txtPass.ForeColor = Color.FromArgb(120, 120, 120);
+                txtPass.Text = "Password";
+                if (txtUser.Text == "Username")
+                {
+                    txtUser.Focus();
+                }
+                else
+                {
+                    txtPass.Focus();
+                }
+
             }
         }
 
 
         private void btnShowPass_Click(object sender, EventArgs e)
         {
-            if (txtPass.UseSystemPasswordChar == true)
+            if (txtPass.Text != "Password")
             {
-                txtPass.UseSystemPasswordChar = false;
-            }
-            else
-            {
-                txtPass.UseSystemPasswordChar = true;
+                if (txtPass.UseSystemPasswordChar == true)
+                {
+                    txtPass.UseSystemPasswordChar = false;
+                }
+                else
+                {
+                    txtPass.UseSystemPasswordChar = true;
+                }
             }
         }
 
         private void txtUser_Enter(object sender, EventArgs e) {
             if(txtUser.Text == "Username") {
-                txtPass.ForeColor = Color.FromArgb(250, 250, 250);
                 txtUser.Clear();
+                txtUser.ForeColor = Color.FromArgb(240, 240, 240);
+
             }
         }
 
         private void txtUser_Leave(object sender, EventArgs e) {
             if(txtUser.Text == "" || txtUser.Text == null) {
-                txtPass.ForeColor = Color.FromArgb(120, 120, 120);
+                txtUser.ForeColor = Color.FromArgb(120, 120, 120);
                 txtUser.Text = "Username";
             }
         }
 
         private void txtPass_Enter(object sender, EventArgs e) {
             if (txtPass.Text == "Password") {
-                txtPass.ForeColor = Color.FromArgb(250, 250, 250);
-                txtPass.UseSystemPasswordChar = true;
                 txtPass.Clear();
+                txtPass.ForeColor = Color.FromArgb(240, 240, 240);
+                txtPass.UseSystemPasswordChar = true;
+ 
             }
         }
 
@@ -106,6 +120,11 @@ namespace RenatinhaPlace.Forms
                 txtPass.ForeColor = Color.FromArgb(120, 120, 120);
                 txtPass.Text = "Password";
             }
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

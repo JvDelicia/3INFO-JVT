@@ -141,6 +141,7 @@
             this.txtUser.Size = new System.Drawing.Size(247, 20);
             this.txtUser.TabIndex = 1;
             this.txtUser.Text = "Username";
+            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             this.txtUser.Enter += new System.EventHandler(this.txtUser_Enter);
             this.txtUser.Leave += new System.EventHandler(this.txtUser_Leave);
             // 
@@ -175,7 +176,7 @@
             // 
             // btnShowPass
             // 
-            this.btnShowPass.BackgroundImage = global::RenatinhaPlace.Properties.Resources.eye;
+            this.btnShowPass.BackgroundImage = global::RenatinhaPlace.Properties.Resources.eyes;
             this.btnShowPass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnShowPass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnShowPass.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(225)))));

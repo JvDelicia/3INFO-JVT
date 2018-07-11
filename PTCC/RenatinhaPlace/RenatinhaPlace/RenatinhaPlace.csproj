@@ -170,6 +170,30 @@
     <Compile Include="Entity\People.cs" />
     <Compile Include="Entity\Product.cs" />
     <Compile Include="Entity\Ticket.cs" />
+    <Compile Include="Forms\frmCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCashier.Designer.cs">
+      <DependentUpon>frmCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmClients.Designer.cs">
+      <DependentUpon>frmClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEmployees.Designer.cs">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEvents.Designer.cs">
+      <DependentUpon>frmEvents.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +220,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\frmCashier.resx">
+      <DependentUpon>frmCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmClients.resx">
+      <DependentUpon>frmClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEmployees.resx">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEvents.resx">
+      <DependentUpon>frmEvents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -270,6 +306,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Aang Solutions - White Logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spotlights.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spotlights %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spotlights %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Event.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employees.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clients.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Client.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -117,8 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Cashier" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="Clients" xml:space="preserve">
+    <value>Clients</value>
+  </data>
   <data name="ConfLeave" xml:space="preserve">
     <value>Are you sure, want to leave?</value>
+  </data>
+  <data name="ConnectedUser" xml:space="preserve">
+    <value>Connected User:</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Events</value>
   </data>
   <data name="Incorrect_PassUser" xml:space="preserve">
     <value>Incorrect User/Pass!</value>
@@ -133,16 +148,15 @@
     <value>Exit application?</value>
   </data>
   <data name="Rights" xml:space="preserve">
-<<<<<<< HEAD
     <value>Aang Solutions © 2018 ALL RIGHTS RESERVED</value>
-=======
-    <value>Aang Solutions© 2018 TODOS OS DIREITOS RESERVADOS</value>
->>>>>>> 8565b1754f62fb07f9390e3196afd3ec3aa439dc
   </data>
   <data name="TitleSplah" xml:space="preserve">
     <value>Dragon Night</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>Version 0.3A</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome To Dragon Night</value>
   </data>
 </root>

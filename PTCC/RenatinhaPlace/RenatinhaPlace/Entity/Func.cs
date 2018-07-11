@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace RenatinhaPlace.Entity {
-    public class Func {
+    public class Func : People {
         public virtual People People { get; set; }
         public int Id { get; set; }
         public string Address { get; set; }

@@ -75,7 +75,7 @@
             this.lblTitleSplash.AutoSize = true;
             this.lblTitleSplash.BackColor = System.Drawing.Color.Transparent;
             this.lblTitleSplash.Font = new System.Drawing.Font("Impact", 43F);
-            this.lblTitleSplash.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
+            this.lblTitleSplash.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
             this.lblTitleSplash.Location = new System.Drawing.Point(149, 116);
             this.lblTitleSplash.Name = "lblTitleSplash";
             this.lblTitleSplash.Size = new System.Drawing.Size(0, 72);

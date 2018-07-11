@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace RenatinhaPlace.Entity {
-    public class People {
+    public abstract class People {
         public int Id { get; set; }
         public string Cpf { get; set; }
         public string Name { get; set; }

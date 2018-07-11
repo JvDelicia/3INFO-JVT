@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace RenatinhaPlace.Entity {
-    public class Client {
+    public class Client : People {
         public virtual People People { get; set; }
         public int Id { get; set; }
     }
