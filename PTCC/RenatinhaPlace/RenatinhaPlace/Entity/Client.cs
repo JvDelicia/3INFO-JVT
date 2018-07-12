@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace RenatinhaPlace.Entity {
     public class Client : People {
         public virtual People People { get; set; }
-        public int Id { get; set; }
+        public int PeopleId { get; set; }
     }
 }

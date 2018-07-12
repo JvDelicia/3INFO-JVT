@@ -16,7 +16,6 @@ namespace RenatinhaPlace {
         public DbSet<Event> Events { get; set; }
         public DbSet<Menu> Menus { get; set; }
         public DbSet<ItemMenu> ItemMenus { get; set; }
-        public DbSet<People> Peoples { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<ItemAcc> ItemAccs { get; set; }
@@ -26,7 +25,7 @@ namespace RenatinhaPlace {
         //Install-Package EntityFramework.MicrosoftSqlserver -Version 7.0.0-rc1-final -Pre
         //Install-Package EntityFramework.Commands -Version 7.0.0-rc1-final -Pre
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
-            string stringConnection = ConfigurationManager.ConnectionStrings["dbRenatinhaConn"].ConnectionString;
+            string stringConnection = ConfigurationManager.ConnectionStrings["dbDragonNightConnectionString"].ConnectionString;
             optionsBuilder.UseSqlServer(stringConnection);
             base.OnConfiguring(optionsBuilder);
         }

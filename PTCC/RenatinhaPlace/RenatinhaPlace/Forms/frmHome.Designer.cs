@@ -35,6 +35,10 @@
             this.mt4 = new MetroFramework.Controls.MetroTile();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.lblConnectedUser = new System.Windows.Forms.Label();
+            this.pbx1 = new System.Windows.Forms.PictureBox();
+            this.pbx2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
             this.SuspendLayout();
             // 
             // mt1
@@ -113,23 +117,45 @@
             // 
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.BackColor = System.Drawing.Color.Transparent;
-            this.lblWelcome.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Bold);
+            this.lblWelcome.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblWelcome.Location = new System.Drawing.Point(477, 56);
+            this.lblWelcome.Location = new System.Drawing.Point(478, 56);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 39);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 36);
             this.lblWelcome.TabIndex = 5;
             // 
             // lblConnectedUser
             // 
             this.lblConnectedUser.AutoSize = true;
             this.lblConnectedUser.BackColor = System.Drawing.Color.Transparent;
-            this.lblConnectedUser.Font = new System.Drawing.Font("Rockwell", 15F, System.Drawing.FontStyle.Bold);
+            this.lblConnectedUser.Font = new System.Drawing.Font("Rockwell", 15F);
             this.lblConnectedUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblConnectedUser.Location = new System.Drawing.Point(35, 667);
+            this.lblConnectedUser.Location = new System.Drawing.Point(34, 667);
             this.lblConnectedUser.Name = "lblConnectedUser";
-            this.lblConnectedUser.Size = new System.Drawing.Size(0, 24);
+            this.lblConnectedUser.Size = new System.Drawing.Size(0, 22);
             this.lblConnectedUser.TabIndex = 6;
+            // 
+            // pbx1
+            // 
+            this.pbx1.BackColor = System.Drawing.Color.Transparent;
+            this.pbx1.Image = global::RenatinhaPlace.Properties.Resources.dragon__2_;
+            this.pbx1.Location = new System.Drawing.Point(36, 627);
+            this.pbx1.Name = "pbx1";
+            this.pbx1.Size = new System.Drawing.Size(57, 41);
+            this.pbx1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbx1.TabIndex = 7;
+            this.pbx1.TabStop = false;
+            // 
+            // pbx2
+            // 
+            this.pbx2.BackColor = System.Drawing.Color.Transparent;
+            this.pbx2.Image = global::RenatinhaPlace.Properties.Resources.Aang_Solutions___White_Logo;
+            this.pbx2.Location = new System.Drawing.Point(435, 47);
+            this.pbx2.Name = "pbx2";
+            this.pbx2.Size = new System.Drawing.Size(41, 49);
+            this.pbx2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbx2.TabIndex = 8;
+            this.pbx2.TabStop = false;
             // 
             // frmHome
             // 
@@ -137,6 +163,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.pbx2);
+            this.Controls.Add(this.pbx1);
             this.Controls.Add(this.lblConnectedUser);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.mt4);
@@ -148,6 +176,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmHome_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,5 +191,7 @@
         private MetroFramework.Controls.MetroTile mt4;
         private System.Windows.Forms.Label lblWelcome;
         private System.Windows.Forms.Label lblConnectedUser;
+        private System.Windows.Forms.PictureBox pbx1;
+        private System.Windows.Forms.PictureBox pbx2;
     }
 }

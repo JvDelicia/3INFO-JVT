@@ -15,6 +15,7 @@ namespace RenatinhaPlace.Forms
         public frmEmployees()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void frmEmployees_Load(object sender, EventArgs e)

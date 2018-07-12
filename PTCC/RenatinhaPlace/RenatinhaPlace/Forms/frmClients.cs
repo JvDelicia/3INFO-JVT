@@ -15,6 +15,7 @@ namespace RenatinhaPlace.Forms
         public frmClients()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void frmClients_Load(object sender, EventArgs e)

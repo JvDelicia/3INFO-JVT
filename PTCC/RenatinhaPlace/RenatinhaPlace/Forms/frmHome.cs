@@ -18,6 +18,7 @@ namespace RenatinhaPlace.Forms
         public frmHome()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void frmHome_Load(object sender, EventArgs e)
@@ -35,28 +36,28 @@ namespace RenatinhaPlace.Forms
 
         private void metroTile1_Click(object sender, EventArgs e)
         {
-            this.Close();
-            frmEvents events = new frmEvents();
-            events.Show();
+            this.Hide();
+            frmEvents eve = new frmEvents();
+            eve.Show();
 
         }
         private void mt2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             frmCashier cashier = new frmCashier();
             cashier.Show();
         }
 
         private void mt3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             frmEmployees employees = new frmEmployees();
             employees.Show();
         }
 
         private void mt4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             frmClients clients = new frmClients();
             clients.Show();
         }

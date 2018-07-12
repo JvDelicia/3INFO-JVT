@@ -15,6 +15,7 @@ namespace RenatinhaPlace.Forms
         public frmCashier()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void frmCashier_Load(object sender, EventArgs e)
