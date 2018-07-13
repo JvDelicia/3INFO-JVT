@@ -519,3 +519,4 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmCashier.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmClients.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEmployees.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucAddEvent.resources

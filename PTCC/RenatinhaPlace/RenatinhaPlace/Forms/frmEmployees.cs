@@ -21,6 +21,31 @@ namespace RenatinhaPlace.Forms
         private void frmEmployees_Load(object sender, EventArgs e)
         {
             this.Text = Strings.Employees;
+            lblTitle.Text = Strings.Employees;
+            lblBack.Text = Strings.Back;
+
+
+        }
+
+        private void pbxBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
+        }
+
+        private void panel1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
+        }
+
+        private void lblBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
         }
     }
 }

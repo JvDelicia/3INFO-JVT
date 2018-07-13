@@ -35,8 +35,11 @@
             this.pbxBack = new System.Windows.Forms.PictureBox();
             this.lblBack = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.pbxBasePass = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
             this.SuspendLayout();
             // 
             // mt1
@@ -55,6 +58,7 @@
             this.mt1.UseSelectable = true;
             this.mt1.UseStyleColors = true;
             this.mt1.UseTileImage = true;
+            this.mt1.Click += new System.EventHandler(this.mt1_Click);
             // 
             // mt2
             // 
@@ -72,6 +76,7 @@
             this.mt2.UseSelectable = true;
             this.mt2.UseStyleColors = true;
             this.mt2.UseTileImage = true;
+            this.mt2.Click += new System.EventHandler(this.mt2_Click);
             // 
             // mt3
             // 
@@ -89,6 +94,7 @@
             this.mt3.UseSelectable = true;
             this.mt3.UseStyleColors = true;
             this.mt3.UseTileImage = true;
+            this.mt3.Click += new System.EventHandler(this.mt3_Click);
             // 
             // pbxBack
             // 
@@ -107,7 +113,7 @@
             this.lblBack.BackColor = System.Drawing.Color.Transparent;
             this.lblBack.Font = new System.Drawing.Font("Rockwell", 15F);
             this.lblBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblBack.Location = new System.Drawing.Point(25, 4);
+            this.lblBack.Location = new System.Drawing.Point(27, 4);
             this.lblBack.Name = "lblBack";
             this.lblBack.Size = new System.Drawing.Size(0, 22);
             this.lblBack.TabIndex = 10;
@@ -118,11 +124,31 @@
             this.panel1.Controls.Add(this.lblBack);
             this.panel1.Controls.Add(this.pbxBack);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel1.Location = new System.Drawing.Point(34, 38);
+            this.panel1.Location = new System.Drawing.Point(34, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(88, 33);
             this.panel1.TabIndex = 11;
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTitle.Location = new System.Drawing.Point(602, 20);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(0, 36);
+            this.lblTitle.TabIndex = 97;
+            // 
+            // pbxBasePass
+            // 
+            this.pbxBasePass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pbxBasePass.Location = new System.Drawing.Point(0, 34);
+            this.pbxBasePass.Name = "pbxBasePass";
+            this.pbxBasePass.Size = new System.Drawing.Size(1382, 12);
+            this.pbxBasePass.TabIndex = 98;
+            this.pbxBasePass.TabStop = false;
             // 
             // frmEvents
             // 
@@ -130,10 +156,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.mt3);
             this.Controls.Add(this.mt2);
             this.Controls.Add(this.mt1);
+            this.Controls.Add(this.pbxBasePass);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmEvents";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -141,7 +169,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -153,5 +183,7 @@
         private System.Windows.Forms.PictureBox pbxBack;
         private System.Windows.Forms.Label lblBack;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblTitle;
+        public System.Windows.Forms.PictureBox pbxBasePass;
     }
 }

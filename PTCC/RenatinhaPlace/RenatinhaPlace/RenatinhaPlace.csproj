@@ -218,6 +218,12 @@
       <DependentUpon>frmSplash.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO\ProdDAO.cs" />
+    <Compile Include="Forms\ucAddEvent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucAddEvent.Designer.cs">
+      <DependentUpon>ucAddEvent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings.Designer.cs">
@@ -245,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucAddEvent.resx">
+      <DependentUpon>ucAddEvent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

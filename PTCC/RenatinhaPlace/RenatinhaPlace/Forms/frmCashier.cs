@@ -21,6 +21,34 @@ namespace RenatinhaPlace.Forms
         private void frmCashier_Load(object sender, EventArgs e)
         {
             this.Text = Strings.Cashier;
+            lblTitle.Text = Strings.Cashier;
+            lblBack.Text = Strings.Back;
+        }
+
+        private void panel1_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void pbxBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
+        }
+
+        private void lblBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
+        }
+
+        private void panel1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
         }
     }
 }

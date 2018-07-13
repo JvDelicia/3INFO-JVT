@@ -37,8 +37,10 @@
             this.lblConnectedUser = new System.Windows.Forms.Label();
             this.pbx1 = new System.Windows.Forms.PictureBox();
             this.pbx2 = new System.Windows.Forms.PictureBox();
+            this.pbxBasePass = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
             this.SuspendLayout();
             // 
             // mt1
@@ -119,7 +121,7 @@
             this.lblWelcome.BackColor = System.Drawing.Color.Transparent;
             this.lblWelcome.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblWelcome.Location = new System.Drawing.Point(478, 56);
+            this.lblWelcome.Location = new System.Drawing.Point(490, 22);
             this.lblWelcome.Name = "lblWelcome";
             this.lblWelcome.Size = new System.Drawing.Size(0, 36);
             this.lblWelcome.TabIndex = 5;
@@ -150,12 +152,21 @@
             // 
             this.pbx2.BackColor = System.Drawing.Color.Transparent;
             this.pbx2.Image = global::RenatinhaPlace.Properties.Resources.Aang_Solutions___White_Logo;
-            this.pbx2.Location = new System.Drawing.Point(435, 47);
+            this.pbx2.Location = new System.Drawing.Point(449, 16);
             this.pbx2.Name = "pbx2";
-            this.pbx2.Size = new System.Drawing.Size(41, 49);
+            this.pbx2.Size = new System.Drawing.Size(41, 45);
             this.pbx2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbx2.TabIndex = 8;
             this.pbx2.TabStop = false;
+            // 
+            // pbxBasePass
+            // 
+            this.pbxBasePass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pbxBasePass.Location = new System.Drawing.Point(0, 34);
+            this.pbxBasePass.Name = "pbxBasePass";
+            this.pbxBasePass.Size = new System.Drawing.Size(1382, 12);
+            this.pbxBasePass.TabIndex = 96;
+            this.pbxBasePass.TabStop = false;
             // 
             // frmHome
             // 
@@ -171,6 +182,7 @@
             this.Controls.Add(this.mt2);
             this.Controls.Add(this.mt3);
             this.Controls.Add(this.mt1);
+            this.Controls.Add(this.pbxBasePass);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -178,6 +190,7 @@
             this.Load += new System.EventHandler(this.frmHome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,5 +206,6 @@
         private System.Windows.Forms.Label lblConnectedUser;
         private System.Windows.Forms.PictureBox pbx1;
         private System.Windows.Forms.PictureBox pbx2;
+        public System.Windows.Forms.PictureBox pbxBasePass;
     }
 }

@@ -25,6 +25,7 @@ namespace RenatinhaPlace.Forms
             mt1.Text = Strings.Add;
             mt2.Text = Strings.Query;
             mt3.Text = Strings.Edit;
+            lblTitle.Text = Strings.Event_Query;
         }
 
         private void panel1_Click(object sender, EventArgs e)
@@ -46,6 +47,22 @@ namespace RenatinhaPlace.Forms
             this.Hide();
             frmHome h = new frmHome();
             h.Show();
+        }
+
+        private void mt1_Click(object sender, EventArgs e)
+        {
+            lblTitle.Text = Strings.Event_Add;
+        }
+
+        private void mt3_Click(object sender, EventArgs e)
+        {
+            lblTitle.Text = Strings.Event_Edit;
+        }
+
+        private void mt2_Click(object sender, EventArgs e)
+        {
+            lblTitle.Text = Strings.Event_Query;
+
         }
     }
 }

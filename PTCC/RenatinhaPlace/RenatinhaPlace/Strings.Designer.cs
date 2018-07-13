@@ -133,6 +133,33 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a New Event.
+        /// </summary>
+        internal static string Event_Add {
+            get {
+                return ResourceManager.GetString("Event_Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Edit Event.
+        /// </summary>
+        internal static string Event_Edit {
+            get {
+                return ResourceManager.GetString("Event_Edit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Event Query.
+        /// </summary>
+        internal static string Event_Query {
+            get {
+                return ResourceManager.GetString("Event_Query", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Events.
         /// </summary>
         internal static string Events {
