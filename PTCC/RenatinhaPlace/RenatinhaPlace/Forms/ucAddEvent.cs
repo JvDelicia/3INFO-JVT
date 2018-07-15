@@ -16,5 +16,10 @@ namespace RenatinhaPlace.Forms
         {
             InitializeComponent();
         }
+
+        private void metroLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

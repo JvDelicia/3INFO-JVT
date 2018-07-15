@@ -37,9 +37,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.pbxBasePass = new System.Windows.Forms.PictureBox();
+            this.pbxChoice = new System.Windows.Forms.PictureBox();
+            this.ucAddEvent1 = new RenatinhaPlace.Forms.ucAddEvent();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxChoice)).BeginInit();
             this.SuspendLayout();
             // 
             // mt1
@@ -150,18 +153,40 @@
             this.pbxBasePass.TabIndex = 98;
             this.pbxBasePass.TabStop = false;
             // 
+            // pbxChoice
+            // 
+            this.pbxChoice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pbxChoice.Location = new System.Drawing.Point(145, 236);
+            this.pbxChoice.Name = "pbxChoice";
+            this.pbxChoice.Size = new System.Drawing.Size(37, 40);
+            this.pbxChoice.TabIndex = 100;
+            this.pbxChoice.TabStop = false;
+            this.pbxChoice.Visible = false;
+            // 
+            // ucAddEvent1
+            // 
+            this.ucAddEvent1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucAddEvent1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ucAddEvent1.Location = new System.Drawing.Point(183, 90);
+            this.ucAddEvent1.Name = "ucAddEvent1";
+            this.ucAddEvent1.Size = new System.Drawing.Size(1142, 571);
+            this.ucAddEvent1.TabIndex = 99;
+            this.ucAddEvent1.Load += new System.EventHandler(this.ucAddEvent1_Load);
+            // 
             // frmEvents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.ucAddEvent1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.mt3);
             this.Controls.Add(this.mt2);
             this.Controls.Add(this.mt1);
             this.Controls.Add(this.pbxBasePass);
+            this.Controls.Add(this.pbxChoice);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmEvents";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -170,6 +195,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxChoice)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,5 +211,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblTitle;
         public System.Windows.Forms.PictureBox pbxBasePass;
+        private ucAddEvent ucAddEvent1;
+        public System.Windows.Forms.PictureBox pbxChoice;
     }
 }

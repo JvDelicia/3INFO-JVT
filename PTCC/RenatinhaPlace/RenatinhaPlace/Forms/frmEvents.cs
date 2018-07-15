@@ -52,6 +52,10 @@ namespace RenatinhaPlace.Forms
         private void mt1_Click(object sender, EventArgs e)
         {
             lblTitle.Text = Strings.Event_Add;
+            pbxChoice.Visible = true;
+            ucAddEvent adev = new ucAddEvent();
+            adev.Visible = true;
+            
         }
 
         private void mt3_Click(object sender, EventArgs e)
@@ -62,6 +66,11 @@ namespace RenatinhaPlace.Forms
         private void mt2_Click(object sender, EventArgs e)
         {
             lblTitle.Text = Strings.Event_Query;
+
+        }
+
+        private void ucAddEvent1_Load(object sender, EventArgs e)
+        {
 
         }
     }
