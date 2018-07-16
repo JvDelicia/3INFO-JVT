@@ -62,21 +62,23 @@
             // 
             // pbxBaseUser
             // 
-            this.pbxBaseUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
+            this.pbxBaseUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
             this.pbxBaseUser.Location = new System.Drawing.Point(52, 183);
             this.pbxBaseUser.Name = "pbxBaseUser";
             this.pbxBaseUser.Size = new System.Drawing.Size(250, 2);
             this.pbxBaseUser.TabIndex = 96;
             this.pbxBaseUser.TabStop = false;
+            this.pbxBaseUser.Click += new System.EventHandler(this.pbxBaseUser_Click);
             // 
             // pbxBasePass
             // 
-            this.pbxBasePass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
+            this.pbxBasePass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
             this.pbxBasePass.Location = new System.Drawing.Point(52, 236);
             this.pbxBasePass.Name = "pbxBasePass";
             this.pbxBasePass.Size = new System.Drawing.Size(250, 2);
             this.pbxBasePass.TabIndex = 95;
             this.pbxBasePass.TabStop = false;
+            this.pbxBasePass.Click += new System.EventHandler(this.pbxBasePass_Click);
             // 
             // pbxPass
             // 
@@ -101,10 +103,10 @@
             // btnLogOut
             // 
             this.btnLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogOut.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
+            this.btnLogOut.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
             this.btnLogOut.FlatAppearance.BorderSize = 3;
-            this.btnLogOut.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
-            this.btnLogOut.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(73)))), ((int)(((byte)(73)))));
+            this.btnLogOut.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnLogOut.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
             this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogOut.Font = new System.Drawing.Font("Berlin Sans FB Demi", 12F);
             this.btnLogOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
@@ -127,6 +129,7 @@
             this.txtPass.Size = new System.Drawing.Size(213, 20);
             this.txtPass.TabIndex = 2;
             this.txtPass.Text = "Password";
+            this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
             this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 

@@ -9,7 +9,8 @@ namespace RenatinhaPlace.Entity {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Desc { get; set; }
-        public DateTime Time { get; set; }
+        public DateTime TimeBegin { get; set; }
+        public DateTime TimeEnd { get; set; }
         public virtual Artist Artist { get; set; }
         public int ArtistId { get; set; }
         public virtual Menu Menu { get; set; }

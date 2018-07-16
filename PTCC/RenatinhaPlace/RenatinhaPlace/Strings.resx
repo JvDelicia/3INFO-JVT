@@ -180,4 +180,46 @@
   <data name="Welcome" xml:space="preserve">
     <value>Welcome To Dragon Night</value>
   </data>
+  <data name="Artist" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="ArtistId" xml:space="preserve">
+    <value>Artist Id</value>
+  </data>
+  <data name="Desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="EventName" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuId" xml:space="preserve">
+    <value>Menu Id</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ClearFields" xml:space="preserve">
+    <value>Clear Fields</value>
+  </data>
+  <data name="ConfRegister" xml:space="preserve">
+    <value>Are you sure you want to Register?</value>
+  </data>
 </root>

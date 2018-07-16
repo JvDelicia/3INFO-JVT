@@ -126,5 +126,20 @@ namespace RenatinhaPlace.Forms
         {
 
         }
+
+        private void pbxBasePass_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbxBaseUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
