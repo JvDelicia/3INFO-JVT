@@ -4,6 +4,83 @@
         <name>Microsoft.Extensions.Configuration</name>
     </assembly>
     <members>
+        <member name="T:Microsoft.Extensions.Configuration.ChainedBuilderExtensions">
+            <summary>
+            IConfigurationBuilder extension methods for the chaind configuration provider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Extensions.Configuration.ChainedBuilderExtensions.AddConfiguration(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds an existing configuration to <paramref name="configurationBuilder"/>.
+            </summary>
+            <param name="configurationBuilder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder"/> to add to.</param>
+            <param name="config">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> to add.</param>
+            <returns>The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder"/>.</returns>
+        </member>
+        <member name="T:Microsoft.Extensions.Configuration.ChainedConfigurationProvider">
+            <summary>
+            Chained implementation of <see cref="T:Microsoft.Extensions.Configuration.IConfigurationProvider"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Extensions.Configuration.ChainedConfigurationProvider.#ctor(Microsoft.Extensions.Configuration.ChainedConfigurationSource)">
+            <summary>
+            Initialize a new instance from the source configuration.
+            </summary>
+            <param name="source">The source configuration.</param>
+        </member>
+        <member name="M:Microsoft.Extensions.Configuration.ChainedConfigurationProvider.TryGet(System.String,System.String@)">
+            <summary>
+            Tries to get a configuration value for the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <returns><c>True</c> if a value for the specified key was found, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Microsoft.Extensions.Configuration.ChainedConfigurationProvider.Set(System.String,System.String)">
+            <summary>
+            Sets a configuration value for the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Microsoft.Extensions.Configuration.ChainedConfigurationProvider.GetReloadToken">
+            <summary>
+            Returns a change token if this provider supports change tracking, null otherwise.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Extensions.Configuration.ChainedConfigurationProvider.Load">
+            <summary>
+            Loads configuration values from the source represented by this <see cref="T:Microsoft.Extensions.Configuration.IConfigurationProvider"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Extensions.Configuration.ChainedConfigurationProvider.GetChildKeys(System.Collections.Generic.IEnumerable{System.String},System.String)">
+            <summary>
+            Returns the immediate descendant configuration keys for a given parent path based on this
+            <see cref="T:Microsoft.Extensions.Configuration.IConfigurationProvider"/>'s data and the set of keys returned by all the preceding
+            <see cref="T:Microsoft.Extensions.Configuration.IConfigurationProvider"/>s.
+            </summary>
+            <param name="earlierKeys">The child keys returned by the preceding providers for the same parent path.</param>
+            <param name="parentPath">The parent path.</param>
+            <returns>The child keys.</returns>
+        </member>
+        <member name="T:Microsoft.Extensions.Configuration.ChainedConfigurationSource">
+            <summary>
+            Represents a chained IConfiguration as an <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSource"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Extensions.Configuration.ChainedConfigurationSource.Configuration">
+            <summary>
+            The chained configuration.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Extensions.Configuration.ChainedConfigurationSource.Build(Microsoft.Extensions.Configuration.IConfigurationBuilder)">
+            <summary>
+            Builds the <see cref="T:Microsoft.Extensions.Configuration.ChainedConfigurationProvider"/> for this source.
+            </summary>
+            <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder"/>.</param>
+            <returns>A <see cref="T:Microsoft.Extensions.Configuration.ChainedConfigurationProvider"/></returns>
+        </member>
         <member name="T:Microsoft.Extensions.Configuration.ConfigurationBuilder">
             <summary>
             Used to build key/value based configuration settings for use in an application.

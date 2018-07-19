@@ -27,7 +27,7 @@ namespace RenatinhaPlace {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
             string stringConnection = ConfigurationManager.ConnectionStrings["dbDragonNightConnectionString"].ConnectionString;
             optionsBuilder.UseSqlServer(stringConnection);
-            base.OnConfiguring(optionsBuilder);
+			base.OnConfiguring(optionsBuilder);
         }
     }
 }

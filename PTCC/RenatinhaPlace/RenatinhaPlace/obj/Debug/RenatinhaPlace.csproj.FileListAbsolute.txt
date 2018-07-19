@@ -1,522 +1,179 @@
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe.config
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.pdb
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojResolveAssemblyReference.cache
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.frmSplash.resources
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Properties.Resources.resources
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.GenerateResource.cache
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CoreCompileInputs.cache
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
-T:\Usuarios\INFORMATICA\3A ETIM\TURMA B\Jv e Thominhaz\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojAssemblyReference.cache
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe.config
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.frmSplash.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Properties.Resources.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Strings.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.GenerateResource.cache
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CoreCompileInputs.cache
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe.config
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.pdb
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Win32.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\netstandard.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.AppContext.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Concurrent.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.NonGeneric.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Specialized.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.TypeConverter.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Console.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Data.Common.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Contracts.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Debug.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Process.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.StackTrace.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Tools.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.TraceSource.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Tracing.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Drawing.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Dynamic.Runtime.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.Calendars.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.Extensions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Compression.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Compression.ZipFile.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.Watcher.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.IsolatedStorage.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.MemoryMappedFiles.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Pipes.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Expressions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Parallel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Queryable.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Http.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.NameResolution.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.NetworkInformation.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Ping.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Requests.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Security.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Sockets.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebHeaderCollection.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebSockets.Client.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebSockets.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ObjectModel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.Extensions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.Reader.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.ResourceManager.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.Writer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Extensions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Handles.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.InteropServices.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Numerics.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Formatters.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Json.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Xml.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Claims.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Algorithms.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Csp.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Encoding.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Principal.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.SecureString.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.Encoding.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.Encoding.Extensions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.RegularExpressions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Overlapped.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Tasks.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Tasks.Parallel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Thread.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.ThreadPool.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Timer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ValueTuple.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.ReaderWriter.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XDocument.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XmlDocument.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XmlSerializer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XPath.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.Design.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServerCompact.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Google.Protobuf.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MaterialSkin.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Immutable.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Data.SqlServerCe.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Interactive.Async.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.Design.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServerCompact.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Google.Protobuf.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Immutable.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Interactive.Async.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CopyComplete
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Design.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmLogin.resources
-<<<<<<< HEAD
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe.config
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.pdb
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Win32.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\netstandard.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.AppContext.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Concurrent.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.NonGeneric.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Specialized.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.TypeConverter.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Console.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Data.Common.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Contracts.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Debug.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Process.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.StackTrace.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Tools.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.TraceSource.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Tracing.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Drawing.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Dynamic.Runtime.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.Calendars.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.Extensions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Compression.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Compression.ZipFile.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.Watcher.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.IsolatedStorage.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.MemoryMappedFiles.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Pipes.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Expressions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Parallel.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Queryable.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Http.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.NameResolution.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.NetworkInformation.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Ping.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Requests.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Security.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Sockets.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebHeaderCollection.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebSockets.Client.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebSockets.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ObjectModel.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.Extensions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.Reader.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.ResourceManager.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.Writer.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Extensions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Handles.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.InteropServices.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Numerics.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Formatters.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Json.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Xml.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Claims.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Algorithms.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Csp.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Encoding.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Principal.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.SecureString.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.Encoding.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.Encoding.Extensions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.RegularExpressions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Overlapped.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Tasks.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Tasks.Parallel.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Thread.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.ThreadPool.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Timer.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ValueTuple.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.ReaderWriter.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XDocument.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XmlDocument.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XmlSerializer.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XPath.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XPath.XDocument.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.Design.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServer.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServerCompact.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Google.Protobuf.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MaterialSkin.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Design.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Fonts.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Immutable.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Data.SqlServerCe.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Interactive.Async.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.Design.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServer.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServerCompact.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Google.Protobuf.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Immutable.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Interactive.Async.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojResolveAssemblyReference.cache
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe.config
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmLogin.resources
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.frmSplash.resources
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Properties.Resources.resources
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Strings.resources
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.GenerateResource.cache
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CoreCompileInputs.cache
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CopyComplete
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
-T:\Usuarios\INFORMATICA\3AETIM\TURMA B\Jv e Zamuel\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
-=======
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JVT\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmHome.resources
->>>>>>> 8565b1754f62fb07f9390e3196afd3ec3aa439dc
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojAssemblyReference.cache
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe.config
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmHome.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmLogin.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.frmSplash.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Properties.Resources.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.GenerateResource.cache
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe.config
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.pdb
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Win32.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\netstandard.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.AppContext.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Concurrent.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.NonGeneric.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Specialized.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.TypeConverter.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Console.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Data.Common.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Contracts.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Debug.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Process.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.StackTrace.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Tools.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.TraceSource.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Tracing.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Drawing.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Dynamic.Runtime.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.Calendars.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.Extensions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Compression.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Compression.ZipFile.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.Watcher.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.IsolatedStorage.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.MemoryMappedFiles.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Pipes.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Expressions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Parallel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Queryable.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Http.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.NameResolution.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.NetworkInformation.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Ping.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Requests.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Security.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Sockets.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebHeaderCollection.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebSockets.Client.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebSockets.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ObjectModel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.Extensions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.Reader.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.ResourceManager.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.Writer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Extensions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Handles.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.InteropServices.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Numerics.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Formatters.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Json.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Xml.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Claims.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Algorithms.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Csp.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Encoding.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Principal.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.SecureString.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.Encoding.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.Encoding.Extensions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.RegularExpressions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Overlapped.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Tasks.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Tasks.Parallel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Thread.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.ThreadPool.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Timer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ValueTuple.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.ReaderWriter.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XDocument.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XmlDocument.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XmlSerializer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XPath.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.Design.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServerCompact.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Google.Protobuf.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MaterialSkin.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Design.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Immutable.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Data.SqlServerCe.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Interactive.Async.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.Design.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServerCompact.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Google.Protobuf.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Immutable.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Interactive.Async.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Strings.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CoreCompileInputs.cache
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CopyComplete
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.Events.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEvents.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmCashier.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmClients.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEmployees.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucAddEvent.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe.config
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.pdb
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\netstandard.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.AppContext.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Specialized.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Console.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Data.Common.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Compression.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.Pipes.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Expressions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Parallel.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Linq.Queryable.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Http.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.NameResolution.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Ping.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Requests.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Security.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.Sockets.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Net.WebSockets.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ObjectModel.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.Reader.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Resources.Writer.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Handles.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Claims.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.Principal.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Security.SecureString.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.Encoding.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Tasks.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Thread.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Threading.Timer.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.ValueTuple.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XDocument.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XPath.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.Design.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Google.Protobuf.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MaterialSkin.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Design.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Immutable.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Interactive.Async.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Relational.Design.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Google.Protobuf.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Collections.Immutable.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Interactive.Async.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojAssemblyReference.cache
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe.config
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmCashier.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmClients.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEmployees.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEvents.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmHome.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmLogin.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.frmSplash.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucAddEvent.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Properties.Resources.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Strings.resources
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.GenerateResource.cache
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CoreCompileInputs.cache
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CopyComplete
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Buffers.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Memory.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Buffers.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Memory.xml
+C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Numerics.Vectors.xml
