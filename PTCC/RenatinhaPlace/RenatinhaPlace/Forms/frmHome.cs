@@ -28,6 +28,8 @@ namespace RenatinhaPlace.Forms
             mt2.Text = Strings.Cashier;
             mt3.Text = Strings.Employees;
             mt4.Text = Strings.Clients;
+            mt5.Text = Strings.Artist;
+            mt6.Text = Strings.Bar;
             lblWelcome.Text = Strings.Welcome;
             Func user = new Func();
             lblConnectedUser.Text = Strings.ConnectedUser + " " +user.Name;
@@ -37,7 +39,7 @@ namespace RenatinhaPlace.Forms
         private void metroTile1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmEvents eve = new frmEvents();
+            frmEvent eve = new frmEvent();
             eve.Show();
 
         }
@@ -51,18 +53,24 @@ namespace RenatinhaPlace.Forms
         private void mt3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmEmployees employees = new frmEmployees();
+            frmEmployee employees = new frmEmployee();
             employees.Show();
         }
 
         private void mt4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmClients clients = new frmClients();
+            frmClient clients = new frmClient();
             clients.Show();
         }
 
-
+        private void frmHome_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (MetroMessageBox.Show(this, Strings.ConfLeave, Strings.QuestLeave, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
  

@@ -106,6 +106,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCashier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmCashier_FormClosing);
             this.Load += new System.EventHandler(this.frmCashier_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

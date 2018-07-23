@@ -185,29 +185,41 @@
     <Compile Include="Entity\People.cs" />
     <Compile Include="Entity\Product.cs" />
     <Compile Include="Entity\Ticket.cs" />
+    <Compile Include="Forms\frmArtist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmArtist.Designer.cs">
+      <DependentUpon>frmArtist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBar.Designer.cs">
+      <DependentUpon>frmBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmCashier.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmCashier.Designer.cs">
       <DependentUpon>frmCashier.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmClients.cs">
+    <Compile Include="Forms\frmClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmClients.Designer.cs">
-      <DependentUpon>frmClients.cs</DependentUpon>
+    <Compile Include="Forms\frmClient.Designer.cs">
+      <DependentUpon>frmClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmEmployees.cs">
+    <Compile Include="Forms\frmEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmEmployees.Designer.cs">
-      <DependentUpon>frmEmployees.cs</DependentUpon>
+    <Compile Include="Forms\frmEmployee.Designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmEvents.cs">
+    <Compile Include="Forms\frmEvent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmEvents.Designer.cs">
-      <DependentUpon>frmEvents.cs</DependentUpon>
+    <Compile Include="Forms\frmEvent.Designer.cs">
+      <DependentUpon>frmEvent.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmHome.cs">
       <SubType>Form</SubType>
@@ -241,17 +253,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\frmArtist.resx">
+      <DependentUpon>frmArtist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBar.resx">
+      <DependentUpon>frmBar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCashier.resx">
       <DependentUpon>frmCashier.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmClients.resx">
-      <DependentUpon>frmClients.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmClient.resx">
+      <DependentUpon>frmClient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmEmployees.resx">
-      <DependentUpon>frmEmployees.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmEvents.resx">
-      <DependentUpon>frmEvents.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmEvent.resx">
+      <DependentUpon>frmEvent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>

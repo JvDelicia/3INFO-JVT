@@ -106,6 +106,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Bar.
+        /// </summary>
+        internal static string Bar {
+            get {
+                return ResourceManager.GetString("Bar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Cashier.
         /// </summary>
         internal static string Cashier {

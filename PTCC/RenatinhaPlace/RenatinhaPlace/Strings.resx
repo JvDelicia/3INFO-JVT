@@ -222,4 +222,7 @@
   <data name="ConfRegister" xml:space="preserve">
     <value>Are you sure you want to Register?</value>
   </data>
+  <data name="Bar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
 </root>

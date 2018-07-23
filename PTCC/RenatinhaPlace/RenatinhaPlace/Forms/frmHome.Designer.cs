@@ -38,6 +38,8 @@
             this.pbx1 = new System.Windows.Forms.PictureBox();
             this.pbx2 = new System.Windows.Forms.PictureBox();
             this.pbxBasePass = new System.Windows.Forms.PictureBox();
+            this.mt5 = new MetroFramework.Controls.MetroTile();
+            this.mt6 = new MetroFramework.Controls.MetroTile();
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -65,11 +67,11 @@
             // 
             this.mt3.ActiveControl = null;
             this.mt3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mt3.Location = new System.Drawing.Point(490, 362);
+            this.mt3.Location = new System.Drawing.Point(543, 362);
             this.mt3.Name = "mt3";
-            this.mt3.Size = new System.Drawing.Size(187, 286);
+            this.mt3.Size = new System.Drawing.Size(134, 286);
             this.mt3.Style = MetroFramework.MetroColorStyle.Red;
-            this.mt3.TabIndex = 1;
+            this.mt3.TabIndex = 2;
             this.mt3.TileImage = global::RenatinhaPlace.Properties.Resources.Employee;
             this.mt3.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mt3.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
@@ -87,7 +89,7 @@
             this.mt2.Name = "mt2";
             this.mt2.Size = new System.Drawing.Size(206, 330);
             this.mt2.Style = MetroFramework.MetroColorStyle.Red;
-            this.mt2.TabIndex = 2;
+            this.mt2.TabIndex = 3;
             this.mt2.TileImage = global::RenatinhaPlace.Properties.Resources.Payment;
             this.mt2.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mt2.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
@@ -105,7 +107,7 @@
             this.mt4.Name = "mt4";
             this.mt4.Size = new System.Drawing.Size(427, 161);
             this.mt4.Style = MetroFramework.MetroColorStyle.Red;
-            this.mt4.TabIndex = 3;
+            this.mt4.TabIndex = 4;
             this.mt4.TileImage = global::RenatinhaPlace.Properties.Resources.Client;
             this.mt4.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mt4.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
@@ -168,12 +170,48 @@
             this.pbxBasePass.TabIndex = 96;
             this.pbxBasePass.TabStop = false;
             // 
+            // mt5
+            // 
+            this.mt5.ActiveControl = null;
+            this.mt5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mt5.Location = new System.Drawing.Point(925, 302);
+            this.mt5.Name = "mt5";
+            this.mt5.Size = new System.Drawing.Size(199, 164);
+            this.mt5.Style = MetroFramework.MetroColorStyle.Red;
+            this.mt5.TabIndex = 5;
+            this.mt5.TileImage = global::RenatinhaPlace.Properties.Resources.Employee;
+            this.mt5.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mt5.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.mt5.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.mt5.UseSelectable = true;
+            this.mt5.UseStyleColors = true;
+            this.mt5.UseTileImage = true;
+            // 
+            // mt6
+            // 
+            this.mt6.ActiveControl = null;
+            this.mt6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mt6.Location = new System.Drawing.Point(268, 362);
+            this.mt6.Name = "mt6";
+            this.mt6.Size = new System.Drawing.Size(254, 196);
+            this.mt6.Style = MetroFramework.MetroColorStyle.Red;
+            this.mt6.TabIndex = 1;
+            this.mt6.TileImage = global::RenatinhaPlace.Properties.Resources.Employee;
+            this.mt6.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mt6.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.mt6.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.mt6.UseSelectable = true;
+            this.mt6.UseStyleColors = true;
+            this.mt6.UseTileImage = true;
+            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.mt6);
+            this.Controls.Add(this.mt5);
             this.Controls.Add(this.pbx2);
             this.Controls.Add(this.pbx1);
             this.Controls.Add(this.lblConnectedUser);
@@ -187,6 +225,7 @@
             this.Name = "frmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmHome_FormClosed);
             this.Load += new System.EventHandler(this.frmHome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
@@ -207,5 +246,7 @@
         private System.Windows.Forms.PictureBox pbx1;
         private System.Windows.Forms.PictureBox pbx2;
         public System.Windows.Forms.PictureBox pbxBasePass;
+        private MetroFramework.Controls.MetroTile mt5;
+        private MetroFramework.Controls.MetroTile mt6;
     }
 }

@@ -299,6 +299,7 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Buffers.dll
@@ -309,7 +310,6 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Memory.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.xml
@@ -329,6 +329,7 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.Primitives.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Remotion.Linq.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Buffers.xml
@@ -338,13 +339,9 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Memory.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\Microsoft.Extensions.OptionsModel.xml
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojAssemblyReference.cache
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe.config
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmCashier.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmClients.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEmployees.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEvents.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmHome.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmLogin.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.frmSplash.resources
@@ -356,3 +353,8 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CopyComplete
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmArtist.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmBar.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmClient.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEmployee.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEvent.resources

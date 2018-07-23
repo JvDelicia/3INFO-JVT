@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MetroFramework;
 
 namespace RenatinhaPlace.Forms
 {
@@ -49,6 +50,14 @@ namespace RenatinhaPlace.Forms
             this.Hide();
             frmHome h = new frmHome();
             h.Show();
+        }
+
+        private void frmCashier_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MetroMessageBox.Show(this, Strings.ConfLeave, Strings.QuestLeave, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }
