@@ -53,9 +53,6 @@ namespace RenatinhaPlace.Forms
         private void mt1_Click(object sender, EventArgs e)
         {
             lblTitle.Text = Strings.Event_Add;
-            mt1.Style = MetroFramework.MetroColorStyle.Silver;
-            mt2.Style = MetroFramework.MetroColorStyle.Red;
-            mt3.Style = MetroFramework.MetroColorStyle.Red;
             ucAddEvent1.Visible = true;
             ucAddEvent1.txtNameEvent.Focus();    
         }
@@ -63,9 +60,6 @@ namespace RenatinhaPlace.Forms
         private void mt3_Click(object sender, EventArgs e)
         {
             lblTitle.Text = Strings.Event_Edit;
-            mt3.Style = MetroFramework.MetroColorStyle.Silver;
-            mt1.Style = MetroFramework.MetroColorStyle.Red;
-            mt3.Style = MetroFramework.MetroColorStyle.Red;
             ucAddEvent1.Visible = false;
 
 
@@ -74,9 +68,6 @@ namespace RenatinhaPlace.Forms
         private void mt2_Click(object sender, EventArgs e)
         {
             lblTitle.Text = Strings.Event_Query;
-            mt2.Style = MetroFramework.MetroColorStyle.Silver;
-            mt1.Style = MetroFramework.MetroColorStyle.Red;
-            mt3.Style = MetroFramework.MetroColorStyle.Red;
             ucAddEvent1.Visible = false;
 
 

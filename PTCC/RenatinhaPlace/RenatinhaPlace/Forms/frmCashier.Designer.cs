@@ -34,6 +34,7 @@
             this.lblBack = new System.Windows.Forms.Label();
             this.pbxBack = new System.Windows.Forms.PictureBox();
             this.pbxBasePass = new System.Windows.Forms.PictureBox();
+            this.ucCashierHome1 = new RenatinhaPlace.Forms.ucCashierHome();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -94,12 +95,21 @@
             this.pbxBasePass.TabIndex = 101;
             this.pbxBasePass.TabStop = false;
             // 
+            // ucCashierHome1
+            // 
+            this.ucCashierHome1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucCashierHome1.Location = new System.Drawing.Point(12, 269);
+            this.ucCashierHome1.Name = "ucCashierHome1";
+            this.ucCashierHome1.Size = new System.Drawing.Size(264, 230);
+            this.ucCashierHome1.TabIndex = 102;
+            // 
             // frmCashier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.ucCashierHome1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbxBasePass);
@@ -124,5 +134,6 @@
         private System.Windows.Forms.Label lblBack;
         private System.Windows.Forms.PictureBox pbxBack;
         public System.Windows.Forms.PictureBox pbxBasePass;
+        private ucCashierHome ucCashierHome1;
     }
 }

@@ -49,7 +49,7 @@
             // 
             this.mt1.ActiveControl = null;
             this.mt1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mt1.Location = new System.Drawing.Point(268, 136);
+            this.mt1.Location = new System.Drawing.Point(248, 136);
             this.mt1.Name = "mt1";
             this.mt1.Size = new System.Drawing.Size(409, 205);
             this.mt1.Style = MetroFramework.MetroColorStyle.Red;
@@ -67,7 +67,7 @@
             // 
             this.mt3.ActiveControl = null;
             this.mt3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mt3.Location = new System.Drawing.Point(543, 362);
+            this.mt3.Location = new System.Drawing.Point(523, 362);
             this.mt3.Name = "mt3";
             this.mt3.Size = new System.Drawing.Size(134, 286);
             this.mt3.Style = MetroFramework.MetroColorStyle.Red;
@@ -85,7 +85,7 @@
             // 
             this.mt2.ActiveControl = null;
             this.mt2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mt2.Location = new System.Drawing.Point(697, 136);
+            this.mt2.Location = new System.Drawing.Point(677, 136);
             this.mt2.Name = "mt2";
             this.mt2.Size = new System.Drawing.Size(206, 330);
             this.mt2.Style = MetroFramework.MetroColorStyle.Red;
@@ -103,7 +103,7 @@
             // 
             this.mt4.ActiveControl = null;
             this.mt4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mt4.Location = new System.Drawing.Point(697, 487);
+            this.mt4.Location = new System.Drawing.Point(677, 487);
             this.mt4.Name = "mt4";
             this.mt4.Size = new System.Drawing.Size(427, 161);
             this.mt4.Style = MetroFramework.MetroColorStyle.Red;
@@ -174,35 +174,37 @@
             // 
             this.mt5.ActiveControl = null;
             this.mt5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mt5.Location = new System.Drawing.Point(925, 302);
+            this.mt5.Location = new System.Drawing.Point(248, 362);
             this.mt5.Name = "mt5";
-            this.mt5.Size = new System.Drawing.Size(199, 164);
+            this.mt5.Size = new System.Drawing.Size(253, 164);
             this.mt5.Style = MetroFramework.MetroColorStyle.Red;
-            this.mt5.TabIndex = 5;
-            this.mt5.TileImage = global::RenatinhaPlace.Properties.Resources.Employee;
+            this.mt5.TabIndex = 1;
+            this.mt5.TileImage = global::RenatinhaPlace.Properties.Resources.singing;
             this.mt5.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mt5.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.mt5.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.mt5.UseSelectable = true;
             this.mt5.UseStyleColors = true;
             this.mt5.UseTileImage = true;
+            this.mt5.Click += new System.EventHandler(this.mt5_Click);
             // 
             // mt6
             // 
             this.mt6.ActiveControl = null;
             this.mt6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mt6.Location = new System.Drawing.Point(268, 362);
+            this.mt6.Location = new System.Drawing.Point(901, 270);
             this.mt6.Name = "mt6";
-            this.mt6.Size = new System.Drawing.Size(254, 196);
+            this.mt6.Size = new System.Drawing.Size(203, 196);
             this.mt6.Style = MetroFramework.MetroColorStyle.Red;
-            this.mt6.TabIndex = 1;
-            this.mt6.TileImage = global::RenatinhaPlace.Properties.Resources.Employee;
+            this.mt6.TabIndex = 5;
+            this.mt6.TileImage = global::RenatinhaPlace.Properties.Resources.beer;
             this.mt6.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mt6.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.mt6.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.mt6.UseSelectable = true;
             this.mt6.UseStyleColors = true;
             this.mt6.UseTileImage = true;
+            this.mt6.Click += new System.EventHandler(this.mt6_Click);
             // 
             // frmHome
             // 

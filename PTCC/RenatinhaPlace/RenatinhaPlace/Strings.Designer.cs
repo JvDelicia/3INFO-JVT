@@ -205,6 +205,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Enter Account.
+        /// </summary>
+        internal static string Enter_Account {
+            get {
+                return ResourceManager.GetString("Enter_Account", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a New Event.
         /// </summary>
         internal static string Event_Add {
@@ -336,6 +345,15 @@ namespace RenatinhaPlace {
         internal static string Rights {
             get {
                 return ResourceManager.GetString("Rights", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Search.
+        /// </summary>
+        internal static string Search {
+            get {
+                return ResourceManager.GetString("Search", resourceCulture);
             }
         }
         

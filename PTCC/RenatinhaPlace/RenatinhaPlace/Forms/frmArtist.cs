@@ -16,12 +16,36 @@ namespace RenatinhaPlace.Forms
         public frmArtist()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+
         }
 
         private void frmArtist_Load(object sender, EventArgs e)
         {
+            this.Text = Strings.Artist;
             lblBack.Text = Strings.Back;
             lblTitle.Text = Strings.Artist;
+        }
+
+        private void pbxBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
+        }
+
+        private void lblBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
+        }
+
+        private void panel1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmHome h = new frmHome();
+            h.Show();
         }
 
         private void frmArtist_FormClosing(object sender, FormClosingEventArgs e)

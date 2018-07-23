@@ -225,4 +225,10 @@
   <data name="Bar" xml:space="preserve">
     <value>Bar</value>
   </data>
+  <data name="Enter_Account" xml:space="preserve">
+    <value>Enter Account</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
 </root>

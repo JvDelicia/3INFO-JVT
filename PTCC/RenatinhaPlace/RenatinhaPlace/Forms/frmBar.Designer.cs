@@ -68,6 +68,7 @@
             this.pbxBack.Size = new System.Drawing.Size(37, 33);
             this.pbxBack.TabIndex = 9;
             this.pbxBack.TabStop = false;
+            this.pbxBack.Click += new System.EventHandler(this.pbxBack_Click);
             // 
             // panel1
             // 
@@ -78,6 +79,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(88, 33);
             this.panel1.TabIndex = 102;
+            this.panel1.Click += new System.EventHandler(this.panel1_Click);
             // 
             // lblBack
             // 
@@ -89,6 +91,7 @@
             this.lblBack.Name = "lblBack";
             this.lblBack.Size = new System.Drawing.Size(0, 22);
             this.lblBack.TabIndex = 10;
+            this.lblBack.Click += new System.EventHandler(this.lblBack_Click);
             // 
             // frmBar
             // 
@@ -99,11 +102,9 @@
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbxBasePass);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmBar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "\\";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmBar_FormClosed);
             this.Load += new System.EventHandler(this.frmBar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).EndInit();

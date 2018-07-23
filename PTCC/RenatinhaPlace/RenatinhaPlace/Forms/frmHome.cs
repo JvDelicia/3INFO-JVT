@@ -71,6 +71,20 @@ namespace RenatinhaPlace.Forms
                 Application.Exit();
             }
         }
+
+        private void mt6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmBar bar = new frmBar();
+            bar.Show();
+        }
+
+        private void mt5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmArtist art = new frmArtist();
+            art.Show();
+        }
     }
 }
  

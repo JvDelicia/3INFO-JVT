@@ -113,6 +113,26 @@ namespace RenatinhaPlace.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap beer {
+            get {
+                object obj = ResourceManager.GetObject("beer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap beer__1_ {
+            get {
+                object obj = ResourceManager.GetObject("beer (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Client {
             get {
                 object obj = ResourceManager.GetObject("Client", resourceCulture);
@@ -256,6 +276,16 @@ namespace RenatinhaPlace.Properties {
         internal static System.Drawing.Bitmap Search {
             get {
                 object obj = ResourceManager.GetObject("Search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap singing {
+            get {
+                object obj = ResourceManager.GetObject("singing", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
