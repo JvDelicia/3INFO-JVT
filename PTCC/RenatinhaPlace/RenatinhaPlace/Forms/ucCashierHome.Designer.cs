@@ -52,6 +52,7 @@
             this.btnSearch.Text = "Search";
             this.btnSearch.UseMnemonic = false;
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // lblEnterAccount
             // 
@@ -86,6 +87,7 @@
             this.txtEnterAccount.TabIndex = 124;
             this.txtEnterAccount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtEnterAccount.WordWrap = false;
+            this.txtEnterAccount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEnterAccount_KeyPress);
             // 
             // ucCashierHome
             // 

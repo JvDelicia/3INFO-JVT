@@ -358,4 +358,4 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEmployee.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.frmEvent.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucCashierHome.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojAssemblyReference.cache
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucAddClient.resources

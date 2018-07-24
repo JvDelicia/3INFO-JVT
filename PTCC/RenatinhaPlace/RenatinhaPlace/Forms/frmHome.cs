@@ -66,10 +66,7 @@ namespace RenatinhaPlace.Forms
 
         private void frmHome_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (MetroMessageBox.Show(this, Strings.ConfLeave, Strings.QuestLeave, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
-            {
                 Application.Exit();
-            }
         }
 
         private void mt6_Click(object sender, EventArgs e)
@@ -84,6 +81,11 @@ namespace RenatinhaPlace.Forms
             this.Hide();
             frmArtist art = new frmArtist();
             art.Show();
+        }
+
+        private void frmHome_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

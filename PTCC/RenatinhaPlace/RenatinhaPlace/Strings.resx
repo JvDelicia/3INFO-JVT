@@ -231,4 +231,37 @@
   <data name="Search" xml:space="preserve">
     <value>Search</value>
   </data>
+  <data name="Birth" xml:space="preserve">
+    <value>Birth</value>
+  </data>
+  <data name="Cpf" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Full_Name" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Rg" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="Client_Add" xml:space="preserve">
+    <value>New Client</value>
+  </data>
+  <data name="Client_Edit" xml:space="preserve">
+    <value>Edit Client</value>
+  </data>
+  <data name="Client_Query" xml:space="preserve">
+    <value>Client Query</value>
+  </data>
 </root>

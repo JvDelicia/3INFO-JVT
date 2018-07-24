@@ -51,10 +51,26 @@ namespace RenatinhaPlace.Forms
 
         private void frmClients_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (MetroMessageBox.Show(this, Strings.ConfLeave, Strings.QuestLeave, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
-            {
                 Application.Exit();
-            }
+        }
+
+        private void mt1_Click(object sender, EventArgs e)
+        {
+            lblTitle.Text = Strings.Client_Add;
+            ucAddClient1.Visible = true;
+            ucAddClient1.txtCpfClient.Focus();
+        }
+
+        private void mt2_Click(object sender, EventArgs e)
+        {
+            lblTitle.Text = Strings.Client_Query;
+            ucAddClient1.Visible = false;
+        }
+
+        private void mt3_Click(object sender, EventArgs e)
+        {
+            lblTitle.Text = Strings.Client_Edit;
+            ucAddClient1.Visible = false;
         }
     }
 }

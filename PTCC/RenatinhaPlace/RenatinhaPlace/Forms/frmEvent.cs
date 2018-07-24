@@ -80,10 +80,8 @@ namespace RenatinhaPlace.Forms
 
         private void frmEvents_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (MetroMessageBox.Show(this, Strings.ConfLeave, Strings.QuestLeave, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+           Application.Exit();
+
         }
     }
 }

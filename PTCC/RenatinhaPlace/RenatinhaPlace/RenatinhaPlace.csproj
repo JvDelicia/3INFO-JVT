@@ -240,6 +240,12 @@
       <DependentUpon>frmSplash.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO\ProdDAO.cs" />
+    <Compile Include="Forms\ucAddClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucAddClient.Designer.cs">
+      <DependentUpon>ucAddClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ucAddEvent.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -285,6 +291,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucAddClient.resx">
+      <DependentUpon>ucAddClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ucAddEvent.resx">
       <DependentUpon>ucAddEvent.cs</DependentUpon>

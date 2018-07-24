@@ -24,6 +24,7 @@ namespace RenatinhaPlace.Forms
             this.Text = Strings.Cashier;
             lblTitle.Text = Strings.Cashier;
             lblBack.Text = Strings.Back;
+            ucCashierHome1.txtEnterAccount.Focus();
         }
 
         private void panel1_MouseClick(object sender, MouseEventArgs e)
@@ -54,10 +55,8 @@ namespace RenatinhaPlace.Forms
 
         private void frmCashier_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MetroMessageBox.Show(this, Strings.ConfLeave, Strings.QuestLeave, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+           Application.Exit();
+
         }
     }
 }

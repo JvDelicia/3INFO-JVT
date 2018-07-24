@@ -115,6 +115,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Birth.
+        /// </summary>
+        internal static string Birth {
+            get {
+                return ResourceManager.GetString("Birth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Cashier.
         /// </summary>
         internal static string Cashier {
@@ -129,6 +138,33 @@ namespace RenatinhaPlace {
         internal static string ClearFields {
             get {
                 return ResourceManager.GetString("ClearFields", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a New Client.
+        /// </summary>
+        internal static string Client_Add {
+            get {
+                return ResourceManager.GetString("Client_Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Edit Client.
+        /// </summary>
+        internal static string Client_Edit {
+            get {
+                return ResourceManager.GetString("Client_Edit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Client Query.
+        /// </summary>
+        internal static string Client_Query {
+            get {
+                return ResourceManager.GetString("Client_Query", resourceCulture);
             }
         }
         
@@ -165,6 +201,15 @@ namespace RenatinhaPlace {
         internal static string ConnectedUser {
             get {
                 return ResourceManager.GetString("ConnectedUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a CPF.
+        /// </summary>
+        internal static string Cpf {
+            get {
+                return ResourceManager.GetString("Cpf", resourceCulture);
             }
         }
         
@@ -259,11 +304,29 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Female.
+        /// </summary>
+        internal static string Female {
+            get {
+                return ResourceManager.GetString("Female", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a From.
         /// </summary>
         internal static string From {
             get {
                 return ResourceManager.GetString("From", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Full Name.
+        /// </summary>
+        internal static string Full_Name {
+            get {
+                return ResourceManager.GetString("Full_Name", resourceCulture);
             }
         }
         
@@ -291,6 +354,15 @@ namespace RenatinhaPlace {
         internal static string LogoutButton {
             get {
                 return ResourceManager.GetString("LogoutButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Male.
+        /// </summary>
+        internal static string Male {
+            get {
+                return ResourceManager.GetString("Male", resourceCulture);
             }
         }
         
@@ -340,6 +412,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a RG.
+        /// </summary>
+        internal static string Rg {
+            get {
+                return ResourceManager.GetString("Rg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Aang Solutions © 2018 ALL RIGHTS RESERVED.
         /// </summary>
         internal static string Rights {
@@ -354,6 +435,24 @@ namespace RenatinhaPlace {
         internal static string Search {
             get {
                 return ResourceManager.GetString("Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Sex.
+        /// </summary>
+        internal static string Sex {
+            get {
+                return ResourceManager.GetString("Sex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Telephone.
+        /// </summary>
+        internal static string Telephone {
+            get {
+                return ResourceManager.GetString("Telephone", resourceCulture);
             }
         }
         

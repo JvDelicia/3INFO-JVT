@@ -131,6 +131,7 @@
             this.txtPass.Text = "Password";
             this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
+            this.txtPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPass_KeyPress);
             this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 
             // txtUser

@@ -58,7 +58,7 @@
             // pbx1
             // 
             this.pbx1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.pbx1.Location = new System.Drawing.Point(148, 62);
+            this.pbx1.Location = new System.Drawing.Point(147, 62);
             this.pbx1.Name = "pbx1";
             this.pbx1.Size = new System.Drawing.Size(360, 2);
             this.pbx1.TabIndex = 98;
@@ -74,7 +74,7 @@
             this.txtNameEvent.MaxLength = 25;
             this.txtNameEvent.Name = "txtNameEvent";
             this.txtNameEvent.Size = new System.Drawing.Size(360, 20);
-            this.txtNameEvent.TabIndex = 1;
+            this.txtNameEvent.TabIndex = 0;
             this.txtNameEvent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtNameEvent.WordWrap = false;
             // 
@@ -104,7 +104,7 @@
             // pbx2
             // 
             this.pbx2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.pbx2.Location = new System.Drawing.Point(148, 183);
+            this.pbx2.Location = new System.Drawing.Point(147, 183);
             this.pbx2.Name = "pbx2";
             this.pbx2.Size = new System.Drawing.Size(600, 2);
             this.pbx2.TabIndex = 102;
@@ -120,7 +120,7 @@
             this.txtDescEvent.MaxLength = 70;
             this.txtDescEvent.Name = "txtDescEvent";
             this.txtDescEvent.Size = new System.Drawing.Size(600, 20);
-            this.txtDescEvent.TabIndex = 2;
+            this.txtDescEvent.TabIndex = 1;
             this.txtDescEvent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDescEvent.WordWrap = false;
             // 
@@ -135,7 +135,7 @@
             this.mdtDateEvent.MinimumSize = new System.Drawing.Size(0, 29);
             this.mdtDateEvent.Name = "mdtDateEvent";
             this.mdtDateEvent.Size = new System.Drawing.Size(252, 29);
-            this.mdtDateEvent.TabIndex = 5;
+            this.mdtDateEvent.TabIndex = 4;
             // 
             // lblDateEvent
             // 
@@ -220,7 +220,7 @@
             this.mcbArtEvent.Location = new System.Drawing.Point(148, 279);
             this.mcbArtEvent.Name = "mcbArtEvent";
             this.mcbArtEvent.Size = new System.Drawing.Size(217, 29);
-            this.mcbArtEvent.TabIndex = 3;
+            this.mcbArtEvent.TabIndex = 2;
             this.mcbArtEvent.UseSelectable = true;
             // 
             // mcbMenuEvent
@@ -232,7 +232,7 @@
             this.mcbMenuEvent.Location = new System.Drawing.Point(148, 406);
             this.mcbMenuEvent.Name = "mcbMenuEvent";
             this.mcbMenuEvent.Size = new System.Drawing.Size(217, 29);
-            this.mcbMenuEvent.TabIndex = 4;
+            this.mcbMenuEvent.TabIndex = 3;
             this.mcbMenuEvent.UseSelectable = true;
             // 
             // lblMenuEvent
@@ -256,7 +256,7 @@
             this.txtTimeEvent1.Mask = "00:00";
             this.txtTimeEvent1.Name = "txtTimeEvent1";
             this.txtTimeEvent1.Size = new System.Drawing.Size(57, 20);
-            this.txtTimeEvent1.TabIndex = 6;
+            this.txtTimeEvent1.TabIndex = 5;
             this.txtTimeEvent1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtTimeEvent1.ValidatingType = typeof(System.DateTime);
             // 
@@ -270,7 +270,7 @@
             this.txtTimeEvent2.Mask = "00:00";
             this.txtTimeEvent2.Name = "txtTimeEvent2";
             this.txtTimeEvent2.Size = new System.Drawing.Size(57, 20);
-            this.txtTimeEvent2.TabIndex = 7;
+            this.txtTimeEvent2.TabIndex = 6;
             this.txtTimeEvent2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtTimeEvent2.ValidatingType = typeof(System.DateTime);
             // 
@@ -287,7 +287,7 @@
             this.btnRegistrer.Location = new System.Drawing.Point(385, 464);
             this.btnRegistrer.Name = "btnRegistrer";
             this.btnRegistrer.Size = new System.Drawing.Size(145, 59);
-            this.btnRegistrer.TabIndex = 123;
+            this.btnRegistrer.TabIndex = 7;
             this.btnRegistrer.Text = "Register";
             this.btnRegistrer.UseMnemonic = false;
             this.btnRegistrer.UseVisualStyleBackColor = true;
@@ -306,7 +306,7 @@
             this.btnClear.Location = new System.Drawing.Point(534, 464);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(145, 59);
-            this.btnClear.TabIndex = 124;
+            this.btnClear.TabIndex = 8;
             this.btnClear.Text = "Clear Fields";
             this.btnClear.UseMnemonic = false;
             this.btnClear.UseVisualStyleBackColor = true;

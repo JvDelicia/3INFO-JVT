@@ -68,26 +68,26 @@ namespace RenatinhaPlace.Forms
         {
             if (MetroMessageBox.Show(this, Strings.ConfRegister, Strings.Register, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
             {
-                RegisterEvent();
+                //EntitiesContext context = new EntitiesContext();
+                //Event eve = new Event()
+                //{
+                //    Name = txtNameEvent.Text,
+                //    Desc = txtDescEvent.Text,
+                //    TimeBegin = txtTimeEvent1.Text,
+                //    TimeEnd = txtTimeEvent2.Text,
+                //    ArtistId = (ARRUMAR),
+                //    MenuId = (ARRUMAR)
+
+                //};
+                //context.Events.Add(eve);
+                //context.SaveChanges();
+                //context.Dispose();
             }
         }
 
         private void RegisterEvent()
         {
-            //EntitiesContext context = new EntitiesContext();
-            //Event eve = new Event()
-            //{
-            //    Name = txtNameEvent.Text,
-            //    Desc = txtDescEvent.Text,
-            //    TimeBegin = txtTimeEvent1.Text,
-            //    TimeEnd = txtTimeEvent2.Text,
-            //    ArtistId = (ARRUMAR),
-            //    MenuId = (ARRUMAR)
 
-            //};
-            //context.Events.Add(eve);
-            //context.SaveChanges();
-            //context.Dispose();
         }
 
     }

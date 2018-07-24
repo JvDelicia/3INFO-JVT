@@ -23,6 +23,19 @@ namespace RenatinhaPlace.Forms
             btnSearch.Text = Strings.Search;
         }
 
+        private void txtEnterAccount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                btnSearch_Click(sender, e);
+            }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
+
         //SIZE TELA TODA: 1321; 655
     }
 }
