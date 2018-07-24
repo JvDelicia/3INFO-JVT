@@ -111,7 +111,6 @@
             this.mt3.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.mt3.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.mt3.UseSelectable = true;
-            this.mt3.UseStyleColors = true;
             this.mt3.UseTileImage = true;
             this.mt3.Click += new System.EventHandler(this.mt3_Click);
             // 
@@ -159,6 +158,7 @@
             this.ucAddClient1.Size = new System.Drawing.Size(1142, 571);
             this.ucAddClient1.TabIndex = 108;
             this.ucAddClient1.Visible = false;
+            this.ucAddClient1.Load += new System.EventHandler(this.ucAddClient1_Load);
             // 
             // frmClient
             // 

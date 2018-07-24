@@ -24,6 +24,9 @@ namespace RenatinhaPlace.Forms
             this.Text = Strings.Clients;
             lblTitle.Text = Strings.Clients;
             lblBack.Text = Strings.Back;
+            mt1.Text = Strings.Add;
+            mt2.Text = Strings.Query;
+            mt3.Text = Strings.Edit;
 
 
         }
@@ -71,6 +74,11 @@ namespace RenatinhaPlace.Forms
         {
             lblTitle.Text = Strings.Client_Edit;
             ucAddClient1.Visible = false;
+        }
+
+        private void ucAddClient1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

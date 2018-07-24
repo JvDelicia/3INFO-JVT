@@ -88,6 +88,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a New Artist.
+        /// </summary>
+        internal static string Artist_Add {
+            get {
+                return ResourceManager.GetString("Artist_Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Artist Id.
         /// </summary>
         internal static string ArtistId {
@@ -133,6 +142,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Cell phone.
+        /// </summary>
+        internal static string Cellphone {
+            get {
+                return ResourceManager.GetString("Cellphone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Clear Fields.
         /// </summary>
         internal static string ClearFields {
@@ -169,6 +187,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Client Successfully Registered.
+        /// </summary>
+        internal static string ClientRegistered {
+            get {
+                return ResourceManager.GetString("ClientRegistered", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Clients.
         /// </summary>
         internal static string Clients {
@@ -183,6 +210,15 @@ namespace RenatinhaPlace {
         internal static string ConfLeave {
             get {
                 return ResourceManager.GetString("ConfLeave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Are you sure you want to Logout?.
+        /// </summary>
+        internal static string ConfLogout {
+            get {
+                return ResourceManager.GetString("ConfLogout", resourceCulture);
             }
         }
         
@@ -349,6 +385,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Logout.
+        /// </summary>
+        internal static string Logout {
+            get {
+                return ResourceManager.GetString("Logout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a LEAVE.
         /// </summary>
         internal static string LogoutButton {
@@ -412,6 +457,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Registered.
+        /// </summary>
+        internal static string Registered {
+            get {
+                return ResourceManager.GetString("Registered", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a RG.
         /// </summary>
         internal static string Rg {
@@ -444,15 +498,6 @@ namespace RenatinhaPlace {
         internal static string Sex {
             get {
                 return ResourceManager.GetString("Sex", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Telephone.
-        /// </summary>
-        internal static string Telephone {
-            get {
-                return ResourceManager.GetString("Telephone", resourceCulture);
             }
         }
         

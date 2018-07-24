@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pbx1 = new System.Windows.Forms.PictureBox();
             this.txtNameEvent = new System.Windows.Forms.TextBox();
             this.lblNameEvent = new System.Windows.Forms.Label();
@@ -49,10 +50,14 @@
             this.txtTimeEvent2 = new System.Windows.Forms.MaskedTextBox();
             this.btnRegistrer = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.dbDragonNightDataSet = new RenatinhaPlace.dbDragonNightDataSet();
+            this.dbDragonNightDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // pbx1
@@ -312,6 +317,16 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // dbDragonNightDataSet
+            // 
+            this.dbDragonNightDataSet.DataSetName = "dbDragonNightDataSet";
+            this.dbDragonNightDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dbDragonNightDataSetBindingSource
+            // 
+            this.dbDragonNightDataSetBindingSource.DataSource = this.dbDragonNightDataSet;
+            this.dbDragonNightDataSetBindingSource.Position = 0;
+            // 
             // ucAddEvent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -346,6 +361,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,5 +391,7 @@
         private System.Windows.Forms.MaskedTextBox txtTimeEvent2;
         public System.Windows.Forms.Button btnRegistrer;
         public System.Windows.Forms.Button btnClear;
+        private dbDragonNightDataSet dbDragonNightDataSet;
+        private System.Windows.Forms.BindingSource dbDragonNightDataSetBindingSource;
     }
 }

@@ -45,8 +45,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtRgClient = new System.Windows.Forms.TextBox();
             this.lblTelClient = new System.Windows.Forms.Label();
-            this.mrbMale = new MetroFramework.Controls.MetroRadioButton();
-            this.mrbFemale = new MetroFramework.Controls.MetroRadioButton();
+            this.rbMale = new System.Windows.Forms.RadioButton();
+            this.rbFemale = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pbx3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
@@ -82,7 +82,7 @@
             this.btnRegistrer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrer.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnRegistrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnRegistrer.Location = new System.Drawing.Point(423, 484);
+            this.btnRegistrer.Location = new System.Drawing.Point(421, 484);
             this.btnRegistrer.Name = "btnRegistrer";
             this.btnRegistrer.Size = new System.Drawing.Size(145, 59);
             this.btnRegistrer.TabIndex = 7;
@@ -243,7 +243,7 @@
             this.txtRgClient.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRgClient.ForeColor = System.Drawing.Color.Silver;
             this.txtRgClient.Location = new System.Drawing.Point(185, 296);
-            this.txtRgClient.MaxLength = 11;
+            this.txtRgClient.MaxLength = 9;
             this.txtRgClient.Name = "txtRgClient";
             this.txtRgClient.Size = new System.Drawing.Size(127, 20);
             this.txtRgClient.TabIndex = 2;
@@ -261,39 +261,37 @@
             this.lblTelClient.TabIndex = 151;
             this.lblTelClient.Text = "Telephone";
             // 
-            // mrbMale
+            // rbMale
             // 
-            this.mrbMale.AutoSize = true;
-            this.mrbMale.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.mrbMale.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold;
-            this.mrbMale.Location = new System.Drawing.Point(709, 429);
-            this.mrbMale.Name = "mrbMale";
-            this.mrbMale.Size = new System.Drawing.Size(58, 19);
-            this.mrbMale.TabIndex = 5;
-            this.mrbMale.Text = "Male";
-            this.mrbMale.UseSelectable = true;
-            this.mrbMale.CheckedChanged += new System.EventHandler(this.mrbMale_CheckedChanged);
+            this.rbMale.AutoSize = true;
+            this.rbMale.Font = new System.Drawing.Font("Rockwell", 12.75F);
+            this.rbMale.ForeColor = System.Drawing.Color.Silver;
+            this.rbMale.Location = new System.Drawing.Point(709, 425);
+            this.rbMale.Name = "rbMale";
+            this.rbMale.Size = new System.Drawing.Size(66, 24);
+            this.rbMale.TabIndex = 152;
+            this.rbMale.TabStop = true;
+            this.rbMale.Text = "Male";
+            this.rbMale.UseVisualStyleBackColor = true;
             // 
-            // mrbFemale
+            // rbFemale
             // 
-            this.mrbFemale.AutoSize = true;
-            this.mrbFemale.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.mrbFemale.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold;
-            this.mrbFemale.Location = new System.Drawing.Point(785, 429);
-            this.mrbFemale.Name = "mrbFemale";
-            this.mrbFemale.Size = new System.Drawing.Size(73, 19);
-            this.mrbFemale.TabIndex = 6;
-            this.mrbFemale.Text = "Female";
-            this.mrbFemale.UseSelectable = true;
-            this.mrbFemale.CheckedChanged += new System.EventHandler(this.mrbFemale_CheckedChanged);
+            this.rbFemale.AutoSize = true;
+            this.rbFemale.Font = new System.Drawing.Font("Rockwell", 12.75F);
+            this.rbFemale.ForeColor = System.Drawing.Color.Silver;
+            this.rbFemale.Location = new System.Drawing.Point(781, 425);
+            this.rbFemale.Name = "rbFemale";
+            this.rbFemale.Size = new System.Drawing.Size(85, 24);
+            this.rbFemale.TabIndex = 153;
+            this.rbFemale.TabStop = true;
+            this.rbFemale.Text = "Female";
+            this.rbFemale.UseVisualStyleBackColor = true;
             // 
             // ucAddClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.Controls.Add(this.mrbFemale);
-            this.Controls.Add(this.mrbMale);
             this.Controls.Add(this.lblTelClient);
             this.Controls.Add(this.lblRgClient);
             this.Controls.Add(this.pictureBox1);
@@ -311,6 +309,8 @@
             this.Controls.Add(this.pbx1);
             this.Controls.Add(this.txtCpfClient);
             this.Controls.Add(this.txtTelClient);
+            this.Controls.Add(this.rbFemale);
+            this.Controls.Add(this.rbMale);
             this.Name = "ucAddClient";
             this.Size = new System.Drawing.Size(1142, 571);
             this.Load += new System.EventHandler(this.ucAddClient_Load);
@@ -342,7 +342,7 @@
         public System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.TextBox txtRgClient;
         private System.Windows.Forms.Label lblTelClient;
-        private MetroFramework.Controls.MetroRadioButton mrbMale;
-        private MetroFramework.Controls.MetroRadioButton mrbFemale;
+        private System.Windows.Forms.RadioButton rbMale;
+        private System.Windows.Forms.RadioButton rbFemale;
     }
 }

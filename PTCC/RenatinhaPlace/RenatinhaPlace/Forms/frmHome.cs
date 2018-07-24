@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using MetroFramework;
 using RenatinhaPlace.Entity;
 
-
 namespace RenatinhaPlace.Forms
 {
     public partial class frmHome: Form
@@ -32,7 +31,8 @@ namespace RenatinhaPlace.Forms
             mt6.Text = Strings.Bar;
             lblWelcome.Text = Strings.Welcome;
             Func user = new Func();
-            lblConnectedUser.Text = Strings.ConnectedUser + " " +user.Name;
+            lblConnectedUser.Text = Strings.ConnectedUser + " " + user.Name;
+
             this.Text = Strings.TitleSplah;
         }
 
@@ -86,6 +86,16 @@ namespace RenatinhaPlace.Forms
         private void frmHome_FormClosing(object sender, FormClosingEventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (MetroMessageBox.Show(this, Strings.ConfLogout, Strings.Logout, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            {
+                this.Hide();
+                frmLogin log = new frmLogin();
+                log.Show();
+            }
         }
     }
 }

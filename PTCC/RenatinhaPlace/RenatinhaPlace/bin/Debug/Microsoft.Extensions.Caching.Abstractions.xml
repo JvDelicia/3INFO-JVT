@@ -4,78 +4,6 @@
         <name>Microsoft.Extensions.Caching.Abstractions</name>
     </assembly>
     <members>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.SetPriority(Microsoft.Extensions.Caching.Memory.ICacheEntry,Microsoft.Extensions.Caching.Memory.CacheItemPriority)">
-            <summary>
-            Sets the priority for keeping the cache entry in the cache during a memory pressure tokened cleanup.
-            </summary>
-            <param name="entry"></param>
-            <param name="priority"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.AddExpirationToken(Microsoft.Extensions.Caching.Memory.ICacheEntry,Microsoft.Extensions.Primitives.IChangeToken)">
-            <summary>
-            Expire the cache entry if the given <see cref="T:Microsoft.Extensions.Primitives.IChangeToken"/> expires.
-            </summary>
-            <param name="entry">The <see cref="T:Microsoft.Extensions.Caching.Memory.ICacheEntry"/>.</param>
-            <param name="expirationToken">The <see cref="T:Microsoft.Extensions.Primitives.IChangeToken"/> that causes the cache entry to expire.</param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.SetAbsoluteExpiration(Microsoft.Extensions.Caching.Memory.ICacheEntry,System.TimeSpan)">
-            <summary>
-            Sets an absolute expiration time, relative to now.
-            </summary>
-            <param name="entry"></param>
-            <param name="relative"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.SetAbsoluteExpiration(Microsoft.Extensions.Caching.Memory.ICacheEntry,System.DateTimeOffset)">
-            <summary>
-            Sets an absolute expiration date for the cache entry.
-            </summary>
-            <param name="entry"></param>
-            <param name="absolute"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.SetSlidingExpiration(Microsoft.Extensions.Caching.Memory.ICacheEntry,System.TimeSpan)">
-            <summary>
-            Sets how long the cache entry can be inactive (e.g. not accessed) before it will be removed.
-            This will not extend the entry lifetime beyond the absolute expiration (if set).
-            </summary>
-            <param name="entry"></param>
-            <param name="offset"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.RegisterPostEvictionCallback(Microsoft.Extensions.Caching.Memory.ICacheEntry,Microsoft.Extensions.Caching.Memory.PostEvictionDelegate)">
-            <summary>
-            The given callback will be fired after the cache entry is evicted from the cache.
-            </summary>
-            <param name="entry"></param>
-            <param name="callback"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.RegisterPostEvictionCallback(Microsoft.Extensions.Caching.Memory.ICacheEntry,Microsoft.Extensions.Caching.Memory.PostEvictionDelegate,System.Object)">
-            <summary>
-            The given callback will be fired after the cache entry is evicted from the cache.
-            </summary>
-            <param name="entry"></param>
-            <param name="callback"></param>
-            <param name="state"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.SetValue(Microsoft.Extensions.Caching.Memory.ICacheEntry,System.Object)">
-            <summary>
-            Sets the value of the cache entry.
-            </summary>
-            <param name="entry"></param>
-            <param name="value"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.SetSize(Microsoft.Extensions.Caching.Memory.ICacheEntry,System.Int64)">
-            <summary>
-            Sets the size of the cache entry value.
-            </summary>
-            <param name="entry"></param>
-            <param name="size"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.CacheEntryExtensions.SetOptions(Microsoft.Extensions.Caching.Memory.ICacheEntry,Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions)">
-            <summary>
-            Applies the values of an existing <see cref="T:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions"/> to the entry.
-            </summary>
-            <param name="entry"></param>
-            <param name="options"></param>
-        </member>
         <member name="T:Microsoft.Extensions.Caching.Memory.CacheItemPriority">
             <summary>
             Specifies how items are prioritized for preservation during a memory pressure triggered cleanup.
@@ -103,65 +31,53 @@
         </member>
         <member name="F:Microsoft.Extensions.Caching.Memory.EvictionReason.Capacity">
             <summary>
-            Overflow
+            GC, overflow
             </summary>
         </member>
-        <member name="T:Microsoft.Extensions.Caching.Memory.ICacheEntry">
+        <member name="T:Microsoft.Extensions.Caching.Memory.IEntryLink">
             <summary>
-            Represents an entry in the <see cref="T:Microsoft.Extensions.Caching.Memory.IMemoryCache"/> implementation.
+            Used to flow expiration information from one entry to another. <see cref="T:Microsoft.Extensions.Primitives.IChangeToken"/> instances and minimum absolute
+            expiration will be copied from the dependent entry to the parent entry. The parent entry will not expire if the
+            dependent entry is removed manually, removed due to memory pressure, or expires due to sliding expiration.
             </summary>
         </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.Key">
+        <member name="P:Microsoft.Extensions.Caching.Memory.IEntryLink.AbsoluteExpiration">
             <summary>
-            Gets the key of the cache entry.
+            Gets the minimum absolute expiration for all dependent entries, or null if not set.
             </summary>
         </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.Value">
+        <member name="P:Microsoft.Extensions.Caching.Memory.IEntryLink.ExpirationTokens">
             <summary>
-            Gets or set the value of the cache entry.
+            Gets all the <see cref="T:Microsoft.Extensions.Primitives.IChangeToken"/> instances from the dependent entries.
             </summary>
         </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.AbsoluteExpiration">
+        <member name="M:Microsoft.Extensions.Caching.Memory.IEntryLink.AddExpirationTokens(System.Collections.Generic.IList{Microsoft.Extensions.Primitives.IChangeToken})">
             <summary>
-            Gets or sets an absolute expiration date for the cache entry.
+            Adds <see cref="T:Microsoft.Extensions.Primitives.IChangeToken"/> instances from a dependent entries.
             </summary>
+            <param name="expirationTokens"><see cref="T:Microsoft.Extensions.Primitives.IChangeToken"/> instances from dependent entries.</param>
         </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.AbsoluteExpirationRelativeToNow">
+        <member name="M:Microsoft.Extensions.Caching.Memory.IEntryLink.SetAbsoluteExpiration(System.DateTimeOffset)">
             <summary>
-            Gets or sets an absolute expiration time, relative to now.
+            Sets the absolute expiration for from a dependent entry. The minimum value across all dependent entries
+            will be used.
             </summary>
+            <param name="absoluteExpiration"></param>
         </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.SlidingExpiration">
+        <member name="M:Microsoft.Extensions.Caching.Memory.IMemoryCache.CreateLinkingScope">
             <summary>
-            Gets or sets how long a cache entry can be inactive (e.g. not accessed) before it will be removed.
-            This will not extend the entry lifetime beyond the absolute expiration (if set).
+            Creates an entry link scope.
             </summary>
+            <returns>The <see cref="T:Microsoft.Extensions.Caching.Memory.IEntryLink"/>.</returns>
         </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.ExpirationTokens">
+        <member name="M:Microsoft.Extensions.Caching.Memory.IMemoryCache.Set(System.Object,System.Object,Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions)">
             <summary>
-            Gets the <see cref="T:Microsoft.Extensions.Primitives.IChangeToken"/> instances which cause the cache entry to expire.
+            Create or overwrite an entry in the cache.
             </summary>
-        </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.PostEvictionCallbacks">
-            <summary>
-            Gets or sets the callbacks will be fired after the cache entry is evicted from the cache.
-            </summary>
-        </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.Priority">
-            <summary>
-            Gets or sets the priority for keeping the cache entry in the cache during a
-             cleanup. The default is <see cref="F:Microsoft.Extensions.Caching.Memory.CacheItemPriority.Normal"/>.
-            </summary>
-        </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.ICacheEntry.Size">
-            <summary>
-            Gets or set the size of the cache entry value.
-            </summary>
-        </member>
-        <member name="T:Microsoft.Extensions.Caching.Memory.IMemoryCache">
-            <summary>
-            Represents a local in-memory cache whose values are not serialized.
-            </summary>
+            <param name="key">An object identifying the entry.</param>
+            <param name="value">The value to be cached.</param>
+            <param name="options">The <see cref="T:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions"/>.</param>
+            <returns>The object that was cached.</returns>
         </member>
         <member name="M:Microsoft.Extensions.Caching.Memory.IMemoryCache.TryGetValue(System.Object,System.Object@)">
             <summary>
@@ -170,13 +86,6 @@
             <param name="key">An object identifying the requested entry.</param>
             <param name="value">The located value or null.</param>
             <returns>True if the key was found.</returns>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.IMemoryCache.CreateEntry(System.Object)">
-            <summary>
-            Create or overwrite an entry in the cache.
-            </summary>
-            <param name="key">An object identifying the entry.</param>
-            <returns>The newly created <see cref="T:Microsoft.Extensions.Caching.Memory.ICacheEntry"/> instance.</returns>
         </member>
         <member name="M:Microsoft.Extensions.Caching.Memory.IMemoryCache.Remove(System.Object)">
             <summary>
@@ -190,13 +99,6 @@
             </summary>
             <param name="options"></param>
             <param name="priority"></param>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryExtensions.SetSize(Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions,System.Int64)">
-            <summary>
-            Sets the size of the cache entry value.
-            </summary>
-            <param name="options"></param>
-            <param name="size"></param>
         </member>
         <member name="M:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryExtensions.AddExpirationToken(Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions,Microsoft.Extensions.Primitives.IChangeToken)">
             <summary>
@@ -233,6 +135,7 @@
             </summary>
             <param name="options"></param>
             <param name="callback"></param>
+            <param name="state"></param>
         </member>
         <member name="M:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryExtensions.RegisterPostEvictionCallback(Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions,Microsoft.Extensions.Caching.Memory.PostEvictionDelegate,System.Object)">
             <summary>
@@ -241,6 +144,12 @@
             <param name="options"></param>
             <param name="callback"></param>
             <param name="state"></param>
+        </member>
+        <member name="M:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryExtensions.AddEntryLink(Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions,Microsoft.Extensions.Caching.Memory.IEntryLink)">
+            <summary>
+            Adds inherited token and absolute expiration information.
+            </summary>
+            <param name="link"></param>
         </member>
         <member name="P:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions.AbsoluteExpiration">
             <summary>
@@ -272,11 +181,6 @@
             <summary>
             Gets or sets the priority for keeping the cache entry in the cache during a
             memory pressure triggered cleanup. The default is <see cref="F:Microsoft.Extensions.Caching.Memory.CacheItemPriority.Normal"/>.
-            </summary>
-        </member>
-        <member name="P:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions.Size">
-            <summary>
-            Gets or sets the size of the cache entry value.
             </summary>
         </member>
         <member name="T:Microsoft.Extensions.Caching.Memory.PostEvictionDelegate">
@@ -338,77 +242,15 @@
             <param name="cache">The cache in which to store the data.</param>
             <param name="key">The key to store the data in.</param>
             <param name="value">The data to store in the cache.</param>
-            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key"/> or <paramref name="value"/> is null.</exception>
         </member>
-        <member name="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Byte[],System.Threading.CancellationToken)">
+        <member name="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Byte[])">
             <summary>
             Asynchronously sets a sequence of bytes in the specified cache with the specified key.
             </summary>
             <param name="cache">The cache in which to store the data.</param>
             <param name="key">The key to store the data in.</param>
             <param name="value">The data to store in the cache.</param>
-            <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
             <returns>A task that represents the asynchronous set operation.</returns>
-            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key"/> or <paramref name="value"/> is null.</exception>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetString(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.String)">
-            <summary>
-            Sets a string in the specified cache with the specified key.
-            </summary>
-            <param name="cache">The cache in which to store the data.</param>
-            <param name="key">The key to store the data in.</param>
-            <param name="value">The data to store in the cache.</param>
-            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key"/> or <paramref name="value"/> is null.</exception>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetString(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.String,Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions)">
-            <summary>
-            Sets a string in the specified cache with the specified key.
-            </summary>
-            <param name="cache">The cache in which to store the data.</param>
-            <param name="key">The key to store the data in.</param>
-            <param name="value">The data to store in the cache.</param>
-            <param name="options">The cache options for the entry.</param>
-            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key"/> or <paramref name="value"/> is null.</exception>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.String,System.Threading.CancellationToken)">
-            <summary>
-            Asynchronously sets a string in the specified cache with the specified key.
-            </summary>
-            <param name="cache">The cache in which to store the data.</param>
-            <param name="key">The key to store the data in.</param>
-            <param name="value">The data to store in the cache.</param>
-            <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-            <returns>A task that represents the asynchronous set operation.</returns>
-            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key"/> or <paramref name="value"/> is null.</exception>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.String,Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions,System.Threading.CancellationToken)">
-            <summary>
-            Asynchronously sets a string in the specified cache with the specified key.
-            </summary>
-            <param name="cache">The cache in which to store the data.</param>
-            <param name="key">The key to store the data in.</param>
-            <param name="value">The data to store in the cache.</param>
-            <param name="options">The cache options for the entry.</param>
-            <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-            <returns>A task that represents the asynchronous set operation.</returns>
-            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key"/> or <paramref name="value"/> is null.</exception>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetString(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String)">
-            <summary>
-            Gets a string from the specified cache with the specified key.
-            </summary>
-            <param name="cache">The cache in which to store the data.</param>
-            <param name="key">The key to get the stored data for.</param>
-            <returns>The string value from the stored cache key.</returns>
-        </member>
-        <member name="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Threading.CancellationToken)">
-            <summary>
-            Asynchronously gets a string from the specified cache with the specified key.
-            </summary>
-            <param name="cache">The cache in which to store the data.</param>
-            <param name="key">The key to get the stored data for.</param>
-            <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-            <returns>A task that gets the string value from the stored cache key.</returns>
         </member>
         <member name="T:Microsoft.Extensions.Internal.ISystemClock">
             <summary>

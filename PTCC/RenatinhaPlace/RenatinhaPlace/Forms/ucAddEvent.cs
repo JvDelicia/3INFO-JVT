@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
+using RenatinhaPlace.DAO;
 using RenatinhaPlace.Entity;
 
 
@@ -59,6 +60,7 @@ namespace RenatinhaPlace.Forms
             txtDescEvent.Clear();
             mcbArtEvent.SelectedItem = "";
             mcbMenuEvent.SelectedItem = "";
+            mdtDateEvent.Text = DateTime.Now.ToString();
             txtTimeEvent1.Clear();
             txtTimeEvent2.Clear();
             txtNameEvent.Focus();
@@ -68,20 +70,19 @@ namespace RenatinhaPlace.Forms
         {
             if (MetroMessageBox.Show(this, Strings.ConfRegister, Strings.Register, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
             {
-                //EntitiesContext context = new EntitiesContext();
-                //Event eve = new Event()
-                //{
-                //    Name = txtNameEvent.Text,
-                //    Desc = txtDescEvent.Text,
-                //    TimeBegin = txtTimeEvent1.Text,
-                //    TimeEnd = txtTimeEvent2.Text,
-                //    ArtistId = (ARRUMAR),
-                //    MenuId = (ARRUMAR)
+                EntitiesContext context = new EntitiesContext();
+                EventDAO edao = new EventDAO();
+                Event even = new Event()
+                {
+                    Name = txtNameEvent.Text,
+                    Desc = txtDescEvent.Text,
+                    TimeBegin = DateTime.Parse(txtTimeEvent1.Text),
+                    TimeEnd = DateTime.Parse(txtTimeEvent2.Text),
+                    //ArtistId = mcbArtEvent.SelectedItem
+                    //MenuId = (ARRUMAR)
 
-                //};
-                //context.Events.Add(eve);
-                //context.SaveChanges();
-                //context.Dispose();
+                };
+                edao.Add(even);
             }
         }
 

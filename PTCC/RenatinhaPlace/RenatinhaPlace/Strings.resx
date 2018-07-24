@@ -252,8 +252,8 @@
   <data name="Sex" xml:space="preserve">
     <value>Sex</value>
   </data>
-  <data name="Telephone" xml:space="preserve">
-    <value>Telephone</value>
+  <data name="Cellphone" xml:space="preserve">
+    <value>Cell phone</value>
   </data>
   <data name="Client_Add" xml:space="preserve">
     <value>New Client</value>
@@ -263,5 +263,20 @@
   </data>
   <data name="Client_Query" xml:space="preserve">
     <value>Client Query</value>
+  </data>
+  <data name="ClientRegistered" xml:space="preserve">
+    <value>Client Successfully Registered</value>
+  </data>
+  <data name="ConfLogout" xml:space="preserve">
+    <value>Are you sure you want to Logout?</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Registered" xml:space="preserve">
+    <value>Registered</value>
+  </data>
+  <data name="Artist_Add" xml:space="preserve">
+    <value>New Artist</value>
   </data>
 </root>
