@@ -14,6 +14,7 @@ namespace RenatinhaPlace.Forms
 {
     public partial class frmHome: Form
     {
+
         public frmHome()
         {
             InitializeComponent();
@@ -32,7 +33,6 @@ namespace RenatinhaPlace.Forms
             lblWelcome.Text = Strings.Welcome;
             Func user = new Func();
             lblConnectedUser.Text = Strings.ConnectedUser + " " + user.Name;
-
             this.Text = Strings.TitleSplah;
         }
 

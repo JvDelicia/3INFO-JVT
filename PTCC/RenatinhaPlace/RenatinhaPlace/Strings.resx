@@ -264,8 +264,8 @@
   <data name="Client_Query" xml:space="preserve">
     <value>Client Query</value>
   </data>
-  <data name="ClientRegistered" xml:space="preserve">
-    <value>Client Successfully Registered</value>
+  <data name="SuccessRegistered" xml:space="preserve">
+    <value>Successfully Registered</value>
   </data>
   <data name="ConfLogout" xml:space="preserve">
     <value>Are you sure you want to Logout?</value>
@@ -278,5 +278,11 @@
   </data>
   <data name="Artist_Add" xml:space="preserve">
     <value>New Artist</value>
+  </data>
+  <data name="Begin" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
   </data>
 </root>

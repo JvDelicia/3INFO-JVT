@@ -62,21 +62,32 @@ namespace RenatinhaPlace.Forms
             lblTitle.Text = Strings.Client_Add;
             ucAddClient1.Visible = true;
             ucAddClient1.txtCpfClient.Focus();
+            ucQueryClient1.Visible = false;
+
         }
 
         private void mt2_Click(object sender, EventArgs e)
         {
             lblTitle.Text = Strings.Client_Query;
             ucAddClient1.Visible = false;
+            ucQueryClient1.Visible = true;
+
         }
 
         private void mt3_Click(object sender, EventArgs e)
         {
             lblTitle.Text = Strings.Client_Edit;
             ucAddClient1.Visible = false;
+            ucQueryClient1.Visible = false;
+
         }
 
         private void ucAddClient1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ucQueryClient1_Load(object sender, EventArgs e)
         {
 
         }

@@ -9,7 +9,7 @@ namespace RenatinhaPlace.Entity {
         public int Id { get; set; }
         public string Cpf { get; set; }
         public string Name { get; set; }
-        public DateTime DueDt { get; set; }
+        public DateTime BirthDt { get; set; }
         public string Rg { get; set; }
         public string Sex { get; set; }
         public string Tel { get; set; }

@@ -9,7 +9,6 @@ namespace RenatinhaPlace.Entity {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Type { get; set; }
-        public virtual ItemMenu ItemMenu { get; set; }
-        public int ItemMenuId { get; set; }
+        public virtual IList<ItemMenu> ItemMenus { get; set; }
     }
 }

@@ -38,6 +38,7 @@
             this.mt2 = new MetroFramework.Controls.MetroTile();
             this.mt1 = new MetroFramework.Controls.MetroTile();
             this.ucAddClient1 = new RenatinhaPlace.Forms.ucAddClient();
+            this.ucQueryClient1 = new RenatinhaPlace.Forms.ucQueryClient();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -160,12 +161,23 @@
             this.ucAddClient1.Visible = false;
             this.ucAddClient1.Load += new System.EventHandler(this.ucAddClient1_Load);
             // 
+            // ucQueryClient1
+            // 
+            this.ucQueryClient1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucQueryClient1.ForeColor = System.Drawing.Color.Black;
+            this.ucQueryClient1.Location = new System.Drawing.Point(169, 114);
+            this.ucQueryClient1.Name = "ucQueryClient1";
+            this.ucQueryClient1.Size = new System.Drawing.Size(1142, 571);
+            this.ucQueryClient1.TabIndex = 109;
+            this.ucQueryClient1.Load += new System.EventHandler(this.ucQueryClient1_Load);
+            // 
             // frmClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.ucQueryClient1);
             this.Controls.Add(this.ucAddClient1);
             this.Controls.Add(this.mt3);
             this.Controls.Add(this.mt2);
@@ -198,5 +210,6 @@
         private MetroFramework.Controls.MetroTile mt2;
         private MetroFramework.Controls.MetroTile mt1;
         private ucAddClient ucAddClient1;
+        private ucQueryClient ucQueryClient1;
     }
 }

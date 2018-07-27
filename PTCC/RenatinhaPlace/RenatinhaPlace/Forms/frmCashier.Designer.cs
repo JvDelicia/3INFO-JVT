@@ -98,9 +98,10 @@
             // ucCashierHome1
             // 
             this.ucCashierHome1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.ucCashierHome1.Location = new System.Drawing.Point(12, 269);
+            this.ucCashierHome1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ucCashierHome1.Location = new System.Drawing.Point(34, 75);
             this.ucCashierHome1.Name = "ucCashierHome1";
-            this.ucCashierHome1.Size = new System.Drawing.Size(264, 230);
+            this.ucCashierHome1.Size = new System.Drawing.Size(264, 620);
             this.ucCashierHome1.TabIndex = 102;
             // 
             // frmCashier

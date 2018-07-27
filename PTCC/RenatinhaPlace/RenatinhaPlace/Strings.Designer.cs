@@ -124,6 +124,15 @@ namespace RenatinhaPlace {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Begin.
+        /// </summary>
+        internal static string Begin {
+            get {
+                return ResourceManager.GetString("Begin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Birth.
         /// </summary>
         internal static string Birth {
@@ -183,15 +192,6 @@ namespace RenatinhaPlace {
         internal static string Client_Query {
             get {
                 return ResourceManager.GetString("Client_Query", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Client Successfully Registered.
-        /// </summary>
-        internal static string ClientRegistered {
-            get {
-                return ResourceManager.GetString("ClientRegistered", resourceCulture);
             }
         }
         
@@ -282,6 +282,15 @@ namespace RenatinhaPlace {
         internal static string Employees {
             get {
                 return ResourceManager.GetString("Employees", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a End.
+        /// </summary>
+        internal static string End {
+            get {
+                return ResourceManager.GetString("End", resourceCulture);
             }
         }
         
@@ -498,6 +507,15 @@ namespace RenatinhaPlace {
         internal static string Sex {
             get {
                 return ResourceManager.GetString("Sex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Successfully Registered.
+        /// </summary>
+        internal static string SuccessRegistered {
+            get {
+                return ResourceManager.GetString("SuccessRegistered", resourceCulture);
             }
         }
         

@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\ClientDAO.cs" />
+    <Compile Include="DAO\FuncDAO.cs" />
     <Compile Include="DAO\EventDAO.cs" />
     <Compile Include="dbDragonNightDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -239,9 +240,15 @@
     <Compile Include="Forms\ucCashierHome.Designer.cs">
       <DependentUpon>ucCashierHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20180724112924_crtAll.cs" />
-    <Compile Include="Migrations\20180724112924_crtAll.designer.cs">
-      <DependentUpon>20180724112924_crtAll.cs</DependentUpon>
+    <Compile Include="Forms\ucQueryClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucQueryClient.Designer.cs">
+      <DependentUpon>ucQueryClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180726110100_crtAll.cs" />
+    <Compile Include="Migrations\20180726110100_crtAll.designer.cs">
+      <DependentUpon>20180726110100_crtAll.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\EntitiesContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />
@@ -286,6 +293,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ucCashierHome.resx">
       <DependentUpon>ucCashierHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucQueryClient.resx">
+      <DependentUpon>ucQueryClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -412,6 +422,7 @@
   <ItemGroup>
     <None Include="Resources\logout %281%29.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

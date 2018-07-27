@@ -132,7 +132,7 @@
             this.mdtBirthClient.Location = new System.Drawing.Point(709, 299);
             this.mdtBirthClient.MinimumSize = new System.Drawing.Size(0, 29);
             this.mdtBirthClient.Name = "mdtBirthClient";
-            this.mdtBirthClient.Size = new System.Drawing.Size(252, 29);
+            this.mdtBirthClient.Size = new System.Drawing.Size(315, 29);
             this.mdtBirthClient.TabIndex = 4;
             // 
             // lblNameClient

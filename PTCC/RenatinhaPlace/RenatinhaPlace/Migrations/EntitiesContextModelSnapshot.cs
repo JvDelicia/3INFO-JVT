@@ -105,8 +105,6 @@ namespace RenatinhaPlace.Migrations
 
                     b.Property<DateTime>("DueDt");
 
-                    b.Property<int?>("ItemMenuId");
-
                     b.Property<string>("Name");
 
                     b.Property<byte[]>("Pic");
@@ -155,6 +153,10 @@ namespace RenatinhaPlace.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<int>("MenuId");
+
+                    b.Property<int>("ProductId");
+
                     b.HasKey("Id");
                 });
 
@@ -162,8 +164,6 @@ namespace RenatinhaPlace.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<int>("ItemMenuId");
 
                     b.Property<string>("Name");
 
@@ -178,8 +178,6 @@ namespace RenatinhaPlace.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Desc");
-
-                    b.Property<int>("ItemMenuId");
 
                     b.Property<string>("Name");
 
@@ -226,10 +224,6 @@ namespace RenatinhaPlace.Migrations
 
             modelBuilder.Entity("RenatinhaPlace.Entity.Func", b =>
                 {
-                    b.HasOne("RenatinhaPlace.Entity.ItemMenu")
-                        .WithMany()
-                        .HasForeignKey("ItemMenuId");
-
                     b.HasOne("RenatinhaPlace.Entity.FuncType")
                         .WithMany()
                         .HasForeignKey("TypeId");
@@ -246,18 +240,15 @@ namespace RenatinhaPlace.Migrations
                         .HasForeignKey("ProductId");
                 });
 
-            modelBuilder.Entity("RenatinhaPlace.Entity.Menu", b =>
+            modelBuilder.Entity("RenatinhaPlace.Entity.ItemMenu", b =>
                 {
-                    b.HasOne("RenatinhaPlace.Entity.ItemMenu")
+                    b.HasOne("RenatinhaPlace.Entity.Menu")
                         .WithMany()
-                        .HasForeignKey("ItemMenuId");
-                });
+                        .HasForeignKey("MenuId");
 
-            modelBuilder.Entity("RenatinhaPlace.Entity.Product", b =>
-                {
-                    b.HasOne("RenatinhaPlace.Entity.ItemMenu")
+                    b.HasOne("RenatinhaPlace.Entity.Product")
                         .WithMany()
-                        .HasForeignKey("ItemMenuId");
+                        .HasForeignKey("ProductId");
                 });
 
             modelBuilder.Entity("RenatinhaPlace.Entity.Ticket", b =>

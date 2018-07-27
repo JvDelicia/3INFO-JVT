@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace RenatinhaPlace.Entity {
     public class ItemAcc {
-        public int Id { get; set; }
-        public int Qnt { get; set; }
+        //CONCATENAR CHAVE
+        public virtual Account Account { get; set; }
+        public int AccountId { get; set; }
         public virtual Product Product { get; set; }
-        public int ProdId { get; set; }
+        public int ProductId { get; set; }
+        public int Qnt { get; set; }
     }
 }

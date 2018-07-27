@@ -18,7 +18,6 @@ namespace RenatinhaPlace.Forms
         public string sexoption;
         public DateTime a;
         public string b;
-        public string c;
 
 
         public ucAddClient()
@@ -60,7 +59,6 @@ namespace RenatinhaPlace.Forms
                 ClientDAO cdao = new ClientDAO();
                 a = DateTime.Parse(mdtBirthClient.Text);
                 b = a.ToString("dd/MM/yyyy");
-                c = b.Substring(0, 10);
                 
                 if (rbMale.Checked)
                 {
@@ -77,13 +75,13 @@ namespace RenatinhaPlace.Forms
                     Cpf = txtCpfClient.Text,
                     Name = txtNameClient.Text,
                     Rg = txtRgClient.Text,
-                    DueDt = DateTime.Parse(c),
+                    BirthDt = DateTime.Parse(b),
                     Tel = txtTelClient.Text,
                     Sex = sexoption
 
                 };
                 cdao.Add(client);
-                MetroMessageBox.Show(this, Strings.ClientRegistered, Strings.Registered, MessageBoxButtons.OK, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                MetroMessageBox.Show(this, Strings.SuccessRegistered, Strings.Registered, MessageBoxButtons.OK, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
             }
         }
 

@@ -16,6 +16,13 @@ namespace RenatinhaPlace.Forms
 {
     public partial class ucAddEvent : UserControl
     {
+        public DateTime aBeg;
+        public string bBeg;
+        public string cBeg;
+        public DateTime aEnd;
+        public string bEnd;
+        public string cEnd;
+
         public ucAddEvent()
         {
             InitializeComponent();
@@ -32,8 +39,8 @@ namespace RenatinhaPlace.Forms
             lblDescEvent.Text = Strings.Desc;
             lblArtEvent.Text = Strings.Artist;
             lblMenuEvent.Text = Strings.Menu;
-            lblDateEvent.Text = Strings.Date;
-            lblTimeEvent.Text = Strings.Time;
+            lblBeginEvent.Text = Strings.Date;
+            lblEndEvent.Text = Strings.Time;
             btnRegistrer.Text = Strings.Register;
             btnClear.Text = Strings.ClearFields;
 
@@ -60,9 +67,10 @@ namespace RenatinhaPlace.Forms
             txtDescEvent.Clear();
             mcbArtEvent.SelectedItem = "";
             mcbMenuEvent.SelectedItem = "";
-            mdtDateEvent.Text = DateTime.Now.ToString();
-            txtTimeEvent1.Clear();
-            txtTimeEvent2.Clear();
+            mdtDateBegin.Text = DateTime.Now.ToString();
+            mdtDateEnd.Text = DateTime.Now.ToString();
+            txtTimeBegin.Clear();
+            txtTimeEnd.Clear();
             txtNameEvent.Focus();
         }
 
@@ -72,24 +80,30 @@ namespace RenatinhaPlace.Forms
             {
                 EntitiesContext context = new EntitiesContext();
                 EventDAO edao = new EventDAO();
+
+                aBeg = DateTime.Parse(mdtDateBegin.Text);
+                bBeg = aBeg.ToString("dd/MM/yyyy");
+                cBeg = bBeg + " " + txtTimeBegin.Text;
+                aEnd = DateTime.Parse(mdtDateEnd.Text);
+                bEnd = aEnd.ToString("dd/MM/yyyy");
+                cEnd = bEnd + " " + txtTimeEnd.Text;
+
                 Event even = new Event()
                 {
                     Name = txtNameEvent.Text,
                     Desc = txtDescEvent.Text,
-                    TimeBegin = DateTime.Parse(txtTimeEvent1.Text),
-                    TimeEnd = DateTime.Parse(txtTimeEvent2.Text),
-                    //ArtistId = mcbArtEvent.SelectedItem
-                    //MenuId = (ARRUMAR)
+                    TimeBegin = DateTime.Parse(cBeg),
+                    TimeEnd = DateTime.Parse(cEnd),
+                    ArtistId = int.Parse(mcbArtEvent.Text),
+                    MenuId = int.Parse(mcbMenuEvent.Text)
 
                 };
                 edao.Add(even);
+                MetroMessageBox.Show(this, Strings.SuccessRegistered, Strings.Registered, MessageBoxButtons.OK, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+
             }
         }
 
-        private void RegisterEvent()
-        {
-
-        }
 
     }
 }

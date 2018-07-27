@@ -35,23 +35,26 @@
             this.lblDescEvent = new System.Windows.Forms.Label();
             this.pbx2 = new System.Windows.Forms.PictureBox();
             this.txtDescEvent = new System.Windows.Forms.TextBox();
-            this.mdtDateEvent = new MetroFramework.Controls.MetroDateTime();
-            this.lblDateEvent = new System.Windows.Forms.Label();
-            this.lblTimeEvent = new System.Windows.Forms.Label();
+            this.mdtDateBegin = new MetroFramework.Controls.MetroDateTime();
+            this.lblBeginEvent = new System.Windows.Forms.Label();
+            this.lblEndEvent = new System.Windows.Forms.Label();
             this.pbx3 = new System.Windows.Forms.PictureBox();
-            this.lblFrom = new System.Windows.Forms.Label();
-            this.lblTo = new System.Windows.Forms.Label();
+            this.lblDateBegin = new System.Windows.Forms.Label();
+            this.lblTimeBegin = new System.Windows.Forms.Label();
             this.pbx4 = new System.Windows.Forms.PictureBox();
             this.lblArtEvent = new System.Windows.Forms.Label();
             this.mcbArtEvent = new MetroFramework.Controls.MetroComboBox();
             this.mcbMenuEvent = new MetroFramework.Controls.MetroComboBox();
             this.lblMenuEvent = new System.Windows.Forms.Label();
-            this.txtTimeEvent1 = new System.Windows.Forms.MaskedTextBox();
-            this.txtTimeEvent2 = new System.Windows.Forms.MaskedTextBox();
+            this.txtTimeBegin = new System.Windows.Forms.MaskedTextBox();
+            this.txtTimeEnd = new System.Windows.Forms.MaskedTextBox();
             this.btnRegistrer = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.dbDragonNightDataSet = new RenatinhaPlace.dbDragonNightDataSet();
             this.dbDragonNightDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.lblTimeEnd = new System.Windows.Forms.Label();
+            this.lblDateEnd = new System.Windows.Forms.Label();
+            this.mdtDateEnd = new MetroFramework.Controls.MetroDateTime();
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx3)).BeginInit();
@@ -129,77 +132,77 @@
             this.txtDescEvent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDescEvent.WordWrap = false;
             // 
-            // mdtDateEvent
+            // mdtDateBegin
             // 
-            this.mdtDateEvent.CalendarForeColor = System.Drawing.Color.Silver;
-            this.mdtDateEvent.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
-            this.mdtDateEvent.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.mdtDateEvent.CalendarTitleForeColor = System.Drawing.Color.Silver;
-            this.mdtDateEvent.CalendarTrailingForeColor = System.Drawing.Color.White;
-            this.mdtDateEvent.Location = new System.Drawing.Point(671, 279);
-            this.mdtDateEvent.MinimumSize = new System.Drawing.Size(0, 29);
-            this.mdtDateEvent.Name = "mdtDateEvent";
-            this.mdtDateEvent.Size = new System.Drawing.Size(252, 29);
-            this.mdtDateEvent.TabIndex = 4;
+            this.mdtDateBegin.CalendarForeColor = System.Drawing.Color.Silver;
+            this.mdtDateBegin.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.mdtDateBegin.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.mdtDateBegin.CalendarTitleForeColor = System.Drawing.Color.Silver;
+            this.mdtDateBegin.CalendarTrailingForeColor = System.Drawing.Color.White;
+            this.mdtDateBegin.Location = new System.Drawing.Point(200, 400);
+            this.mdtDateBegin.MinimumSize = new System.Drawing.Size(0, 29);
+            this.mdtDateBegin.Name = "mdtDateBegin";
+            this.mdtDateBegin.Size = new System.Drawing.Size(307, 29);
+            this.mdtDateBegin.TabIndex = 4;
             // 
-            // lblDateEvent
+            // lblBeginEvent
             // 
-            this.lblDateEvent.AutoSize = true;
-            this.lblDateEvent.Font = new System.Drawing.Font("Rockwell", 14F);
-            this.lblDateEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblDateEvent.Location = new System.Drawing.Point(667, 241);
-            this.lblDateEvent.Name = "lblDateEvent";
-            this.lblDateEvent.Size = new System.Drawing.Size(51, 21);
-            this.lblDateEvent.TabIndex = 108;
-            this.lblDateEvent.Text = "Date";
+            this.lblBeginEvent.AutoSize = true;
+            this.lblBeginEvent.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblBeginEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblBeginEvent.Location = new System.Drawing.Point(144, 364);
+            this.lblBeginEvent.Name = "lblBeginEvent";
+            this.lblBeginEvent.Size = new System.Drawing.Size(61, 21);
+            this.lblBeginEvent.TabIndex = 108;
+            this.lblBeginEvent.Text = "Begin";
             // 
-            // lblTimeEvent
+            // lblEndEvent
             // 
-            this.lblTimeEvent.AutoSize = true;
-            this.lblTimeEvent.Font = new System.Drawing.Font("Rockwell", 14F);
-            this.lblTimeEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblTimeEvent.Location = new System.Drawing.Point(667, 366);
-            this.lblTimeEvent.Name = "lblTimeEvent";
-            this.lblTimeEvent.Size = new System.Drawing.Size(54, 21);
-            this.lblTimeEvent.TabIndex = 109;
-            this.lblTimeEvent.Text = "Time";
+            this.lblEndEvent.AutoSize = true;
+            this.lblEndEvent.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblEndEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblEndEvent.Location = new System.Drawing.Point(667, 366);
+            this.lblEndEvent.Name = "lblEndEvent";
+            this.lblEndEvent.Size = new System.Drawing.Size(45, 21);
+            this.lblEndEvent.TabIndex = 109;
+            this.lblEndEvent.Text = "End";
             // 
             // pbx3
             // 
             this.pbx3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.pbx3.Location = new System.Drawing.Point(735, 425);
+            this.pbx3.Location = new System.Drawing.Point(200, 459);
             this.pbx3.Name = "pbx3";
             this.pbx3.Size = new System.Drawing.Size(57, 2);
             this.pbx3.TabIndex = 111;
             this.pbx3.TabStop = false;
             this.pbx3.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // lblFrom
+            // lblDateBegin
             // 
-            this.lblFrom.AutoSize = true;
-            this.lblFrom.Font = new System.Drawing.Font("Rockwell", 12.75F);
-            this.lblFrom.ForeColor = System.Drawing.Color.Silver;
-            this.lblFrom.Location = new System.Drawing.Point(668, 407);
-            this.lblFrom.Name = "lblFrom";
-            this.lblFrom.Size = new System.Drawing.Size(50, 20);
-            this.lblFrom.TabIndex = 112;
-            this.lblFrom.Text = "From";
+            this.lblDateBegin.AutoSize = true;
+            this.lblDateBegin.Font = new System.Drawing.Font("Rockwell", 12.75F);
+            this.lblDateBegin.ForeColor = System.Drawing.Color.Silver;
+            this.lblDateBegin.Location = new System.Drawing.Point(145, 406);
+            this.lblDateBegin.Name = "lblDateBegin";
+            this.lblDateBegin.Size = new System.Drawing.Size(45, 20);
+            this.lblDateBegin.TabIndex = 112;
+            this.lblDateBegin.Text = "Date";
             // 
-            // lblTo
+            // lblTimeBegin
             // 
-            this.lblTo.AutoSize = true;
-            this.lblTo.Font = new System.Drawing.Font("Rockwell", 12.75F);
-            this.lblTo.ForeColor = System.Drawing.Color.Silver;
-            this.lblTo.Location = new System.Drawing.Point(817, 407);
-            this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(29, 20);
-            this.lblTo.TabIndex = 113;
-            this.lblTo.Text = "To";
+            this.lblTimeBegin.AutoSize = true;
+            this.lblTimeBegin.Font = new System.Drawing.Font("Rockwell", 12.75F);
+            this.lblTimeBegin.ForeColor = System.Drawing.Color.Silver;
+            this.lblTimeBegin.Location = new System.Drawing.Point(145, 441);
+            this.lblTimeBegin.Name = "lblTimeBegin";
+            this.lblTimeBegin.Size = new System.Drawing.Size(49, 20);
+            this.lblTimeBegin.TabIndex = 113;
+            this.lblTimeBegin.Text = "Time";
             // 
             // pbx4
             // 
             this.pbx4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.pbx4.Location = new System.Drawing.Point(866, 424);
+            this.pbx4.Location = new System.Drawing.Point(722, 460);
             this.pbx4.Name = "pbx4";
             this.pbx4.Size = new System.Drawing.Size(57, 2);
             this.pbx4.TabIndex = 115;
@@ -234,7 +237,7 @@
             this.mcbMenuEvent.ForeColor = System.Drawing.Color.Silver;
             this.mcbMenuEvent.FormattingEnabled = true;
             this.mcbMenuEvent.ItemHeight = 23;
-            this.mcbMenuEvent.Location = new System.Drawing.Point(148, 406);
+            this.mcbMenuEvent.Location = new System.Drawing.Point(671, 279);
             this.mcbMenuEvent.Name = "mcbMenuEvent";
             this.mcbMenuEvent.Size = new System.Drawing.Size(217, 29);
             this.mcbMenuEvent.TabIndex = 3;
@@ -245,39 +248,39 @@
             this.lblMenuEvent.AutoSize = true;
             this.lblMenuEvent.Font = new System.Drawing.Font("Rockwell", 14F);
             this.lblMenuEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblMenuEvent.Location = new System.Drawing.Point(144, 366);
+            this.lblMenuEvent.Location = new System.Drawing.Point(667, 239);
             this.lblMenuEvent.Name = "lblMenuEvent";
             this.lblMenuEvent.Size = new System.Drawing.Size(60, 21);
             this.lblMenuEvent.TabIndex = 122;
             this.lblMenuEvent.Text = "Menu";
             // 
-            // txtTimeEvent1
+            // txtTimeBegin
             // 
-            this.txtTimeEvent1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
-            this.txtTimeEvent1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTimeEvent1.Font = new System.Drawing.Font("Rockwell", 12.75F);
-            this.txtTimeEvent1.ForeColor = System.Drawing.Color.Silver;
-            this.txtTimeEvent1.Location = new System.Drawing.Point(734, 406);
-            this.txtTimeEvent1.Mask = "00:00";
-            this.txtTimeEvent1.Name = "txtTimeEvent1";
-            this.txtTimeEvent1.Size = new System.Drawing.Size(57, 20);
-            this.txtTimeEvent1.TabIndex = 5;
-            this.txtTimeEvent1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtTimeEvent1.ValidatingType = typeof(System.DateTime);
+            this.txtTimeBegin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtTimeBegin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTimeBegin.Font = new System.Drawing.Font("Rockwell", 12.75F);
+            this.txtTimeBegin.ForeColor = System.Drawing.Color.Silver;
+            this.txtTimeBegin.Location = new System.Drawing.Point(200, 441);
+            this.txtTimeBegin.Mask = "00:00";
+            this.txtTimeBegin.Name = "txtTimeBegin";
+            this.txtTimeBegin.Size = new System.Drawing.Size(57, 20);
+            this.txtTimeBegin.TabIndex = 5;
+            this.txtTimeBegin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTimeBegin.ValidatingType = typeof(System.DateTime);
             // 
-            // txtTimeEvent2
+            // txtTimeEnd
             // 
-            this.txtTimeEvent2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
-            this.txtTimeEvent2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTimeEvent2.Font = new System.Drawing.Font("Rockwell", 12.75F);
-            this.txtTimeEvent2.ForeColor = System.Drawing.Color.Silver;
-            this.txtTimeEvent2.Location = new System.Drawing.Point(866, 405);
-            this.txtTimeEvent2.Mask = "00:00";
-            this.txtTimeEvent2.Name = "txtTimeEvent2";
-            this.txtTimeEvent2.Size = new System.Drawing.Size(57, 20);
-            this.txtTimeEvent2.TabIndex = 6;
-            this.txtTimeEvent2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtTimeEvent2.ValidatingType = typeof(System.DateTime);
+            this.txtTimeEnd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtTimeEnd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTimeEnd.Font = new System.Drawing.Font("Rockwell", 12.75F);
+            this.txtTimeEnd.ForeColor = System.Drawing.Color.Silver;
+            this.txtTimeEnd.Location = new System.Drawing.Point(722, 441);
+            this.txtTimeEnd.Mask = "00:00";
+            this.txtTimeEnd.Name = "txtTimeEnd";
+            this.txtTimeEnd.Size = new System.Drawing.Size(57, 20);
+            this.txtTimeEnd.TabIndex = 7;
+            this.txtTimeEnd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTimeEnd.ValidatingType = typeof(System.DateTime);
             // 
             // btnRegistrer
             // 
@@ -289,7 +292,7 @@
             this.btnRegistrer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrer.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnRegistrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnRegistrer.Location = new System.Drawing.Point(385, 464);
+            this.btnRegistrer.Location = new System.Drawing.Point(385, 510);
             this.btnRegistrer.Name = "btnRegistrer";
             this.btnRegistrer.Size = new System.Drawing.Size(145, 59);
             this.btnRegistrer.TabIndex = 7;
@@ -308,7 +311,7 @@
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnClear.Location = new System.Drawing.Point(534, 464);
+            this.btnClear.Location = new System.Drawing.Point(534, 510);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(145, 59);
             this.btnClear.TabIndex = 8;
@@ -327,32 +330,70 @@
             this.dbDragonNightDataSetBindingSource.DataSource = this.dbDragonNightDataSet;
             this.dbDragonNightDataSetBindingSource.Position = 0;
             // 
+            // lblTimeEnd
+            // 
+            this.lblTimeEnd.AutoSize = true;
+            this.lblTimeEnd.Font = new System.Drawing.Font("Rockwell", 12.75F);
+            this.lblTimeEnd.ForeColor = System.Drawing.Color.Silver;
+            this.lblTimeEnd.Location = new System.Drawing.Point(667, 441);
+            this.lblTimeEnd.Name = "lblTimeEnd";
+            this.lblTimeEnd.Size = new System.Drawing.Size(49, 20);
+            this.lblTimeEnd.TabIndex = 124;
+            this.lblTimeEnd.Text = "Time";
+            // 
+            // lblDateEnd
+            // 
+            this.lblDateEnd.AutoSize = true;
+            this.lblDateEnd.Font = new System.Drawing.Font("Rockwell", 12.75F);
+            this.lblDateEnd.ForeColor = System.Drawing.Color.Silver;
+            this.lblDateEnd.Location = new System.Drawing.Point(667, 406);
+            this.lblDateEnd.Name = "lblDateEnd";
+            this.lblDateEnd.Size = new System.Drawing.Size(45, 20);
+            this.lblDateEnd.TabIndex = 123;
+            this.lblDateEnd.Text = "Date";
+            // 
+            // mdtDateEnd
+            // 
+            this.mdtDateEnd.CalendarForeColor = System.Drawing.Color.Silver;
+            this.mdtDateEnd.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.mdtDateEnd.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.mdtDateEnd.CalendarTitleForeColor = System.Drawing.Color.Silver;
+            this.mdtDateEnd.CalendarTrailingForeColor = System.Drawing.Color.White;
+            this.mdtDateEnd.Location = new System.Drawing.Point(722, 401);
+            this.mdtDateEnd.MinimumSize = new System.Drawing.Size(0, 29);
+            this.mdtDateEnd.Name = "mdtDateEnd";
+            this.mdtDateEnd.Size = new System.Drawing.Size(307, 29);
+            this.mdtDateEnd.TabIndex = 6;
+            // 
             // ucAddEvent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.Controls.Add(this.mdtDateEnd);
+            this.Controls.Add(this.lblTimeEnd);
+            this.Controls.Add(this.lblDateEnd);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnRegistrer);
-            this.Controls.Add(this.lblMenuEvent);
-            this.Controls.Add(this.mcbMenuEvent);
             this.Controls.Add(this.mcbArtEvent);
             this.Controls.Add(this.lblArtEvent);
             this.Controls.Add(this.pbx4);
-            this.Controls.Add(this.lblTo);
-            this.Controls.Add(this.lblFrom);
+            this.Controls.Add(this.lblTimeBegin);
+            this.Controls.Add(this.lblDateBegin);
             this.Controls.Add(this.pbx3);
-            this.Controls.Add(this.lblTimeEvent);
-            this.Controls.Add(this.lblDateEvent);
-            this.Controls.Add(this.mdtDateEvent);
+            this.Controls.Add(this.lblEndEvent);
+            this.Controls.Add(this.lblBeginEvent);
+            this.Controls.Add(this.mdtDateBegin);
             this.Controls.Add(this.lblDescEvent);
             this.Controls.Add(this.pbx2);
             this.Controls.Add(this.txtDescEvent);
             this.Controls.Add(this.lblNameEvent);
             this.Controls.Add(this.pbx1);
             this.Controls.Add(this.txtNameEvent);
-            this.Controls.Add(this.txtTimeEvent1);
-            this.Controls.Add(this.txtTimeEvent2);
+            this.Controls.Add(this.txtTimeBegin);
+            this.Controls.Add(this.txtTimeEnd);
+            this.Controls.Add(this.lblMenuEvent);
+            this.Controls.Add(this.mcbMenuEvent);
             this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "ucAddEvent";
             this.Size = new System.Drawing.Size(1142, 571);
@@ -376,22 +417,25 @@
         private System.Windows.Forms.Label lblDescEvent;
         public System.Windows.Forms.PictureBox pbx2;
         public System.Windows.Forms.TextBox txtDescEvent;
-        private MetroFramework.Controls.MetroDateTime mdtDateEvent;
-        private System.Windows.Forms.Label lblDateEvent;
-        private System.Windows.Forms.Label lblTimeEvent;
+        private MetroFramework.Controls.MetroDateTime mdtDateBegin;
+        private System.Windows.Forms.Label lblBeginEvent;
+        private System.Windows.Forms.Label lblEndEvent;
         public System.Windows.Forms.PictureBox pbx3;
-        private System.Windows.Forms.Label lblFrom;
-        private System.Windows.Forms.Label lblTo;
+        private System.Windows.Forms.Label lblDateBegin;
+        private System.Windows.Forms.Label lblTimeBegin;
         public System.Windows.Forms.PictureBox pbx4;
         private System.Windows.Forms.Label lblArtEvent;
         private MetroFramework.Controls.MetroComboBox mcbArtEvent;
         private MetroFramework.Controls.MetroComboBox mcbMenuEvent;
         private System.Windows.Forms.Label lblMenuEvent;
-        private System.Windows.Forms.MaskedTextBox txtTimeEvent1;
-        private System.Windows.Forms.MaskedTextBox txtTimeEvent2;
+        private System.Windows.Forms.MaskedTextBox txtTimeBegin;
+        private System.Windows.Forms.MaskedTextBox txtTimeEnd;
         public System.Windows.Forms.Button btnRegistrer;
         public System.Windows.Forms.Button btnClear;
         private dbDragonNightDataSet dbDragonNightDataSet;
         private System.Windows.Forms.BindingSource dbDragonNightDataSetBindingSource;
+        private System.Windows.Forms.Label lblTimeEnd;
+        private System.Windows.Forms.Label lblDateEnd;
+        private MetroFramework.Controls.MetroDateTime mdtDateEnd;
     }
 }

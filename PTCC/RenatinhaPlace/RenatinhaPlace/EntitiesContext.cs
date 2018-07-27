@@ -29,5 +29,12 @@ namespace RenatinhaPlace {
             optionsBuilder.UseSqlServer(stringConnection);
 			base.OnConfiguring(optionsBuilder);
         }
+
+        protected override void OnModelCreate(ModelBuilder mb)
+            
+        {
+            mb.Entity<ItemAcc>().HasKey(IC=> new { IC.AccountId,IC.ProductId});
+            mb.Entity<ItemMenu>().HasKey(IM => new { IM.ProductId, IM.MenuId });
+        }
     }
 }

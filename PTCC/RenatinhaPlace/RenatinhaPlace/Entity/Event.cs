@@ -15,5 +15,7 @@ namespace RenatinhaPlace.Entity {
         public int ArtistId { get; set; }
         public virtual Menu Menu { get; set; }
         public int MenuId { get; set; }
+        public virtual IList<Ticket> Tickets { get; set; }
+
     }
 }

@@ -25,5 +25,12 @@ namespace RenatinhaPlace {
         public void Update() {
             context.SaveChanges();
         }
+
+        public  IList<Client> List()
+        {
+            var busca = from p in context.Clients select p;            
+            return busca.ToList();
+            
+        }
     }
 }

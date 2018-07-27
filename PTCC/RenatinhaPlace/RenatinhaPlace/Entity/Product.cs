@@ -10,7 +10,9 @@ namespace RenatinhaPlace.Entity {
         public string Name { get; set; }
         public string Desc { get; set; }
         public decimal PriceUni { get; set; }
-        public virtual ItemMenu ItemMenu { get; set; }
-        public int ItemMenuId { get; set; }
+        public virtual IList<ItemMenu> ItemMenus { get; set; }
+        public virtual IList<ItemAcc> ItemAccs { get; set; }
+
+
     }
 }
