@@ -146,9 +146,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\ArtistDAO.cs" />
     <Compile Include="DAO\ClientDAO.cs" />
     <Compile Include="DAO\FuncDAO.cs" />
     <Compile Include="DAO\EventDAO.cs" />
+    <Compile Include="DAO\MenuDAO.cs" />
     <Compile Include="dbDragonNightDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -246,9 +248,9 @@
     <Compile Include="Forms\ucQueryClient.Designer.cs">
       <DependentUpon>ucQueryClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20180726110100_crtAll.cs" />
-    <Compile Include="Migrations\20180726110100_crtAll.designer.cs">
-      <DependentUpon>20180726110100_crtAll.cs</DependentUpon>
+    <Compile Include="Migrations\20180727214449_crtAll.cs" />
+    <Compile Include="Migrations\20180727214449_crtAll.designer.cs">
+      <DependentUpon>20180727214449_crtAll.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\EntitiesContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />

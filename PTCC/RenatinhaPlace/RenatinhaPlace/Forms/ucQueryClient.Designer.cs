@@ -29,24 +29,23 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvClients = new System.Windows.Forms.DataGridView();
             this.dbDragonNightDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dbDragonNightDataSet = new RenatinhaPlace.dbDragonNightDataSet();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSet)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvClients
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.DataSource = this.dbDragonNightDataSetBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(60, 39);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1045, 505);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgvClients.AutoGenerateColumns = false;
+            this.dgvClients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvClients.DataSource = this.dbDragonNightDataSetBindingSource;
+            this.dgvClients.Location = new System.Drawing.Point(60, 39);
+            this.dgvClients.Name = "dgvClients";
+            this.dgvClients.Size = new System.Drawing.Size(1045, 505);
+            this.dgvClients.TabIndex = 0;
             // 
             // dbDragonNightDataSetBindingSource
             // 
@@ -63,12 +62,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvClients);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "ucQueryClient";
             this.Size = new System.Drawing.Size(1142, 571);
             this.Load += new System.EventHandler(this.ucQueryClient_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSet)).EndInit();
             this.ResumeLayout(false);
@@ -77,7 +76,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvClients;
         private System.Windows.Forms.BindingSource dbDragonNightDataSetBindingSource;
         private dbDragonNightDataSet dbDragonNightDataSet;
     }

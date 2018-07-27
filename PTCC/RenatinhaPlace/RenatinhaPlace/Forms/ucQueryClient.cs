@@ -20,14 +20,16 @@ namespace RenatinhaPlace.Forms
 
         private void ucQueryClient_Load(object sender, EventArgs e)
         {
-            //ClientDAO cdao = new ClientDAO();
-            //dbDragonNightDataSetBindingSource
-            //dataGridView1.DataSource = cdao.;
+            ClientDAO clients = new ClientDAO();
+            BindingSource bi = new BindingSource();
+            var bindingList = new BindingList<Client>(clients.List());
+            var source = new BindingSource(bindingList, null);
+            bi.DataSource = source;
+            //foreach ( var p in clients.List())
+            //{
+            //    dgvClients. = p.Name
+            //}
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

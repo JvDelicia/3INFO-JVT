@@ -23,6 +23,7 @@ namespace RenatinhaPlace.Forms
         public string bEnd;
         public string cEnd;
 
+
         public ucAddEvent()
         {
             InitializeComponent();
@@ -44,6 +45,18 @@ namespace RenatinhaPlace.Forms
             btnRegistrer.Text = Strings.Register;
             btnClear.Text = Strings.ClearFields;
 
+            ArtistDAO adao = new ArtistDAO();
+            foreach (var a in adao.List())
+            {
+                mcbArtEvent.Items.Add(a.Id + " - " + a.Name);
+            }
+
+            MenuDAO mdao = new MenuDAO();
+            foreach (var m in mdao.List())
+            {
+                mcbMenuEvent.Items.Add(m.Id + " - " + m.Name);
+
+            }
         }
 
         private void lblNameEvent_Click(object sender, EventArgs e)

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
 using RenatinhaPlace.Entity;
+using RenatinhaPlace.DAO;
 
 namespace RenatinhaPlace.Forms
 {
@@ -35,7 +36,6 @@ namespace RenatinhaPlace.Forms
             lblConnectedUser.Text = Strings.ConnectedUser + " " + user.Name;
             this.Text = Strings.TitleSplah;
         }
-
         private void metroTile1_Click(object sender, EventArgs e)
         {
             this.Hide();

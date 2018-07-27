@@ -25,6 +25,8 @@ namespace RenatinhaPlace.Migrations
 
                     b.Property<string>("Status");
 
+                    b.Property<int>("TicketId");
+
                     b.HasKey("Id");
                 });
 
@@ -33,9 +35,9 @@ namespace RenatinhaPlace.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Cpf");
+                    b.Property<DateTime>("BirthDt");
 
-                    b.Property<DateTime>("DueDt");
+                    b.Property<string>("Cpf");
 
                     b.Property<string>("Gen");
 
@@ -59,9 +61,9 @@ namespace RenatinhaPlace.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Cpf");
+                    b.Property<DateTime>("BirthDt");
 
-                    b.Property<DateTime>("DueDt");
+                    b.Property<string>("Cpf");
 
                     b.Property<string>("Name");
 
@@ -101,13 +103,11 @@ namespace RenatinhaPlace.Migrations
 
                     b.Property<string>("Address");
 
+                    b.Property<DateTime>("BirthDt");
+
                     b.Property<string>("Cpf");
 
-                    b.Property<DateTime>("DueDt");
-
                     b.Property<string>("Name");
-
-                    b.Property<byte[]>("Pic");
 
                     b.Property<string>("Rg");
 
@@ -125,7 +125,7 @@ namespace RenatinhaPlace.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<byte[]>("Access");
+                    b.Property<string>("Access");
 
                     b.Property<string>("Name");
 
@@ -134,30 +134,22 @@ namespace RenatinhaPlace.Migrations
 
             modelBuilder.Entity("RenatinhaPlace.Entity.ItemAcc", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("AccountId");
 
-                    b.Property<int?>("AccountId");
-
-                    b.Property<int>("ProdId");
-
-                    b.Property<int?>("ProductId");
+                    b.Property<int>("ProductId");
 
                     b.Property<int>("Qnt");
 
-                    b.HasKey("Id");
+                    b.HasKey("AccountId", "ProductId");
                 });
 
             modelBuilder.Entity("RenatinhaPlace.Entity.ItemMenu", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("ProductId");
 
                     b.Property<int>("MenuId");
 
-                    b.Property<int>("ProductId");
-
-                    b.HasKey("Id");
+                    b.HasKey("ProductId", "MenuId");
                 });
 
             modelBuilder.Entity("RenatinhaPlace.Entity.Menu", b =>
@@ -191,9 +183,7 @@ namespace RenatinhaPlace.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("AccountId");
-
-                    b.Property<string>("Desc");
+                    b.Property<int>("EventId");
 
                     b.Property<string>("Name");
 
@@ -209,6 +199,10 @@ namespace RenatinhaPlace.Migrations
                     b.HasOne("RenatinhaPlace.Entity.Client")
                         .WithMany()
                         .HasForeignKey("ClientId");
+
+                    b.HasOne("RenatinhaPlace.Entity.Ticket")
+                        .WithMany()
+                        .HasForeignKey("TicketId");
                 });
 
             modelBuilder.Entity("RenatinhaPlace.Entity.Event", b =>
@@ -253,9 +247,9 @@ namespace RenatinhaPlace.Migrations
 
             modelBuilder.Entity("RenatinhaPlace.Entity.Ticket", b =>
                 {
-                    b.HasOne("RenatinhaPlace.Entity.Account")
+                    b.HasOne("RenatinhaPlace.Entity.Event")
                         .WithMany()
-                        .HasForeignKey("AccountId");
+                        .HasForeignKey("EventId");
                 });
         }
     }
