@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
+using RenatinhaPlace.Entity;
+using RenatinhaPlace.DAO;
 
 namespace RenatinhaPlace.Forms
 {
@@ -27,6 +29,25 @@ namespace RenatinhaPlace.Forms
             mt1.Text = Strings.Add;
             mt2.Text = Strings.Query;
             mt3.Text = Strings.Edit;
+
+            lblTitle.Text = Strings.Client_Query;
+            ucAddClient1.Visible = false;
+            ClientDAO clients = new ClientDAO();
+            var bindingList = new BindingList<Client>(clients.List());
+            var source = new BindingSource(bindingList, null);
+            ucQueryClient1.dgvClients.DataSource = source;
+            ucQueryClient1.dgvClients.Columns[0].HeaderText = "Client ID";
+            ucQueryClient1.dgvClients.Columns[1].HeaderText = "CPF";
+            ucQueryClient1.dgvClients.Columns[2].HeaderText = "Full Name";
+            ucQueryClient1.dgvClients.Columns[3].HeaderText = "Birth Date";
+            ucQueryClient1.dgvClients.Columns[4].HeaderText = "RG";
+            ucQueryClient1.dgvClients.Columns[5].HeaderText = "Sex";
+            ucQueryClient1.dgvClients.Columns[6].HeaderText = "Cell Phone";
+
+
+
+
+            ucQueryClient1.Visible = true;
 
 
         }
@@ -70,7 +91,12 @@ namespace RenatinhaPlace.Forms
         {
             lblTitle.Text = Strings.Client_Query;
             ucAddClient1.Visible = false;
+            ClientDAO clients = new ClientDAO();
+            var bindingList = new BindingList<Client>(clients.List());
+            var source = new BindingSource(bindingList, null);
+            ucQueryClient1.dgvClients.DataSource = source;
             ucQueryClient1.Visible = true;
+
 
         }
 
