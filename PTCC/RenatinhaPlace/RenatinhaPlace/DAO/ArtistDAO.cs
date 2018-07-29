@@ -38,5 +38,12 @@ namespace RenatinhaPlace.DAO
             return busca.ToList();
 
         }
+
+        public int FindIdByCb(string artistcb)
+        {
+            int posicao = artistcb.IndexOf('-');
+            artistcb = artistcb.Substring(0, posicao);
+            return int.Parse(artistcb);
+        }
     }
 }

@@ -22,7 +22,8 @@ namespace RenatinhaPlace.Forms
         public DateTime aEnd;
         public string bEnd;
         public string cEnd;
-
+        public int idart;
+        public int idmenu;
 
         public ucAddEvent()
         {
@@ -48,13 +49,13 @@ namespace RenatinhaPlace.Forms
             ArtistDAO adao = new ArtistDAO();
             foreach (var a in adao.List())
             {
-                mcbArtEvent.Items.Add(a.Id + " - " + a.Name);
+                mcbArtEvent.Items.Add(a.Id + "-" + a.Name);
             }
 
             MenuDAO mdao = new MenuDAO();
             foreach (var m in mdao.List())
             {
-                mcbMenuEvent.Items.Add(m.Id + " - " + m.Name);
+                mcbMenuEvent.Items.Add(m.Id + "-" + m.Name);
 
             }
         }
@@ -78,8 +79,8 @@ namespace RenatinhaPlace.Forms
         {
             txtNameEvent.Clear();
             txtDescEvent.Clear();
-            mcbArtEvent.SelectedItem = "";
-            mcbMenuEvent.SelectedItem = "";
+            mcbArtEvent.SelectedIndex = -1;
+            mcbMenuEvent.SelectedIndex= -1;
             mdtDateBegin.Text = DateTime.Now.ToString();
             mdtDateEnd.Text = DateTime.Now.ToString();
             txtTimeBegin.Clear();
@@ -91,9 +92,9 @@ namespace RenatinhaPlace.Forms
         {
             if (MetroMessageBox.Show(this, Strings.ConfRegister, Strings.Register, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
             {
+                // Tratamento das Datas
                 EntitiesContext context = new EntitiesContext();
                 EventDAO edao = new EventDAO();
-
                 aBeg = DateTime.Parse(mdtDateBegin.Text);
                 bBeg = aBeg.ToString("dd/MM/yyyy");
                 cBeg = bBeg + " " + txtTimeBegin.Text;
@@ -101,14 +102,22 @@ namespace RenatinhaPlace.Forms
                 bEnd = aEnd.ToString("dd/MM/yyyy");
                 cEnd = bEnd + " " + txtTimeEnd.Text;
 
+                //Tratamento da Combo Box Artista
+                ArtistDAO adao = new ArtistDAO();
+                idart = adao.FindIdByCb(mcbArtEvent.Text);
+
+                //Tratamento da Combo Box Menu
+                MenuDAO mdao = new MenuDAO();
+                idmenu = mdao.FindIdByCb(mcbMenuEvent.Text);
+
                 Event even = new Event()
                 {
                     Name = txtNameEvent.Text,
                     Desc = txtDescEvent.Text,
                     TimeBegin = DateTime.Parse(cBeg),
                     TimeEnd = DateTime.Parse(cEnd),
-                    ArtistId = int.Parse(mcbArtEvent.Text),
-                    MenuId = int.Parse(mcbMenuEvent.Text)
+                    ArtistId = idart,
+                    MenuId = idmenu
 
                 };
                 edao.Add(even);

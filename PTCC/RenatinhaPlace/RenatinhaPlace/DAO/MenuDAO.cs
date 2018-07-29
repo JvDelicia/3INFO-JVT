@@ -37,5 +37,12 @@ namespace RenatinhaPlace.DAO
             return busca.ToList();
 
         }
+
+        public int FindIdByCb(string menucb)
+        {
+            int posicao = menucb.IndexOf('-');
+            menucb = menucb.Substring(0, posicao);
+            return int.Parse(menucb);
+        }
     }
 }

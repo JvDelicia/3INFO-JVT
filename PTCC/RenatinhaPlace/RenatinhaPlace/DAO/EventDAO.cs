@@ -19,9 +19,9 @@ namespace RenatinhaPlace.DAO
             context.SaveChanges();
         }
 
-        /* public Event FindId(int id) {
-             return context.Events.FirstOrDefault(u => u.EventId == id);
-         }/*/
+        public Event FindId(int id) {
+             return context.Events.FirstOrDefault(u => u.Id == id);
+         }
 
         public void Remove(Event even)
         {
