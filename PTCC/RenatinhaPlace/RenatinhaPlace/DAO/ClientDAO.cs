@@ -32,5 +32,25 @@ namespace RenatinhaPlace {
             return busca.ToList();
             
         }
+
+        public IList<Client> Filter(int idcli, string namecli)
+        {
+            var busca = from c in context.Clients select c;
+            if (idcli > 0.0m)
+            {
+               busca = from c in context.Clients
+                            where c.Id == idcli
+                            orderby c.Id
+                            select c;               
+            }
+            if (!String.IsNullOrEmpty(namecli))
+            {
+                busca = from c in context.Clients
+                        where c.Name == namecli
+                        orderby c.Name
+                        select c;
+            }
+            return busca.ToList();
+        }
     }
 }

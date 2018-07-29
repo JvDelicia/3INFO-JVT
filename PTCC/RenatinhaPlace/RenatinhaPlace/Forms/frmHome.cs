@@ -32,8 +32,6 @@ namespace RenatinhaPlace.Forms
             mt5.Text = Strings.Artist;
             mt6.Text = Strings.Bar;
             lblWelcome.Text = Strings.Welcome;
-            Func user = new Func();
-            lblConnectedUser.Text = Strings.ConnectedUser + " " + user.Name;
             this.Text = Strings.TitleSplah;
         }
         private void metroTile1_Click(object sender, EventArgs e)

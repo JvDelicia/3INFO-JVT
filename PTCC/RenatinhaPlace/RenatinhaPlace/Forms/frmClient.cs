@@ -32,8 +32,8 @@ namespace RenatinhaPlace.Forms
 
             lblTitle.Text = Strings.Client_Query;
             ucAddClient1.Visible = false;
-            ClientDAO clients = new ClientDAO();
-            var bindingList = new BindingList<Client>(clients.List());
+            ClientDAO cdao = new ClientDAO();
+            var bindingList = new BindingList<Client>(cdao.List());
             var source = new BindingSource(bindingList, null);
             ucQueryClient1.dgvClients.DataSource = source;
             ucQueryClient1.dgvClients.Columns[0].HeaderText = "Client ID";

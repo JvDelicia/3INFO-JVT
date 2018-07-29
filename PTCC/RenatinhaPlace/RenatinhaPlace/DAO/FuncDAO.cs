@@ -37,5 +37,18 @@ namespace RenatinhaPlace.DAO
             return busca.ToList();
 
         }
+
+
+        //public IList<Func> Login(string user, string pass)
+        //{
+        //    EntitiesContext context = new EntitiesContext();
+        //    var busca = from f in context.Funcs select f;
+        //    if ((!String.IsNullOrEmpty(user)) && (!String.IsNullOrEmpty(pass)))
+        //    {
+        //        busca = busca.Where(p => f.Login == user);
+        //    }
+ 
+        //    return busca.ToList();
+        //}
     }
 }

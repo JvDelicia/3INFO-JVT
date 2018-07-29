@@ -262,12 +262,12 @@
         private MetroFramework.Controls.MetroTile mt2;
         private MetroFramework.Controls.MetroTile mt4;
         private System.Windows.Forms.Label lblWelcome;
-        private System.Windows.Forms.Label lblConnectedUser;
         private System.Windows.Forms.PictureBox pbx1;
         private System.Windows.Forms.PictureBox pbx2;
         public System.Windows.Forms.PictureBox pbxBasePass;
         private MetroFramework.Controls.MetroTile mt5;
         private MetroFramework.Controls.MetroTile mt6;
         private System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.Label lblConnectedUser;
     }
 }

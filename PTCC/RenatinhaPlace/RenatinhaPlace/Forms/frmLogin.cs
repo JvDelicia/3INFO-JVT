@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
+using RenatinhaPlace.Entity;
 
 namespace RenatinhaPlace.Forms
 {
@@ -46,11 +47,22 @@ namespace RenatinhaPlace.Forms
         {
             string usuario = txtUser.Text;
             string senha = txtPass.Text;
-            if (usuario == "adm" && senha == "123")
+            if (usuario == "leleo" && senha == "leleo123")
             {
                 this.Close();
                 frmHome Menu = new frmHome();
                 Menu.Show();
+                Menu.lblConnectedUser.Text = Strings.ConnectedUser + " Leonardo Nogueira";
+
+
+            }
+            else if(usuario == "jailson" && senha == "jailson123")
+            {
+                this.Close();
+                frmHome Menu = new frmHome();
+                Menu.Show();
+                Menu.lblConnectedUser.Text = Strings.ConnectedUser + " Jailson Mendes";
+
 
             }
             else
