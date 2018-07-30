@@ -242,11 +242,41 @@
     <Compile Include="Forms\ucCashierHome.Designer.cs">
       <DependentUpon>ucCashierHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ucEditClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucEditClient.Designer.cs">
+      <DependentUpon>ucEditClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ucEditClient2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucEditClient2.Designer.cs">
+      <DependentUpon>ucEditClient2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ucEditEvent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucEditEvent.Designer.cs">
+      <DependentUpon>ucEditEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ucEditEvent2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucEditEvent2.Designer.cs">
+      <DependentUpon>ucEditEvent2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ucQueryClient.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Forms\ucQueryClient.Designer.cs">
       <DependentUpon>ucQueryClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ucQueryEvent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucQueryEvent.Designer.cs">
+      <DependentUpon>ucQueryEvent.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\20180727214449_crtAll.cs" />
     <Compile Include="Migrations\20180727214449_crtAll.designer.cs">
@@ -296,8 +326,23 @@
     <EmbeddedResource Include="Forms\ucCashierHome.resx">
       <DependentUpon>ucCashierHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucEditClient.resx">
+      <DependentUpon>ucEditClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucEditClient2.resx">
+      <DependentUpon>ucEditClient2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucEditEvent.resx">
+      <DependentUpon>ucEditEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucEditEvent2.resx">
+      <DependentUpon>ucEditEvent2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ucQueryClient.resx">
       <DependentUpon>ucQueryClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucQueryEvent.resx">
+      <DependentUpon>ucQueryEvent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

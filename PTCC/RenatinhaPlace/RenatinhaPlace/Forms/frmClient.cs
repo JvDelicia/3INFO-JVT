@@ -44,8 +44,14 @@ namespace RenatinhaPlace.Forms
             ucQueryClient1.dgvClients.Columns[5].HeaderText = "Sex";
             ucQueryClient1.dgvClients.Columns[6].HeaderText = "Cell Phone";
 
-
-
+            ucEditClient1.dgvClients.DataSource = source;
+            ucEditClient1.dgvClients.Columns[0].HeaderText = "Client ID";
+            ucEditClient1.dgvClients.Columns[1].HeaderText = "CPF";
+            ucEditClient1.dgvClients.Columns[2].HeaderText = "Full Name";
+            ucEditClient1.dgvClients.Columns[3].HeaderText = "Birth Date";
+            ucEditClient1.dgvClients.Columns[4].HeaderText = "RG";
+            ucEditClient1.dgvClients.Columns[5].HeaderText = "Sex";
+            ucEditClient1.dgvClients.Columns[6].HeaderText = "Cell Phone";
 
             ucQueryClient1.Visible = true;
 
@@ -84,6 +90,8 @@ namespace RenatinhaPlace.Forms
             ucAddClient1.Visible = true;
             ucAddClient1.txtCpfClient.Focus();
             ucQueryClient1.Visible = false;
+            ucEditClient1.Visible = false;
+
 
         }
 
@@ -91,11 +99,12 @@ namespace RenatinhaPlace.Forms
         {
             lblTitle.Text = Strings.Client_Query;
             ucAddClient1.Visible = false;
+            ucQueryClient1.Visible = true;
+            ucEditClient1.Visible = false;
             ClientDAO clients = new ClientDAO();
             var bindingList = new BindingList<Client>(clients.List());
             var source = new BindingSource(bindingList, null);
             ucQueryClient1.dgvClients.DataSource = source;
-            ucQueryClient1.Visible = true;
 
 
         }
@@ -105,6 +114,11 @@ namespace RenatinhaPlace.Forms
             lblTitle.Text = Strings.Client_Edit;
             ucAddClient1.Visible = false;
             ucQueryClient1.Visible = false;
+            ucEditClient1.Visible = true;
+            ClientDAO clients = new ClientDAO();
+            var bindingList = new BindingList<Client>(clients.List());
+            var source = new BindingSource(bindingList, null);
+            ucQueryClient1.dgvClients.DataSource = source;
 
         }
 

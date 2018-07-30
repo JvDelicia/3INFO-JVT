@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
+using RenatinhaPlace.DAO;
+using RenatinhaPlace.Entity;
 
 namespace RenatinhaPlace.Forms
 {
@@ -27,6 +29,37 @@ namespace RenatinhaPlace.Forms
             mt2.Text = Strings.Query;
             mt3.Text = Strings.Edit;
             lblTitle.Text = Strings.Event_Query;
+
+            ucQueryEvent1.Visible = true;
+
+            EventDAO edao = new EventDAO();
+            var bindingList = new BindingList<Event>(edao.List());
+            var source = new BindingSource(bindingList, null);
+            ucQueryEvent1.dgvEvents.DataSource = source;
+            ucQueryEvent1.dgvEvents.Columns.Remove("Artist");
+            ucQueryEvent1.dgvEvents.Columns.Remove("Menu");
+            ucQueryEvent1.dgvEvents.Columns.Remove("Tickets");
+            ucQueryEvent1.dgvEvents.Columns[0].HeaderText = "Event ID";
+            ucQueryEvent1.dgvEvents.Columns[1].HeaderText = "Name";
+            ucQueryEvent1.dgvEvents.Columns[2].HeaderText = "Description";
+            ucQueryEvent1.dgvEvents.Columns[3].HeaderText = "Begin";
+            ucQueryEvent1.dgvEvents.Columns[4].HeaderText = "End";
+            ucQueryEvent1.dgvEvents.Columns[5].HeaderText = "Artist ID";
+            ucQueryEvent1.dgvEvents.Columns[6].HeaderText = "Menu ID";
+
+            ucEditEvent1.dgvEvents.DataSource = source;
+            ucEditEvent1.dgvEvents.Columns.Remove("Artist");
+            ucEditEvent1.dgvEvents.Columns.Remove("Menu");
+            ucEditEvent1.dgvEvents.Columns.Remove("Tickets");
+            ucEditEvent1.dgvEvents.Columns[0].HeaderText = "Event ID";
+            ucEditEvent1.dgvEvents.Columns[1].HeaderText = "Name";
+            ucEditEvent1.dgvEvents.Columns[2].HeaderText = "Description";
+            ucEditEvent1.dgvEvents.Columns[3].HeaderText = "Begin";
+            ucEditEvent1.dgvEvents.Columns[4].HeaderText = "End";
+            ucEditEvent1.dgvEvents.Columns[5].HeaderText = "Artist ID";
+            ucEditEvent1.dgvEvents.Columns[6].HeaderText = "Menu ID";
+
+
         }
 
         private void panel1_Click(object sender, EventArgs e)
@@ -54,14 +87,33 @@ namespace RenatinhaPlace.Forms
         {
             lblTitle.Text = Strings.Event_Add;
             ucAddEvent1.Visible = true;
-            ucAddEvent1.txtNameEvent.Focus();    
+            ucQueryEvent1.Visible = false;
+            ucAddEvent1.txtNameEvent.Focus();
+            ucEditEvent1.Visible = false;
+
         }
 
         private void mt3_Click(object sender, EventArgs e)
         {
             lblTitle.Text = Strings.Event_Edit;
             ucAddEvent1.Visible = false;
+            ucQueryEvent1.Visible = false;
+            ucEditEvent1.Visible = true;
 
+            EventDAO edao = new EventDAO();
+            var bindingList = new BindingList<Event>(edao.List());
+            var source = new BindingSource(bindingList, null);
+            ucEditEvent1.dgvEvents.DataSource = source;
+            ucEditEvent1.dgvEvents.Columns.Remove("Artist");
+            ucEditEvent1.dgvEvents.Columns.Remove("Menu");
+            ucEditEvent1.dgvEvents.Columns.Remove("Tickets");
+            ucEditEvent1.dgvEvents.Columns[0].HeaderText = "Event ID";
+            ucEditEvent1.dgvEvents.Columns[1].HeaderText = "Name";
+            ucEditEvent1.dgvEvents.Columns[2].HeaderText = "Description";
+            ucEditEvent1.dgvEvents.Columns[3].HeaderText = "Begin";
+            ucEditEvent1.dgvEvents.Columns[4].HeaderText = "End";
+            ucEditEvent1.dgvEvents.Columns[5].HeaderText = "Artist ID";
+            ucEditEvent1.dgvEvents.Columns[6].HeaderText = "Menu ID";
 
         }
 
@@ -69,14 +121,26 @@ namespace RenatinhaPlace.Forms
         {
             lblTitle.Text = Strings.Event_Query;
             ucAddEvent1.Visible = false;
+            ucQueryEvent1.Visible = true;
+            ucEditEvent1.Visible = false;
 
+            EventDAO edao = new EventDAO();
+            var bindingList = new BindingList<Event>(edao.List());
+            var source = new BindingSource(bindingList, null);
+            ucQueryEvent1.dgvEvents.DataSource = source;
+            ucQueryEvent1.dgvEvents.Columns.Remove("Artist");
+            ucQueryEvent1.dgvEvents.Columns.Remove("Menu");
+            ucQueryEvent1.dgvEvents.Columns.Remove("Tickets");
+            ucQueryEvent1.dgvEvents.Columns[0].HeaderText = "Event ID";
+            ucQueryEvent1.dgvEvents.Columns[1].HeaderText = "Name";
+            ucQueryEvent1.dgvEvents.Columns[2].HeaderText = "Description";
+            ucQueryEvent1.dgvEvents.Columns[3].HeaderText = "Begin";
+            ucQueryEvent1.dgvEvents.Columns[4].HeaderText = "End";
+            ucQueryEvent1.dgvEvents.Columns[5].HeaderText = "Artist ID";
+            ucQueryEvent1.dgvEvents.Columns[6].HeaderText = "Menu ID";
 
         }
 
-        private void ucAddEvent1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void frmEvents_FormClosed(object sender, FormClosedEventArgs e)
         {

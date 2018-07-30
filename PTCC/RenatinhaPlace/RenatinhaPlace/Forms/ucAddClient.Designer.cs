@@ -257,9 +257,9 @@
             this.lblTelClient.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.lblTelClient.Location = new System.Drawing.Point(183, 389);
             this.lblTelClient.Name = "lblTelClient";
-            this.lblTelClient.Size = new System.Drawing.Size(105, 21);
+            this.lblTelClient.Size = new System.Drawing.Size(107, 21);
             this.lblTelClient.TabIndex = 151;
-            this.lblTelClient.Text = "Telephone";
+            this.lblTelClient.Text = "Cell Phone";
             // 
             // rbMale
             // 

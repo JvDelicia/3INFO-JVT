@@ -37,8 +37,10 @@
             this.mt3 = new MetroFramework.Controls.MetroTile();
             this.mt2 = new MetroFramework.Controls.MetroTile();
             this.mt1 = new MetroFramework.Controls.MetroTile();
-            this.ucAddClient1 = new RenatinhaPlace.Forms.ucAddClient();
+            this.ucEditClient1 = new RenatinhaPlace.Forms.ucEditClient();
             this.ucQueryClient1 = new RenatinhaPlace.Forms.ucQueryClient();
+            this.ucAddClient1 = new RenatinhaPlace.Forms.ucAddClient();
+            this.ucEditClient21 = new RenatinhaPlace.Forms.ucEditClient2();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -151,6 +153,25 @@
             this.mt1.UseTileImage = true;
             this.mt1.Click += new System.EventHandler(this.mt1_Click);
             // 
+            // ucEditClient1
+            // 
+            this.ucEditClient1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucEditClient1.Location = new System.Drawing.Point(183, 90);
+            this.ucEditClient1.Name = "ucEditClient1";
+            this.ucEditClient1.Size = new System.Drawing.Size(1142, 571);
+            this.ucEditClient1.TabIndex = 110;
+            this.ucEditClient1.Visible = false;
+            // 
+            // ucQueryClient1
+            // 
+            this.ucQueryClient1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucQueryClient1.ForeColor = System.Drawing.Color.Black;
+            this.ucQueryClient1.Location = new System.Drawing.Point(183, 90);
+            this.ucQueryClient1.Name = "ucQueryClient1";
+            this.ucQueryClient1.Size = new System.Drawing.Size(1142, 571);
+            this.ucQueryClient1.TabIndex = 109;
+            this.ucQueryClient1.Load += new System.EventHandler(this.ucQueryClient1_Load);
+            // 
             // ucAddClient1
             // 
             this.ucAddClient1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
@@ -161,15 +182,14 @@
             this.ucAddClient1.Visible = false;
             this.ucAddClient1.Load += new System.EventHandler(this.ucAddClient1_Load);
             // 
-            // ucQueryClient1
+            // ucEditClient21
             // 
-            this.ucQueryClient1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.ucQueryClient1.ForeColor = System.Drawing.Color.Black;
-            this.ucQueryClient1.Location = new System.Drawing.Point(169, 114);
-            this.ucQueryClient1.Name = "ucQueryClient1";
-            this.ucQueryClient1.Size = new System.Drawing.Size(1142, 571);
-            this.ucQueryClient1.TabIndex = 109;
-            this.ucQueryClient1.Load += new System.EventHandler(this.ucQueryClient1_Load);
+            this.ucEditClient21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucEditClient21.Location = new System.Drawing.Point(183, 90);
+            this.ucEditClient21.Name = "ucEditClient21";
+            this.ucEditClient21.Size = new System.Drawing.Size(1142, 571);
+            this.ucEditClient21.TabIndex = 111;
+            this.ucEditClient21.Visible = false;
             // 
             // frmClient
             // 
@@ -177,6 +197,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.ucEditClient21);
+            this.Controls.Add(this.ucEditClient1);
             this.Controls.Add(this.ucQueryClient1);
             this.Controls.Add(this.ucAddClient1);
             this.Controls.Add(this.mt3);
@@ -211,5 +233,7 @@
         private MetroFramework.Controls.MetroTile mt1;
         private ucAddClient ucAddClient1;
         private ucQueryClient ucQueryClient1;
+        public ucEditClient ucEditClient1;
+        public ucEditClient2 ucEditClient21;
     }
 }

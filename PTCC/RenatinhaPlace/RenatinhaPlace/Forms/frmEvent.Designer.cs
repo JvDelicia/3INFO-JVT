@@ -38,6 +38,8 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.pbxBasePass = new System.Windows.Forms.PictureBox();
             this.ucAddEvent1 = new RenatinhaPlace.Forms.ucAddEvent();
+            this.ucQueryEvent1 = new RenatinhaPlace.Forms.ucQueryEvent();
+            this.ucEditEvent1 = new RenatinhaPlace.Forms.ucEditEvent();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -160,7 +162,24 @@
             this.ucAddEvent1.Size = new System.Drawing.Size(1142, 571);
             this.ucAddEvent1.TabIndex = 99;
             this.ucAddEvent1.Visible = false;
-            this.ucAddEvent1.Load += new System.EventHandler(this.ucAddEvent1_Load);
+            // 
+            // ucQueryEvent1
+            // 
+            this.ucQueryEvent1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucQueryEvent1.Location = new System.Drawing.Point(183, 90);
+            this.ucQueryEvent1.Name = "ucQueryEvent1";
+            this.ucQueryEvent1.Size = new System.Drawing.Size(1142, 571);
+            this.ucQueryEvent1.TabIndex = 100;
+            this.ucQueryEvent1.Visible = false;
+            // 
+            // ucEditEvent1
+            // 
+            this.ucEditEvent1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucEditEvent1.Location = new System.Drawing.Point(183, 90);
+            this.ucEditEvent1.Name = "ucEditEvent1";
+            this.ucEditEvent1.Size = new System.Drawing.Size(1142, 571);
+            this.ucEditEvent1.TabIndex = 101;
+            this.ucEditEvent1.Visible = false;
             // 
             // frmEvent
             // 
@@ -168,6 +187,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.ucEditEvent1);
+            this.Controls.Add(this.ucQueryEvent1);
             this.Controls.Add(this.ucAddEvent1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
@@ -200,5 +221,7 @@
         private System.Windows.Forms.Label lblTitle;
         public System.Windows.Forms.PictureBox pbxBasePass;
         private ucAddEvent ucAddEvent1;
+        private ucQueryEvent ucQueryEvent1;
+        private ucEditEvent ucEditEvent1;
     }
 }

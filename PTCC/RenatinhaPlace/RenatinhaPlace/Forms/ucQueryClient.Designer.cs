@@ -28,12 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvClients = new System.Windows.Forms.DataGridView();
-            this.dbDragonNightDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dbDragonNightDataSet = new RenatinhaPlace.dbDragonNightDataSet();
-            this.dbDragonNightDataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.btnFilter = new System.Windows.Forms.Button();
             this.lblFilter = new System.Windows.Forms.Label();
             this.pbx2 = new System.Windows.Forms.PictureBox();
@@ -41,9 +37,6 @@
             this.mcbFilterBy = new MetroFramework.Controls.MetroComboBox();
             this.lblFIlterBy = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSetBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,21 +62,6 @@
             this.dgvClients.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvClients.Size = new System.Drawing.Size(1045, 460);
             this.dgvClients.TabIndex = 0;
-            // 
-            // dbDragonNightDataSetBindingSource
-            // 
-            this.dbDragonNightDataSetBindingSource.DataSource = this.dbDragonNightDataSet;
-            this.dbDragonNightDataSetBindingSource.Position = 0;
-            // 
-            // dbDragonNightDataSet
-            // 
-            this.dbDragonNightDataSet.DataSetName = "dbDragonNightDataSet";
-            this.dbDragonNightDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dbDragonNightDataSetBindingSource1
-            // 
-            this.dbDragonNightDataSetBindingSource1.DataSource = this.dbDragonNightDataSet;
-            this.dbDragonNightDataSetBindingSource1.Position = 0;
             // 
             // btnFilter
             // 
@@ -146,8 +124,7 @@
             this.mcbFilterBy.ItemHeight = 23;
             this.mcbFilterBy.Items.AddRange(new object[] {
             "Client ID",
-            "Name",
-            ""});
+            "Name"});
             this.mcbFilterBy.Location = new System.Drawing.Point(586, 34);
             this.mcbFilterBy.Name = "mcbFilterBy";
             this.mcbFilterBy.Size = new System.Drawing.Size(217, 29);
@@ -180,11 +157,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "ucQueryClient";
             this.Size = new System.Drawing.Size(1142, 571);
-            this.Load += new System.EventHandler(this.ucQueryClient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDragonNightDataSetBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -192,9 +165,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.BindingSource dbDragonNightDataSetBindingSource;
-        private dbDragonNightDataSet dbDragonNightDataSet;
-        private System.Windows.Forms.BindingSource dbDragonNightDataSetBindingSource1;
         public System.Windows.Forms.DataGridView dgvClients;
         public System.Windows.Forms.Button btnFilter;
         private System.Windows.Forms.Label lblFilter;

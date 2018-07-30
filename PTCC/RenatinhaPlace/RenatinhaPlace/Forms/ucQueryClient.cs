@@ -20,10 +20,7 @@ namespace RenatinhaPlace.Forms
             InitializeComponent();
         }
 
-        private void ucQueryClient_Load(object sender, EventArgs e)
-        {
 
-        }
 
         private void btnFilter_Click(object sender, EventArgs e)
         {
@@ -50,5 +47,7 @@ namespace RenatinhaPlace.Forms
             dgvClients.Columns[5].HeaderText = "Sex";
             dgvClients.Columns[6].HeaderText = "Cell Phone";
         }
+
+ 
     }
 }

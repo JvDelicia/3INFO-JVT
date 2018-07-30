@@ -32,5 +32,32 @@ namespace RenatinhaPlace.DAO
         {
             context.SaveChanges();
         }
+
+        public IList<Event> List()
+        {
+            var busca = from p in context.Events select p;
+            return busca.ToList();
+
+        }
+
+        public IList<Event> Filter(int idevent, string nameevent)
+        {
+            var busca = from c in context.Events select c;
+            if (idevent > 0.0m)
+            {
+                busca = from c in context.Events
+                        where c.Id == idevent
+                        orderby c.Id
+                        select c;
+            }
+            if (!String.IsNullOrEmpty(nameevent))
+            {
+                busca = from c in context.Events
+                        where c.Name == nameevent
+                        orderby c.Name
+                        select c;
+            }
+            return busca.ToList();
+        }
     }
 }
