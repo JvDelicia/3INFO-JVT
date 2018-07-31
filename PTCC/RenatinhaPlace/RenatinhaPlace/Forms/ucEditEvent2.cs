@@ -19,9 +19,7 @@ namespace RenatinhaPlace.Forms
 
         private void btnReturn_Click(object sender, EventArgs e)
         {
-            frmClient cli = new frmClient();
-            cli.ucEditClient21.Visible = false;
-            cli.ucEditClient1.Visible = true;
+
         }
     }
 }

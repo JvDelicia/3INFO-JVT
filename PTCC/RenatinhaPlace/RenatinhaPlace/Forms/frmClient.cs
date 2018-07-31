@@ -91,6 +91,7 @@ namespace RenatinhaPlace.Forms
             ucAddClient1.txtCpfClient.Focus();
             ucQueryClient1.Visible = false;
             ucEditClient1.Visible = false;
+            ucEditClient21.Visible = false;
 
 
         }
@@ -101,6 +102,8 @@ namespace RenatinhaPlace.Forms
             ucAddClient1.Visible = false;
             ucQueryClient1.Visible = true;
             ucEditClient1.Visible = false;
+            ucEditClient21.Visible = false;
+
             ClientDAO clients = new ClientDAO();
             var bindingList = new BindingList<Client>(clients.List());
             var source = new BindingSource(bindingList, null);
@@ -115,10 +118,13 @@ namespace RenatinhaPlace.Forms
             ucAddClient1.Visible = false;
             ucQueryClient1.Visible = false;
             ucEditClient1.Visible = true;
+            ucEditClient21.Visible = false;
+
             ClientDAO clients = new ClientDAO();
             var bindingList = new BindingList<Client>(clients.List());
             var source = new BindingSource(bindingList, null);
-            ucQueryClient1.dgvClients.DataSource = source;
+            ucEditClient1.dgvClients.DataSource = source;
+
 
         }
 
@@ -126,10 +132,31 @@ namespace RenatinhaPlace.Forms
         {
 
         }
-
+          
         private void ucQueryClient1_Load(object sender, EventArgs e)
         {
 
         }
+
+
+        private void ucEditClient1_VisibleChanged(object sender, EventArgs e)
+        {
+            ucEditClient21.Visible = true;
+            ucEditClient21.txtCpfClient.Text = global.cpfcli;
+            ucEditClient21.txtNameClient.Text = global.namecli;
+            ucEditClient21.mdtBirthClient.Text = global.birthcli;
+            ucEditClient21.txtRgClient.Text = global.rgcli;
+            if (global.sexcli == "Male")
+            {
+                ucEditClient21.rbMale.Checked = true;
+            }
+            else
+            {
+                ucEditClient21.rbFemale.Checked = true;
+            }
+            ucEditClient21.txtTelClient.Text = global.telcli;
+
+        }
+
     }
 }

@@ -15,9 +15,11 @@ namespace RenatinhaPlace {
             context.Clients.Add(client);
             context.SaveChanges();
         }
-       /* public Client FindId(int id) {
-            return context.Clients.FirstOrDefault(u => u.PeopleId == id);
-        }/*/
+
+       public Client FindId(int id) {
+            return context.Clients.FirstOrDefault(u => u.Id == id);
+        }
+
         public void Remove(Client client) {
             context.Clients.Remove(client);
             context.SaveChanges();

@@ -35,6 +35,7 @@
             this.pbxBack = new System.Windows.Forms.PictureBox();
             this.pbxBasePass = new System.Windows.Forms.PictureBox();
             this.ucCashierHome1 = new RenatinhaPlace.Forms.ucCashierHome();
+            this.ucCashierMenu1 = new RenatinhaPlace.Forms.ucCashierMenu();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -104,12 +105,21 @@
             this.ucCashierHome1.Size = new System.Drawing.Size(264, 620);
             this.ucCashierHome1.TabIndex = 102;
             // 
+            // ucCashierMenu1
+            // 
+            this.ucCashierMenu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucCashierMenu1.Location = new System.Drawing.Point(319, 438);
+            this.ucCashierMenu1.Name = "ucCashierMenu1";
+            this.ucCashierMenu1.Size = new System.Drawing.Size(1003, 257);
+            this.ucCashierMenu1.TabIndex = 103;
+            // 
             // frmCashier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.ucCashierMenu1);
             this.Controls.Add(this.ucCashierHome1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
@@ -136,5 +146,6 @@
         private System.Windows.Forms.PictureBox pbxBack;
         public System.Windows.Forms.PictureBox pbxBasePass;
         private ucCashierHome ucCashierHome1;
+        private ucCashierMenu ucCashierMenu1;
     }
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using RenatinhaPlace.DAO;
 using RenatinhaPlace.Entity;
+using RenatinhaPlace.Forms;
 
 namespace RenatinhaPlace.Forms
 {
@@ -16,6 +17,7 @@ namespace RenatinhaPlace.Forms
     {
         public int idcli;
         public string namecli;
+        public string cpf;
         public ucEditClient()
         {
             InitializeComponent();
@@ -47,13 +49,19 @@ namespace RenatinhaPlace.Forms
             dgvClients.Columns[6].HeaderText = "Cell Phone";
         }
 
-        private void dgvClients_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        public void dgvClients_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             frmClient cli = new frmClient();
-            ucEditClient2 editcli = new ucEditClient2();
-            editcli.txtCpfClient.Text = dgvClients.CurrentRow.Cells[0].Value.ToString();
-            cli.ucEditClient1.Visible = false;
-            cli.ucEditClient21.Visible = true;
+            global.idcli = int.Parse(dgvClients.CurrentRow.Cells[0].Value.ToString());
+            global.cpfcli = dgvClients.CurrentRow.Cells[1].Value.ToString();
+            global.namecli = dgvClients.CurrentRow.Cells[2].Value.ToString();
+            global.birthcli = dgvClients.CurrentRow.Cells[3].Value.ToString();
+            global.rgcli = dgvClients.CurrentRow.Cells[4].Value.ToString();
+            global.sexcli = dgvClients.CurrentRow.Cells[5].Value.ToString();
+            global.telcli = dgvClients.CurrentRow.Cells[6].Value.ToString();
+            this.Visible = false;
         }
+
+
     }
 }

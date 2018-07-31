@@ -242,6 +242,12 @@
     <Compile Include="Forms\ucCashierHome.Designer.cs">
       <DependentUpon>ucCashierHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ucCashierMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucCashierMenu.Designer.cs">
+      <DependentUpon>ucCashierMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ucEditClient.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -278,6 +284,7 @@
     <Compile Include="Forms\ucQueryEvent.Designer.cs">
       <DependentUpon>ucQueryEvent.cs</DependentUpon>
     </Compile>
+    <Compile Include="global.cs" />
     <Compile Include="Migrations\20180727214449_crtAll.cs" />
     <Compile Include="Migrations\20180727214449_crtAll.designer.cs">
       <DependentUpon>20180727214449_crtAll.cs</DependentUpon>
@@ -325,6 +332,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ucCashierHome.resx">
       <DependentUpon>ucCashierHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucCashierMenu.resx">
+      <DependentUpon>ucCashierMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ucEditClient.resx">
       <DependentUpon>ucEditClient.cs</DependentUpon>

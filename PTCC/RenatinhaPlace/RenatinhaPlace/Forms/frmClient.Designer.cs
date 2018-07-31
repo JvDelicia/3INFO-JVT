@@ -161,6 +161,7 @@
             this.ucEditClient1.Size = new System.Drawing.Size(1142, 571);
             this.ucEditClient1.TabIndex = 110;
             this.ucEditClient1.Visible = false;
+            this.ucEditClient1.VisibleChanged += new System.EventHandler(this.ucEditClient1_VisibleChanged);
             // 
             // ucQueryClient1
             // 
@@ -179,7 +180,6 @@
             this.ucAddClient1.Name = "ucAddClient1";
             this.ucAddClient1.Size = new System.Drawing.Size(1142, 571);
             this.ucAddClient1.TabIndex = 108;
-            this.ucAddClient1.Visible = false;
             this.ucAddClient1.Load += new System.EventHandler(this.ucAddClient1_Load);
             // 
             // ucEditClient21
@@ -188,8 +188,7 @@
             this.ucEditClient21.Location = new System.Drawing.Point(183, 90);
             this.ucEditClient21.Name = "ucEditClient21";
             this.ucEditClient21.Size = new System.Drawing.Size(1142, 571);
-            this.ucEditClient21.TabIndex = 111;
-            this.ucEditClient21.Visible = false;
+            this.ucEditClient21.TabIndex = 113;
             // 
             // frmClient
             // 
@@ -197,7 +196,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
-            this.Controls.Add(this.ucEditClient21);
             this.Controls.Add(this.ucEditClient1);
             this.Controls.Add(this.ucQueryClient1);
             this.Controls.Add(this.ucAddClient1);
@@ -207,6 +205,7 @@
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbxBasePass);
+            this.Controls.Add(this.ucEditClient21);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -222,8 +221,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblBack;
         private System.Windows.Forms.PictureBox pbxBack;
@@ -234,6 +231,7 @@
         private ucAddClient ucAddClient1;
         private ucQueryClient ucQueryClient1;
         public ucEditClient ucEditClient1;
+        public System.Windows.Forms.Label lblTitle;
         public ucEditClient2 ucEditClient21;
     }
 }

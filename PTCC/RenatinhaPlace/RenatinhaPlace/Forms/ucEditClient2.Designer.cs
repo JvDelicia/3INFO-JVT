@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnDelete = new System.Windows.Forms.Button();
             this.lblTelClient = new System.Windows.Forms.Label();
             this.lblRgClient = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtRgClient = new System.Windows.Forms.TextBox();
-            this.btnReturn = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.pbx3 = new System.Windows.Forms.PictureBox();
             this.lblSexClient = new System.Windows.Forms.Label();
@@ -53,6 +53,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             this.SuspendLayout();
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnDelete.FlatAppearance.BorderSize = 3;
+            this.btnDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnDelete.Location = new System.Drawing.Point(606, 484);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(193, 59);
+            this.btnDelete.TabIndex = 212;
+            this.btnDelete.Text = "Delete Register";
+            this.btnDelete.UseMnemonic = false;
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // lblTelClient
             // 
             this.lblTelClient.AutoSize = true;
@@ -61,7 +80,7 @@
             this.lblTelClient.Location = new System.Drawing.Point(183, 389);
             this.lblTelClient.Name = "lblTelClient";
             this.lblTelClient.Size = new System.Drawing.Size(107, 21);
-            this.lblTelClient.TabIndex = 170;
+            this.lblTelClient.TabIndex = 209;
             this.lblTelClient.Text = "Cell Phone";
             // 
             // lblRgClient
@@ -72,7 +91,7 @@
             this.lblRgClient.Location = new System.Drawing.Point(182, 261);
             this.lblRgClient.Name = "lblRgClient";
             this.lblRgClient.Size = new System.Drawing.Size(36, 21);
-            this.lblRgClient.TabIndex = 169;
+            this.lblRgClient.TabIndex = 208;
             this.lblRgClient.Text = "RG";
             // 
             // pictureBox1
@@ -81,7 +100,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(185, 315);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(127, 2);
-            this.pictureBox1.TabIndex = 168;
+            this.pictureBox1.TabIndex = 207;
             this.pictureBox1.TabStop = false;
             // 
             // txtRgClient
@@ -94,28 +113,9 @@
             this.txtRgClient.MaxLength = 9;
             this.txtRgClient.Name = "txtRgClient";
             this.txtRgClient.Size = new System.Drawing.Size(127, 20);
-            this.txtRgClient.TabIndex = 156;
+            this.txtRgClient.TabIndex = 195;
             this.txtRgClient.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtRgClient.WordWrap = false;
-            // 
-            // btnReturn
-            // 
-            this.btnReturn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReturn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.btnReturn.FlatAppearance.BorderSize = 3;
-            this.btnReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.btnReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReturn.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
-            this.btnReturn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnReturn.Location = new System.Drawing.Point(958, 25);
-            this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(162, 59);
-            this.btnReturn.TabIndex = 160;
-            this.btnReturn.Text = "Return";
-            this.btnReturn.UseMnemonic = false;
-            this.btnReturn.UseVisualStyleBackColor = true;
-            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnSave
             // 
@@ -127,10 +127,10 @@
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnSave.Location = new System.Drawing.Point(511, 484);
+            this.btnSave.Location = new System.Drawing.Point(407, 484);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(162, 59);
-            this.btnSave.TabIndex = 159;
+            this.btnSave.Size = new System.Drawing.Size(193, 59);
+            this.btnSave.TabIndex = 198;
             this.btnSave.Text = "Save Changes";
             this.btnSave.UseMnemonic = false;
             this.btnSave.UseVisualStyleBackColor = true;
@@ -142,7 +142,7 @@
             this.pbx3.Location = new System.Drawing.Point(187, 444);
             this.pbx3.Name = "pbx3";
             this.pbx3.Size = new System.Drawing.Size(125, 2);
-            this.pbx3.TabIndex = 167;
+            this.pbx3.TabIndex = 206;
             this.pbx3.TabStop = false;
             // 
             // lblSexClient
@@ -153,7 +153,7 @@
             this.lblSexClient.Location = new System.Drawing.Point(705, 386);
             this.lblSexClient.Name = "lblSexClient";
             this.lblSexClient.Size = new System.Drawing.Size(41, 21);
-            this.lblSexClient.TabIndex = 166;
+            this.lblSexClient.TabIndex = 205;
             this.lblSexClient.Text = "Sex";
             // 
             // lblBirthClient
@@ -164,7 +164,7 @@
             this.lblBirthClient.Location = new System.Drawing.Point(705, 261);
             this.lblBirthClient.Name = "lblBirthClient";
             this.lblBirthClient.Size = new System.Drawing.Size(52, 21);
-            this.lblBirthClient.TabIndex = 165;
+            this.lblBirthClient.TabIndex = 204;
             this.lblBirthClient.Text = "Birth";
             // 
             // mdtBirthClient
@@ -178,7 +178,7 @@
             this.mdtBirthClient.MinimumSize = new System.Drawing.Size(0, 29);
             this.mdtBirthClient.Name = "mdtBirthClient";
             this.mdtBirthClient.Size = new System.Drawing.Size(315, 29);
-            this.mdtBirthClient.TabIndex = 158;
+            this.mdtBirthClient.TabIndex = 197;
             // 
             // lblNameClient
             // 
@@ -188,7 +188,7 @@
             this.lblNameClient.Location = new System.Drawing.Point(182, 148);
             this.lblNameClient.Name = "lblNameClient";
             this.lblNameClient.Size = new System.Drawing.Size(99, 21);
-            this.lblNameClient.TabIndex = 164;
+            this.lblNameClient.TabIndex = 203;
             this.lblNameClient.Text = "Full Name";
             // 
             // pbx2
@@ -197,7 +197,7 @@
             this.pbx2.Location = new System.Drawing.Point(185, 203);
             this.pbx2.Name = "pbx2";
             this.pbx2.Size = new System.Drawing.Size(469, 2);
-            this.pbx2.TabIndex = 163;
+            this.pbx2.TabIndex = 202;
             this.pbx2.TabStop = false;
             // 
             // txtNameClient
@@ -210,7 +210,7 @@
             this.txtNameClient.MaxLength = 50;
             this.txtNameClient.Name = "txtNameClient";
             this.txtNameClient.Size = new System.Drawing.Size(468, 20);
-            this.txtNameClient.TabIndex = 155;
+            this.txtNameClient.TabIndex = 194;
             this.txtNameClient.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtNameClient.WordWrap = false;
             // 
@@ -222,7 +222,7 @@
             this.lblCpfClient.Location = new System.Drawing.Point(182, 28);
             this.lblCpfClient.Name = "lblCpfClient";
             this.lblCpfClient.Size = new System.Drawing.Size(45, 21);
-            this.lblCpfClient.TabIndex = 162;
+            this.lblCpfClient.TabIndex = 201;
             this.lblCpfClient.Text = "CPF";
             // 
             // pbx1
@@ -231,7 +231,7 @@
             this.pbx1.Location = new System.Drawing.Point(185, 82);
             this.pbx1.Name = "pbx1";
             this.pbx1.Size = new System.Drawing.Size(152, 2);
-            this.pbx1.TabIndex = 161;
+            this.pbx1.TabIndex = 200;
             this.pbx1.TabStop = false;
             // 
             // txtCpfClient
@@ -244,7 +244,7 @@
             this.txtCpfClient.MaxLength = 11;
             this.txtCpfClient.Name = "txtCpfClient";
             this.txtCpfClient.Size = new System.Drawing.Size(152, 20);
-            this.txtCpfClient.TabIndex = 154;
+            this.txtCpfClient.TabIndex = 193;
             this.txtCpfClient.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtCpfClient.WordWrap = false;
             // 
@@ -258,7 +258,7 @@
             this.txtTelClient.Mask = "(99) 000000000";
             this.txtTelClient.Name = "txtTelClient";
             this.txtTelClient.Size = new System.Drawing.Size(125, 20);
-            this.txtTelClient.TabIndex = 157;
+            this.txtTelClient.TabIndex = 196;
             this.txtTelClient.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // rbFemale
@@ -269,7 +269,7 @@
             this.rbFemale.Location = new System.Drawing.Point(781, 425);
             this.rbFemale.Name = "rbFemale";
             this.rbFemale.Size = new System.Drawing.Size(85, 24);
-            this.rbFemale.TabIndex = 172;
+            this.rbFemale.TabIndex = 211;
             this.rbFemale.TabStop = true;
             this.rbFemale.Text = "Female";
             this.rbFemale.UseVisualStyleBackColor = true;
@@ -282,7 +282,7 @@
             this.rbMale.Location = new System.Drawing.Point(709, 425);
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(66, 24);
-            this.rbMale.TabIndex = 171;
+            this.rbMale.TabIndex = 210;
             this.rbMale.TabStop = true;
             this.rbMale.Text = "Male";
             this.rbMale.UseVisualStyleBackColor = true;
@@ -292,11 +292,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.lblTelClient);
             this.Controls.Add(this.lblRgClient);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtRgClient);
-            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.pbx3);
             this.Controls.Add(this.lblSexClient);
@@ -324,24 +324,24 @@
 
         #endregion
 
+        public System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label lblTelClient;
         private System.Windows.Forms.Label lblRgClient;
         public System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.TextBox txtRgClient;
-        public System.Windows.Forms.Button btnReturn;
         public System.Windows.Forms.Button btnSave;
         public System.Windows.Forms.PictureBox pbx3;
         private System.Windows.Forms.Label lblSexClient;
         private System.Windows.Forms.Label lblBirthClient;
-        private MetroFramework.Controls.MetroDateTime mdtBirthClient;
         private System.Windows.Forms.Label lblNameClient;
         public System.Windows.Forms.PictureBox pbx2;
         public System.Windows.Forms.TextBox txtNameClient;
         private System.Windows.Forms.Label lblCpfClient;
         public System.Windows.Forms.PictureBox pbx1;
         public System.Windows.Forms.TextBox txtCpfClient;
-        private System.Windows.Forms.MaskedTextBox txtTelClient;
-        private System.Windows.Forms.RadioButton rbFemale;
-        private System.Windows.Forms.RadioButton rbMale;
+        public MetroFramework.Controls.MetroDateTime mdtBirthClient;
+        public System.Windows.Forms.MaskedTextBox txtTelClient;
+        public System.Windows.Forms.RadioButton rbFemale;
+        public System.Windows.Forms.RadioButton rbMale;
     }
 }
