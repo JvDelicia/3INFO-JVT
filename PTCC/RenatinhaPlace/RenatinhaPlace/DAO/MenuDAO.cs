@@ -18,9 +18,9 @@ namespace RenatinhaPlace.DAO
             context.Menus.Add(menu);
             context.SaveChanges();
         }
-        /* public Client FindId(int id) {
-             return context.Clients.FirstOrDefault(u => u.PeopleId == id);
-         }/*/
+        public Menu FindId(int id) {
+             return context.Menus.FirstOrDefault(u => u.Id == id);
+         }
         public void Remove(Menu menu)
         {
             context.Menus.Remove(menu);

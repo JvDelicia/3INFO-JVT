@@ -196,7 +196,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
-            this.Controls.Add(this.ucEditClient1);
             this.Controls.Add(this.ucQueryClient1);
             this.Controls.Add(this.ucAddClient1);
             this.Controls.Add(this.mt3);
@@ -206,6 +205,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbxBasePass);
             this.Controls.Add(this.ucEditClient21);
+            this.Controls.Add(this.ucEditClient1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

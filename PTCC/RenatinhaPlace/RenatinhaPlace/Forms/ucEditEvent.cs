@@ -49,5 +49,20 @@ namespace RenatinhaPlace.Forms
             dgvEvents.Columns[5].HeaderText = "Artist ID";
             dgvEvents.Columns[6].HeaderText = "Menu ID";
         }
+
+        private void dgvEvents_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            global.ideve = int.Parse(dgvEvents.CurrentRow.Cells[0].Value.ToString());
+            global.nameeve = dgvEvents.CurrentRow.Cells[1].Value.ToString();
+            global.desceve = dgvEvents.CurrentRow.Cells[2].Value.ToString();
+            global.begineve = dgvEvents.CurrentRow.Cells[3].Value.ToString();
+            global.endeve = dgvEvents.CurrentRow.Cells[4].Value.ToString();
+            global.idarteve = dgvEvents.CurrentRow.Cells[5].Value.ToString();
+            global.idmenueve = dgvEvents.CurrentRow.Cells[6].Value.ToString();
+            this.Visible = false;
+
+        }
+
+
     }
 }

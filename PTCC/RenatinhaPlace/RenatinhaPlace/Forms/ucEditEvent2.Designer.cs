@@ -50,7 +50,7 @@
             this.txtTimeEnd = new System.Windows.Forms.MaskedTextBox();
             this.lblMenuEvent = new System.Windows.Forms.Label();
             this.mcbMenuEvent = new MetroFramework.Controls.MetroComboBox();
-            this.btnReturn = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbx4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx3)).BeginInit();
@@ -310,24 +310,24 @@
             this.mcbMenuEvent.TabIndex = 128;
             this.mcbMenuEvent.UseSelectable = true;
             // 
-            // btnReturn
+            // btnDelete
             // 
-            this.btnReturn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReturn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.btnReturn.FlatAppearance.BorderSize = 3;
-            this.btnReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.btnReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReturn.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
-            this.btnReturn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnReturn.Location = new System.Drawing.Point(958, 25);
-            this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(162, 59);
-            this.btnReturn.TabIndex = 162;
-            this.btnReturn.Text = "Return";
-            this.btnReturn.UseMnemonic = false;
-            this.btnReturn.UseVisualStyleBackColor = true;
-            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnDelete.FlatAppearance.BorderSize = 3;
+            this.btnDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnDelete.Location = new System.Drawing.Point(574, 486);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(193, 59);
+            this.btnDelete.TabIndex = 214;
+            this.btnDelete.Text = "Delete Register";
+            this.btnDelete.UseMnemonic = false;
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnSave
             // 
@@ -339,20 +339,21 @@
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnSave.Location = new System.Drawing.Point(511, 484);
+            this.btnSave.Location = new System.Drawing.Point(375, 486);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(162, 59);
-            this.btnSave.TabIndex = 161;
+            this.btnSave.Size = new System.Drawing.Size(193, 59);
+            this.btnSave.TabIndex = 213;
             this.btnSave.Text = "Save Changes";
             this.btnSave.UseMnemonic = false;
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.button1_Click);
             // 
             // ucEditEvent2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.Controls.Add(this.btnReturn);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.mdtDateEnd);
             this.Controls.Add(this.lblTimeEnd);
@@ -388,11 +389,8 @@
         }
 
         #endregion
-
-        private MetroFramework.Controls.MetroDateTime mdtDateEnd;
         private System.Windows.Forms.Label lblTimeEnd;
         private System.Windows.Forms.Label lblDateEnd;
-        private MetroFramework.Controls.MetroComboBox mcbArtEvent;
         private System.Windows.Forms.Label lblArtEvent;
         public System.Windows.Forms.PictureBox pbx4;
         private System.Windows.Forms.Label lblTimeBegin;
@@ -400,18 +398,20 @@
         public System.Windows.Forms.PictureBox pbx3;
         private System.Windows.Forms.Label lblEndEvent;
         private System.Windows.Forms.Label lblBeginEvent;
-        private MetroFramework.Controls.MetroDateTime mdtDateBegin;
         private System.Windows.Forms.Label lblDescEvent;
         public System.Windows.Forms.PictureBox pbx2;
         public System.Windows.Forms.TextBox txtDescEvent;
         private System.Windows.Forms.Label lblNameEvent;
         public System.Windows.Forms.PictureBox pbx1;
         public System.Windows.Forms.TextBox txtNameEvent;
-        private System.Windows.Forms.MaskedTextBox txtTimeBegin;
-        private System.Windows.Forms.MaskedTextBox txtTimeEnd;
         private System.Windows.Forms.Label lblMenuEvent;
-        private MetroFramework.Controls.MetroComboBox mcbMenuEvent;
-        public System.Windows.Forms.Button btnReturn;
+        public System.Windows.Forms.Button btnDelete;
         public System.Windows.Forms.Button btnSave;
+        public MetroFramework.Controls.MetroDateTime mdtDateEnd;
+        public MetroFramework.Controls.MetroComboBox mcbArtEvent;
+        public MetroFramework.Controls.MetroDateTime mdtDateBegin;
+        public System.Windows.Forms.MaskedTextBox txtTimeBegin;
+        public System.Windows.Forms.MaskedTextBox txtTimeEnd;
+        public MetroFramework.Controls.MetroComboBox mcbMenuEvent;
     }
 }

@@ -90,40 +90,40 @@ namespace RenatinhaPlace.Forms
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            if (MetroMessageBox.Show(this, Strings.ConfRegister, Strings.Register, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
-            {
-                // Tratamento das Datas
-                EntitiesContext context = new EntitiesContext();
-                EventDAO edao = new EventDAO();
-                aBeg = DateTime.Parse(mdtDateBegin.Text);
-                bBeg = aBeg.ToString("dd/MM/yyyy");
-                cBeg = bBeg + " " + txtTimeBegin.Text;
-                aEnd = DateTime.Parse(mdtDateEnd.Text);
-                bEnd = aEnd.ToString("dd/MM/yyyy");
-                cEnd = bEnd + " " + txtTimeEnd.Text;
-
-                //Tratamento da Combo Box Artista
-                ArtistDAO adao = new ArtistDAO();
-                idart = adao.FindIdByCb(mcbArtEvent.Text);
-
-                //Tratamento da Combo Box Menu
-                MenuDAO mdao = new MenuDAO();
-                idmenu = mdao.FindIdByCb(mcbMenuEvent.Text);
-
-                Event even = new Event()
+                if (MetroMessageBox.Show(this, Strings.ConfRegister, Strings.Register, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 {
-                    Name = txtNameEvent.Text,
-                    Desc = txtDescEvent.Text,
-                    TimeBegin = DateTime.Parse(cBeg),
-                    TimeEnd = DateTime.Parse(cEnd),
-                    ArtistId = idart,
-                    MenuId = idmenu
+                    // Tratamento das Datas
+                    EntitiesContext context = new EntitiesContext();
+                    EventDAO edao = new EventDAO();
+                    aBeg = DateTime.Parse(mdtDateBegin.Text);
+                    bBeg = aBeg.ToString("dd/MM/yyyy");
+                    cBeg = bBeg + " " + txtTimeBegin.Text;
+                    aEnd = DateTime.Parse(mdtDateEnd.Text);
+                    bEnd = aEnd.ToString("dd/MM/yyyy");
+                    cEnd = bEnd + " " + txtTimeEnd.Text;
 
-                };
-                edao.Add(even);
-                MetroMessageBox.Show(this, Strings.SuccessRegistered, Strings.Registered, MessageBoxButtons.OK, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                    //Tratamento da Combo Box Artista
+                    ArtistDAO adao = new ArtistDAO();
+                    idart = adao.FindIdByCb(mcbArtEvent.Text);
 
-            }
+                    //Tratamento da Combo Box Menu
+                    MenuDAO mdao = new MenuDAO();
+                    idmenu = mdao.FindIdByCb(mcbMenuEvent.Text);
+
+                    Event even = new Event()
+                    {
+                        Name = txtNameEvent.Text,
+                        Desc = txtDescEvent.Text,
+                        TimeBegin = DateTime.Parse(cBeg),
+                        TimeEnd = DateTime.Parse(cEnd),
+                        ArtistId = idart,
+                        MenuId = idmenu
+
+                    };
+                    edao.Add(even);
+                    MetroMessageBox.Show(this, Strings.SuccessRegistered, Strings.Registered, MessageBoxButtons.OK, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+
+                }
         }
 
 

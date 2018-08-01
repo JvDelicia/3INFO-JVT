@@ -14,7 +14,7 @@ namespace RenatinhaPlace {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmClient());
+            Application.Run(new frmEvent());
         }
     }
 }

@@ -19,9 +19,10 @@ namespace RenatinhaPlace.DAO
             context.Artists.Add(artist);
             context.SaveChanges();
         }
-        /* public Artist FindId(int id) {
-             return context.Artist.FirstOrDefault(u => u.PeopleId == id);
-         }/*/
+
+        public Artist FindId(int id) {
+             return context.Artists.FirstOrDefault(u => u.Id == id);
+         }
         public void Remove(Artist artist)
         {
             context.Artists.Remove(artist);

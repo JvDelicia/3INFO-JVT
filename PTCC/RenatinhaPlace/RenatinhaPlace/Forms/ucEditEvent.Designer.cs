@@ -141,6 +141,7 @@
             this.dgvEvents.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvEvents.Size = new System.Drawing.Size(1045, 460);
             this.dgvEvents.TabIndex = 150;
+            this.dgvEvents.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEvents_CellDoubleClick);
             // 
             // ucEditEvent
             // 

@@ -51,7 +51,6 @@ namespace RenatinhaPlace.Forms
 
         public void dgvClients_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            frmClient cli = new frmClient();
             global.idcli = int.Parse(dgvClients.CurrentRow.Cells[0].Value.ToString());
             global.cpfcli = dgvClients.CurrentRow.Cells[1].Value.ToString();
             global.namecli = dgvClients.CurrentRow.Cells[2].Value.ToString();

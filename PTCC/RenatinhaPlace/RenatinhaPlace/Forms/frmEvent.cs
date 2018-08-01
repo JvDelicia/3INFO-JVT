@@ -15,6 +15,23 @@ namespace RenatinhaPlace.Forms
 {
     public partial class frmEvent : Form
     {
+        public string subdatebegin;
+        public string subdateend;
+        public string subtimebegin1;
+        public string subtimebegin2;
+        public string subtimebeginf;
+        public string subtimeend1;
+        public string subtimeend2;
+        public string subtimeendf;
+        public string art;
+        public string men;
+
+
+
+
+        public string subtimeend;
+
+
         public frmEvent()
         {
             InitializeComponent();
@@ -99,6 +116,8 @@ namespace RenatinhaPlace.Forms
             ucAddEvent1.Visible = false;
             ucQueryEvent1.Visible = false;
             ucEditEvent1.Visible = true;
+            ucEditEvent21.Visible = false;
+
 
             EventDAO edao = new EventDAO();
             var bindingList = new BindingList<Event>(edao.List());
@@ -145,6 +164,65 @@ namespace RenatinhaPlace.Forms
         private void frmEvents_FormClosed(object sender, FormClosedEventArgs e)
         {
            Application.Exit();
+
+        }
+
+        private void ucEditEvent1_VisibleChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                ucEditEvent21.Visible = true;
+
+                ucEditEvent21.mcbArtEvent.Items.Clear();
+                ucEditEvent21.mcbMenuEvent.Items.Clear();
+
+                ArtistDAO adao = new ArtistDAO();
+                foreach (var a in adao.List())
+                {
+                    ucEditEvent21.mcbArtEvent.Items.Add(a.Id + "-" + a.Name);
+                }
+                Artist artista = adao.FindId(int.Parse(global.idarteve));
+                art = artista.Id.ToString() + "-" + artista.Name.ToString();
+
+                MenuDAO mdao = new MenuDAO();
+                foreach (var m in mdao.List())
+                {
+                    ucEditEvent21.mcbMenuEvent.Items.Add(m.Id + "-" + m.Name);
+
+                }
+                Entity.Menu menu = mdao.FindId(int.Parse(global.idmenueve));
+                men = menu.Id.ToString() + "-" + menu.Name.ToString();
+
+
+                subdatebegin = global.begineve.Substring(0, 10);
+                subdateend = global.endeve.Substring(0, 10);
+                subtimebegin1 = global.begineve.Substring(11, 2);
+                subtimebegin2 = global.begineve.Substring(13, 3);
+                subtimebeginf = subtimebegin1 + subtimebegin2;
+                subtimeend1 = global.endeve.Substring(11, 2);
+                subtimeend2 = global.endeve.Substring(13, 3);
+                subtimeendf = subtimeend1 + subtimeend2;
+
+                ucEditEvent21.txtNameEvent.Text = global.nameeve;
+                ucEditEvent21.txtDescEvent.Text = global.desceve;
+                ucEditEvent21.mdtDateBegin.Text = subdatebegin;
+                ucEditEvent21.mdtDateEnd.Text = subdateend;
+                ucEditEvent21.txtTimeBegin.Text = subtimebeginf;
+                ucEditEvent21.txtTimeEnd.Text = subtimeendf;
+                ucEditEvent21.mcbArtEvent.SelectedItem = art;
+                ucEditEvent21.mcbMenuEvent.SelectedItem = men;
+
+
+            }
+            catch (NullReferenceException)
+            {
+                ucEditEvent21.Visible = false;
+            }
+            catch (ArgumentNullException)
+            {
+                ucEditEvent21.Visible = false;
+            }
+
 
         }
     }

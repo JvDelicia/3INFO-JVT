@@ -40,6 +40,7 @@
             this.ucAddEvent1 = new RenatinhaPlace.Forms.ucAddEvent();
             this.ucQueryEvent1 = new RenatinhaPlace.Forms.ucQueryEvent();
             this.ucEditEvent1 = new RenatinhaPlace.Forms.ucEditEvent();
+            this.ucEditEvent21 = new RenatinhaPlace.Forms.ucEditEvent2();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -180,6 +181,15 @@
             this.ucEditEvent1.Size = new System.Drawing.Size(1142, 571);
             this.ucEditEvent1.TabIndex = 101;
             this.ucEditEvent1.Visible = false;
+            this.ucEditEvent1.VisibleChanged += new System.EventHandler(this.ucEditEvent1_VisibleChanged);
+            // 
+            // ucEditEvent21
+            // 
+            this.ucEditEvent21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.ucEditEvent21.Location = new System.Drawing.Point(183, 90);
+            this.ucEditEvent21.Name = "ucEditEvent21";
+            this.ucEditEvent21.Size = new System.Drawing.Size(1142, 571);
+            this.ucEditEvent21.TabIndex = 102;
             // 
             // frmEvent
             // 
@@ -187,7 +197,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
-            this.Controls.Add(this.ucEditEvent1);
             this.Controls.Add(this.ucQueryEvent1);
             this.Controls.Add(this.ucAddEvent1);
             this.Controls.Add(this.lblTitle);
@@ -196,6 +205,8 @@
             this.Controls.Add(this.mt2);
             this.Controls.Add(this.mt1);
             this.Controls.Add(this.pbxBasePass);
+            this.Controls.Add(this.ucEditEvent21);
+            this.Controls.Add(this.ucEditEvent1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmEvent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -223,5 +234,6 @@
         private ucAddEvent ucAddEvent1;
         private ucQueryEvent ucQueryEvent1;
         private ucEditEvent ucEditEvent1;
+        private ucEditEvent2 ucEditEvent21;
     }
 }
