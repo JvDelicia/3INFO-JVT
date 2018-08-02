@@ -24,7 +24,7 @@ namespace RenatinhaPlace
         internal static string idarteve;
         internal static string idmenueve;
 
-
+        internal static int idacc;
 
 
 

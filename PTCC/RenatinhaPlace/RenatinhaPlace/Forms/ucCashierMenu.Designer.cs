@@ -36,6 +36,7 @@
             this.pbx2 = new System.Windows.Forms.PictureBox();
             this.txtFilter = new System.Windows.Forms.TextBox();
             this.dgvItemMenu = new System.Windows.Forms.DataGridView();
+            this.btnaddProd = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvItemMenu)).BeginInit();
             this.SuspendLayout();
@@ -45,7 +46,7 @@
             this.lblFIlterBy.AutoSize = true;
             this.lblFIlterBy.Font = new System.Drawing.Font("Rockwell", 14F);
             this.lblFIlterBy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblFIlterBy.Location = new System.Drawing.Point(503, -1);
+            this.lblFIlterBy.Location = new System.Drawing.Point(217, 1);
             this.lblFIlterBy.Name = "lblFIlterBy";
             this.lblFIlterBy.Size = new System.Drawing.Size(84, 21);
             this.lblFIlterBy.TabIndex = 156;
@@ -60,10 +61,10 @@
             this.mcbFilterBy.Items.AddRange(new object[] {
             "Product ID",
             "Name"});
-            this.mcbFilterBy.Location = new System.Drawing.Point(507, 33);
+            this.mcbFilterBy.Location = new System.Drawing.Point(221, 35);
             this.mcbFilterBy.Name = "mcbFilterBy";
-            this.mcbFilterBy.Size = new System.Drawing.Size(217, 29);
-            this.mcbFilterBy.TabIndex = 155;
+            this.mcbFilterBy.Size = new System.Drawing.Size(165, 29);
+            this.mcbFilterBy.TabIndex = 2;
             this.mcbFilterBy.UseSelectable = true;
             // 
             // btnFilter
@@ -76,10 +77,10 @@
             this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFilter.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnFilter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnFilter.Location = new System.Drawing.Point(858, 10);
+            this.btnFilter.Location = new System.Drawing.Point(417, 12);
             this.btnFilter.Name = "btnFilter";
-            this.btnFilter.Size = new System.Drawing.Size(145, 59);
-            this.btnFilter.TabIndex = 152;
+            this.btnFilter.Size = new System.Drawing.Size(85, 59);
+            this.btnFilter.TabIndex = 3;
             this.btnFilter.Text = "Filter";
             this.btnFilter.UseMnemonic = false;
             this.btnFilter.UseVisualStyleBackColor = true;
@@ -100,7 +101,7 @@
             this.pbx2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
             this.pbx2.Location = new System.Drawing.Point(15, 52);
             this.pbx2.Name = "pbx2";
-            this.pbx2.Size = new System.Drawing.Size(351, 2);
+            this.pbx2.Size = new System.Drawing.Size(184, 2);
             this.pbx2.TabIndex = 153;
             this.pbx2.TabStop = false;
             // 
@@ -113,8 +114,8 @@
             this.txtFilter.Location = new System.Drawing.Point(15, 33);
             this.txtFilter.MaxLength = 50;
             this.txtFilter.Name = "txtFilter";
-            this.txtFilter.Size = new System.Drawing.Size(350, 20);
-            this.txtFilter.TabIndex = 151;
+            this.txtFilter.Size = new System.Drawing.Size(183, 20);
+            this.txtFilter.TabIndex = 1;
             this.txtFilter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtFilter.WordWrap = false;
             // 
@@ -136,8 +137,26 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvItemMenu.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvItemMenu.Size = new System.Drawing.Size(1003, 170);
-            this.dgvItemMenu.TabIndex = 150;
+            this.dgvItemMenu.Size = new System.Drawing.Size(519, 431);
+            this.dgvItemMenu.TabIndex = 4;
+            // 
+            // btnaddProd
+            // 
+            this.btnaddProd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnaddProd.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnaddProd.FlatAppearance.BorderSize = 3;
+            this.btnaddProd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnaddProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnaddProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnaddProd.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnaddProd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnaddProd.Location = new System.Drawing.Point(37, 524);
+            this.btnaddProd.Name = "btnaddProd";
+            this.btnaddProd.Size = new System.Drawing.Size(444, 59);
+            this.btnaddProd.TabIndex = 5;
+            this.btnaddProd.Text = "Add To Account";
+            this.btnaddProd.UseMnemonic = false;
+            this.btnaddProd.UseVisualStyleBackColor = true;
             // 
             // ucCashierMenu
             // 
@@ -145,6 +164,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.btnaddProd);
             this.Controls.Add(this.lblFIlterBy);
             this.Controls.Add(this.mcbFilterBy);
             this.Controls.Add(this.btnFilter);
@@ -153,7 +173,7 @@
             this.Controls.Add(this.txtFilter);
             this.Controls.Add(this.dgvItemMenu);
             this.Name = "ucCashierMenu";
-            this.Size = new System.Drawing.Size(1001, 255);
+            this.Size = new System.Drawing.Size(519, 609);
             this.Load += new System.EventHandler(this.ucCashierMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvItemMenu)).EndInit();
@@ -171,5 +191,6 @@
         public System.Windows.Forms.PictureBox pbx2;
         public System.Windows.Forms.TextBox txtFilter;
         public System.Windows.Forms.DataGridView dgvItemMenu;
+        public System.Windows.Forms.Button btnaddProd;
     }
 }

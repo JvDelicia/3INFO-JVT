@@ -8,11 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
+using RenatinhaPlace.DAO;
+using RenatinhaPlace.Entity;
+
 
 namespace RenatinhaPlace.Forms
 {
     public partial class frmCashier : Form
     {
+        public int idacc;
         public frmCashier()
         {
             InitializeComponent();
@@ -22,9 +26,8 @@ namespace RenatinhaPlace.Forms
         private void frmCashier_Load(object sender, EventArgs e)
         {
             this.Text = Strings.Cashier;
-            lblTitle.Text = Strings.Cashier;
             lblBack.Text = Strings.Back;
-            ucCashierHome1.txtEnterAccount.Focus();
+            txtEnterAccount.Focus();
         }
 
         private void panel1_MouseClick(object sender, MouseEventArgs e)
@@ -58,5 +61,24 @@ namespace RenatinhaPlace.Forms
            Application.Exit();
 
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            ProdDAO pdao = new ProdDAO();
+            idacc = int.Parse(txtEnterAccount.Text);
+            var accprodsbusca = pdao.FindProdsByAccount(idacc);
+            var source = new BindingSource(accprodsbusca, null);
+            dgvItemMenu.DataSource = source;
+            dgvItemMenu.Columns.Remove("ItemMenus");
+            dgvItemMenu.Columns.Remove("ItemAccs");
+            dgvItemMenu.Columns[0].HeaderText = "Product ID";
+            dgvItemMenu.Columns[1].HeaderText = "Name";
+            dgvItemMenu.Columns[2].HeaderText = "Description";
+            dgvItemMenu.Columns[3].HeaderText = "Unit Price";
+     
+
+
+        }
+
     }
 }

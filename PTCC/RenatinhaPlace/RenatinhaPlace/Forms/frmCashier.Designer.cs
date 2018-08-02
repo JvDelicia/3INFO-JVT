@@ -28,17 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCashier));
             this.lblTitle = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblBack = new System.Windows.Forms.Label();
             this.pbxBack = new System.Windows.Forms.PictureBox();
             this.pbxBasePass = new System.Windows.Forms.PictureBox();
-            this.ucCashierHome1 = new RenatinhaPlace.Forms.ucCashierHome();
-            this.ucCashierMenu1 = new RenatinhaPlace.Forms.ucCashierMenu();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnaddProd = new System.Windows.Forms.Button();
+            this.lblFIlterBy = new System.Windows.Forms.Label();
+            this.mcbFilterBy = new MetroFramework.Controls.MetroComboBox();
+            this.btnFilter = new System.Windows.Forms.Button();
+            this.lblFilter = new System.Windows.Forms.Label();
+            this.pbx2 = new System.Windows.Forms.PictureBox();
+            this.txtFilter = new System.Windows.Forms.TextBox();
+            this.dgvItemMenu = new System.Windows.Forms.DataGridView();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnOpenAcc = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.lblEnterAccount = new System.Windows.Forms.Label();
+            this.pbx1 = new System.Windows.Forms.PictureBox();
+            this.txtEnterAccount = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnRemoveProd = new System.Windows.Forms.Button();
+            this.lblQtd = new System.Windows.Forms.Label();
+            this.btnFinalizeAcc = new System.Windows.Forms.Button();
+            this.btnFilter2 = new System.Windows.Forms.Button();
+            this.dgvAccount = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvItemMenu)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -47,10 +80,11 @@
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblTitle.Location = new System.Drawing.Point(617, 20);
+            this.lblTitle.Location = new System.Drawing.Point(390, 24);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(0, 36);
+            this.lblTitle.Size = new System.Drawing.Size(144, 36);
             this.lblTitle.TabIndex = 100;
+            this.lblTitle.Text = "Products";
             // 
             // panel1
             // 
@@ -96,22 +130,369 @@
             this.pbxBasePass.TabIndex = 101;
             this.pbxBasePass.TabStop = false;
             // 
-            // ucCashierHome1
+            // panel2
             // 
-            this.ucCashierHome1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.ucCashierHome1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucCashierHome1.Location = new System.Drawing.Point(34, 75);
-            this.ucCashierHome1.Name = "ucCashierHome1";
-            this.ucCashierHome1.Size = new System.Drawing.Size(264, 620);
-            this.ucCashierHome1.TabIndex = 102;
+            this.panel2.Controls.Add(this.btnaddProd);
+            this.panel2.Controls.Add(this.lblFIlterBy);
+            this.panel2.Controls.Add(this.mcbFilterBy);
+            this.panel2.Controls.Add(this.btnFilter);
+            this.panel2.Controls.Add(this.lblFilter);
+            this.panel2.Controls.Add(this.pbx2);
+            this.panel2.Controls.Add(this.txtFilter);
+            this.panel2.Controls.Add(this.dgvItemMenu);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel2.Location = new System.Drawing.Point(20, 75);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(514, 613);
+            this.panel2.TabIndex = 103;
             // 
-            // ucCashierMenu1
+            // btnaddProd
             // 
-            this.ucCashierMenu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.ucCashierMenu1.Location = new System.Drawing.Point(319, 438);
-            this.ucCashierMenu1.Name = "ucCashierMenu1";
-            this.ucCashierMenu1.Size = new System.Drawing.Size(1003, 257);
-            this.ucCashierMenu1.TabIndex = 103;
+            this.btnaddProd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnaddProd.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnaddProd.FlatAppearance.BorderSize = 3;
+            this.btnaddProd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnaddProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnaddProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnaddProd.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnaddProd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnaddProd.Location = new System.Drawing.Point(1, 551);
+            this.btnaddProd.Name = "btnaddProd";
+            this.btnaddProd.Size = new System.Drawing.Size(510, 59);
+            this.btnaddProd.TabIndex = 161;
+            this.btnaddProd.Text = "Add To Account";
+            this.btnaddProd.UseMnemonic = false;
+            this.btnaddProd.UseVisualStyleBackColor = true;
+            // 
+            // lblFIlterBy
+            // 
+            this.lblFIlterBy.AutoSize = true;
+            this.lblFIlterBy.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblFIlterBy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblFIlterBy.Location = new System.Drawing.Point(234, 14);
+            this.lblFIlterBy.Name = "lblFIlterBy";
+            this.lblFIlterBy.Size = new System.Drawing.Size(84, 21);
+            this.lblFIlterBy.TabIndex = 164;
+            this.lblFIlterBy.Text = "Filter By";
+            // 
+            // mcbFilterBy
+            // 
+            this.mcbFilterBy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.mcbFilterBy.ForeColor = System.Drawing.Color.Silver;
+            this.mcbFilterBy.FormattingEnabled = true;
+            this.mcbFilterBy.ItemHeight = 23;
+            this.mcbFilterBy.Items.AddRange(new object[] {
+            "Product ID",
+            "Name"});
+            this.mcbFilterBy.Location = new System.Drawing.Point(238, 48);
+            this.mcbFilterBy.Name = "mcbFilterBy";
+            this.mcbFilterBy.Size = new System.Drawing.Size(165, 29);
+            this.mcbFilterBy.TabIndex = 158;
+            this.mcbFilterBy.UseSelectable = true;
+            // 
+            // btnFilter
+            // 
+            this.btnFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFilter.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnFilter.FlatAppearance.BorderSize = 3;
+            this.btnFilter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnFilter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFilter.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnFilter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnFilter.Location = new System.Drawing.Point(426, 25);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Size = new System.Drawing.Size(85, 59);
+            this.btnFilter.TabIndex = 159;
+            this.btnFilter.Text = "Filter";
+            this.btnFilter.UseMnemonic = false;
+            this.btnFilter.UseVisualStyleBackColor = true;
+            // 
+            // lblFilter
+            // 
+            this.lblFilter.AutoSize = true;
+            this.lblFilter.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblFilter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblFilter.Location = new System.Drawing.Point(1, 14);
+            this.lblFilter.Name = "lblFilter";
+            this.lblFilter.Size = new System.Drawing.Size(57, 21);
+            this.lblFilter.TabIndex = 163;
+            this.lblFilter.Text = "Filter";
+            // 
+            // pbx2
+            // 
+            this.pbx2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pbx2.Location = new System.Drawing.Point(5, 65);
+            this.pbx2.Name = "pbx2";
+            this.pbx2.Size = new System.Drawing.Size(215, 2);
+            this.pbx2.TabIndex = 162;
+            this.pbx2.TabStop = false;
+            // 
+            // txtFilter
+            // 
+            this.txtFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtFilter.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtFilter.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFilter.ForeColor = System.Drawing.Color.Silver;
+            this.txtFilter.Location = new System.Drawing.Point(5, 46);
+            this.txtFilter.MaxLength = 50;
+            this.txtFilter.Name = "txtFilter";
+            this.txtFilter.Size = new System.Drawing.Size(214, 20);
+            this.txtFilter.TabIndex = 157;
+            this.txtFilter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFilter.WordWrap = false;
+            // 
+            // dgvItemMenu
+            // 
+            this.dgvItemMenu.AllowUserToAddRows = false;
+            this.dgvItemMenu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvItemMenu.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvItemMenu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvItemMenu.EnableHeadersVisualStyles = false;
+            this.dgvItemMenu.GridColor = System.Drawing.SystemColors.AppWorkspace;
+            this.dgvItemMenu.Location = new System.Drawing.Point(0, 100);
+            this.dgvItemMenu.Name = "dgvItemMenu";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvItemMenu.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvItemMenu.Size = new System.Drawing.Size(511, 447);
+            this.dgvItemMenu.TabIndex = 160;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btnOpenAcc);
+            this.panel3.Controls.Add(this.btnSearch);
+            this.panel3.Controls.Add(this.lblEnterAccount);
+            this.panel3.Controls.Add(this.pbx1);
+            this.panel3.Controls.Add(this.txtEnterAccount);
+            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel3.Location = new System.Drawing.Point(517, 177);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(332, 446);
+            this.panel3.TabIndex = 104;
+            // 
+            // btnOpenAcc
+            // 
+            this.btnOpenAcc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOpenAcc.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.btnOpenAcc.FlatAppearance.BorderSize = 3;
+            this.btnOpenAcc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.btnOpenAcc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnOpenAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOpenAcc.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnOpenAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnOpenAcc.Location = new System.Drawing.Point(93, 273);
+            this.btnOpenAcc.Name = "btnOpenAcc";
+            this.btnOpenAcc.Size = new System.Drawing.Size(145, 106);
+            this.btnOpenAcc.TabIndex = 132;
+            this.btnOpenAcc.Text = "Open Account";
+            this.btnOpenAcc.UseMnemonic = false;
+            this.btnOpenAcc.UseVisualStyleBackColor = true;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearch.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnSearch.FlatAppearance.BorderSize = 3;
+            this.btnSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnSearch.Location = new System.Drawing.Point(93, 201);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(145, 60);
+            this.btnSearch.TabIndex = 131;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseMnemonic = false;
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // lblEnterAccount
+            // 
+            this.lblEnterAccount.AutoSize = true;
+            this.lblEnterAccount.Font = new System.Drawing.Font("Rockwell", 20F);
+            this.lblEnterAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblEnterAccount.Location = new System.Drawing.Point(55, 78);
+            this.lblEnterAccount.Name = "lblEnterAccount";
+            this.lblEnterAccount.Size = new System.Drawing.Size(222, 31);
+            this.lblEnterAccount.TabIndex = 130;
+            this.lblEnterAccount.Text = "Enter Account ID";
+            // 
+            // pbx1
+            // 
+            this.pbx1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pbx1.Location = new System.Drawing.Point(80, 166);
+            this.pbx1.Name = "pbx1";
+            this.pbx1.Size = new System.Drawing.Size(174, 2);
+            this.pbx1.TabIndex = 129;
+            this.pbx1.TabStop = false;
+            // 
+            // txtEnterAccount
+            // 
+            this.txtEnterAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtEnterAccount.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEnterAccount.Font = new System.Drawing.Font("Rockwell", 20F);
+            this.txtEnterAccount.ForeColor = System.Drawing.Color.Silver;
+            this.txtEnterAccount.Location = new System.Drawing.Point(80, 136);
+            this.txtEnterAccount.MaxLength = 6;
+            this.txtEnterAccount.Name = "txtEnterAccount";
+            this.txtEnterAccount.Size = new System.Drawing.Size(174, 32);
+            this.txtEnterAccount.TabIndex = 128;
+            this.txtEnterAccount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEnterAccount.WordWrap = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label1.Location = new System.Drawing.Point(683, 356);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 36);
+            this.label1.TabIndex = 105;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label2.Location = new System.Drawing.Point(827, 21);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(135, 36);
+            this.label2.TabIndex = 106;
+            this.label2.Text = "Account";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.btnRemoveProd);
+            this.panel4.Controls.Add(this.lblQtd);
+            this.panel4.Controls.Add(this.btnFinalizeAcc);
+            this.panel4.Controls.Add(this.btnFilter2);
+            this.panel4.Controls.Add(this.dgvAccount);
+            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel4.Location = new System.Drawing.Point(833, 75);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(514, 613);
+            this.panel4.TabIndex = 107;
+            // 
+            // btnRemoveProd
+            // 
+            this.btnRemoveProd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRemoveProd.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnRemoveProd.FlatAppearance.BorderSize = 3;
+            this.btnRemoveProd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnRemoveProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnRemoveProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRemoveProd.Font = new System.Drawing.Font("Berlin Sans FB Demi", 14F);
+            this.btnRemoveProd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnRemoveProd.Location = new System.Drawing.Point(336, 25);
+            this.btnRemoveProd.Name = "btnRemoveProd";
+            this.btnRemoveProd.Size = new System.Drawing.Size(175, 58);
+            this.btnRemoveProd.TabIndex = 168;
+            this.btnRemoveProd.Text = "Remove Item";
+            this.btnRemoveProd.UseMnemonic = false;
+            this.btnRemoveProd.UseVisualStyleBackColor = true;
+            // 
+            // lblQtd
+            // 
+            this.lblQtd.AutoSize = true;
+            this.lblQtd.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblQtd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblQtd.Location = new System.Drawing.Point(1, 14);
+            this.lblQtd.Name = "lblQtd";
+            this.lblQtd.Size = new System.Drawing.Size(78, 21);
+            this.lblQtd.TabIndex = 167;
+            this.lblQtd.Text = "Amount";
+            // 
+            // btnFinalizeAcc
+            // 
+            this.btnFinalizeAcc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFinalizeAcc.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnFinalizeAcc.FlatAppearance.BorderSize = 3;
+            this.btnFinalizeAcc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnFinalizeAcc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnFinalizeAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFinalizeAcc.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnFinalizeAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnFinalizeAcc.Location = new System.Drawing.Point(1, 551);
+            this.btnFinalizeAcc.Name = "btnFinalizeAcc";
+            this.btnFinalizeAcc.Size = new System.Drawing.Size(309, 59);
+            this.btnFinalizeAcc.TabIndex = 161;
+            this.btnFinalizeAcc.Text = "Finalize Account";
+            this.btnFinalizeAcc.UseMnemonic = false;
+            this.btnFinalizeAcc.UseVisualStyleBackColor = true;
+            // 
+            // btnFilter2
+            // 
+            this.btnFilter2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFilter2.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnFilter2.FlatAppearance.BorderSize = 3;
+            this.btnFilter2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnFilter2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnFilter2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFilter2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 14F);
+            this.btnFilter2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnFilter2.Location = new System.Drawing.Point(109, 25);
+            this.btnFilter2.Name = "btnFilter2";
+            this.btnFilter2.Size = new System.Drawing.Size(181, 56);
+            this.btnFilter2.TabIndex = 159;
+            this.btnFilter2.Text = "Confirm Amount";
+            this.btnFilter2.UseMnemonic = false;
+            this.btnFilter2.UseVisualStyleBackColor = true;
+            // 
+            // dgvAccount
+            // 
+            this.dgvAccount.AllowUserToAddRows = false;
+            this.dgvAccount.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvAccount.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAccount.EnableHeadersVisualStyles = false;
+            this.dgvAccount.GridColor = System.Drawing.SystemColors.AppWorkspace;
+            this.dgvAccount.Location = new System.Drawing.Point(0, 100);
+            this.dgvAccount.Name = "dgvAccount";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvAccount.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvAccount.Size = new System.Drawing.Size(511, 447);
+            this.dgvAccount.TabIndex = 160;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pictureBox1.Location = new System.Drawing.Point(5, 75);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(98, 2);
+            this.pictureBox1.TabIndex = 170;
+            this.pictureBox1.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Rockwell", 20F);
+            this.textBox1.ForeColor = System.Drawing.Color.Silver;
+            this.textBox1.Location = new System.Drawing.Point(5, 45);
+            this.textBox1.MaxLength = 6;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(98, 32);
+            this.textBox1.TabIndex = 169;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.WordWrap = false;
             // 
             // frmCashier
             // 
@@ -119,11 +500,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
-            this.Controls.Add(this.ucCashierMenu1);
-            this.Controls.Add(this.ucCashierHome1);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbxBasePass);
+            this.Controls.Add(this.panel3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCashier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -133,6 +517,17 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvItemMenu)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,7 +540,30 @@
         private System.Windows.Forms.Label lblBack;
         private System.Windows.Forms.PictureBox pbxBack;
         public System.Windows.Forms.PictureBox pbxBasePass;
-        private ucCashierHome ucCashierHome1;
-        private ucCashierMenu ucCashierMenu1;
+        private System.Windows.Forms.Panel panel2;
+        public System.Windows.Forms.Button btnaddProd;
+        private System.Windows.Forms.Label lblFIlterBy;
+        private MetroFramework.Controls.MetroComboBox mcbFilterBy;
+        public System.Windows.Forms.Button btnFilter;
+        private System.Windows.Forms.Label lblFilter;
+        public System.Windows.Forms.PictureBox pbx2;
+        public System.Windows.Forms.TextBox txtFilter;
+        public System.Windows.Forms.DataGridView dgvItemMenu;
+        private System.Windows.Forms.Panel panel3;
+        public System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Label lblEnterAccount;
+        public System.Windows.Forms.PictureBox pbx1;
+        public System.Windows.Forms.TextBox txtEnterAccount;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel4;
+        public System.Windows.Forms.Button btnFinalizeAcc;
+        public System.Windows.Forms.Button btnFilter2;
+        public System.Windows.Forms.DataGridView dgvAccount;
+        private System.Windows.Forms.Label lblQtd;
+        public System.Windows.Forms.Button btnRemoveProd;
+        public System.Windows.Forms.Button btnOpenAcc;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -177,10 +177,10 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlac
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Buffers.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Memory.xml
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe.config
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.exe
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\RenatinhaPlace.pdb
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Commands.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.Core.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.dll
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\bin\Debug\EntityFramework.MicrosoftSqlServer.dll
@@ -245,6 +245,13 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucAddClient.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucAddEvent.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucCashierHome.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucCashierMenu.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucEditClient.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucEditClient2.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucEditEvent.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucEditEvent2.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucQueryClient.resources
+C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucQueryEvent.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Properties.Resources.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Strings.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.GenerateResource.cache
@@ -252,11 +259,4 @@ C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaP
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csproj.CopyComplete
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.exe
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.pdb
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucQueryClient.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucQueryEvent.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucEditClient.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucEditEvent.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucEditEvent2.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucEditClient2.resources
-C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.Forms.ucCashierMenu.resources
 C:\Users\pepem\OneDrive\Documents\GitHub\3INFO-JV\PTCC\RenatinhaPlace\RenatinhaPlace\obj\Debug\RenatinhaPlace.csprojAssemblyReference.cache
