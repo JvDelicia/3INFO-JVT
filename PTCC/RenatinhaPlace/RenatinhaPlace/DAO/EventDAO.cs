@@ -23,6 +23,8 @@ namespace RenatinhaPlace.DAO
              return context.Events.FirstOrDefault(u => u.Id == id);
          }
 
+
+
         public void Remove(Event even)
         {
             context.Events.Remove(even);

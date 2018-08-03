@@ -20,6 +20,14 @@ namespace RenatinhaPlace {
             return context.Clients.FirstOrDefault(u => u.Id == id);
         }
 
+        public IList<Client> FindCpf(string cpf)
+        {
+            var busca = from c in context.Clients
+                        where c.Cpf == cpf
+                        select c;
+            return busca.ToList();
+        }
+
         public void Remove(Client client) {
             context.Clients.Remove(client);
             context.SaveChanges();

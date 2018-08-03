@@ -172,6 +172,7 @@
             this.ucQueryEvent1.Size = new System.Drawing.Size(1142, 571);
             this.ucQueryEvent1.TabIndex = 100;
             this.ucQueryEvent1.Visible = false;
+            this.ucQueryEvent1.Load += new System.EventHandler(this.ucQueryEvent1_Load);
             // 
             // ucEditEvent1
             // 

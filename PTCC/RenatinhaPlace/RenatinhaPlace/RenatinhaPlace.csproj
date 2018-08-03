@@ -152,6 +152,7 @@
     <Compile Include="DAO\FuncDAO.cs" />
     <Compile Include="DAO\EventDAO.cs" />
     <Compile Include="DAO\MenuDAO.cs" />
+    <Compile Include="DAO\TicketDAO.cs" />
     <Compile Include="dbDragonNightDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -225,6 +226,12 @@
       <DependentUpon>frmSplash.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO\ProdDAO.cs" />
+    <Compile Include="Forms\NewAcc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\NewAcc.Designer.cs">
+      <DependentUpon>NewAcc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ucAddClient.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -236,18 +243,6 @@
     </Compile>
     <Compile Include="Forms\ucAddEvent.Designer.cs">
       <DependentUpon>ucAddEvent.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\ucCashierHome.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Forms\ucCashierHome.Designer.cs">
-      <DependentUpon>ucCashierHome.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\ucCashierMenu.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Forms\ucCashierMenu.Designer.cs">
-      <DependentUpon>ucCashierMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ucEditClient.cs">
       <SubType>UserControl</SubType>
@@ -325,17 +320,14 @@
     <EmbeddedResource Include="Forms\frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewAcc.resx">
+      <DependentUpon>NewAcc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ucAddClient.resx">
       <DependentUpon>ucAddClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ucAddEvent.resx">
       <DependentUpon>ucAddEvent.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ucCashierHome.resx">
-      <DependentUpon>ucCashierHome.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ucCashierMenu.resx">
-      <DependentUpon>ucCashierMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ucEditClient.resx">
       <DependentUpon>ucEditClient.cs</DependentUpon>

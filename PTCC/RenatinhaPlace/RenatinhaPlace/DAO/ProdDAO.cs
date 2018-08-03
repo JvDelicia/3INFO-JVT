@@ -33,7 +33,7 @@ namespace RenatinhaPlace {
                         join m in context.Menus on pv.MenuId equals m.Id
                         join e in context.Events on m.Id equals e.MenuId
                         join t in context.Tickets on e.Id equals t.EventId
-                        join a in context.Accounts on t.Id equals a.TicketId
+                        join a in context.Accounts on idacc equals a.TicketId
                         select p;
 
             return busca.ToList();

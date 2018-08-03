@@ -225,5 +225,10 @@ namespace RenatinhaPlace.Forms
 
 
         }
+
+        private void ucQueryEvent1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

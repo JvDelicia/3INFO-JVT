@@ -67,6 +67,15 @@ namespace RenatinhaPlace.Forms
             ProdDAO pdao = new ProdDAO();
             idacc = int.Parse(txtEnterAccount.Text);
             var accprodsbusca = pdao.FindProdsByAccount(idacc);
+            if(accprodsbusca == null)
+            {
+                if (MetroMessageBox.Show(this, "This account does not exist. Would you like to open a new account?", "Account Not Found", MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+                {
+
+                }
+
+            }
+
             var source = new BindingSource(accprodsbusca, null);
             dgvItemMenu.DataSource = source;
             dgvItemMenu.Columns.Remove("ItemMenus");
@@ -80,5 +89,18 @@ namespace RenatinhaPlace.Forms
 
         }
 
+        private void txtEnterAccount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                btnSearch_Click(sender, e);
+            }
+
+        }
+
+        private void btnOpenAcc_Click(object sender, EventArgs e)
+        {
+            //ucAddAccount1.Visible = true;
+        }
     }
 }
