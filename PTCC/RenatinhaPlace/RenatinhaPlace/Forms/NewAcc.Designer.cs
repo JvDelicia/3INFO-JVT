@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblClientId = new System.Windows.Forms.Label();
             this.lblClientId2 = new System.Windows.Forms.Label();
             this.btnSearch2 = new System.Windows.Forms.Button();
@@ -89,7 +89,6 @@
             this.btnSearch2.Text = "Search";
             this.btnSearch2.UseMnemonic = false;
             this.btnSearch2.UseVisualStyleBackColor = true;
-            this.btnSearch2.Click += new System.EventHandler(this.btnSearch2_Click);
             // 
             // lblEvent
             // 
@@ -142,7 +141,6 @@
             this.btnSelectClient.Text = "Select";
             this.btnSelectClient.UseMnemonic = false;
             this.btnSelectClient.UseVisualStyleBackColor = true;
-            this.btnSelectClient.Click += new System.EventHandler(this.btnSelectClient_Click);
             // 
             // mcbTicket
             // 
@@ -179,14 +177,14 @@
             this.dgvClients.Location = new System.Drawing.Point(345, 90);
             this.dgvClients.Name = "dgvClients";
             this.dgvClients.ReadOnly = true;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvClients.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvClients.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvClients.Size = new System.Drawing.Size(573, 113);
             this.dgvClients.TabIndex = 172;
             // 
@@ -226,7 +224,6 @@
             this.btnClear.Text = "Clear Fields";
             this.btnClear.UseMnemonic = false;
             this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnRegistrer
             // 

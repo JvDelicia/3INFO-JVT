@@ -133,10 +133,7 @@ namespace RenatinhaPlace.Forms
 
         }
           
-        private void ucQueryClient1_Load(object sender, EventArgs e)
-        {
 
-        }
 
 
         private void ucEditClient1_VisibleChanged(object sender, EventArgs e)

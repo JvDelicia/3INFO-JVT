@@ -30,6 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCashier));
             this.lblTitle = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -43,7 +44,7 @@
             this.btnFilter = new System.Windows.Forms.Button();
             this.lblFilter = new System.Windows.Forms.Label();
             this.pbx2 = new System.Windows.Forms.PictureBox();
-            this.txtFilter = new System.Windows.Forms.TextBox();
+            this.txtFilterProd = new System.Windows.Forms.TextBox();
             this.dgvItemMenu = new System.Windows.Forms.DataGridView();
             this.panelEnter = new System.Windows.Forms.Panel();
             this.btnOpenAcc = new System.Windows.Forms.Button();
@@ -52,7 +53,7 @@
             this.pbx1 = new System.Windows.Forms.PictureBox();
             this.txtEnterAccount = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTitle2 = new System.Windows.Forms.Label();
             this.panelAcc = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -61,6 +62,24 @@
             this.btnFinalizeAcc = new System.Windows.Forms.Button();
             this.btnFilter2 = new System.Windows.Forms.Button();
             this.dgvAccount = new System.Windows.Forms.DataGridView();
+            this.panelAddAcc = new System.Windows.Forms.Panel();
+            this.lblClientId = new System.Windows.Forms.Label();
+            this.lblClientId2 = new System.Windows.Forms.Label();
+            this.btnSearch3 = new System.Windows.Forms.Button();
+            this.lblEvent = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txtEvent = new System.Windows.Forms.TextBox();
+            this.btnSelectClient = new System.Windows.Forms.Button();
+            this.mcbTicket = new MetroFramework.Controls.MetroComboBox();
+            this.lblTicketEvent = new System.Windows.Forms.Label();
+            this.dgvClients = new System.Windows.Forms.DataGridView();
+            this.btnSerach2 = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnRegistrer = new System.Windows.Forms.Button();
+            this.lblCientAcc = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.txtClientAcc = new System.Windows.Forms.TextBox();
+            this.lblTitle3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -72,6 +91,10 @@
             this.panelAcc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).BeginInit();
+            this.panelAddAcc.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -138,9 +161,9 @@
             this.panelProd.Controls.Add(this.btnFilter);
             this.panelProd.Controls.Add(this.lblFilter);
             this.panelProd.Controls.Add(this.pbx2);
-            this.panelProd.Controls.Add(this.txtFilter);
+            this.panelProd.Controls.Add(this.txtFilterProd);
             this.panelProd.Controls.Add(this.dgvItemMenu);
-            this.panelProd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelProd.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelProd.Location = new System.Drawing.Point(20, 75);
             this.panelProd.Name = "panelProd";
             this.panelProd.Size = new System.Drawing.Size(514, 613);
@@ -163,6 +186,7 @@
             this.btnaddProd.Text = "Add To Account";
             this.btnaddProd.UseMnemonic = false;
             this.btnaddProd.UseVisualStyleBackColor = true;
+            this.btnaddProd.Click += new System.EventHandler(this.btnaddProd_Click);
             // 
             // lblFIlterBy
             // 
@@ -207,6 +231,7 @@
             this.btnFilter.Text = "Filter";
             this.btnFilter.UseMnemonic = false;
             this.btnFilter.UseVisualStyleBackColor = true;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // lblFilter
             // 
@@ -228,19 +253,19 @@
             this.pbx2.TabIndex = 162;
             this.pbx2.TabStop = false;
             // 
-            // txtFilter
+            // txtFilterProd
             // 
-            this.txtFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
-            this.txtFilter.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtFilter.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFilter.ForeColor = System.Drawing.Color.Silver;
-            this.txtFilter.Location = new System.Drawing.Point(5, 46);
-            this.txtFilter.MaxLength = 50;
-            this.txtFilter.Name = "txtFilter";
-            this.txtFilter.Size = new System.Drawing.Size(214, 20);
-            this.txtFilter.TabIndex = 157;
-            this.txtFilter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtFilter.WordWrap = false;
+            this.txtFilterProd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtFilterProd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtFilterProd.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFilterProd.ForeColor = System.Drawing.Color.Silver;
+            this.txtFilterProd.Location = new System.Drawing.Point(5, 46);
+            this.txtFilterProd.MaxLength = 50;
+            this.txtFilterProd.Name = "txtFilterProd";
+            this.txtFilterProd.Size = new System.Drawing.Size(214, 20);
+            this.txtFilterProd.TabIndex = 157;
+            this.txtFilterProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFilterProd.WordWrap = false;
             // 
             // dgvItemMenu
             // 
@@ -272,10 +297,10 @@
             this.panelEnter.Controls.Add(this.lblEnterAccount);
             this.panelEnter.Controls.Add(this.pbx1);
             this.panelEnter.Controls.Add(this.txtEnterAccount);
-            this.panelEnter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelEnter.Location = new System.Drawing.Point(569, 75);
+            this.panelEnter.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panelEnter.Location = new System.Drawing.Point(569, 175);
             this.panelEnter.Name = "panelEnter";
-            this.panelEnter.Size = new System.Drawing.Size(227, 547);
+            this.panelEnter.Size = new System.Drawing.Size(227, 447);
             this.panelEnter.TabIndex = 104;
             // 
             // btnOpenAcc
@@ -288,7 +313,7 @@
             this.btnOpenAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOpenAcc.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnOpenAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnOpenAcc.Location = new System.Drawing.Point(40, 385);
+            this.btnOpenAcc.Location = new System.Drawing.Point(40, 277);
             this.btnOpenAcc.Name = "btnOpenAcc";
             this.btnOpenAcc.Size = new System.Drawing.Size(145, 106);
             this.btnOpenAcc.TabIndex = 137;
@@ -307,7 +332,7 @@
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnSearch.Location = new System.Drawing.Point(40, 313);
+            this.btnSearch.Location = new System.Drawing.Point(40, 205);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(145, 60);
             this.btnSearch.TabIndex = 136;
@@ -321,7 +346,7 @@
             this.lblEnterAccount.AutoSize = true;
             this.lblEnterAccount.Font = new System.Drawing.Font("Rockwell", 20F);
             this.lblEnterAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblEnterAccount.Location = new System.Drawing.Point(2, 190);
+            this.lblEnterAccount.Location = new System.Drawing.Point(2, 82);
             this.lblEnterAccount.Name = "lblEnterAccount";
             this.lblEnterAccount.Size = new System.Drawing.Size(222, 31);
             this.lblEnterAccount.TabIndex = 135;
@@ -330,7 +355,7 @@
             // pbx1
             // 
             this.pbx1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
-            this.pbx1.Location = new System.Drawing.Point(27, 278);
+            this.pbx1.Location = new System.Drawing.Point(27, 170);
             this.pbx1.Name = "pbx1";
             this.pbx1.Size = new System.Drawing.Size(174, 2);
             this.pbx1.TabIndex = 134;
@@ -342,7 +367,7 @@
             this.txtEnterAccount.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtEnterAccount.Font = new System.Drawing.Font("Rockwell", 20F);
             this.txtEnterAccount.ForeColor = System.Drawing.Color.Silver;
-            this.txtEnterAccount.Location = new System.Drawing.Point(27, 248);
+            this.txtEnterAccount.Location = new System.Drawing.Point(27, 140);
             this.txtEnterAccount.MaxLength = 6;
             this.txtEnterAccount.Name = "txtEnterAccount";
             this.txtEnterAccount.Size = new System.Drawing.Size(174, 32);
@@ -361,17 +386,17 @@
             this.label1.Size = new System.Drawing.Size(0, 36);
             this.label1.TabIndex = 105;
             // 
-            // label2
+            // lblTitle2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.label2.Location = new System.Drawing.Point(827, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 36);
-            this.label2.TabIndex = 106;
-            this.label2.Text = "Account";
+            this.lblTitle2.AutoSize = true;
+            this.lblTitle2.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle2.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTitle2.Location = new System.Drawing.Point(827, 21);
+            this.lblTitle2.Name = "lblTitle2";
+            this.lblTitle2.Size = new System.Drawing.Size(135, 36);
+            this.lblTitle2.TabIndex = 106;
+            this.lblTitle2.Text = "Account";
             // 
             // panelAcc
             // 
@@ -382,7 +407,7 @@
             this.panelAcc.Controls.Add(this.btnFinalizeAcc);
             this.panelAcc.Controls.Add(this.btnFilter2);
             this.panelAcc.Controls.Add(this.dgvAccount);
-            this.panelAcc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelAcc.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelAcc.Location = new System.Drawing.Point(833, 75);
             this.panelAcc.Name = "panelAcc";
             this.panelAcc.Size = new System.Drawing.Size(514, 613);
@@ -498,20 +523,289 @@
             this.dgvAccount.Size = new System.Drawing.Size(511, 447);
             this.dgvAccount.TabIndex = 160;
             // 
+            // panelAddAcc
+            // 
+            this.panelAddAcc.Controls.Add(this.lblClientId);
+            this.panelAddAcc.Controls.Add(this.lblClientId2);
+            this.panelAddAcc.Controls.Add(this.btnSearch3);
+            this.panelAddAcc.Controls.Add(this.lblEvent);
+            this.panelAddAcc.Controls.Add(this.pictureBox2);
+            this.panelAddAcc.Controls.Add(this.txtEvent);
+            this.panelAddAcc.Controls.Add(this.btnSelectClient);
+            this.panelAddAcc.Controls.Add(this.mcbTicket);
+            this.panelAddAcc.Controls.Add(this.lblTicketEvent);
+            this.panelAddAcc.Controls.Add(this.dgvClients);
+            this.panelAddAcc.Controls.Add(this.btnSerach2);
+            this.panelAddAcc.Controls.Add(this.btnClear);
+            this.panelAddAcc.Controls.Add(this.btnRegistrer);
+            this.panelAddAcc.Controls.Add(this.lblCientAcc);
+            this.panelAddAcc.Controls.Add(this.pictureBox3);
+            this.panelAddAcc.Controls.Add(this.txtClientAcc);
+            this.panelAddAcc.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panelAddAcc.Location = new System.Drawing.Point(12, 63);
+            this.panelAddAcc.Name = "panelAddAcc";
+            this.panelAddAcc.Size = new System.Drawing.Size(1342, 635);
+            this.panelAddAcc.TabIndex = 108;
+            // 
+            // lblClientId
+            // 
+            this.lblClientId.AutoSize = true;
+            this.lblClientId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.lblClientId.Font = new System.Drawing.Font("Rockwell", 28F);
+            this.lblClientId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblClientId.Location = new System.Drawing.Point(448, 229);
+            this.lblClientId.Name = "lblClientId";
+            this.lblClientId.Size = new System.Drawing.Size(0, 42);
+            this.lblClientId.TabIndex = 197;
+            // 
+            // lblClientId2
+            // 
+            this.lblClientId2.AutoSize = true;
+            this.lblClientId2.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblClientId2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblClientId2.Location = new System.Drawing.Point(335, 242);
+            this.lblClientId2.Name = "lblClientId2";
+            this.lblClientId2.Size = new System.Drawing.Size(107, 21);
+            this.lblClientId2.TabIndex = 196;
+            this.lblClientId2.Text = "Client ID =";
+            // 
+            // btnSearch3
+            // 
+            this.btnSearch3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearch3.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnSearch3.FlatAppearance.BorderSize = 3;
+            this.btnSearch3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnSearch3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnSearch3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch3.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnSearch3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnSearch3.Location = new System.Drawing.Point(726, 314);
+            this.btnSearch3.Name = "btnSearch3";
+            this.btnSearch3.Size = new System.Drawing.Size(97, 59);
+            this.btnSearch3.TabIndex = 195;
+            this.btnSearch3.Text = "Search";
+            this.btnSearch3.UseMnemonic = false;
+            this.btnSearch3.UseVisualStyleBackColor = true;
+            this.btnSearch3.Click += new System.EventHandler(this.btnSearch3_Click);
+            // 
+            // lblEvent
+            // 
+            this.lblEvent.AutoSize = true;
+            this.lblEvent.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblEvent.Location = new System.Drawing.Point(335, 300);
+            this.lblEvent.Name = "lblEvent";
+            this.lblEvent.Size = new System.Drawing.Size(128, 21);
+            this.lblEvent.TabIndex = 194;
+            this.lblEvent.Text = "Event\'s Name";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pictureBox2.Location = new System.Drawing.Point(338, 354);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(360, 2);
+            this.pictureBox2.TabIndex = 193;
+            this.pictureBox2.TabStop = false;
+            // 
+            // txtEvent
+            // 
+            this.txtEvent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtEvent.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEvent.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEvent.ForeColor = System.Drawing.Color.Silver;
+            this.txtEvent.Location = new System.Drawing.Point(338, 335);
+            this.txtEvent.MaxLength = 25;
+            this.txtEvent.Name = "txtEvent";
+            this.txtEvent.Size = new System.Drawing.Size(360, 20);
+            this.txtEvent.TabIndex = 192;
+            this.txtEvent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEvent.WordWrap = false;
+            // 
+            // btnSelectClient
+            // 
+            this.btnSelectClient.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSelectClient.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnSelectClient.FlatAppearance.BorderSize = 3;
+            this.btnSelectClient.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnSelectClient.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnSelectClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelectClient.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnSelectClient.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnSelectClient.Location = new System.Drawing.Point(917, 102);
+            this.btnSelectClient.Name = "btnSelectClient";
+            this.btnSelectClient.Size = new System.Drawing.Size(86, 113);
+            this.btnSelectClient.TabIndex = 191;
+            this.btnSelectClient.Text = "Select";
+            this.btnSelectClient.UseMnemonic = false;
+            this.btnSelectClient.UseVisualStyleBackColor = true;
+            this.btnSelectClient.Click += new System.EventHandler(this.btnSelectClient_Click);
+            // 
+            // mcbTicket
+            // 
+            this.mcbTicket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.mcbTicket.ForeColor = System.Drawing.Color.Silver;
+            this.mcbTicket.FormattingEnabled = true;
+            this.mcbTicket.ItemHeight = 23;
+            this.mcbTicket.Location = new System.Drawing.Point(339, 461);
+            this.mcbTicket.Name = "mcbTicket";
+            this.mcbTicket.Size = new System.Drawing.Size(267, 29);
+            this.mcbTicket.TabIndex = 189;
+            this.mcbTicket.UseSelectable = true;
+            // 
+            // lblTicketEvent
+            // 
+            this.lblTicketEvent.AutoSize = true;
+            this.lblTicketEvent.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblTicketEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTicketEvent.Location = new System.Drawing.Point(335, 423);
+            this.lblTicketEvent.Name = "lblTicketEvent";
+            this.lblTicketEvent.Size = new System.Drawing.Size(132, 21);
+            this.lblTicketEvent.TabIndex = 190;
+            this.lblTicketEvent.Text = "Event\'s Ticket";
+            // 
+            // dgvClients
+            // 
+            this.dgvClients.AllowUserToAddRows = false;
+            this.dgvClients.AllowUserToDeleteRows = false;
+            this.dgvClients.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvClients.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvClients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvClients.EnableHeadersVisualStyles = false;
+            this.dgvClients.GridColor = System.Drawing.SystemColors.AppWorkspace;
+            this.dgvClients.Location = new System.Drawing.Point(338, 102);
+            this.dgvClients.Name = "dgvClients";
+            this.dgvClients.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvClients.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvClients.Size = new System.Drawing.Size(573, 113);
+            this.dgvClients.TabIndex = 188;
+            // 
+            // btnSerach2
+            // 
+            this.btnSerach2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSerach2.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnSerach2.FlatAppearance.BorderSize = 3;
+            this.btnSerach2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnSerach2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnSerach2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSerach2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnSerach2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnSerach2.Location = new System.Drawing.Point(730, 39);
+            this.btnSerach2.Name = "btnSerach2";
+            this.btnSerach2.Size = new System.Drawing.Size(93, 59);
+            this.btnSerach2.TabIndex = 187;
+            this.btnSerach2.Text = "Search";
+            this.btnSerach2.UseMnemonic = false;
+            this.btnSerach2.UseVisualStyleBackColor = true;
+            this.btnSerach2.Click += new System.EventHandler(this.btnSerach2_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnClear.FlatAppearance.BorderSize = 3;
+            this.btnClear.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnClear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnClear.Location = new System.Drawing.Point(694, 532);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(145, 59);
+            this.btnClear.TabIndex = 184;
+            this.btnClear.Text = "Clear Fields";
+            this.btnClear.UseMnemonic = false;
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnRegistrer
+            // 
+            this.btnRegistrer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegistrer.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnRegistrer.FlatAppearance.BorderSize = 3;
+            this.btnRegistrer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnRegistrer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnRegistrer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrer.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnRegistrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnRegistrer.Location = new System.Drawing.Point(545, 532);
+            this.btnRegistrer.Name = "btnRegistrer";
+            this.btnRegistrer.Size = new System.Drawing.Size(145, 59);
+            this.btnRegistrer.TabIndex = 183;
+            this.btnRegistrer.Text = "Register";
+            this.btnRegistrer.UseMnemonic = false;
+            this.btnRegistrer.UseVisualStyleBackColor = true;
+            this.btnRegistrer.Click += new System.EventHandler(this.btnRegistrer_Click);
+            // 
+            // lblCientAcc
+            // 
+            this.lblCientAcc.AutoSize = true;
+            this.lblCientAcc.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblCientAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblCientAcc.Location = new System.Drawing.Point(335, 25);
+            this.lblCientAcc.Name = "lblCientAcc";
+            this.lblCientAcc.Size = new System.Drawing.Size(104, 21);
+            this.lblCientAcc.TabIndex = 186;
+            this.lblCientAcc.Text = "Client CPF";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pictureBox3.Location = new System.Drawing.Point(338, 79);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(360, 2);
+            this.pictureBox3.TabIndex = 185;
+            this.pictureBox3.TabStop = false;
+            // 
+            // txtClientAcc
+            // 
+            this.txtClientAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtClientAcc.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtClientAcc.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtClientAcc.ForeColor = System.Drawing.Color.Silver;
+            this.txtClientAcc.Location = new System.Drawing.Point(338, 60);
+            this.txtClientAcc.MaxLength = 25;
+            this.txtClientAcc.Name = "txtClientAcc";
+            this.txtClientAcc.Size = new System.Drawing.Size(360, 20);
+            this.txtClientAcc.TabIndex = 182;
+            this.txtClientAcc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtClientAcc.WordWrap = false;
+            // 
+            // lblTitle3
+            // 
+            this.lblTitle3.AutoSize = true;
+            this.lblTitle3.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle3.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTitle3.Location = new System.Drawing.Point(591, 24);
+            this.lblTitle3.Name = "lblTitle3";
+            this.lblTitle3.Size = new System.Drawing.Size(209, 36);
+            this.lblTitle3.TabIndex = 109;
+            this.lblTitle3.Text = "New Account";
+            // 
             // frmCashier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
-            this.ClientSize = new System.Drawing.Size(1366, 477);
-            this.Controls.Add(this.panelAcc);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.lblTitle3);
+            this.Controls.Add(this.lblTitle2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panelProd);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbxBasePass);
+            this.Controls.Add(this.panelAcc);
             this.Controls.Add(this.panelEnter);
+            this.Controls.Add(this.panelAddAcc);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCashier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -532,6 +826,11 @@
             this.panelAcc.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).EndInit();
+            this.panelAddAcc.ResumeLayout(false);
+            this.panelAddAcc.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -551,11 +850,11 @@
         public System.Windows.Forms.Button btnFilter;
         private System.Windows.Forms.Label lblFilter;
         public System.Windows.Forms.PictureBox pbx2;
-        public System.Windows.Forms.TextBox txtFilter;
+        public System.Windows.Forms.TextBox txtFilterProd;
         public System.Windows.Forms.DataGridView dgvItemMenu;
         private System.Windows.Forms.Panel panelEnter;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTitle2;
         private System.Windows.Forms.Panel panelAcc;
         public System.Windows.Forms.Button btnFinalizeAcc;
         public System.Windows.Forms.Button btnFilter2;
@@ -569,5 +868,23 @@
         private System.Windows.Forms.Label lblEnterAccount;
         public System.Windows.Forms.PictureBox pbx1;
         public System.Windows.Forms.TextBox txtEnterAccount;
+        private System.Windows.Forms.Panel panelAddAcc;
+        private System.Windows.Forms.Label lblClientId;
+        private System.Windows.Forms.Label lblClientId2;
+        public System.Windows.Forms.Button btnSearch3;
+        private System.Windows.Forms.Label lblEvent;
+        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.TextBox txtEvent;
+        public System.Windows.Forms.Button btnSelectClient;
+        private MetroFramework.Controls.MetroComboBox mcbTicket;
+        private System.Windows.Forms.Label lblTicketEvent;
+        public System.Windows.Forms.DataGridView dgvClients;
+        public System.Windows.Forms.Button btnSerach2;
+        public System.Windows.Forms.Button btnClear;
+        public System.Windows.Forms.Button btnRegistrer;
+        private System.Windows.Forms.Label lblCientAcc;
+        public System.Windows.Forms.PictureBox pictureBox3;
+        public System.Windows.Forms.TextBox txtClientAcc;
+        private System.Windows.Forms.Label lblTitle3;
     }
 }

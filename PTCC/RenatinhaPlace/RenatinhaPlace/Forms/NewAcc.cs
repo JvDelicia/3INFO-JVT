@@ -13,11 +13,15 @@ using MetroFramework;
 
 namespace RenatinhaPlace.Forms
 {
+
     public partial class NewAcc : UserControl
     {
         public string cpfcli;
         public string nameevent;
         public int idticket;
+
+
+
 
         public NewAcc()
         {
@@ -92,14 +96,14 @@ namespace RenatinhaPlace.Forms
                 adao.Add(account);
                 MetroMessageBox.Show(this, Strings.SuccessRegistered, Strings.Registered, MessageBoxButtons.OK, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
                 this.Visible = false;
-                
+
             }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtClientAcc.Text = "";
-            lblClientId.Text = 
+            lblClientId.Text =
             txtEvent.Text = "";
             mcbTicket.Items.Clear();
             txtClientAcc.Focus();
@@ -116,5 +120,7 @@ namespace RenatinhaPlace.Forms
             dgvClients.Columns[5].HeaderText = "Sex";
             dgvClients.Columns[6].HeaderText = "Cell Phone";
         }
+
+
     }
 }

@@ -171,7 +171,6 @@
             this.ucQueryClient1.Name = "ucQueryClient1";
             this.ucQueryClient1.Size = new System.Drawing.Size(1142, 571);
             this.ucQueryClient1.TabIndex = 109;
-            this.ucQueryClient1.Load += new System.EventHandler(this.ucQueryClient1_Load);
             // 
             // ucAddClient1
             // 

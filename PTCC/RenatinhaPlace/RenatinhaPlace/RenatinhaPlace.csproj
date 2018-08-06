@@ -152,6 +152,7 @@
     <Compile Include="DAO\FuncDAO.cs" />
     <Compile Include="DAO\EventDAO.cs" />
     <Compile Include="DAO\MenuDAO.cs" />
+    <Compile Include="DAO\ProdDAO.cs" />
     <Compile Include="DAO\TicketDAO.cs" />
     <Compile Include="dbDragonNightDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -225,7 +226,6 @@
     <Compile Include="Forms\frmSplash.Designer.cs">
       <DependentUpon>frmSplash.cs</DependentUpon>
     </Compile>
-    <Compile Include="DAO\ProdDAO.cs" />
     <Compile Include="Forms\NewAcc.cs">
       <SubType>UserControl</SubType>
     </Compile>
