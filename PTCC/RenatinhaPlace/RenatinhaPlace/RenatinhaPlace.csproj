@@ -173,6 +173,12 @@
     <Compile Include="Entity\People.cs" />
     <Compile Include="Entity\Product.cs" />
     <Compile Include="Entity\Ticket.cs" />
+    <Compile Include="Forms\frmAddTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAddTicket.Designer.cs">
+      <DependentUpon>frmAddTicket.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmArtist.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -300,6 +306,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\frmAddTicket.resx">
+      <DependentUpon>frmAddTicket.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmArtist.resx">
       <DependentUpon>frmArtist.cs</DependentUpon>
     </EmbeddedResource>

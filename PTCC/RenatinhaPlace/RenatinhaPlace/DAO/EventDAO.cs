@@ -61,5 +61,15 @@ namespace RenatinhaPlace.DAO
             }
             return busca.ToList();
         }
+
+        public IList<Event> FindByName(string nameevent)
+        {
+
+           var busca = from c in context.Events
+                        where c.Name == nameevent
+                        orderby c.Name
+                        select c;
+            return busca.ToList();
+        }
     }
 }

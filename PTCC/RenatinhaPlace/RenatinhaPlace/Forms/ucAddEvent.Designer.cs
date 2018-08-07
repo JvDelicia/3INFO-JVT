@@ -55,6 +55,7 @@
             this.lblTimeEnd = new System.Windows.Forms.Label();
             this.lblDateEnd = new System.Windows.Forms.Label();
             this.mdtDateEnd = new MetroFramework.Controls.MetroDateTime();
+            this.btnAddTicket = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx3)).BeginInit();
@@ -365,11 +366,30 @@
             this.mdtDateEnd.Size = new System.Drawing.Size(307, 29);
             this.mdtDateEnd.TabIndex = 6;
             // 
+            // btnAddTicket
+            // 
+            this.btnAddTicket.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddTicket.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnAddTicket.FlatAppearance.BorderSize = 3;
+            this.btnAddTicket.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnAddTicket.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnAddTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddTicket.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnAddTicket.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnAddTicket.Location = new System.Drawing.Point(887, 21);
+            this.btnAddTicket.Name = "btnAddTicket";
+            this.btnAddTicket.Size = new System.Drawing.Size(225, 81);
+            this.btnAddTicket.TabIndex = 125;
+            this.btnAddTicket.Text = "Add Ticket";
+            this.btnAddTicket.UseMnemonic = false;
+            this.btnAddTicket.UseVisualStyleBackColor = true;
+            // 
             // ucAddEvent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            this.Controls.Add(this.btnAddTicket);
             this.Controls.Add(this.mdtDateEnd);
             this.Controls.Add(this.lblTimeEnd);
             this.Controls.Add(this.lblDateEnd);
@@ -437,5 +457,6 @@
         private System.Windows.Forms.Label lblTimeEnd;
         private System.Windows.Forms.Label lblDateEnd;
         private MetroFramework.Controls.MetroDateTime mdtDateEnd;
+        public System.Windows.Forms.Button btnAddTicket;
     }
 }

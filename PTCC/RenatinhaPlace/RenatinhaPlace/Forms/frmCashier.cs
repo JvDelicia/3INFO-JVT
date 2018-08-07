@@ -41,9 +41,11 @@ namespace RenatinhaPlace.Forms
             lblBack.Text = Strings.Back;
             txtEnterAccount.Focus();
             panelAddAcc.Visible = false;
+            panelAddTicket.Visible = false;
             lblTitle.Visible = true;
             lblTitle2.Visible = true;
             lblTitle3.Visible = false;
+            lbltitle4.Visible = false;
 
             ProdDAO pdao = new ProdDAO();
             idacc = 0;
@@ -62,6 +64,7 @@ namespace RenatinhaPlace.Forms
             var bindingList2 = new BindingList<Client>(cdao.FindCpf(cpfcli));
             var source2 = new BindingSource(bindingList2, null);
             dgvClients.DataSource = source2;
+            dgvClients.Columns.Remove("Accounts");
             dgvClients.Columns[0].HeaderText = "Client ID";
             dgvClients.Columns[1].HeaderText = "CPF";
             dgvClients.Columns[2].HeaderText = "Full Name";
@@ -193,6 +196,8 @@ namespace RenatinhaPlace.Forms
             lblTitle.Visible = false;
             lblTitle2.Visible = false;
             lblTitle3.Visible = true;
+            lbltitle4.Visible = false;
+
         }
 
         private void btnSerach2_Click(object sender, EventArgs e)
@@ -202,6 +207,7 @@ namespace RenatinhaPlace.Forms
             var bindingList4 = new BindingList<Client>(cdao.FindCpf(cpfcli));
             var source4 = new BindingSource(bindingList4, null);
             dgvClients.DataSource = source4;
+            dgvClients.Columns.Remove("Accounts");
             dgvClients.Columns[0].HeaderText = "Client ID";
             dgvClients.Columns[1].HeaderText = "CPF";
             dgvClients.Columns[2].HeaderText = "Full Name";
@@ -243,6 +249,7 @@ namespace RenatinhaPlace.Forms
             var bindingList5 = new BindingList<Client>(cdao.FindCpf(cpfcli));
             var source5 = new BindingSource(bindingList5, null);
             dgvClients.DataSource = source5;
+            dgvClients.Columns.Remove("Accounts");
             dgvClients.Columns[0].HeaderText = "Client ID";
             dgvClients.Columns[1].HeaderText = "CPF";
             dgvClients.Columns[2].HeaderText = "Full Name";
@@ -276,6 +283,8 @@ namespace RenatinhaPlace.Forms
                 lblTitle.Visible = true;
                 lblTitle2.Visible = true;
                 lblTitle3.Visible = false;
+                lbltitle4.Visible = false;
+
 
 
             }
@@ -374,6 +383,12 @@ namespace RenatinhaPlace.Forms
         private void btnReturn_Click(object sender, EventArgs e)
         {
             panelAccData.Visible = false;
+            lblTitle.Visible = true;
+            lblTitle2.Visible = true;
+            lblTitle3.Visible = false;
+            lbltitle4.Visible = false;
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -484,5 +499,100 @@ namespace RenatinhaPlace.Forms
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                EventDAO edao = new EventDAO();
+                var bindinglist10 = edao.FindByName(txtTickEve.Text);
+                var source10 = new BindingSource(bindinglist10, null);
+                dgvEvents.DataSource = source10;
+                dgvEvents.Columns.Remove("Artist");
+                dgvEvents.Columns.Remove("Menu");
+                dgvEvents.Columns.Remove("Tickets");
+                dgvEvents.Columns[0].HeaderText = "Event ID";
+                dgvEvents.Columns[1].HeaderText = "Name";
+                dgvEvents.Columns[2].HeaderText = "Description";
+                dgvEvents.Columns[3].HeaderText = "Begin";
+                dgvEvents.Columns[4].HeaderText = "End";
+                dgvEvents.Columns[5].HeaderText = "Artist ID";
+                dgvEvents.Columns[6].HeaderText = "Menu ID";
+            }
+            catch (NullReferenceException) { }
+            catch (ArgumentException) { }
+
+
+        }
+
+        private void btnRegisterTick_Click(object sender, EventArgs e)
+        {
+            if (MetroMessageBox.Show(this, Strings.ConfRegister, Strings.Register, MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            {
+                TicketDAO tdao = new TicketDAO();
+                Ticket tick = new Ticket()
+                {
+                    Type = "1",
+                    Name = txtTickName.Text,
+                    Price = decimal.Parse(txtTickPrice.Text),
+                    EventId = int.Parse(lblTickEvent2.Text)
+                };
+                tdao.Add(tick);
+                MetroMessageBox.Show(this, Strings.SuccessRegistered, Strings.Registered, MessageBoxButtons.OK, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+            }
+            panelAddTicket.Visible = false;
+            lblTitle.Visible = true;
+            lblTitle2.Visible = true;
+            lblTitle3.Visible = false;
+            lbltitle4.Visible = false;
+
+        }
+
+        private void btnSelectEvent_Click(object sender, EventArgs e)
+        {
+            lblTickEvent2.Text = dgvEvents.CurrentRow.Cells[0].Value.ToString();
+
+        }
+
+        private void btnRegisterickets_Click(object sender, EventArgs e)
+        {
+            panelAddTicket.Visible = true;
+            panelAddAcc.Visible = false;
+            lblTitle.Visible = false;
+            lblTitle2.Visible = false;
+            lblTitle3.Visible = false;
+            lbltitle4.Visible = true;
+        }
+
+        private void btnClearTick_Click(object sender, EventArgs e)
+        {
+            txtTickName.Text = "";
+            lblTickEvent2.Text = "";
+            txtTickEve.Text = "";
+            txtTickEve.Text = "";
+            txtTickName.Focus();
+            EventDAO edao = new EventDAO();
+            var bindinglist11 = edao.FindByName(txtTickEve.Text);
+            var source11 = new BindingSource(bindinglist11, null);
+            dgvEvents.DataSource = source11;
+            dgvEvents.Columns.Remove("Artist");
+            dgvEvents.Columns.Remove("Menu");
+            dgvEvents.Columns.Remove("Tickets");
+            dgvEvents.Columns[0].HeaderText = "Event ID";
+            dgvEvents.Columns[1].HeaderText = "Name";
+            dgvEvents.Columns[2].HeaderText = "Description";
+            dgvEvents.Columns[3].HeaderText = "Begin";
+            dgvEvents.Columns[4].HeaderText = "End";
+            dgvEvents.Columns[5].HeaderText = "Artist ID";
+            dgvEvents.Columns[6].HeaderText = "Menu ID";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panelAddTicket.Visible = false;
+            lblTitle.Visible = true;
+            lblTitle2.Visible = true;
+            lblTitle3.Visible = false;
+            lbltitle4.Visible = false;
+        }
     }
 }

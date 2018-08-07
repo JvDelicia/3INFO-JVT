@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCashier));
             this.lblTitle = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -92,6 +93,27 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.txtClientAcc = new System.Windows.Forms.TextBox();
             this.lblTitle3 = new System.Windows.Forms.Label();
+            this.btnRegisterickets = new System.Windows.Forms.Button();
+            this.panelAddTicket = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.txtTickEve = new System.Windows.Forms.TextBox();
+            this.dgvEvents = new System.Windows.Forms.DataGridView();
+            this.btnClearTick = new System.Windows.Forms.Button();
+            this.btnRegisterTick = new System.Windows.Forms.Button();
+            this.lblTickName = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.txtTickName = new System.Windows.Forms.TextBox();
+            this.lblTickPrice = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.txtTickPrice = new System.Windows.Forms.TextBox();
+            this.lblTickEvent2 = new System.Windows.Forms.Label();
+            this.lblTickEvent = new System.Windows.Forms.Label();
+            this.btnSelectEvent = new System.Windows.Forms.Button();
+            this.lbltitle4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBasePass)).BeginInit();
@@ -108,6 +130,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panelAddTicket.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEvents)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -305,6 +332,7 @@
             // panelEnter
             // 
             this.panelEnter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelEnter.Controls.Add(this.btnRegisterickets);
             this.panelEnter.Controls.Add(this.btnOpenAcc);
             this.panelEnter.Controls.Add(this.btnSearch);
             this.panelEnter.Controls.Add(this.lblEnterAccount);
@@ -313,7 +341,7 @@
             this.panelEnter.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelEnter.Location = new System.Drawing.Point(569, 175);
             this.panelEnter.Name = "panelEnter";
-            this.panelEnter.Size = new System.Drawing.Size(227, 447);
+            this.panelEnter.Size = new System.Drawing.Size(227, 520);
             this.panelEnter.TabIndex = 104;
             // 
             // btnOpenAcc
@@ -976,13 +1004,326 @@
             this.lblTitle3.TabIndex = 109;
             this.lblTitle3.Text = "New Account";
             // 
+            // btnRegisterickets
+            // 
+            this.btnRegisterickets.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegisterickets.FlatAppearance.BorderColor = System.Drawing.Color.Goldenrod;
+            this.btnRegisterickets.FlatAppearance.BorderSize = 3;
+            this.btnRegisterickets.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Goldenrod;
+            this.btnRegisterickets.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Goldenrod;
+            this.btnRegisterickets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegisterickets.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnRegisterickets.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnRegisterickets.Location = new System.Drawing.Point(27, 436);
+            this.btnRegisterickets.Name = "btnRegisterickets";
+            this.btnRegisterickets.Size = new System.Drawing.Size(174, 65);
+            this.btnRegisterickets.TabIndex = 138;
+            this.btnRegisterickets.Text = "Register Tickets";
+            this.btnRegisterickets.UseMnemonic = false;
+            this.btnRegisterickets.UseVisualStyleBackColor = true;
+            this.btnRegisterickets.Click += new System.EventHandler(this.btnRegisterickets_Click);
+            // 
+            // panelAddTicket
+            // 
+            this.panelAddTicket.Controls.Add(this.label2);
+            this.panelAddTicket.Controls.Add(this.btnSelectEvent);
+            this.panelAddTicket.Controls.Add(this.lblTickEvent2);
+            this.panelAddTicket.Controls.Add(this.lblTickEvent);
+            this.panelAddTicket.Controls.Add(this.lblTickPrice);
+            this.panelAddTicket.Controls.Add(this.pictureBox7);
+            this.panelAddTicket.Controls.Add(this.txtTickPrice);
+            this.panelAddTicket.Controls.Add(this.button2);
+            this.panelAddTicket.Controls.Add(this.button3);
+            this.panelAddTicket.Controls.Add(this.label6);
+            this.panelAddTicket.Controls.Add(this.pictureBox4);
+            this.panelAddTicket.Controls.Add(this.txtTickEve);
+            this.panelAddTicket.Controls.Add(this.dgvEvents);
+            this.panelAddTicket.Controls.Add(this.btnClearTick);
+            this.panelAddTicket.Controls.Add(this.btnRegisterTick);
+            this.panelAddTicket.Controls.Add(this.lblTickName);
+            this.panelAddTicket.Controls.Add(this.pictureBox5);
+            this.panelAddTicket.Controls.Add(this.txtTickName);
+            this.panelAddTicket.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panelAddTicket.Location = new System.Drawing.Point(12, 63);
+            this.panelAddTicket.Name = "panelAddTicket";
+            this.panelAddTicket.Size = new System.Drawing.Size(1342, 633);
+            this.panelAddTicket.TabIndex = 110;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.button2.FlatAppearance.BorderSize = 3;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 14F);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.button2.Location = new System.Drawing.Point(1238, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(94, 51);
+            this.button2.TabIndex = 207;
+            this.button2.Text = "Return";
+            this.button2.UseMnemonic = false;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.button3.FlatAppearance.BorderSize = 3;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.button3.Location = new System.Drawing.Point(742, 228);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(97, 59);
+            this.button3.TabIndex = 195;
+            this.button3.Text = "Search";
+            this.button3.UseMnemonic = false;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label6.Location = new System.Drawing.Point(339, 216);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(128, 21);
+            this.label6.TabIndex = 194;
+            this.label6.Text = "Event\'s Name";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pictureBox4.Location = new System.Drawing.Point(343, 269);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(360, 2);
+            this.pictureBox4.TabIndex = 193;
+            this.pictureBox4.TabStop = false;
+            // 
+            // txtTickEve
+            // 
+            this.txtTickEve.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtTickEve.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTickEve.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTickEve.ForeColor = System.Drawing.Color.Silver;
+            this.txtTickEve.Location = new System.Drawing.Point(342, 251);
+            this.txtTickEve.MaxLength = 25;
+            this.txtTickEve.Name = "txtTickEve";
+            this.txtTickEve.Size = new System.Drawing.Size(360, 20);
+            this.txtTickEve.TabIndex = 192;
+            this.txtTickEve.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTickEve.WordWrap = false;
+            // 
+            // dgvEvents
+            // 
+            this.dgvEvents.AllowUserToAddRows = false;
+            this.dgvEvents.AllowUserToDeleteRows = false;
+            this.dgvEvents.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvEvents.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvEvents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEvents.EnableHeadersVisualStyles = false;
+            this.dgvEvents.GridColor = System.Drawing.SystemColors.AppWorkspace;
+            this.dgvEvents.Location = new System.Drawing.Point(339, 293);
+            this.dgvEvents.Name = "dgvEvents";
+            this.dgvEvents.ReadOnly = true;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEvents.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvEvents.Size = new System.Drawing.Size(573, 113);
+            this.dgvEvents.TabIndex = 188;
+            // 
+            // btnClearTick
+            // 
+            this.btnClearTick.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClearTick.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnClearTick.FlatAppearance.BorderSize = 3;
+            this.btnClearTick.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnClearTick.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnClearTick.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClearTick.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnClearTick.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnClearTick.Location = new System.Drawing.Point(694, 532);
+            this.btnClearTick.Name = "btnClearTick";
+            this.btnClearTick.Size = new System.Drawing.Size(145, 59);
+            this.btnClearTick.TabIndex = 184;
+            this.btnClearTick.Text = "Clear Fields";
+            this.btnClearTick.UseMnemonic = false;
+            this.btnClearTick.UseVisualStyleBackColor = true;
+            this.btnClearTick.Click += new System.EventHandler(this.btnClearTick_Click);
+            // 
+            // btnRegisterTick
+            // 
+            this.btnRegisterTick.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegisterTick.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnRegisterTick.FlatAppearance.BorderSize = 3;
+            this.btnRegisterTick.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnRegisterTick.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnRegisterTick.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegisterTick.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnRegisterTick.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnRegisterTick.Location = new System.Drawing.Point(545, 532);
+            this.btnRegisterTick.Name = "btnRegisterTick";
+            this.btnRegisterTick.Size = new System.Drawing.Size(145, 59);
+            this.btnRegisterTick.TabIndex = 183;
+            this.btnRegisterTick.Text = "Register";
+            this.btnRegisterTick.UseMnemonic = false;
+            this.btnRegisterTick.UseVisualStyleBackColor = true;
+            this.btnRegisterTick.Click += new System.EventHandler(this.btnRegisterTick_Click);
+            // 
+            // lblTickName
+            // 
+            this.lblTickName.AutoSize = true;
+            this.lblTickName.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblTickName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTickName.Location = new System.Drawing.Point(335, 25);
+            this.lblTickName.Name = "lblTickName";
+            this.lblTickName.Size = new System.Drawing.Size(121, 21);
+            this.lblTickName.TabIndex = 186;
+            this.lblTickName.Text = "Ticket Name";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pictureBox5.Location = new System.Drawing.Point(338, 79);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(360, 2);
+            this.pictureBox5.TabIndex = 185;
+            this.pictureBox5.TabStop = false;
+            // 
+            // txtTickName
+            // 
+            this.txtTickName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtTickName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTickName.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTickName.ForeColor = System.Drawing.Color.Silver;
+            this.txtTickName.Location = new System.Drawing.Point(338, 60);
+            this.txtTickName.MaxLength = 25;
+            this.txtTickName.Name = "txtTickName";
+            this.txtTickName.Size = new System.Drawing.Size(360, 20);
+            this.txtTickName.TabIndex = 182;
+            this.txtTickName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTickName.WordWrap = false;
+            // 
+            // lblTickPrice
+            // 
+            this.lblTickPrice.AutoSize = true;
+            this.lblTickPrice.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblTickPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTickPrice.Location = new System.Drawing.Point(334, 117);
+            this.lblTickPrice.Name = "lblTickPrice";
+            this.lblTickPrice.Size = new System.Drawing.Size(56, 21);
+            this.lblTickPrice.TabIndex = 212;
+            this.lblTickPrice.Text = "Price";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.pictureBox7.Location = new System.Drawing.Point(370, 169);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(152, 2);
+            this.pictureBox7.TabIndex = 211;
+            this.pictureBox7.TabStop = false;
+            // 
+            // txtTickPrice
+            // 
+            this.txtTickPrice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtTickPrice.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTickPrice.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTickPrice.ForeColor = System.Drawing.Color.Silver;
+            this.txtTickPrice.Location = new System.Drawing.Point(370, 150);
+            this.txtTickPrice.MaxLength = 11;
+            this.txtTickPrice.Name = "txtTickPrice";
+            this.txtTickPrice.Size = new System.Drawing.Size(152, 20);
+            this.txtTickPrice.TabIndex = 210;
+            this.txtTickPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTickPrice.WordWrap = false;
+            // 
+            // lblTickEvent2
+            // 
+            this.lblTickEvent2.AutoSize = true;
+            this.lblTickEvent2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.lblTickEvent2.Font = new System.Drawing.Font("Rockwell", 28F);
+            this.lblTickEvent2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTickEvent2.Location = new System.Drawing.Point(454, 423);
+            this.lblTickEvent2.Name = "lblTickEvent2";
+            this.lblTickEvent2.Size = new System.Drawing.Size(0, 42);
+            this.lblTickEvent2.TabIndex = 214;
+            // 
+            // lblTickEvent
+            // 
+            this.lblTickEvent.AutoSize = true;
+            this.lblTickEvent.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblTickEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTickEvent.Location = new System.Drawing.Point(339, 446);
+            this.lblTickEvent.Name = "lblTickEvent";
+            this.lblTickEvent.Size = new System.Drawing.Size(103, 21);
+            this.lblTickEvent.TabIndex = 213;
+            this.lblTickEvent.Text = "Event ID =";
+            // 
+            // btnSelectEvent
+            // 
+            this.btnSelectEvent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSelectEvent.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnSelectEvent.FlatAppearance.BorderSize = 3;
+            this.btnSelectEvent.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnSelectEvent.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnSelectEvent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelectEvent.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnSelectEvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnSelectEvent.Location = new System.Drawing.Point(917, 294);
+            this.btnSelectEvent.Name = "btnSelectEvent";
+            this.btnSelectEvent.Size = new System.Drawing.Size(86, 113);
+            this.btnSelectEvent.TabIndex = 215;
+            this.btnSelectEvent.Text = "Select";
+            this.btnSelectEvent.UseMnemonic = false;
+            this.btnSelectEvent.UseVisualStyleBackColor = true;
+            this.btnSelectEvent.Click += new System.EventHandler(this.btnSelectEvent_Click);
+            // 
+            // lbltitle4
+            // 
+            this.lbltitle4.AutoSize = true;
+            this.lbltitle4.BackColor = System.Drawing.Color.Transparent;
+            this.lbltitle4.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lbltitle4.Location = new System.Drawing.Point(604, 22);
+            this.lbltitle4.Name = "lbltitle4";
+            this.lbltitle4.Size = new System.Drawing.Size(178, 36);
+            this.lbltitle4.TabIndex = 111;
+            this.lbltitle4.Text = "New Ticket";
+            this.lbltitle4.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label2.Location = new System.Drawing.Point(334, 149);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(31, 21);
+            this.label2.TabIndex = 216;
+            this.label2.Text = "R$";
+            // 
             // frmCashier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.panelAddTicket);
             this.Controls.Add(this.panelAddAcc);
+            this.Controls.Add(this.lbltitle4);
             this.Controls.Add(this.panelAcc);
             this.Controls.Add(this.lblTitle3);
             this.Controls.Add(this.lblTitle2);
@@ -1019,6 +1360,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panelAddTicket.ResumeLayout(false);
+            this.panelAddTicket.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEvents)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1086,5 +1433,26 @@
         private System.Windows.Forms.Label lblTicketAcc;
         public System.Windows.Forms.Button btnReturn;
         public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button btnRegisterickets;
+        private System.Windows.Forms.Panel panelAddTicket;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label6;
+        public System.Windows.Forms.PictureBox pictureBox4;
+        public System.Windows.Forms.TextBox txtTickEve;
+        public System.Windows.Forms.DataGridView dgvEvents;
+        public System.Windows.Forms.Button btnClearTick;
+        public System.Windows.Forms.Button btnRegisterTick;
+        private System.Windows.Forms.Label lblTickName;
+        public System.Windows.Forms.PictureBox pictureBox5;
+        public System.Windows.Forms.TextBox txtTickName;
+        private System.Windows.Forms.Label lblTickEvent2;
+        private System.Windows.Forms.Label lblTickEvent;
+        private System.Windows.Forms.Label lblTickPrice;
+        public System.Windows.Forms.PictureBox pictureBox7;
+        public System.Windows.Forms.TextBox txtTickPrice;
+        public System.Windows.Forms.Button btnSelectEvent;
+        private System.Windows.Forms.Label lbltitle4;
+        private System.Windows.Forms.Label label2;
     }
 }
