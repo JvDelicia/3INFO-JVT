@@ -11,5 +11,8 @@ namespace RenatinhaPlace.Entity {
         public string Address { get; set; }
         public virtual FuncType Type { get; set; }
         public int TypeId { get; set; }
+        public string User { get; set; }
+         public string Pass { get; set; }
+
     }
 }

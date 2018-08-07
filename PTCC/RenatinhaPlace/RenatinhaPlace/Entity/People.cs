@@ -13,5 +13,6 @@ namespace RenatinhaPlace.Entity {
         public string Rg { get; set; }
         public string Sex { get; set; }
         public string Tel { get; set; }
+        public virtual IList<Account> Accounts { get; set; }
     }
 }

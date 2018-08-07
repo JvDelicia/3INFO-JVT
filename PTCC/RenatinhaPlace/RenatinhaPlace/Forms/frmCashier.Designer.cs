@@ -55,14 +55,26 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblTitle2 = new System.Windows.Forms.Label();
             this.panelAcc = new System.Windows.Forms.Panel();
+            this.panelAccData = new System.Windows.Forms.Panel();
+            this.btnReturn = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblData3 = new System.Windows.Forms.Label();
+            this.lblTicketAcc = new System.Windows.Forms.Label();
+            this.lblbData2 = new System.Windows.Forms.Label();
+            this.lblNameCliAcc = new System.Windows.Forms.Label();
+            this.lblData1 = new System.Windows.Forms.Label();
+            this.lblAccId = new System.Windows.Forms.Label();
+            this.btnAccData = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAmount = new System.Windows.Forms.TextBox();
             this.btnRemoveProd = new System.Windows.Forms.Button();
             this.lblQtd = new System.Windows.Forms.Label();
             this.btnFinalizeAcc = new System.Windows.Forms.Button();
-            this.btnFilter2 = new System.Windows.Forms.Button();
+            this.btnConfAmount = new System.Windows.Forms.Button();
             this.dgvAccount = new System.Windows.Forms.DataGridView();
             this.panelAddAcc = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.lblClientId = new System.Windows.Forms.Label();
             this.lblClientId2 = new System.Windows.Forms.Label();
             this.btnSearch3 = new System.Windows.Forms.Button();
@@ -89,6 +101,7 @@
             this.panelEnter.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             this.panelAcc.SuspendLayout();
+            this.panelAccData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).BeginInit();
             this.panelAddAcc.SuspendLayout();
@@ -193,7 +206,7 @@
             this.lblFIlterBy.AutoSize = true;
             this.lblFIlterBy.Font = new System.Drawing.Font("Rockwell", 14F);
             this.lblFIlterBy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.lblFIlterBy.Location = new System.Drawing.Point(234, 14);
+            this.lblFIlterBy.Location = new System.Drawing.Point(265, 14);
             this.lblFIlterBy.Name = "lblFIlterBy";
             this.lblFIlterBy.Size = new System.Drawing.Size(84, 21);
             this.lblFIlterBy.TabIndex = 164;
@@ -208,9 +221,9 @@
             this.mcbFilterBy.Items.AddRange(new object[] {
             "Product ID",
             "Name"});
-            this.mcbFilterBy.Location = new System.Drawing.Point(238, 48);
+            this.mcbFilterBy.Location = new System.Drawing.Point(269, 48);
             this.mcbFilterBy.Name = "mcbFilterBy";
-            this.mcbFilterBy.Size = new System.Drawing.Size(165, 29);
+            this.mcbFilterBy.Size = new System.Drawing.Size(133, 29);
             this.mcbFilterBy.TabIndex = 158;
             this.mcbFilterBy.UseSelectable = true;
             // 
@@ -249,7 +262,7 @@
             this.pbx2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
             this.pbx2.Location = new System.Drawing.Point(5, 65);
             this.pbx2.Name = "pbx2";
-            this.pbx2.Size = new System.Drawing.Size(215, 2);
+            this.pbx2.Size = new System.Drawing.Size(242, 2);
             this.pbx2.TabIndex = 162;
             this.pbx2.TabStop = false;
             // 
@@ -262,7 +275,7 @@
             this.txtFilterProd.Location = new System.Drawing.Point(5, 46);
             this.txtFilterProd.MaxLength = 50;
             this.txtFilterProd.Name = "txtFilterProd";
-            this.txtFilterProd.Size = new System.Drawing.Size(214, 20);
+            this.txtFilterProd.Size = new System.Drawing.Size(241, 20);
             this.txtFilterProd.TabIndex = 157;
             this.txtFilterProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtFilterProd.WordWrap = false;
@@ -400,18 +413,167 @@
             // 
             // panelAcc
             // 
+            this.panelAcc.Controls.Add(this.panelAccData);
+            this.panelAcc.Controls.Add(this.btnAccData);
             this.panelAcc.Controls.Add(this.pictureBox1);
-            this.panelAcc.Controls.Add(this.textBox1);
+            this.panelAcc.Controls.Add(this.txtAmount);
             this.panelAcc.Controls.Add(this.btnRemoveProd);
             this.panelAcc.Controls.Add(this.lblQtd);
             this.panelAcc.Controls.Add(this.btnFinalizeAcc);
-            this.panelAcc.Controls.Add(this.btnFilter2);
+            this.panelAcc.Controls.Add(this.btnConfAmount);
             this.panelAcc.Controls.Add(this.dgvAccount);
             this.panelAcc.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelAcc.Location = new System.Drawing.Point(833, 75);
             this.panelAcc.Name = "panelAcc";
             this.panelAcc.Size = new System.Drawing.Size(514, 613);
             this.panelAcc.TabIndex = 107;
+            // 
+            // panelAccData
+            // 
+            this.panelAccData.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelAccData.Controls.Add(this.btnReturn);
+            this.panelAccData.Controls.Add(this.label3);
+            this.panelAccData.Controls.Add(this.label4);
+            this.panelAccData.Controls.Add(this.lblData3);
+            this.panelAccData.Controls.Add(this.lblTicketAcc);
+            this.panelAccData.Controls.Add(this.lblbData2);
+            this.panelAccData.Controls.Add(this.lblNameCliAcc);
+            this.panelAccData.Controls.Add(this.lblData1);
+            this.panelAccData.Controls.Add(this.lblAccId);
+            this.panelAccData.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panelAccData.Location = new System.Drawing.Point(0, 90);
+            this.panelAccData.Name = "panelAccData";
+            this.panelAccData.Size = new System.Drawing.Size(511, 457);
+            this.panelAccData.TabIndex = 172;
+            this.panelAccData.Visible = false;
+            this.panelAccData.Paint += new System.Windows.Forms.PaintEventHandler(this.panelAccData_Paint);
+            // 
+            // btnReturn
+            // 
+            this.btnReturn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReturn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnReturn.FlatAppearance.BorderSize = 3;
+            this.btnReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReturn.Font = new System.Drawing.Font("Berlin Sans FB Demi", 14F);
+            this.btnReturn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnReturn.Location = new System.Drawing.Point(218, 391);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(94, 51);
+            this.btnReturn.TabIndex = 206;
+            this.btnReturn.Text = "Return";
+            this.btnReturn.UseMnemonic = false;
+            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.label3.Font = new System.Drawing.Font("Rockwell", 16F);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label3.Location = new System.Drawing.Point(169, 343);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.TabIndex = 205;
+            this.label3.Text = "Ativa";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label4.Location = new System.Drawing.Point(138, 320);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(62, 21);
+            this.label4.TabIndex = 204;
+            this.label4.Text = "Status";
+            // 
+            // lblData3
+            // 
+            this.lblData3.AutoSize = true;
+            this.lblData3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.lblData3.Font = new System.Drawing.Font("Rockwell", 16F);
+            this.lblData3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblData3.Location = new System.Drawing.Point(177, 246);
+            this.lblData3.Name = "lblData3";
+            this.lblData3.Size = new System.Drawing.Size(0, 25);
+            this.lblData3.TabIndex = 203;
+            // 
+            // lblTicketAcc
+            // 
+            this.lblTicketAcc.AutoSize = true;
+            this.lblTicketAcc.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblTicketAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblTicketAcc.Location = new System.Drawing.Point(101, 225);
+            this.lblTicketAcc.Name = "lblTicketAcc";
+            this.lblTicketAcc.Size = new System.Drawing.Size(132, 21);
+            this.lblTicketAcc.TabIndex = 202;
+            this.lblTicketAcc.Text = "Acount Ticket";
+            // 
+            // lblbData2
+            // 
+            this.lblbData2.AutoSize = true;
+            this.lblbData2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.lblbData2.Font = new System.Drawing.Font("Rockwell", 16F);
+            this.lblbData2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblbData2.Location = new System.Drawing.Point(175, 151);
+            this.lblbData2.Name = "lblbData2";
+            this.lblbData2.Size = new System.Drawing.Size(0, 25);
+            this.lblbData2.TabIndex = 201;
+            // 
+            // lblNameCliAcc
+            // 
+            this.lblNameCliAcc.AutoSize = true;
+            this.lblNameCliAcc.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblNameCliAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblNameCliAcc.Location = new System.Drawing.Point(106, 130);
+            this.lblNameCliAcc.Name = "lblNameCliAcc";
+            this.lblNameCliAcc.Size = new System.Drawing.Size(120, 21);
+            this.lblNameCliAcc.TabIndex = 200;
+            this.lblNameCliAcc.Text = "Client Name";
+            // 
+            // lblData1
+            // 
+            this.lblData1.AutoSize = true;
+            this.lblData1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.lblData1.Font = new System.Drawing.Font("Rockwell", 16F);
+            this.lblData1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblData1.Location = new System.Drawing.Point(180, 58);
+            this.lblData1.Name = "lblData1";
+            this.lblData1.Size = new System.Drawing.Size(0, 25);
+            this.lblData1.TabIndex = 199;
+            // 
+            // lblAccId
+            // 
+            this.lblAccId.AutoSize = true;
+            this.lblAccId.Font = new System.Drawing.Font("Rockwell", 14F);
+            this.lblAccId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblAccId.Location = new System.Drawing.Point(107, 35);
+            this.lblAccId.Name = "lblAccId";
+            this.lblAccId.Size = new System.Drawing.Size(105, 21);
+            this.lblAccId.TabIndex = 198;
+            this.lblAccId.Text = "Account Id";
+            // 
+            // btnAccData
+            // 
+            this.btnAccData.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAccData.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.btnAccData.FlatAppearance.BorderSize = 3;
+            this.btnAccData.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.btnAccData.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnAccData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAccData.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
+            this.btnAccData.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnAccData.Location = new System.Drawing.Point(5, 551);
+            this.btnAccData.Name = "btnAccData";
+            this.btnAccData.Size = new System.Drawing.Size(253, 59);
+            this.btnAccData.TabIndex = 171;
+            this.btnAccData.Text = "Account Data";
+            this.btnAccData.UseMnemonic = false;
+            this.btnAccData.UseVisualStyleBackColor = true;
+            this.btnAccData.Click += new System.EventHandler(this.btnAccData_Click);
             // 
             // pictureBox1
             // 
@@ -422,19 +584,19 @@
             this.pictureBox1.TabIndex = 170;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // txtAmount
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Rockwell", 20F);
-            this.textBox1.ForeColor = System.Drawing.Color.Silver;
-            this.textBox1.Location = new System.Drawing.Point(5, 45);
-            this.textBox1.MaxLength = 6;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(98, 32);
-            this.textBox1.TabIndex = 169;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.WordWrap = false;
+            this.txtAmount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(57)))));
+            this.txtAmount.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAmount.Font = new System.Drawing.Font("Rockwell", 20F);
+            this.txtAmount.ForeColor = System.Drawing.Color.Silver;
+            this.txtAmount.Location = new System.Drawing.Point(5, 45);
+            this.txtAmount.MaxLength = 6;
+            this.txtAmount.Name = "txtAmount";
+            this.txtAmount.Size = new System.Drawing.Size(98, 32);
+            this.txtAmount.TabIndex = 169;
+            this.txtAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtAmount.WordWrap = false;
             // 
             // btnRemoveProd
             // 
@@ -453,6 +615,7 @@
             this.btnRemoveProd.Text = "Remove Item";
             this.btnRemoveProd.UseMnemonic = false;
             this.btnRemoveProd.UseVisualStyleBackColor = true;
+            this.btnRemoveProd.Click += new System.EventHandler(this.btnRemoveProd_Click);
             // 
             // lblQtd
             // 
@@ -475,31 +638,33 @@
             this.btnFinalizeAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFinalizeAcc.Font = new System.Drawing.Font("Berlin Sans FB Demi", 16F);
             this.btnFinalizeAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnFinalizeAcc.Location = new System.Drawing.Point(1, 551);
+            this.btnFinalizeAcc.Location = new System.Drawing.Point(264, 551);
             this.btnFinalizeAcc.Name = "btnFinalizeAcc";
-            this.btnFinalizeAcc.Size = new System.Drawing.Size(510, 59);
+            this.btnFinalizeAcc.Size = new System.Drawing.Size(247, 59);
             this.btnFinalizeAcc.TabIndex = 161;
             this.btnFinalizeAcc.Text = "Finalize Account";
             this.btnFinalizeAcc.UseMnemonic = false;
             this.btnFinalizeAcc.UseVisualStyleBackColor = true;
+            this.btnFinalizeAcc.Click += new System.EventHandler(this.btnFinalizeAcc_Click);
             // 
-            // btnFilter2
+            // btnConfAmount
             // 
-            this.btnFilter2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFilter2.FlatAppearance.BorderColor = System.Drawing.Color.Green;
-            this.btnFilter2.FlatAppearance.BorderSize = 3;
-            this.btnFilter2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.btnFilter2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
-            this.btnFilter2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFilter2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 14F);
-            this.btnFilter2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.btnFilter2.Location = new System.Drawing.Point(120, 26);
-            this.btnFilter2.Name = "btnFilter2";
-            this.btnFilter2.Size = new System.Drawing.Size(181, 56);
-            this.btnFilter2.TabIndex = 159;
-            this.btnFilter2.Text = "Confirm Amount";
-            this.btnFilter2.UseMnemonic = false;
-            this.btnFilter2.UseVisualStyleBackColor = true;
+            this.btnConfAmount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConfAmount.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnConfAmount.FlatAppearance.BorderSize = 3;
+            this.btnConfAmount.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnConfAmount.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnConfAmount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfAmount.Font = new System.Drawing.Font("Berlin Sans FB Demi", 14F);
+            this.btnConfAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.btnConfAmount.Location = new System.Drawing.Point(120, 26);
+            this.btnConfAmount.Name = "btnConfAmount";
+            this.btnConfAmount.Size = new System.Drawing.Size(181, 56);
+            this.btnConfAmount.TabIndex = 159;
+            this.btnConfAmount.Text = "Confirm Amount";
+            this.btnConfAmount.UseMnemonic = false;
+            this.btnConfAmount.UseVisualStyleBackColor = true;
+            this.btnConfAmount.Click += new System.EventHandler(this.btnFilter2_Click);
             // 
             // dgvAccount
             // 
@@ -522,9 +687,11 @@
             this.dgvAccount.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvAccount.Size = new System.Drawing.Size(511, 447);
             this.dgvAccount.TabIndex = 160;
+            this.dgvAccount.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAccount_CellClick);
             // 
             // panelAddAcc
             // 
+            this.panelAddAcc.Controls.Add(this.button1);
             this.panelAddAcc.Controls.Add(this.lblClientId);
             this.panelAddAcc.Controls.Add(this.lblClientId2);
             this.panelAddAcc.Controls.Add(this.btnSearch3);
@@ -546,6 +713,25 @@
             this.panelAddAcc.Name = "panelAddAcc";
             this.panelAddAcc.Size = new System.Drawing.Size(1342, 635);
             this.panelAddAcc.TabIndex = 108;
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.button1.FlatAppearance.BorderSize = 3;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(17)))), ((int)(((byte)(65)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Berlin Sans FB Demi", 14F);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.button1.Location = new System.Drawing.Point(1238, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 51);
+            this.button1.TabIndex = 207;
+            this.button1.Text = "Return";
+            this.button1.UseMnemonic = false;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblClientId
             // 
@@ -771,7 +957,7 @@
             this.txtClientAcc.Font = new System.Drawing.Font("Rockwell", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClientAcc.ForeColor = System.Drawing.Color.Silver;
             this.txtClientAcc.Location = new System.Drawing.Point(338, 60);
-            this.txtClientAcc.MaxLength = 25;
+            this.txtClientAcc.MaxLength = 11;
             this.txtClientAcc.Name = "txtClientAcc";
             this.txtClientAcc.Size = new System.Drawing.Size(360, 20);
             this.txtClientAcc.TabIndex = 182;
@@ -796,6 +982,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
+            this.Controls.Add(this.panelAddAcc);
+            this.Controls.Add(this.panelAcc);
             this.Controls.Add(this.lblTitle3);
             this.Controls.Add(this.lblTitle2);
             this.Controls.Add(this.label1);
@@ -803,9 +991,7 @@
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbxBasePass);
-            this.Controls.Add(this.panelAcc);
             this.Controls.Add(this.panelEnter);
-            this.Controls.Add(this.panelAddAcc);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCashier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -824,6 +1010,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
             this.panelAcc.ResumeLayout(false);
             this.panelAcc.PerformLayout();
+            this.panelAccData.ResumeLayout(false);
+            this.panelAccData.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).EndInit();
             this.panelAddAcc.ResumeLayout(false);
@@ -857,12 +1045,12 @@
         private System.Windows.Forms.Label lblTitle2;
         private System.Windows.Forms.Panel panelAcc;
         public System.Windows.Forms.Button btnFinalizeAcc;
-        public System.Windows.Forms.Button btnFilter2;
+        public System.Windows.Forms.Button btnConfAmount;
         public System.Windows.Forms.DataGridView dgvAccount;
         private System.Windows.Forms.Label lblQtd;
         public System.Windows.Forms.Button btnRemoveProd;
         public System.Windows.Forms.PictureBox pictureBox1;
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox txtAmount;
         public System.Windows.Forms.Button btnOpenAcc;
         public System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label lblEnterAccount;
@@ -886,5 +1074,17 @@
         public System.Windows.Forms.PictureBox pictureBox3;
         public System.Windows.Forms.TextBox txtClientAcc;
         private System.Windows.Forms.Label lblTitle3;
+        public System.Windows.Forms.Button btnAccData;
+        private System.Windows.Forms.Panel panelAccData;
+        private System.Windows.Forms.Label lblData1;
+        private System.Windows.Forms.Label lblAccId;
+        private System.Windows.Forms.Label lblbData2;
+        private System.Windows.Forms.Label lblNameCliAcc;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblData3;
+        private System.Windows.Forms.Label lblTicketAcc;
+        public System.Windows.Forms.Button btnReturn;
+        public System.Windows.Forms.Button button1;
     }
 }

@@ -26,6 +26,8 @@ namespace RenatinhaPlace
 
         internal static int idacc;
 
+        internal static decimal final;
+
 
 
 

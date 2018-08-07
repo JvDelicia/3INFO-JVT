@@ -21,7 +21,11 @@ namespace RenatinhaPlace.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<int?>("ArtistId");
+
                     b.Property<int>("ClientId");
+
+                    b.Property<int?>("FuncId");
 
                     b.Property<string>("Status");
 
@@ -109,6 +113,8 @@ namespace RenatinhaPlace.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<string>("Pass");
+
                     b.Property<string>("Rg");
 
                     b.Property<string>("Sex");
@@ -116,6 +122,8 @@ namespace RenatinhaPlace.Migrations
                     b.Property<string>("Tel");
 
                     b.Property<int>("TypeId");
+
+                    b.Property<string>("User");
 
                     b.HasKey("Id");
                 });
@@ -196,9 +204,17 @@ namespace RenatinhaPlace.Migrations
 
             modelBuilder.Entity("RenatinhaPlace.Entity.Account", b =>
                 {
+                    b.HasOne("RenatinhaPlace.Entity.Artist")
+                        .WithMany()
+                        .HasForeignKey("ArtistId");
+
                     b.HasOne("RenatinhaPlace.Entity.Client")
                         .WithMany()
                         .HasForeignKey("ClientId");
+
+                    b.HasOne("RenatinhaPlace.Entity.Func")
+                        .WithMany()
+                        .HasForeignKey("FuncId");
 
                     b.HasOne("RenatinhaPlace.Entity.Ticket")
                         .WithMany()

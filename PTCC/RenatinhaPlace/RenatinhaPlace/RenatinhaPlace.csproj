@@ -151,6 +151,7 @@
     <Compile Include="DAO\ClientDAO.cs" />
     <Compile Include="DAO\FuncDAO.cs" />
     <Compile Include="DAO\EventDAO.cs" />
+    <Compile Include="DAO\ItemAccDAO.cs" />
     <Compile Include="DAO\MenuDAO.cs" />
     <Compile Include="DAO\ProdDAO.cs" />
     <Compile Include="DAO\TicketDAO.cs" />
@@ -207,6 +208,12 @@
     </Compile>
     <Compile Include="Forms\frmEvent.Designer.cs">
       <DependentUpon>frmEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFinalizeAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFinalizeAcc.Designer.cs">
+      <DependentUpon>frmFinalizeAcc.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmHome.cs">
       <SubType>Form</SubType>
@@ -281,9 +288,9 @@
       <DependentUpon>ucQueryEvent.cs</DependentUpon>
     </Compile>
     <Compile Include="global.cs" />
-    <Compile Include="Migrations\20180727214449_crtAll.cs" />
-    <Compile Include="Migrations\20180727214449_crtAll.designer.cs">
-      <DependentUpon>20180727214449_crtAll.cs</DependentUpon>
+    <Compile Include="Migrations\20180806210209_crtAll.cs" />
+    <Compile Include="Migrations\20180806210209_crtAll.designer.cs">
+      <DependentUpon>20180806210209_crtAll.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\EntitiesContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />
@@ -310,6 +317,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmEvent.resx">
       <DependentUpon>frmEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFinalizeAcc.resx">
+      <DependentUpon>frmFinalizeAcc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>

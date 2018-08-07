@@ -83,5 +83,14 @@ namespace RenatinhaPlace.DAO
             return buscafiltro.ToList();
         }
 
+        public IList<Product> ListProdsAcc(int idacc)
+        {
+            var busca = from p in context.Products
+                        join ia in context.ItemAccs on p.Id equals ia.ProductId
+                        where ia.AccountId == idacc
+                        select p;
+            return busca.ToList();
+
+        }
     }
 }

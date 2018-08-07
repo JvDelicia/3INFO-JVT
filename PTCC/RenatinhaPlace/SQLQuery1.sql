@@ -1,6 +1,7 @@
-﻿select * from Product
+﻿use dbRenatinha
+select * from Product
 Insert into Product
-values('Porção Isca','Porção de Isca de Peixe 500g',15)
+values('Skol 1l','Cerveja Skol de Garrafa 1l',9)
 
 truncate table produto
 Insert into FuncType
@@ -10,6 +11,17 @@ insert into Menu
 values('Menu Padrão','1')
 
 insert into ItemMenu
-values(4,1)
+values(1,1)
+
+insert into Ticket
+values('1','Inteira Entrada Pista',70,5)
+
+insert into Account
+values('1', 'Ativa', 2)
+
+select * from Ticket
+
+select * from Artist
+
 
 select * from ItemMenu

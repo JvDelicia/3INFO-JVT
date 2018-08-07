@@ -22,6 +22,12 @@ namespace RenatinhaPlace.Forms
         public int idticket;
         public int idprod;
         public string nameprod;
+        public int prodacc;
+        public int idprodia;
+        public int idaccia;
+        public int amount;
+        public decimal total;
+
         public frmCashier()
         {
             InitializeComponent();
@@ -30,6 +36,7 @@ namespace RenatinhaPlace.Forms
 
         private void frmCashier_Load(object sender, EventArgs e)
         {
+
             this.Text = Strings.Cashier;
             lblBack.Text = Strings.Back;
             txtEnterAccount.Focus();
@@ -112,6 +119,45 @@ namespace RenatinhaPlace.Forms
                 dgvItemMenu.Columns[1].HeaderText = "Name";
                 dgvItemMenu.Columns[2].HeaderText = "Description";
                 dgvItemMenu.Columns[3].HeaderText = "Unit Price";
+
+                EntitiesContext context = new EntitiesContext();
+                var busca = from p in context.Products
+                            join ia in context.ItemAccs on p.Id equals ia.ProductId
+                            join a in context.Accounts on ia.AccountId equals a.Id
+                            join c in context.Clients on a.ClientId equals c.Id
+                            where ia.AccountId == idacc
+                            select new
+                            {
+                                productid = p.Id,
+                                productname = p.Name,
+                                qnt = ia.Qnt
+                            };
+                var source9 = new BindingSource(busca.ToList(), null);
+                dgvAccount.DataSource = source9;
+
+                dgvAccount.Columns[0].HeaderText = "Product ID";
+                dgvAccount.Columns[1].HeaderText = "Product Name";
+                dgvAccount.Columns[2].HeaderText = "Amount";
+
+
+                //INFORMAÇÕES SOBRE O CLIENTE
+                var infocli = from c in context.Clients
+                            join a in context.Accounts on c.Id equals a.ClientId
+                            join t in context.Tickets on a.TicketId equals t.Id
+                            where a.Id == idacc
+                            select new
+                            {
+                                client = c.Name,
+                                ticket = t.Name
+                            };
+
+                foreach (var c in infocli)
+                {
+                    lblData1.Text = idacc.ToString();
+                    lblbData2.Text = c.client;
+                    lblData3.Text = c.ticket;
+
+                }
             }
 
             catch (FormatException)
@@ -236,7 +282,7 @@ namespace RenatinhaPlace.Forms
         }
 
         private void btnFilter_Click(object sender, EventArgs e)
-        {//ARRMAR FILTRO POR NOME
+        {
             try
             {
                 if (mcbFilterBy.SelectedIndex == 0)
@@ -251,7 +297,6 @@ namespace RenatinhaPlace.Forms
                 }
 
                 ProdDAO pdao = new ProdDAO(); ;
-                idprod = int.Parse(txtFilterProd.Text);
                 var bindinglist6 = pdao.Filter(idacc, idprod, nameprod);
                 var source6 = new BindingSource(bindinglist6, null);
                 dgvItemMenu.DataSource = source6;
@@ -285,7 +330,159 @@ namespace RenatinhaPlace.Forms
 
         private void btnaddProd_Click(object sender, EventArgs e)
         {
+            prodacc = int.Parse(dgvItemMenu.CurrentRow.Cells[0].Value.ToString());
+            ItemAccDAO iadao = new ItemAccDAO();
+            ItemAcc itemacc = new ItemAcc()
+            {
+                ProductId = prodacc,
+                AccountId = idacc,
+                Qnt = 1
+            };
+            iadao.Add(itemacc);
+
+            EntitiesContext context = new EntitiesContext();
+            var busca = from p in context.Products
+                        join ia in context.ItemAccs on p.Id equals ia.ProductId
+                        join a in context.Accounts on ia.AccountId equals a.Id
+                        join c in context.Clients on a.ClientId equals c.Id
+                        where ia.AccountId == idacc
+                        select new
+                        {
+                            productid = p.Id,
+                            productname = p.Name,
+                            qnt = ia.Qnt
+                        };
+            var source9 = new BindingSource(busca.ToList(), null);
+            dgvAccount.DataSource = source9;
+
+            dgvAccount.Columns[0].HeaderText = "Product ID";
+            dgvAccount.Columns[1].HeaderText = "Product Name";
+            dgvAccount.Columns[2].HeaderText = "Amount";
+        }
+
+        private void panelAccData_Paint(object sender, PaintEventArgs e)
+        {
 
         }
+
+        private void btnAccData_Click(object sender, EventArgs e)
+        {
+            panelAccData.Visible = true;
+
+        }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            panelAccData.Visible = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panelAddAcc.Visible = false;
+        }
+
+        private void btnRemoveProd_Click(object sender, EventArgs e)
+        {
+            if (MetroMessageBox.Show(this, "Are you sure you want to delete this register?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            {
+                idprodia = int.Parse(dgvAccount.CurrentRow.Cells[0].Value.ToString());
+                ItemAccDAO iadao = new ItemAccDAO();
+                var items  = iadao.SearchItemAcc(idacc,idprodia);
+                iadao.Remove(items);
+
+                EntitiesContext context = new EntitiesContext();
+                var busca = from p in context.Products
+                            join ia in context.ItemAccs on p.Id equals ia.ProductId
+                            join a in context.Accounts on ia.AccountId equals a.Id
+                            join c in context.Clients on a.ClientId equals c.Id
+                            where ia.AccountId == idacc
+                            select new
+                            {
+                                productid = p.Id,
+                                productname = p.Name,
+                                qnt = ia.Qnt
+                            };
+                var source9 = new BindingSource(busca.ToList(), null);
+                dgvAccount.DataSource = source9;
+
+                dgvAccount.Columns[0].HeaderText = "Product ID";
+                dgvAccount.Columns[1].HeaderText = "Product Name";
+                dgvAccount.Columns[2].HeaderText = "Amount";
+            }
+
+        }
+
+        private void btnFilter2_Click(object sender, EventArgs e)
+        {
+            amount = int.Parse(txtAmount.Text);
+            
+            ItemAccDAO iadao = new ItemAccDAO();
+            
+            var items = iadao.SearchItemAcc(idacc,idprodia);
+            items.Qnt = amount;
+            iadao.Update();
+            idprodia = 0;
+            txtAmount.Clear();
+
+            EntitiesContext context = new EntitiesContext();
+            var busca = from p in context.Products
+                        join ia in context.ItemAccs on p.Id equals ia.ProductId
+                        join a in context.Accounts on ia.AccountId equals a.Id
+                        join c in context.Clients on a.ClientId equals c.Id
+                        where ia.AccountId == idacc
+                        select new
+                        {
+                            productid = p.Id,
+                            productname = p.Name,
+                            qnt = ia.Qnt
+                        };
+            var source9 = new BindingSource(busca.ToList(), null);
+            dgvAccount.DataSource = source9;
+
+            dgvAccount.Columns[0].HeaderText = "Product ID";
+            dgvAccount.Columns[1].HeaderText = "Product Name";
+            dgvAccount.Columns[2].HeaderText = "Amount";
+        }
+
+        private void dgvAccount_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtAmount.Text = dgvAccount.CurrentRow.Cells[2].Value.ToString();
+            idprodia = int.Parse(dgvAccount.CurrentRow.Cells[0].Value.ToString());
+        }
+
+        private void btnFinalizeAcc_Click(object sender, EventArgs e)
+        {
+            if (MetroMessageBox.Show(this, "Are you sure you want to finalize this Account?", "Finalize Account", MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            {
+                EntitiesContext context = new EntitiesContext();
+
+                AccountDAO adao = new AccountDAO();
+                ItemAccDAO iadao = new ItemAccDAO();
+                ProdDAO pdao = new ProdDAO();
+
+                var busca = from ia in context.ItemAccs
+                            join p in context.Products on ia.ProductId equals p.Id
+                            where ia.AccountId == idacc
+                            select new
+                            {
+                                Qnt = ia.Qnt,
+                                Price = p.PriceUni
+                            };
+
+                decimal total = 0;
+
+                foreach(var i in busca)
+                {
+                        total = total + (i.Qnt * i.Price);
+                }
+                
+                global.final = total;
+
+                frmFinalizeAcc facc = new frmFinalizeAcc();
+                facc.Show();
+            }
+
+        }
+
     }
 }

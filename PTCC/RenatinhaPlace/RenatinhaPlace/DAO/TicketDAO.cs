@@ -58,6 +58,14 @@ namespace RenatinhaPlace.DAO
             return int.Parse(ticketcb);
         }
 
+        public IList<Ticket> FindByAcc(int idacc)
+        {
+            var busca = from t in context.Tickets
+                        join a in context.Accounts on t.EventId equals a.Id
+                        where a.Id == idacc
+                        select t;
+            return busca.ToList();
+        }
 
     }
 }
