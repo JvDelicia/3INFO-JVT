@@ -3,11 +3,18 @@
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<form action="/CatProd/Add" method="post">
-	<label for="Name"> Name: </label>
-	<input id="name" name="c.Name" />
-	<br /><p />
-	<textarea rows="4" style="resize:none" cols="50" name="c.Description">Type the category description here...</textarea>
-	<br /><p />
-	<input type="submit" value="Add" />
+<center><h3>Add an Product Category to the system</h3></center>
+
+<form action="/CatProd/Add" method="POST">
+  	<div class="form-row">
+    	<div class="col-md-6 mb-3">
+      		<label for="Name">Name</label>
+      		<input type="text" class="form-control" name="c.Name" id="Name" placeholder="Type the category name" required oninvalid="this.setCustomValidity('You need to type a category name')" oninput="this.setCustomValidity('')">
+    	</div>
+    	<div class="col-md-6 mb-3">
+      		<label for="Description">Description</label>
+      		<input type="text" class="form-control" id="Description" name="c.Description" placeholder="Type the category description" required oninvalid="this.setCustomValidity('You need to type an category description')" oninput="this.setCustomValidity('')">
+    	</div>
+  	</div>
+	<button class="btn btn-primary container" type="submit" value="Add">Confirm Category</button>
 </form>
