@@ -27,10 +27,10 @@
     	</div>
 		<div class="col-md-4 mb-3">
       		<label for="category">Category</label>
-			<select class="form-control" name="p.Category" id="category" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
+			<select class="form-control" name="p.CategoryId" id="category" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
 				<option value=""></option>
 				@foreach (var category in ViewBag.Categorys) {
-					<option value="@category.Id">@category.ID - @category.Name</option>
+					<option value="@category.Id">@category.Id - @category.Name</option>
 				}
   			</select>
     	</div>

@@ -1,62 +1,46 @@
 ﻿
 @{
-    ViewBag.Title = "Product Update";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "Product Update";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <center><h3>Update an Product in the system</h3></center>
 
 <form action="/Product/Update" method="POST">
-  	<div class="form-row">
-    	<div class="col-md-4 mb-3">
-      		<label for="id">ID</label>
-      		<input type="number" class="form-control" name="u.Id" id="id" placeholder="Type the ID" required oninvalid="this.setCustomValidity('You need to type an ID')" oninput="this.setCustomValidity('')">
-    	</div>
-    	<div class="col-md-4 mb-3">
-      		<label for="name">Name</label>
-      		<input type="text" class="form-control" id="name" name="u.Name" placeholder="Type the Name" required oninvalid="this.setCustomValidity('You need to type the new Username')" oninput="this.setCustomValidity('')">
-    	</div>
-		<div class="col-md-4 mb-3">
-      		<label for="pass">Password</label>
-      		<input type="password" class="form-control" id="pass" name="u.Pass" maxlength="8" placeholder="Type the Password" required oninvalid="this.setCustomValidity('You need to type the new Password')" oninput="this.setCustomValidity('')">
-    	</div>
-  	</div>
-	<button class="btn btn-info container" type="submit" value="Update">Update User</button>
-</form>
-
-<form action="/Product/Update" method="POST">
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="id">ID</label>
-            <input type="number" class="form-control" name="p.Id" id="id" placeholder="Type the product ID" required oninvalid="this.setCustomValidity('You need to type a product ID')" oninput="this.setCustomValidity('')">
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" name="p.Name" id="name" placeholder="Type the product name" required oninvalid="this.setCustomValidity('You need to type a product name')" oninput="this.setCustomValidity('')">
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="desc">Description</label>
-            <input type="text" class="form-control" id="desc" name="p.Description" placeholder="Type the product description" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
-        </div>
-    </div>
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="price">Price (with comma)</label>
-            <input type="text" class="form-control" name="p.Price" id="name" placeholder="0,00" required oninvalid="this.setCustomValidity('You need to type the price')" oninput="this.setCustomValidity('')">
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="qnt">Quantity</label>
-            <input type="number" class="form-control" id="qnt" name="p.Quantity" placeholder="0" required oninvalid="this.setCustomValidity('You need to type the quantity')" oninput="this.setCustomValidity('')">
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="category">Category</label>
-            <select class="form-control" name="p.Category" id="category" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
-                <option value=""></option>
-                @foreach (var category in ViewBag.Categorys) {
-                    <option value="@category.Id">@category.Name</option>
-                }
-            </select>
-        </div>
-    </div>
-    <button class="btn btn-primary container" type="submit" value="Insert">Confirm Product</button>
-</form>
+	@foreach ( var prod in ViewBag.Products ) {
+		<div class="form-row">
+			<div class="col-md-4 mb-3">
+				<label for="id">ID</label>
+				<input type="number" class="form-control" name="p.Id" id="id" placeholder="Type the product ID" value="@ViewBag.ProdId" disabled required oninvalid="this.setCustomValidity('You need to type a product id')" oninput="this.setCustomValidity('')">
+			</div>
+			<div class="col-md-4 mb-3">
+				<label for="name">Name</label>
+				<input type="text" class="form-control" name="p.Name" id="name" placeholder="Type the product name" value="@ViewBag.Products.Name" required oninvalid="this.setCustomValidity('You need to type a product name')" oninput="this.setCustomValidity('')">
+			</div>
+			<div class="col-md-4 mb-3">
+				<label for="desc">Description</label>
+				<input type="text" class="form-control" id="desc" name="p.Description" placeholder="Type the product description" value="@ViewBag.Products.Description" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="col-md-4 mb-3">
+				<label for="price">Price (with comma)</label>
+				<input type="text" class="form-control" name="p.Price" id="name" placeholder="0,00" value="@ViewBag.Products.Price" required oninvalid="this.setCustomValidity('You need to type the price')" oninput="this.setCustomValidity('')">
+			</div>
+			<div class="col-md-4 mb-3">
+				<label for="qnt">Quantity</label>
+				<input type="number" class="form-control" id="qnt" name="p.Quantity" placeholder="0" value="@ViewBag.Products.Quantity" required oninvalid="this.setCustomValidity('You need to type the quantity')" oninput="this.setCustomValidity('')">
+			</div>
+			<div class="col-md-4 mb-3">
+				<label for="category">Category</label>
+				<select class="form-control" name="p.CategoryId" id="category" required oninvalid="this.setCustomValidity('You need to select an Category')" oninput="this.setCustomValidity('')">
+					<option value="@ViewBag.Products.CategoryId"></option>
+					@foreach ( var category in ViewBag.Categorys ) {
+						<option value="@category.Id">@category.Id - @category.Name</option>
+					}
+				</select>
+			</div>
+		</div>
+		<button class="btn btn-primary container" type="submit" value="Insert">Confirm Changes</button>
+	}
+	</form>

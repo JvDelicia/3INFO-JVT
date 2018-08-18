@@ -33,12 +33,12 @@ namespace LojaWeb.Controllers {
             return RedirectToAction("Index");
         }
 
-        public ActionResult FormUp() {
-            return View();
-        }
-
-        public ActionResult FormDel() {
-            return View();
+        public ActionResult FormUp(string id) {
+			ProductDAO pdao = new ProductDAO();
+			IList<Product> Products = pdao.ProductList();
+			Product prod = pdao.FindById(Convert.ToInt32(id));
+			ViewBag.ProdId = prod;
+			return View();
         }
 
         [HttpPostAttribute]
@@ -54,15 +54,15 @@ namespace LojaWeb.Controllers {
             prod.Price = price;
             prod.Quantity = quantity;
             pdao.Update();
-            return View();
-        }
+			return RedirectToAction("Index");
+		}
 
         [HttpPostAttribute]
         public ActionResult Remove(string id) {
             ProductDAO pdao = new ProductDAO();
-            Product p = pdao.FindById(Convert.ToInt32(id));
+			Product p = pdao.FindById(Convert.ToInt32(id));
             pdao.Remove(p);
-            return View();
-        }
+			return RedirectToAction("Index");
+		}
     }
 }
