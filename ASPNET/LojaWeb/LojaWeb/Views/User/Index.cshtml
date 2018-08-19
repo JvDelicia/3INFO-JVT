@@ -5,18 +5,36 @@
 
 <center><h3>List the Users already exists in the system</h3></center>
 
+<form action="/User/Form" method="POST">
+	<button class="btn btn-outline-blue" type="submit"><i class="fas fa-plus"></i> <text class="text-uppercase">New Product</text></button>
+</form>
+
 <table class="table table-hover">
 	<thead class="thead-dark">
-		<tr>
-			<th scope="col"># ID</th>
+		<tr class="text-center align-middle">
+			<th scope="col" class="font-weight-bold"># ID</th>
 			<th scope="col">Name</th>
+			<th scope="col"></th>
+			<th scope="col"></th>
 		</tr>
 	</thead>
 	<tbody>
 		@foreach ( var user in ViewBag.Users ) {
-			<tr>
-				<td scope="row">@user.Id</td>
+			<tr class="text-center align-middle">
+				<th scope="row" class="font-weight-bold">@user.Id</th>
 				<td>@user.Name</td>
+				<td>
+					<form action="/User/FormUp" method="POST">
+						<input hidden name="id" type="number" value="@user.Id" />
+						<input class="btn btn-info btn-sm" type="submit" value="Edit" />
+					</form>
+				</td>
+				<td>
+					<form action="/User/Remove" method="POST">
+						<input hidden name="id" type="number" value="@user.Id" />
+						<input class="btn btn-danger btn-sm" type="submit" value="Remove" />
+					</form>
+				</td>
 			</tr>
 		}
 	</tbody>

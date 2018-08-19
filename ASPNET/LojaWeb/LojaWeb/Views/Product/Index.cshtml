@@ -5,41 +5,49 @@
 
 <center><h3>List of Products already exists in the system</h3></center>
 
+<form action="/Product/frmAdd" method="POST">
+	<button class="btn btn-outline-blue" type="submit"><i class="fas fa-plus"></i> <text class="text-uppercase">New Product</text></button>
+</form>
+
 <table class="table table-hover">
 	<thead class="thead-dark">
-		<tr>
-			<th scope="col"># ID</th>
+		<tr class="text-center align-middle">
+			<th scope="col" class="font-weight-bold"># ID</th>
 			<th scope="col">Name</th>
 			<th scope="col">Description</th>
 			<th scope="col">Price</th>
 			<th scope="col">Quantity</th>
-			<th scope="col">Category # ID</th>
-			<th scope="col">Category Name</th>
+			<th scope="col">Category #ID - Name</th>
+			<th scope="col"></th>
 			<th scope="col"></th>
 		</tr>
 	</thead>
 	<tbody>
 		@foreach ( var prod in ViewBag.Products ) {
-			<tr>
-				<td scope="row">@prod.Id</td>
+			<tr class="text-center align-middle">
+				<th scope="row" class="font-weight-bold">@prod.Id</th>
 				<td>@prod.Name</td>
 				<td>@prod.Description</td>
 				<td>@prod.Price</td>
 				<td>@prod.Quantity</td>
-				<td scope="row">@prod.CategoryId</td>
-				@foreach ( var cat in ViewBag.Categorys ) {
-					if ( @cat.Id == @prod.CategoryId ) {
-						<td>@cat.Name</td>
+				<td>
+					@prod.CategoryId -
+					@foreach ( var cat in ViewBag.Categorys ) {
+						if ( @cat.Id == @prod.CategoryId ) {
+							@cat.Name
+						}
 					}
-				}
-				<td scope="row">
+				</td>
+				<td>
 					<form action="/Product/FormUp" method="POST">
 						<input hidden name="id" type="number" value="@prod.Id" />
-						<input class="btn btn-outline-info btn-sm" type="submit" value="Edit" />
+						<input class="btn btn-info btn-sm" type="submit" value="Edit" />
 					</form>
+				</td>
+				<td>
 					<form action="/Product/Remove" method="POST">
 						<input hidden name="id" type="number" value="@prod.Id" />
-						<input class="btn btn-outline-danger btn-sm" type="submit" value="Remove" />
+						<input class="btn btn-danger btn-sm" type="submit" value="Remove" />
 					</form>
 				</td>
 			</tr>

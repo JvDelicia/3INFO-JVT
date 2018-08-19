@@ -10,7 +10,7 @@
 	<div class="form-row">
 		<div class="col-md-4 mb-3">
 			<label for="id">ID</label>
-			<input type="number" class="form-control" name="p.Id" id="p.Id" placeholder="Type the product ID" value="@ViewBag.ProdId.Id" required oninvalid="this.setCustomValidity('You need to type a product id')" oninput="this.setCustomValidity('')">
+			<input type="number" class="form-control disabled" name="p.Id" id="p.Id" placeholder="Type the product ID" value="@ViewBag.ProdId.Id" required oninvalid="this.setCustomValidity('You need to type a product id')" oninput="this.setCustomValidity('')">
 		</div>
 		<div class="col-md-4 mb-3">
 			<label for="name">Name</label>
@@ -41,5 +41,5 @@
 			</select>
 		</div>
 	</div>
-	<button class="btn btn-primary container" type="submit" value="Insert">Confirm Changes</button>
+	<button class="btn btn-success container" type="submit" value="Insert">Confirm Changes</button>
 </form>
