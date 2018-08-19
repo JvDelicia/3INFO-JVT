@@ -7,40 +7,39 @@
 <center><h3>Update an Product in the system</h3></center>
 
 <form action="/Product/Update" method="POST">
-	@foreach ( var prod in ViewBag.Products ) {
-		<div class="form-row">
-			<div class="col-md-4 mb-3">
-				<label for="id">ID</label>
-				<input type="number" class="form-control" name="p.Id" id="id" placeholder="Type the product ID" value="@ViewBag.ProdId" disabled required oninvalid="this.setCustomValidity('You need to type a product id')" oninput="this.setCustomValidity('')">
-			</div>
-			<div class="col-md-4 mb-3">
-				<label for="name">Name</label>
-				<input type="text" class="form-control" name="p.Name" id="name" placeholder="Type the product name" value="@ViewBag.Products.Name" required oninvalid="this.setCustomValidity('You need to type a product name')" oninput="this.setCustomValidity('')">
-			</div>
-			<div class="col-md-4 mb-3">
-				<label for="desc">Description</label>
-				<input type="text" class="form-control" id="desc" name="p.Description" placeholder="Type the product description" value="@ViewBag.Products.Description" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
-			</div>
+	<div class="form-row">
+		<div class="col-md-4 mb-3">
+			<label for="id">ID</label>
+			<input type="number" class="form-control" name="p.Id" id="p.Id" placeholder="Type the product ID" value="@ViewBag.ProdId.Id" required oninvalid="this.setCustomValidity('You need to type a product id')" oninput="this.setCustomValidity('')">
 		</div>
-		<div class="form-row">
-			<div class="col-md-4 mb-3">
-				<label for="price">Price (with comma)</label>
-				<input type="text" class="form-control" name="p.Price" id="name" placeholder="0,00" value="@ViewBag.Products.Price" required oninvalid="this.setCustomValidity('You need to type the price')" oninput="this.setCustomValidity('')">
-			</div>
-			<div class="col-md-4 mb-3">
-				<label for="qnt">Quantity</label>
-				<input type="number" class="form-control" id="qnt" name="p.Quantity" placeholder="0" value="@ViewBag.Products.Quantity" required oninvalid="this.setCustomValidity('You need to type the quantity')" oninput="this.setCustomValidity('')">
-			</div>
-			<div class="col-md-4 mb-3">
-				<label for="category">Category</label>
-				<select class="form-control" name="p.CategoryId" id="category" required oninvalid="this.setCustomValidity('You need to select an Category')" oninput="this.setCustomValidity('')">
-					<option value="@ViewBag.Products.CategoryId"></option>
-					@foreach ( var category in ViewBag.Categorys ) {
-						<option value="@category.Id">@category.Id - @category.Name</option>
-					}
-				</select>
-			</div>
+		<div class="col-md-4 mb-3">
+			<label for="name">Name</label>
+			<input type="text" class="form-control" name="p.Name" id="p.Name" placeholder="Type the product name" value="@ViewBag.ProdId.Name" required oninvalid="this.setCustomValidity('You need to type a product name')" oninput="this.setCustomValidity('')">
 		</div>
-		<button class="btn btn-primary container" type="submit" value="Insert">Confirm Changes</button>
-	}
-	</form>
+		<div class="col-md-4 mb-3">
+			<label for="desc">Description</label>
+			<input type="text" class="form-control" id="desc" name="p.Description" placeholder="Type the product description" value="@ViewBag.ProdId.Description" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
+		</div>
+	</div>
+	<div class="form-row">
+		<div class="col-md-4 mb-3">
+			<label for="price">Price (with comma)</label>
+			<input type="number" class="form-control" name="p.Price" id="price" placeholder="0,00" value="@ViewBag.ProdId.Price" required oninvalid="this.setCustomValidity('You need to type the price')" oninput="this.setCustomValidity('')">
+		</div>
+		<div class="col-md-4 mb-3">
+			<label for="qnt">Quantity</label>
+			<input type="number" class="form-control" id="qnt" name="p.Quantity" placeholder="0" value="@ViewBag.ProdId.Quantity" required oninvalid="this.setCustomValidity('You need to type the quantity')" oninput="this.setCustomValidity('')">
+		</div>
+		<div class="col-md-4 mb-3">
+			<label for="category">Category</label>
+			<select class="form-control" name="p.CategoryId" id="p.CategoryId" required oninvalid="this.setCustomValidity('You need to select an Category')" oninput="this.setCustomValidity('')">
+				<option value="@ViewBag.ProdId.CategoryId">@ViewBag.ProdId.CategoryId - @ViewBag.CatId.Name</option>
+				<option value="@ViewBag.ProdId.CategoryId"></option>
+				@foreach ( var category in ViewBag.Categorys ) {
+					<option value="@category.Id">@category.Id - @category.Name</option>
+				}
+			</select>
+		</div>
+	</div>
+	<button class="btn btn-primary container" type="submit" value="Insert">Confirm Changes</button>
+</form>

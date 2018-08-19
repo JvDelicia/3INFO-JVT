@@ -692,4 +692,3 @@ C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.CopyComplete
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.dll
 C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.pdb
-C:\Users\ZambrOvosky\Documents\GitHub\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojAssemblyReference.cache

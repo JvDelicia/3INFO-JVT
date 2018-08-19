@@ -35,24 +35,28 @@ namespace LojaWeb.Controllers {
 
         public ActionResult FormUp(string id) {
 			ProductDAO pdao = new ProductDAO();
-			IList<Product> Products = pdao.ProductList();
+			CatProdDAO cdao = new CatProdDAO();
+			IList<ProdCategory> cat = cdao.CategoryList();
+			ViewBag.Categorys = cat;
 			Product prod = pdao.FindById(Convert.ToInt32(id));
 			ViewBag.ProdId = prod;
+			ProdCategory catid = cdao.FindById(Convert.ToInt32(prod.CategoryId));
+			ViewBag.CatId = catid;
 			return View();
         }
 
         [HttpPostAttribute]
-        public ActionResult Update(string id, string name, string description, int category, float price, int quantity) {
-            ProductDAO pdao = new ProductDAO();
+        public ActionResult Update(Product p) { //string id, string name, string description, float price, int quantity, int category
+			ProductDAO pdao = new ProductDAO();
             CatProdDAO cdao = new CatProdDAO();
             IList<ProdCategory> cat = cdao.CategoryList();
             ViewBag.Categorys = cat;
-            Product prod = pdao.FindById(Convert.ToInt32(id));
-            prod.Name = name;
-            prod.Description = description;
-            prod.CategoryId = category;
-            prod.Price = price;
-            prod.Quantity = quantity;
+            Product prod = pdao.FindById(Convert.ToInt32(p.Id));
+			prod.Name = p.Name;
+			prod.Description = p.Description;
+            prod.CategoryId = p.CategoryId;
+			prod.Price = p.Price;
+            prod.Quantity = p.Quantity;
             pdao.Update();
 			return RedirectToAction("Index");
 		}
