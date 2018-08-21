@@ -1,0 +1,12 @@
+@override
+protected void  onCreate(Bundle savedIbstanceState) {
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.activity);
+	
+	helper = new DatabaseHelper(this);
+}
+
+public void Salvar(View view) {
+	SQLiteDatabase db = helper.getWriteableDatabase();
+	contentValues values = new contentValues();
+	values.put("atributo", valor);
