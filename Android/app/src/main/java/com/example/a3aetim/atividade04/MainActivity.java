@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         SQLiteDatabase db = helper.getWriteableDatabase();
         ContentValues values = new ContentValues();
         values.put("atributo", valor);
-        long result = db.insert("banco", null, values);
+        long result = db.insert("tabela", null, values);
         if (result != -1) {
             Toast.makeText(this, "Registro salvo", Toast.LENGTH_SHORT).show();
         } else {
