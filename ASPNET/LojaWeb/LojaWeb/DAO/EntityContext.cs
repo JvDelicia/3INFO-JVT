@@ -1,5 +1,5 @@
 ﻿using LojaWeb.Models;
-using MySql.Data.EntityFramework;
+using MySql.Data.Entity;
 using System;
 using System.Data.Common;
 using System.Data.Entity;

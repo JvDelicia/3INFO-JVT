@@ -47,11 +47,11 @@ namespace LojaWeb.Migrations
         
         public override void Down()
         {
-            DropForeignKey("dbo.Product", "CategoryId", "dbo.ProdCategory");
-            DropIndex("dbo.Product", new[] { "CategoryId" });
-            DropTable("dbo.User");
-            DropTable("dbo.Product");
-            DropTable("dbo.ProdCategory");
+            DropForeignKey("Product", "CategoryId", "ProdCategory");
+            DropIndex("Product", new[] { "CategoryId" });
+            DropTable("User");
+            DropTable("Product");
+            DropTable("ProdCategory");
         }
     }
 }
