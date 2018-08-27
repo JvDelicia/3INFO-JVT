@@ -29,8 +29,18 @@ namespace LojaWeb.Controllers {
         [HttpPostAttribute]
         public ActionResult Add(Product p) {
             ProductDAO pdao = new ProductDAO();
-            pdao.Insert(p);
-            return RedirectToAction("Index");
+            if (p.CategoryId.Equals(1) && p.Price < 20000){
+                ModelState.AddModelError("p.SUVPrice", "The SUV price must be higher than $20k");
+            } if (ModelState.IsValid){
+                pdao.Insert(p);
+                return RedirectToAction("Index");
+            } else {
+                CatProdDAO cdao = new CatProdDAO();
+                ViewBag.Categorys = cdao.CategoryList();
+                ViewBag.Class = "alert alert-danger";
+                return View("frmAdd");
+            }
+            
         }
 
         public ActionResult FormUp(string id) {
@@ -68,5 +78,12 @@ namespace LojaWeb.Controllers {
             pdao.Remove(p);
 			return RedirectToAction("Index");
 		}
+
+        public ActionResult Show(int Id) {
+            ProductDAO pdao = new ProductDAO();
+            Product p = pdao.FindById(Id);
+            ViewBag.Prod = p;
+            return View(p);
+        }
     }
 }
