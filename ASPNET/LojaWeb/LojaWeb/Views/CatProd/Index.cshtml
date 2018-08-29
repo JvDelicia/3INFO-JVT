@@ -5,21 +5,39 @@
 
 <center><h3>List of Categories already exists in the system</h3></center>
 
+<form action="/CatProd/frmAdd" method="POST">
+    <button class="btn btn-outline-blue" type="submit"><i class="fas fa-plus"></i> <text class="text-uppercase">New Category</text></button>
+</form>
+
 <table class="table table-hover">
 	<thead class="thead-dark">
-		<tr>
-			<th scope="col"># ID</th>
-			<th scope="col">Name</th>
-			<th scope="col">Description</th>
-		</tr>
+        <tr class="text-center align-middle">
+            <th scope="col" class="font-weight-bold">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
 	</thead>
 	<tbody>
 		@foreach ( var cat in ViewBag.Categorys ) {
-			<tr>
-				<td scope="row">@cat.Id</td>
-				<td>@cat.Name</td>
-				<td>@cat.Description</td>
-			</tr>
+        <tr class="text-center align-middle">
+            <td scope="row" class="font-weight-bold">@cat.Id</td>
+            <td>@cat.Name</td>
+            <td>@cat.Description</td>
+            <td>
+                <form action="/CatProd/FormUp" method="POST">
+                    <input hidden name="id" type="number" value="@cat.Id" />
+                    <input class="btn btn-info btn-sm" type="submit" value="Edit" />
+                </form>
+            </td>
+            <td>
+                <form action="/CatProd/Remove" method="POST">
+                    <input hidden name="id" type="number" value="@cat.Id" />
+                    <input class="btn btn-danger btn-sm" type="submit" value="Remove" />
+                </form>
+            </td>
+        </tr>
 		}
 	</tbody>
 </table>

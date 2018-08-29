@@ -9,15 +9,15 @@
   	<div class="form-row">
     	<div class="col-md-4 mb-3">
       		<label for="id">ID</label>
-      		<input type="number" class="form-control" name="u.Id" id="id" placeholder="Type the ID" required oninvalid="this.setCustomValidity('You need to type an ID')" oninput="this.setCustomValidity('')">
+      		<input type="number" class="form-control disabled" name="u.Id" id="id" value="@ViewBag.UserId.Id" placeholder="Type the ID" required oninvalid="this.setCustomValidity('You need to type an ID')" oninput="this.setCustomValidity('')">
     	</div>
     	<div class="col-md-4 mb-3">
       		<label for="name">Name</label>
-      		<input type="text" class="form-control" id="name" name="u.Name" placeholder="Type the Name" required oninvalid="this.setCustomValidity('You need to type the new Username')" oninput="this.setCustomValidity('')">
+      		<input type="text" class="form-control" id="name" name="u.Name" value="@ViewBag.UserId.Name" placeholder="Type the Name" required oninvalid="this.setCustomValidity('You need to type the new Username')" oninput="this.setCustomValidity('')">
     	</div>
 		<div class="col-md-4 mb-3">
       		<label for="pass">Password</label>
-      		<input type="password" class="form-control" id="pass" name="u.Pass" maxlength="8" placeholder="Type the Password" required oninvalid="this.setCustomValidity('You need to type the new Password')" oninput="this.setCustomValidity('')">
+      		<input type="password" class="form-control" id="pass" name="u.Pass" maxlength="8" value="@ViewBag.UserId.Pass" placeholder="Type the Password" required oninvalid="this.setCustomValidity('You need to type the new Password')" oninput="this.setCustomValidity('')">
     	</div>
   	</div>
 	<button class="btn btn-info container" type="submit" value="Update">Update User</button>

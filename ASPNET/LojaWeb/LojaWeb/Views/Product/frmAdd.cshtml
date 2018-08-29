@@ -6,39 +6,39 @@
 <center><h3>Add an Product to the system</h3></center>
 
 <form action="/Product/Add" method="POST">
-  	<div class="form-row">
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" name="p.Name" id="name" maxlength="20" placeholder="Type the product name" required oninvalid="this.setCustomValidity('You need to type a product name')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="desc">Description</label>
+            <input type="text" class="form-control" id="desc" name="p.Description" maxlength="100" placeholder="Type the product description" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="price">Price (with comma)</label>
+            <input type="number" class="form-control" name="p.Price" id="name" placeholder="0,00" required oninvalid="this.setCustomValidity('You need to type the price')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="qnt">Quantity</label>
+            <input type="number" class="form-control" id="qnt" name="p.Quantity" placeholder="0" required oninvalid="this.setCustomValidity('You need to type the quantity')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="category">Category</label>
+            <select class="form-control" name="p.CategoryId" id="p.CategoryId" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
+                <option value=""></option>
+                @foreach (var category in ViewBag.Categorys)
+                {
+                    <option value="@category.Id">@category.Id - @category.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+    <button class="btn btn-primary container" type="submit" value="Insert">Confirm Product</button>
 
-          <div class="@ViewBag.Class col-md-6 mb-5" style="width:80%;" role="alert">
-              @Html.ValidationMessage("p.SUVPrice")<br />
-          </div>
-
-    	<div class="col-md-6 mb-3">
-      		<label for="name">Name</label>
-      		<input type="text" class="form-control" name="p.Name" id="name" maxlength="20" placeholder="Type the product name" required oninvalid="this.setCustomValidity('You need to type a product name')" oninput="this.setCustomValidity('')">
-    	</div>
-    	<div class="col-md-6 mb-3">
-      		<label for="desc">Description</label>
-      		<input type="text" class="form-control" id="desc" name="p.Description" maxlength="100" placeholder="Type the product description" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
-    	</div>
-  	</div>
-	<div class="form-row">
-    	<div class="col-md-4 mb-3">
-      		<label for="price">Price (with comma)</label>
-      		<input type="number" class="form-control" name="p.Price" id="name" placeholder="0,00" required oninvalid="this.setCustomValidity('You need to type the price')" oninput="this.setCustomValidity('')">
-    	</div>
-    	<div class="col-md-4 mb-3">
-      		<label for="qnt">Quantity</label>
-      		<input type="number" class="form-control" id="qnt" name="p.Quantity" placeholder="0" required oninvalid="this.setCustomValidity('You need to type the quantity')" oninput="this.setCustomValidity('')">
-    	</div>
-		<div class="col-md-4 mb-3">
-      		<label for="category">Category</label>
-			<select class="form-control" name="p.CategoryId" id="p.CategoryId" required oninvalid="this.setCustomValidity('You need to type an product description')" oninput="this.setCustomValidity('')">
-				<option value=""></option>
-				@foreach (var category in ViewBag.Categorys) {
-					<option value="@category.Id">@category.Id - @category.Name</option>
-				}
-  			</select>
-    	</div>
-  	</div>
-	<button class="btn btn-primary container" type="submit" value="Insert">Confirm Product</button>
+    <div class="@ViewBag.Class col-md-6 mb-5" style="width:80%;" role="alert">
+        @Html.ValidationMessage("p.SUVPrice")<br />
+    </div>
 </form>

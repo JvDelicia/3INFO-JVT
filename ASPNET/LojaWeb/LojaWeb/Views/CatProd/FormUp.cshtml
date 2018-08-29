@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Category Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<center><h3>Update an Category in the system</h3></center>
+
+<form action="/CatProd/Update" method="POST">
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="id">ID</label>
+            <input type="number" class="form-control disabled" name="c.Id" id="c.Id" placeholder="Type the product ID" value="@ViewBag.CatId.Id" required oninvalid="this.setCustomValidity('You need to type a category id')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" name="c.Name" id="c.Name" placeholder="Type the product name" value="@ViewBag.CatId.Name" required oninvalid="this.setCustomValidity('You need to type a category name')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="desc">Description</label>
+            <input type="text" class="form-control" id="desc" name="c.Description" placeholder="Type the product description" value="@ViewBag.CatId.Description" required oninvalid="this.setCustomValidity('You need to type an category description')" oninput="this.setCustomValidity('')">
+        </div>
+    </div>
+    <button class="btn btn-success container" type="submit" value="Insert">Confirm Changes</button>
+</form>

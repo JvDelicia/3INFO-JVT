@@ -28,5 +28,30 @@ namespace LojaWeb.Controllers
             cdao.Insert(c);
             return RedirectToAction("Index");
         }
+
+        [HttpPostAttribute]
+        public ActionResult Remove(string id) {
+            CatProdDAO cdao = new CatProdDAO();
+            ProdCategory c = cdao.FindById(Convert.ToInt32(id));
+            cdao.Remove(c);
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult FormUp(string id) {
+            CatProdDAO cdao = new CatProdDAO();
+            ProdCategory cat = cdao.FindById(Convert.ToInt32(id));
+            ViewBag.CatId = cat;
+            return View();
+        }
+
+        [HttpPostAttribute]
+        public ActionResult Update(ProdCategory c) {
+            CatProdDAO cdao = new CatProdDAO();
+            ProdCategory cat = cdao.FindById(Convert.ToInt32(c.Id));
+            cat.Name = c.Name;
+            cat.Description = c.Description;
+            cdao.Update();
+            return RedirectToAction("Index");
+        }
     }
 }

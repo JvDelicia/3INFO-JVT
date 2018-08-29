@@ -19,32 +19,30 @@ namespace LojaWeb.Controllers {
 		}
 
 		public ActionResult Form() {
-
 			return View();
 		}
 
 		public ActionResult Add(User u) {
 			UserDAO udao = new UserDAO();
 			udao.Insert(u);
-			return View();
-		}
+            return RedirectToAction("Index");
+        }
 
-        public ActionResult FormUp() {
+        public ActionResult FormUp(string id) {
+            UserDAO udao = new UserDAO();
+            User user = udao.FindById(Convert.ToInt32(id));
+            ViewBag.UserId = user;
             return View();
         }
 
-		public ActionResult FormDel() {
-			return View();
-		}
-
 		[HttpPostAttribute]
-        public ActionResult Update(string name, string pass, string id) {
+        public ActionResult Update(User u) {
             UserDAO udao = new UserDAO();
-            User user = udao.FindById(Convert.ToInt32(id));
-            user.Name = name;
-            user.Pass = pass;
+            User user = udao.FindById(Convert.ToInt32(u.Id));
+            user.Name = u.Name;
+            user.Pass = u.Pass;
             udao.Update();
-            return View();
+            return RedirectToAction("Index");
         }
 
         [HttpPostAttribute]
@@ -52,7 +50,7 @@ namespace LojaWeb.Controllers {
             UserDAO udao = new UserDAO();
             User u = udao.FindById(Convert.ToInt32(id));
             udao.Remove(u);
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }

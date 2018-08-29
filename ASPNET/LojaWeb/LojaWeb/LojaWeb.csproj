@@ -283,7 +283,6 @@
     <Content Include="Views\User\Update.cshtml" />
     <Content Include="Views\User\Remove.cshtml" />
     <Content Include="Views\User\FormUp.cshtml" />
-    <Content Include="Views\User\FormDel.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Product\FormUp.cshtml" />
     <Content Include="Views\Product\Remove.cshtml" />
@@ -300,6 +299,9 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Product\Show.cshtml" />
+    <Content Include="Views\CatProd\Update.cshtml" />
+    <Content Include="Views\CatProd\FormUp.cshtml" />
+    <Content Include="Views\CatProd\Remove.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
