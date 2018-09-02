@@ -235,10 +235,13 @@
     <Compile Include="Controllers\CatProdController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SellController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DAO\CatProdDAO.cs" />
     <Compile Include="DAO\EntityContext.cs" />
+    <Compile Include="DAO\ItemSellDAO.cs" />
     <Compile Include="DAO\ProductDAO.cs" />
+    <Compile Include="DAO\SellDAO.cs" />
     <Compile Include="DAO\UserDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -313,6 +316,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Sell\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807011725071_crtUserProd.resx">
