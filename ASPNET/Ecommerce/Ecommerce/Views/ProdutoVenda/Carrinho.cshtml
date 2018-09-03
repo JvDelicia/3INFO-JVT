@@ -47,17 +47,15 @@
 
     <center>
         <form method="post" action="/ProdutoVenda/BuscarCPF">
-            <div class="row col-3">
-                <div class="col">
-                    <label>CPF do Cliente:</label>
-                </div>
-                <div class="col">
-                    <input class="form-control" name="Id"/>
-                </div>
-                <div class="col">
-                    <input type="submit" class="btn btn-success" value="Buscar"/>
-                </div>
-            </div><br /><br />
+			<div class="row justify-content-md-center">
+				<div class="col-md-4 mb-3">
+					<input class="form-control" name="Id" placeholder="CPF do Cliente" />
+				</div>
+				<div class="col-md-2 mb-3">
+					<input type="submit" class="btn btn-success btn-block" value="Buscar" />
+				</div>
+			</div>
+			<br />
         </form>
         <table class="table table-striped">
             <thead>

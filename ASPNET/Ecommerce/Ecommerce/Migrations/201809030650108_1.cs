@@ -3,7 +3,7 @@ namespace Ecommerce.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class first : DbMigration
+    public partial class _1 : DbMigration
     {
         public override void Up()
         {
@@ -12,7 +12,7 @@ namespace Ecommerce.Migrations
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        CPF = c.Int(nullable: false),
+                        CPF = c.String(nullable: false, unicode: false),
                         Nome = c.String(nullable: false, unicode: false),
                         Endereco = c.String(nullable: false, unicode: false),
                         NumTel = c.String(nullable: false, unicode: false),

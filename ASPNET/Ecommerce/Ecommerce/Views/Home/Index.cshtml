@@ -10,24 +10,24 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/signin.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div> 
         <center>
             <br /><br /><br />
-            <form action="/Home/Login" method="post">
-                <div class="row col-4">
-                    <label for="Login">Login:</label>
-                    <input id="Login" name="funcionario.Login" value="@ViewBag.Login" placeholder="Nome de Login" class="form-control" />
-                </div>
-                <div class="row col-4">
-                    <label for="Senha">Senha:</label>
-                    <input id="Senha" type="password" name="funcionario.Senha" placeholder="Senha" class="form-control" />
-                </div>
-                <br /><br />
-                @Html.ValidationMessage("funcionario.LoginError")
+            <form action="/Home/Login" method="post" class="form-signin">
+				<div class="text-center">
+					<h1 class="h3 mb-3 font-weight-normal">Por favor, entre</h1>
+					<label for="Login" class="sr-only">Login</label>
+					<input id="Login" name="funcionario.Login" value="@ViewBag.Login" placeholder="Nome de Login" class="form-control" required autofocus />
+					<label for="Senha" class="sr-only">Senha</label>
+					<input id="Senha" type="password" name="funcionario.Senha" placeholder="Senha" class="form-control" required />
+				</div>
                 <br />
-                <input type="submit" class="btn btn-primary" value="Entrar" />
+                <input type="submit" class="btn btn-lg btn-primary btn-block" value="Entrar" />
+				<br /><br />
+                @Html.ValidationMessage("funcionario.LoginError")
             </form>
         </center>
 

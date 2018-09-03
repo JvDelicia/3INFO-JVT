@@ -11,7 +11,7 @@ namespace Ecommerce.Models
     {
         public int Id{ get; set; }
         [Required]
-        public int CPF { get; set; }
+        public string CPF { get; set; }
         [Required]
         public string Nome { get; set; }
         [Required]

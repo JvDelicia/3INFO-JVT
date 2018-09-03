@@ -19,14 +19,14 @@ namespace Ecommerce.DAO
             return context.Clientes.ToList();
         }
 
-        public Cliente BuscarCliCPF(int cpf)
+        public Cliente BuscarCliCPF(string cpf)
         {
-            return context.Clientes.FirstOrDefault(c => c.Id == cpf);
+            return context.Clientes.FirstOrDefault(c => c.Id.ToString().Equals(cpf));
         }
 
         public IList<Cliente> BuscarClisCPF(int cpf)
         {
-            return context.Clientes.Where(c => c.CPF == cpf).ToList();
+            return context.Clientes.Where(c => c.CPF.Equals(cpf)).ToList();
         }
 
         public void Atualizar()

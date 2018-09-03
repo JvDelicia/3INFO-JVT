@@ -120,7 +120,7 @@ namespace Ecommerce.Controllers
                 pvdao.Cadastrar(pv);
             }
             ClienteDAO cdao = new ClienteDAO();
-            ViewBag.Cli = cdao.BuscarCliCPF(Id);
+            ViewBag.Cli = cdao.BuscarCliCPF(Id.ToString());
             FuncionarioDAO fdao = new FuncionarioDAO();
             ViewBag.Func = fdao.BuscarFuncId(FuncId);
             ProdutoVendaDAO.Carrinho.Clear();
