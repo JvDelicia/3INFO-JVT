@@ -24,6 +24,11 @@ namespace Ecommerce.DAO
             return context.Clientes.FirstOrDefault(c => c.Id.ToString().Equals(cpf));
         }
 
+        public Cliente BuscarCliId(int id)
+        {
+            return context.Clientes.FirstOrDefault(c => c.Id.Equals(id));
+        }
+
         public IList<Cliente> BuscarClisCPF(int cpf)
         {
             return context.Clientes.Where(c => c.CPF.Equals(cpf)).ToList();

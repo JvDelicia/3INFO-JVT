@@ -51,7 +51,7 @@ namespace Ecommerce.Controllers
 
         public ActionResult Relatorio()
         {
-
+            VendaDAO vdao = new VendaDAO();
             IList<Cliente> rc = new ClienteDAO().ListarClientes();
             EntityContext context = new EntityContext();
             var s = from p in context.Vendas where (p.FuncionarioId == (int)Session["_Id"]) select p;
