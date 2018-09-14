@@ -6,15 +6,29 @@
 <center><h3>Add an User to the system</h3></center>
 
 <form action="/User/Add">
-  	<div class="form-row">
-    	<div class="col-md-6 mb-3">
-      		<label for="name">Name</label>
-      		<input type="text" class="form-control" name="u.Name" id="name" placeholder="Type the Username" required oninvalid="this.setCustomValidity('You need to type a Username')" oninput="this.setCustomValidity('')">
-    	</div>
-    	<div class="col-md-6 mb-3">
-      		<label for="pass">Password</label>
-      		<input type="password" class="form-control" id="pass" name="u.Pass" maxlength="8" placeholder="Type the Password" required oninvalid="this.setCustomValidity('You need to type a Password')" oninput="this.setCustomValidity('')">
-    	</div>
-  	</div>
-	<button class="btn btn-primary container" type="submit" value="Add">Confirm User</button>
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" name="u.Name" id="name" placeholder="Type the Username" required oninvalid="this.setCustomValidity('You need to type a Username')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="pass">Password</label>
+            <input type="password" class="form-control" id="pass" name="u.Pass" maxlength="8" placeholder="Type the Password" required oninvalid="this.setCustomValidity('You need to type a Password')" oninput="this.setCustomValidity('')">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="Phone">Phone</label>
+            <input type="number" class="form-control" name="u.Phone" id="phone" placeholder="Type the Phone" required oninvalid="this.setCustomValidity('You need to type the Phone number')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="Email">E-Mail</label>
+            <input type="email" class="form-control" id="email" name="u.Email" placeholder="Type the E-Mail" required oninvalid="this.setCustomValidity('You need to type the E-mail')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="Born">Born Date</label>
+            <input type="date" class="form-control" id="born" name="u.Born" placeholder="Type the Born" required oninvalid="this.setCustomValidity('You need to type the Born Date')" oninput="this.setCustomValidity('')">
+        </div>
+    </div>
+    <button class="btn btn-primary container" type="submit" value="Add">Confirm User</button>
 </form>

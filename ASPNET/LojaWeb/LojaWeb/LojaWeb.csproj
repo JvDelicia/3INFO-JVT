@@ -235,13 +235,10 @@
     <Compile Include="Controllers\CatProdController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
-    <Compile Include="Controllers\SellController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DAO\CatProdDAO.cs" />
     <Compile Include="DAO\EntityContext.cs" />
-    <Compile Include="DAO\ItemSellDAO.cs" />
     <Compile Include="DAO\ProductDAO.cs" />
-    <Compile Include="DAO\SellDAO.cs" />
     <Compile Include="DAO\UserDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -250,11 +247,13 @@
     <Compile Include="Migrations\201807011725071_crtUserProd.Designer.cs">
       <DependentUpon>201807011725071_crtUserProd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809141355585_Fixer.cs" />
+    <Compile Include="Migrations\201809141355585_Fixer.Designer.cs">
+      <DependentUpon>201809141355585_Fixer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\ItemSell.cs" />
     <Compile Include="Models\ProdCategory.cs" />
     <Compile Include="Models\Product.cs" />
-    <Compile Include="Models\Sell.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -307,6 +306,7 @@
     <Content Include="Views\CatProd\Update.cshtml" />
     <Content Include="Views\CatProd\FormUp.cshtml" />
     <Content Include="Views\CatProd\Remove.cshtml" />
+    <Content Include="Views\Product\Details.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -316,11 +316,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Sell\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807011725071_crtUserProd.resx">
       <DependentUpon>201807011725071_crtUserProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809141355585_Fixer.resx">
+      <DependentUpon>201809141355585_Fixer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

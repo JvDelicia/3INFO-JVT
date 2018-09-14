@@ -41,6 +41,9 @@ namespace LojaWeb.Controllers {
             User user = udao.FindById(Convert.ToInt32(u.Id));
             user.Name = u.Name;
             user.Pass = u.Pass;
+            user.Phone = u.Phone;
+            user.Born = u.Born;
+            user.Email = u.Email;
             udao.Update();
             return RedirectToAction("Index");
         }

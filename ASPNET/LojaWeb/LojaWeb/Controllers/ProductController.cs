@@ -9,6 +9,7 @@ using System.Web.Mvc;
 namespace LojaWeb.Controllers {
     public class ProductController : Controller {
         // GET: Product
+        [Route("Product", Name = "ProdList")]
         public ActionResult Index() {
             ProductDAO pdao = new ProductDAO();
             IList<Product> prod = pdao.ProductList();
@@ -84,6 +85,18 @@ namespace LojaWeb.Controllers {
             Product p = pdao.FindById(Id);
             ViewBag.Prod = p;
             return View(p);
+        }
+
+        [Route("Product/{Id}", Name = "ProdDetails")]
+        public ActionResult Details(int Id) {
+            ProductDAO pdao = new ProductDAO();
+            CatProdDAO cdao = new CatProdDAO();
+            IList<ProdCategory> cat = cdao.CategoryList();
+            Product p = pdao.FindById(Convert.ToInt32(Id));
+            ProdCategory catid = cdao.FindById(Convert.ToInt32(p.CategoryId));
+            ViewBag.CatId = catid;
+            ViewBag.ProdId = p;
+            return View();
         }
     }
 }

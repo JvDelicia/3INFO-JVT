@@ -14,8 +14,6 @@ namespace LojaWeb.DAO {
 		public DbSet<User> Users { get; set; }
         public DbSet<ProdCategory> Categorys { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Sell> Sells { get; set; }
-        public DbSet<ItemSell> ItemSells { get; set; }
 
         public EntityContext() : base("DataBase") { }
         public EntityContext(DbConnection existingConnection, bool contextOwnsConnection) : base(existingConnection, contextOwnsConnection) { }

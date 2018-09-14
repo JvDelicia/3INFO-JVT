@@ -74,8 +74,8 @@ T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.WebPages.xml
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.WebPages.Deployment.xml
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\bin\System.Web.WebPages.Razor.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojAssemblyReference.cache
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Migrations.crtUserProd.resources
+T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Migrations.Fixer.resources
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Properties.Resources.resources
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.Str.resources
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\JVPH\3INFO-JV\ASPNET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.GenerateResource.cache

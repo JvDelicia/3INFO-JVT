@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Product Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<center><h3>Specific Product details</h3></center>
+
+<form action="/Product/Index" method="POST">
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="id">ID</label>
+            <input type="number" class="form-control disabled" name="p.Id" id="p.Id" value="@ViewBag.ProdId.Id">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="name">Name</label>
+            <input type="text" class="form-control disabled" name="p.Name" id="p.Name" value="@ViewBag.ProdId.Name">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="desc">Description</label>
+            <input type="text" class="form-control disabled" id="desc" name="p.Description" value="@ViewBag.ProdId.Description">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="price">Price</label>
+            <input type="number" class="form-control disabled" name="p.Price" id="price" value="@ViewBag.ProdId.Price">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="qnt">Quantity</label>
+            <input type="number" class="form-control disabled" id="qnt" name="p.Quantity" value="@ViewBag.ProdId.Quantity">
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="category">Category</label>
+            <input type="text" class="form-control disabled" id="cat" name="p.Category" value="@ViewBag.ProdId.CategoryId - @ViewBag.CatId.Name">
+        </div>
+    </div>
+    <button class="btn btn-cyan container" type="submit" value="Back">Back</button>
+</form>
