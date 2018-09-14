@@ -32,9 +32,9 @@ public class Exe9 extends JFrame implements ActionListener
     
     public Exe9()
     {
-        setTitle("Valores numerosos");
+        setTitle("Eleição");
         setBounds(550,250,700,350);
-        getContentPane().setBackground(new Color(0,200,237));
+        getContentPane().setBackground(new Color(0,80,155));
         getContentPane().setLayout(new GridLayout(6,3));
         l1_1 = new JLabel("");
         l1_1.setForeground(Color.BLACK);
@@ -62,16 +62,16 @@ public class Exe9 extends JFrame implements ActionListener
         b2.addActionListener(this);
         b3 = new JButton("Sair");
         b3.addActionListener(this);
-        voto1 = new JButton("BOLSOMITO");
+        voto1 = new JButton("Leleo");
         voto1.addActionListener(this);
         voto1.setVisible(false);
-        voto2 = new JButton("Ey Ey Eymael");
+        voto2 = new JButton("JV");
         voto2.addActionListener(this);
         voto2.setVisible(false);
         voto3 = new JButton("Lulinha (não mais)");
         voto3.addActionListener(this);
         voto3.setVisible(false);
-        voto4 = new JButton("Manuela D'Comunista");
+        voto4 = new JButton("Ph");
         voto4.addActionListener(this);
         voto4.setVisible(false);
         voto5 = new JButton("Voto em branco");

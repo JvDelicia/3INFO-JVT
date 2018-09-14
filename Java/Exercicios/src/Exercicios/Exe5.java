@@ -25,7 +25,7 @@ public class Exe5 extends JFrame implements ActionListener{
     public Exe5(){
         setTitle("Ciclista");
         setBounds(600,300,600,150);
-        getContentPane().setBackground(new Color(237, 129, 186));
+        getContentPane().setBackground(new Color(237, 240, 186));
         getContentPane().setLayout(new GridLayout(4,2));
         l1 = new JLabel("Digite a quantidade de voltas feitas:");
         l1.setForeground(Color.BLACK);

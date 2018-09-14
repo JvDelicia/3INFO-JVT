@@ -25,7 +25,7 @@ public class Exe3 extends JFrame implements ActionListener{
     public Exe3(){
         setTitle("Idade");
         setBounds(600,255,300,200);
-        getContentPane().setBackground(new Color(255,100,20));
+        getContentPane().setBackground(new Color(50,100,20));
         getContentPane().setLayout(new GridLayout(5,2));
         l1 = new JLabel("Digite a sua idade:");
         l1.setForeground(Color.BLACK);
@@ -40,8 +40,9 @@ public class Exe3 extends JFrame implements ActionListener{
         b2.addActionListener(this);
         t1 = new JTextField();
         add(l1);add(t1);
-        add(b1);add(b2);
         add(l2);
+        add(b1);add(b2);
+        
     }
     public void actionPerformed(ActionEvent e){
         if(e.getSource()==b2){

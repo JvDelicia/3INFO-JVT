@@ -21,7 +21,7 @@ public class Exe10 extends JFrame{
     Exe10(){
         setTitle("Promo");
         setBounds(500,250,600,80);
-        getContentPane().setBackground(new Color(67,162,234));
+        getContentPane().setBackground(new Color(67,162,50));
         getContentPane().setLayout(new GridLayout(1,1));
         
         l1 = new JLabel("num1");
@@ -39,7 +39,7 @@ public class Exe10 extends JFrame{
        }
        if(d.getDay() == 2)
        {
-           l1.setText( "Terça é dia de dar um beijo no Leleo!!! Ainda mais com esse desconto de 30%!!!");
+           l1.setText( "Terça é dia de ouvir música!!! fone com 20% de promoção!!!");
        }
        if(d.getDay() == 3)
        {

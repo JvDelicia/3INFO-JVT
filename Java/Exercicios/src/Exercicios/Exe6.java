@@ -32,7 +32,7 @@ public class Exe6 extends JFrame implements ActionListener
     {
         setTitle("Operações Matemáticas");
         setBounds(600,300,500,250);
-        getContentPane().setBackground(new Color(148,32,60));
+        getContentPane().setBackground(new Color(15,32,60));
         getContentPane().setLayout(new GridLayout(5,2));
         
         l1 = new JLabel("Digite  o primeiro valor:");

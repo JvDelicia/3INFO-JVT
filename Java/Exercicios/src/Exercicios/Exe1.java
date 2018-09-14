@@ -19,7 +19,7 @@ public class Exe1 extends JFrame implements ActionListener{
     public Exe1(){
         setTitle("Valor");
         setBounds(600,300,350,150);
-        getContentPane().setBackground(new Color(175,200,255));
+        getContentPane().setBackground(new Color(255,200,255));
         getContentPane().setLayout(new GridLayout(4,3));
         l1 = new JLabel("Valor:");
         l1.setForeground(Color.BLACK);
@@ -42,8 +42,9 @@ public class Exe1 extends JFrame implements ActionListener{
         t3.setEditable(false);
         add(l1);add(t1);
         add(l2);add(t2);
-        add(b1);add(b2);
         add(l3);add(t3);
+        add(b1);add(b2);
+        
         
     }
     public static void main (String[]args)

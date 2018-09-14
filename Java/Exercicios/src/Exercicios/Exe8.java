@@ -29,7 +29,7 @@ public class Exe8 extends JFrame{
         
         setTitle("Fibonacci");
         setBounds(400,300,1050,90);
-        getContentPane().setBackground(new Color(117, 88, 210));
+        getContentPane().setBackground(new Color(35, 88, 210));
         getContentPane().setLayout(new GridLayout(1,1));
         
         l1 = new JLabel("num1");
@@ -38,7 +38,7 @@ public class Exe8 extends JFrame{
         
         String texto = "";
         for (int i = 1; i <= 15; i++) {
-           texto += (" ( " + i + " ): " + fibo(i) + " \n  ");
+           texto += (" ( " + i + " ) - " + fibo(i) + " \n  ");
         }
         l1.setText(texto);
         getContentPane().add(l1);

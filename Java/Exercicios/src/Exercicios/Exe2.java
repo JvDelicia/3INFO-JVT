@@ -19,7 +19,7 @@ public class Exe2 extends JFrame implements ActionListener{
     public Exe2(){
         setTitle("Calculadora");
         setBounds(450,280,800,200);
-        getContentPane().setBackground(new Color(12,200,235));
+        getContentPane().setBackground(new Color(100,200,235));
         getContentPane().setLayout(new GridLayout(5,2));
         l1 = new JLabel("Primeiro Número");
         l1.setForeground(Color.BLACK);

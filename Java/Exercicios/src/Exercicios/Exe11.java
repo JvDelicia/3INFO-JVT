@@ -27,7 +27,7 @@ public class Exe11 extends JFrame implements ActionListener{
     Exe11(){
         setTitle("Tempo vivido");
         setBounds(700,50,300,700);
-        getContentPane().setBackground(new Color(91, 235, 210));
+        getContentPane().setBackground(new Color(91, 150, 210));
         getContentPane().setLayout(new GridLayout(10,1));
         
 
@@ -38,7 +38,7 @@ public class Exe11 extends JFrame implements ActionListener{
         pergunta = new JLabel("pergunta");
         pergunta.setForeground(Color.black);
         pergunta.setFont(new Font("", Font.BOLD,14));
-        pergunta.setText("Sua data de nascimento:");
+        pergunta.setText("Data de Nascimento:");
         
         l1 = new JLabel("l1");
         l1.setForeground(Color.black);

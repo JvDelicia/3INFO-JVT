@@ -21,7 +21,7 @@ import java.text.ParseException;
 
 public class Exe12 extends JFrame implements ActionListener{
     JLabel l1,pergunta;
-    JButton b1;
+    JButton b1, b2;
     JTextField t1;
     
     public static void main(String[] args) {
@@ -33,19 +33,20 @@ public class Exe12 extends JFrame implements ActionListener{
     }
     Exe12(){
         setTitle("Verificar Data válida");
-        setBounds(700,250,300,300);
-        getContentPane().setBackground(new Color(153,200,101));
-        getContentPane().setLayout(new GridLayout(4,1));
-        
+        setBounds(700,250,500,150);
+        getContentPane().setBackground(new Color(200,30,101));
+        getContentPane().setLayout(new GridLayout(2,2));
+       
 
         
         b1 = new JButton("Achar");
         b1.addActionListener(this);     
-        
+        b2 = new JButton("Limpar");
+        b2.addActionListener(this);
         pergunta = new JLabel("pergunta");
         pergunta.setForeground(Color.black);
         pergunta.setFont(new Font("", Font.BOLD,14));
-        pergunta.setText("Sua data de nascimento:");
+        pergunta.setText("Insira uma Data :");
         
         l1 = new JLabel("l1");
         l1.setForeground(Color.black);
@@ -59,7 +60,8 @@ public class Exe12 extends JFrame implements ActionListener{
         add(pergunta);
         add(t1);
         add(b1);
-        add(l1);
+        add(b2);
+        
 
        
     }
@@ -72,10 +74,16 @@ public class Exe12 extends JFrame implements ActionListener{
             sdf.parse(t1.getText());
             t1.setText(t1.getText() + " - Data válida!");
         }
+        
         catch(ParseException certo)
         {
             t1.setText("Data inválida!");
         }
+
+            return;
+        }
+         if (e.getSource() == b2){            
+            t1.setText("");
 
             return;
         }

@@ -14,7 +14,7 @@ public class Exe7 extends JFrame implements ActionListener {
         setTitle("Comodos");
         setBounds(600, 255, 400, 300);
         setResizable (true);
-        getContentPane().setBackground(new Color(0, 90, 150));
+        getContentPane().setBackground(new Color(0, 90, 255));
         getContentPane().setLayout(new GridLayout(8,2));
        
         l1 = new JLabel("Nome do comodo");

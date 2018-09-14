@@ -41,8 +41,9 @@ public class Exe4 extends JFrame implements ActionListener{
         b2.addActionListener(this);
         t1 = new JTextField();
         add(l1);add(t1);
-        add(b1);add(b2);
         add(l2);
+        add(b1);add(b2);
+        
     }
     public void actionPerformed(ActionEvent e)
     {
