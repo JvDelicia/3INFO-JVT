@@ -87,7 +87,7 @@ namespace LojaWeb.Controllers {
             return View(p);
         }
 
-        [Route("Product/{Id}", Name = "ProdDetails")]
+        [Route("Product~={Id}", Name = "Details")]
         public ActionResult Details(int Id) {
             ProductDAO pdao = new ProductDAO();
             CatProdDAO cdao = new CatProdDAO();

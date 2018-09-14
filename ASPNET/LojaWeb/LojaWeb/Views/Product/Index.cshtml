@@ -26,7 +26,7 @@
 		@foreach ( var prod in ViewBag.Products ) {
 			<tr class="text-center align-middle">
 				<th scope="row" class="font-weight-bold">@prod.Id</th>
-				<td>@Html.ActionLink( (string)prod.Name, "ProdDetails", new { Id = prod.Id } )</td>
+				<td>@Html.RouteLink((string)prod.Name, "Details", new { Id = prod.Id })</td>
 				<td>@prod.Description</td>
 				<td>@prod.Price</td>
 				<td>@prod.Quantity</td>
