@@ -44,3 +44,14 @@ em branco. Apresentar a porcentagem de cada candidato e apontar o vencedor.
 um cálculo do número de milisegundos decorridos (1 dia = 86400000 ms).
 
 12. Construa uma classe que verifique se a data digitada é válida ou não.
+
+13. é o dos veiculos.
+
+14. Crie uma classe que simule o calculo da venda final de um produto dependendo da sua forma de pagamento. Critérios: 
+Dinheiro = Desconto de 5%
+Cheque = Acrescimo de 5%
+Cartão = acrescimo de 10%
+
+15. Construa uma classe que simule o cadastro de pessoas. O usuário deve digitar seu nome, endereço, sexo e estado civil, sendo que:
+Sexo e estado civil = deve ser escolhido em algum lugar.
+Ao pressinar o botão "Mostrar" todos os dados devem ser copiados para uma JTextArea.
