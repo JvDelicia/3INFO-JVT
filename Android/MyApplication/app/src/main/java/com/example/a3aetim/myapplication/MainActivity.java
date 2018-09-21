@@ -17,9 +17,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void abrirConsultar(View view){
-
+        Intent intent = new Intent(this, LIstarActivity.class);
+        startActivity(intent);
     }
-    public void Sair(View view){
+    public void Sair(View view) {
         System.exit(0);
-    }
+    };
 }

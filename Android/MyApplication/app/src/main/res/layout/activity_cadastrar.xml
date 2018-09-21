@@ -20,21 +20,21 @@
             android:id="@+id/btnVoltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
+            android:layout_alignStart="@+id/etIdade"
             android:layout_alignTop="@+id/btnCadastrar"
-            android:layout_marginStart="100dp"
             android:text="Voltar"
             tools:layout_editor_absoluteX="212dp"
-            tools:layout_editor_absoluteY="434dp" />
+            tools:layout_editor_absoluteY="434dp"
+            android:onClick="Voltar"/>
 
         <Button
             android:id="@+id/btnCadastrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/etIdade"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
             android:layout_marginBottom="115dp"
-            android:layout_marginEnd="68dp"
+            android:onClick="CadastrarJogador"
             android:text="Cadastrar"
             tools:layout_editor_absoluteX="212dp"
             tools:layout_editor_absoluteY="434dp" />

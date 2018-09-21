@@ -8,7 +8,11 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/btnSair"
@@ -17,6 +21,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="144dp"
+            android:onClick="Sair"
             android:text="Sair"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible"
@@ -29,7 +34,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="232dp"
+            android:layout_marginBottom="243dp"
+            android:onClick="abrirConsultar"
             android:text="Consultar"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible"
@@ -43,6 +49,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="187dp"
+            android:onClick="abrirCadastro"
             android:text="Cadastrar"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible"

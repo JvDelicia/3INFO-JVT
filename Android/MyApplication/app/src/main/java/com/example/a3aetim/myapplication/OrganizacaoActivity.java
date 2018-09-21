@@ -1,6 +1,7 @@
 package com.example.a3aetim.myapplication;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,6 +36,10 @@ public class OrganizacaoActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Erro ao salvar", Toast.LENGTH_SHORT).show();
         }
+    }
+    public void voltar(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     @Override

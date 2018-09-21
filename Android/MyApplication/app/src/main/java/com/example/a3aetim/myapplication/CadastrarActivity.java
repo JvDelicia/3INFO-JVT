@@ -39,7 +39,10 @@ public class CadastrarActivity extends AppCompatActivity {
             Toast.makeText(this, "Erro ao salvar", Toast.LENGTH_SHORT).show();
         }
     }
-
+public void Voltar(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+}
     @Override
     protected void onDestroy() {
         helper.close();
