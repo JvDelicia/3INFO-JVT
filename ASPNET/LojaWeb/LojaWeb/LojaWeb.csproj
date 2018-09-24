@@ -307,6 +307,7 @@
     <Content Include="Views\CatProd\FormUp.cshtml" />
     <Content Include="Views\CatProd\Remove.cshtml" />
     <Content Include="Views\Product\Details.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
