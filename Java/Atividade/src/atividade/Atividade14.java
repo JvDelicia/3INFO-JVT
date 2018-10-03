@@ -1,9 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package atividade;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -16,10 +12,6 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-/**
- *
- * @author 3aetim
- */
 public class Atividade14 extends JFrame implements ActionListener, ListSelectionListener {
     JLabel l1, l2, l3;
     JTextField t1;   
@@ -93,6 +85,10 @@ public class Atividade14 extends JFrame implements ActionListener, ListSelection
                 float result = (float) ((float) i + (i* 0.05));
                 l3.setText("" + result);
             }
+        }
+        if(e.getSource()==b2){
+            t1.setText("");
+            l3.setText("");
         }
     }
     public void valueChanged(ListSelectionEvent e){
